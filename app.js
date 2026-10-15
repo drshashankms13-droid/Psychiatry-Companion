@@ -494,7 +494,6 @@ function overviewHtml(){
   const cfg = PAPER_CONFIG[currentPaper];
   const total = ITEMS.length;
   const level = examLevel === 'final' ? 'NIMHANS Final Year' : 'NIMHANS First Year';
-  const sittings = cfg.mode === 'topic-first' ? cfg.yearData().length : PAPERS.length;
   return `<section class="overview" aria-label="Paper overview">
     <div class="ring" id="ovRing" style="--p:0"><div class="ring-inner" id="ovPct">0%</div></div>
     <div>
@@ -504,7 +503,6 @@ function overviewHtml(){
         <span><strong>${total}</strong> questions</span>
         <span><strong id="ovDone">0</strong> done</span>
         <span><strong id="ovLeft">${total}</strong> left</span>
-        <span><strong>${sittings}</strong> sittings</span>
       </div>
     </div>
   </section>`;
