@@ -1,5 +1,8 @@
 /* ============================================================
    NIMHANS Question Bank — app logic (multi-paper, cloud-synced)
+   No inline event handlers: every interaction goes through the
+   delegated listeners at the bottom (data-action="…"), so the page
+   can run under a strict Content-Security-Policy.
    ============================================================ */
 
 /* ---------- Resilience: never fail silently ---------- */
@@ -8,10 +11,17 @@ function showFatalBanner(message){
   if(!banner){
     banner = document.createElement('div');
     banner.id = 'fatalBanner';
-    banner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#7a2c22;color:#fff;padding:12px 18px;font-family:sans-serif;font-size:.85rem;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.3);';
+    banner.setAttribute('role', 'alert');
+    banner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#7a2c22;color:#fff;padding:12px 18px;font-family:sans-serif;font-size:.9rem;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.3);';
     document.body.appendChild(banner);
   }
-  banner.innerHTML = message + ' <button onclick="location.reload()" style="margin-left:10px;background:#fff;color:#7a2c22;border:none;padding:4px 12px;border-radius:5px;cursor:pointer;font-weight:700;">Refresh</button>';
+  banner.textContent = message + ' ';
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.textContent = 'Refresh';
+  btn.dataset.action = 'reload';
+  btn.style.cssText = 'margin-left:10px;background:#fff;color:#7a2c22;border:none;padding:6px 14px;border-radius:5px;cursor:pointer;font-weight:700;';
+  banner.appendChild(btn);
 }
 window.addEventListener('error', function(e){
   console.error('Unhandled error:', e.error || e.message);
@@ -22,7 +32,21 @@ window.addEventListener('unhandledrejection', function(e){
   showFatalBanner('Something went wrong syncing with the server.');
 });
 
+/* ---------- Toasts (replace blocking alert()) ---------- */
+function toast(message, kind){
+  const region = document.getElementById('toastRegion');
+  if(!region) return;
+  const el = document.createElement('div');
+  el.className = 'toast' + (kind === 'err' ? ' err' : '');
+  el.innerHTML = `<svg class="icon" aria-hidden="true"><use href="#${kind === 'err' ? 'i-alert' : 'i-check'}"/></svg><span></span>`;
+  el.querySelector('span').textContent = message;
+  region.appendChild(el);
+  setTimeout(()=> el.remove(), kind === 'err' ? 6000 : 2500);
+}
+
 /* ---------- Supabase setup ---------- */
+// The anon key is designed to be public; all protection comes from Row Level Security
+// (see supabase_setup.sql + supabase_security.sql).
 const SUPABASE_URL = 'https://mxqjvjdjnasavrbbxame.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im14cWp2amRqbmFzYXZyYmJ4YW1lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM2NTk5OTksImV4cCI6MjA5OTIzNTk5OX0.IfEzIz3CQN4Qcd4oclgZxxLroH24p5fw_7k4nSTxu2M';
 let supabaseClient = null;
@@ -34,7 +58,7 @@ try{
   showFatalBanner('Could not connect to the sign-in service. Please check your connection and refresh.');
 }
 
-/* ---------- Guard against missing data files (fy-data.js / notes-data.js / answers-data.js) ---------- */
+/* ---------- Guard against missing data files ---------- */
 function dataFilesOk(){
   const missing = [];
   if(typeof PAPERS1 === 'undefined' || typeof PAPERS2 === 'undefined' || typeof PAPERS3 === 'undefined') missing.push('Final Year question data');
@@ -46,8 +70,7 @@ function dataFilesOk(){
   }
   return true;
 }
-// TOPIC_NOTES and ANSWER_DATA are optional (Study Notes / Q&A Mode enhancements) —
-// the app should keep working without them, just without those extras.
+// TOPIC_NOTES and ANSWER_DATA are optional (Study Notes / Q&A Mode enhancements).
 if(typeof TOPIC_NOTES === 'undefined'){ window.TOPIC_NOTES = { neuro:{}, psych:{} }; }
 if(typeof ANSWER_DATA === 'undefined'){ window.ANSWER_DATA = { 'fy-neuro':{}, 'fy-psych':{} }; }
 
@@ -103,7 +126,7 @@ let currentPaper = 'p1';
 let currentView = 'year';
 let allExpanded = false;
 let checklist = {};
-let PAPERS = PAPERS1;
+let PAPERS = [];
 let ITEMS = [];
 
 /* ---------- Paper 3 domain split: Neurology vs Consultation-Liaison Psychiatry ---------- */
@@ -288,8 +311,12 @@ function buildFYItems(){
 
 /* ---------- Helpers ---------- */
 function esc(s){
-  return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
+function slugify(s){ return String(s).replace(/[^a-z0-9]+/gi,'-').toLowerCase(); }
+const CHEV = '<svg class="chev icon" aria-hidden="true"><use href="#i-chev"/></svg>';
+let hideDone = false;
+
 function matchesSearch(item, q){
   if(!q) return true;
   q = q.toLowerCase();
@@ -302,10 +329,56 @@ function matchesSearch(item, q){
   ].join(' ').toLowerCase();
   return hay.includes(q);
 }
+// Search + the "Hide completed" switch together decide what is shown.
+function isVisible(item, q){
+  if(hideDone && checklist[item.uid]) return false;
+  return matchesSearch(item, q);
+}
+function isFiltering(q){ return !!q || hideDone; }
+
+/* Progress pills are registered per render so ticking a box can update every
+   card that contains it without re-rendering (which would lose scroll/open state). */
+let GROUPS = [];
+let UID_GROUPS = {};
+function registerGroup(items){
+  const id = GROUPS.length;
+  GROUPS.push(items.map(i=>i.uid));
+  items.forEach(i=>{ (UID_GROUPS[i.uid] = UID_GROUPS[i.uid] || []).push(id); });
+  return id;
+}
+function progressPill(items, style){
+  const id = registerGroup(items);
+  const done = items.filter(i=>checklist[i.uid]).length;
+  const total = items.length;
+  const pct = total ? Math.round(done/total*100) : 0;
+  const complete = total && done === total ? ' complete' : '';
+  if(style === 'count'){
+    return `<span class="card-count" data-group="${id}" data-style="count">${done}/${total} done</span>`;
+  }
+  return `<span class="mini-bar" aria-hidden="true" data-bar="${id}"><span style="width:${pct}%"></span></span>`
+       + `<span class="pill-progress${complete}" data-group="${id}">${done} / ${total} done</span>`;
+}
+function refreshGroups(uid){
+  (UID_GROUPS[uid] || []).forEach(id=>{
+    const uids = GROUPS[id];
+    const done = uids.filter(u=>checklist[u]).length;
+    const total = uids.length;
+    document.querySelectorAll(`[data-group="${id}"]`).forEach(el=>{
+      el.textContent = el.dataset.style === 'count' ? `${done}/${total} done` : `${done} / ${total} done`;
+      el.classList.toggle('complete', total > 0 && done === total);
+    });
+    const bar = document.querySelector(`[data-bar="${id}"] span`);
+    if(bar) bar.style.width = (total ? Math.round(done/total*100) : 0) + '%';
+  });
+}
 
 function checkboxHtml(uid){
   const checked = checklist[uid] ? 'checked' : '';
-  return `<input type="checkbox" ${checked} data-uid="${uid}" onchange="toggleItem('${uid}', this.closest('.qitem'))">`;
+  return `<label class="check"><input type="checkbox" ${checked} data-uid="${esc(uid)}" aria-label="Mark as done"></label>`;
+}
+function topicBadge(topic){
+  if(!topic) return '';
+  return `<button type="button" class="badge topic" data-action="jump-topic" data-topic="${esc(topic)}" title="Show all questions on this topic"><svg class="icon" aria-hidden="true"><use href="#i-tag"/></svg>${esc(topic)}</button>`;
 }
 
 function questionRowHtml(item, num){
@@ -317,15 +390,15 @@ function questionRowHtml(item, num){
   } else {
     body = esc(item.text);
   }
-  const numHtml = (num!=null) ? `<span class="qnum">${num}</span>` : '';
+  const numHtml = (num!=null) ? `<span class="qnum">${esc(num)}</span>` : '';
   return `
-  <div class="qitem ${done}" data-uid="${item.uid}">
+  <div class="qitem ${done}" data-uid="${esc(item.uid)}">
     ${checkboxHtml(item.uid)}
     <div class="qbody">
       <div class="qtext">${numHtml}${body}</div>
       <div class="qmeta">
-        <span class="badge marks">${item.marks} marks</span>
-        <span class="badge topic" onclick="jumpToTopic('${esc(item.topic)}')">${esc(item.topic)}</span>
+        <span class="badge marks">${esc(item.marks)} marks</span>
+        ${topicBadge(item.topic)}
         <span class="badge date">${esc(item.paper.date)} · ${esc(item.paper.version)}</span>
       </div>
     </div>
@@ -334,42 +407,52 @@ function questionRowHtml(item, num){
 
 function fyQuestionRowHtml(item, num){
   const done = checklist[item.uid] ? 'done' : '';
-  const numHtml = (num!=null) ? `<span class="qnum">${num}</span>` : '';
+  const numHtml = (num!=null) ? `<span class="qnum">${esc(num)}</span>` : '';
   return `
-  <div class="qitem ${done}" data-uid="${item.uid}">
+  <div class="qitem ${done}" data-uid="${esc(item.uid)}">
     ${checkboxHtml(item.uid)}
     <div class="qbody">
       <div class="qtext">${numHtml}${esc(item.text)}</div>
       <div class="qmeta">
-        <span class="badge marks">${esc(item.typeLabel||'')}</span>
-        ${item.topic ? `<span class="badge topic" onclick="jumpToTopic('${esc(item.topic)}')">${esc(item.topic)}</span>` : ''}
+        ${item.typeLabel ? `<span class="badge marks">${esc(item.typeLabel)}</span>` : ''}
+        ${topicBadge(item.topic)}
         ${item.year ? `<span class="badge date">${esc(item.year)}</span>` : ''}
       </div>
     </div>
   </div>`;
 }
 
-async function toggleItem(uid, el){
-  const newState = !checklist[uid];
+function emptyNote(text){
+  return `<div class="empty-note"><svg class="icon" aria-hidden="true"><use href="#i-inbox"/></svg>${esc(text)}</div>`;
+}
+function sectionHeading(num, title, count){
+  return `<div class="section-heading"><div class="num">${esc(num)}</div><h2>${esc(title)}</h2><div class="section-rule"></div>${count ? `<div class="count">${esc(count)}</div>` : ''}</div>`;
+}
+function openAttr(q){ return (allExpanded || q) ? 'open' : ''; }
+
+async function toggleItem(uid, row, cb){
+  const newState = !!cb.checked;
   checklist[uid] = newState;
-  if(el){ el.classList.toggle('done', newState); }
+  if(row){ row.classList.toggle('done', newState); }
   updateProgress();
+  refreshGroups(uid);
   try{
     const { error } = newState ? await upsertProgress(uid) : await deleteProgress(uid);
     if(error) throw error;
   }catch(e){
     console.error('Sync failed', e);
     checklist[uid] = !newState;
-    if(el){ el.classList.toggle('done', !newState); }
-    const cb = el ? el.querySelector('input[type=checkbox]') : null;
-    if(cb) cb.checked = !newState;
+    if(row){ row.classList.toggle('done', !newState); }
+    cb.checked = !newState;
     updateProgress();
-    alert('Could not save your progress — please check your internet connection and try again.');
+    refreshGroups(uid);
+    toast('Could not save your progress — check your connection and try again.', 'err');
   }
 }
 
 async function clearChecklist(){
-  if(!confirm('Clear all checked-off questions for this paper? This cannot be undone.')) return;
+  if(!currentUser) return;
+  if(!confirm(`Erase all checked-off questions for "${PAPER_CONFIG[currentPaper].label}"? This cannot be undone.`)) return;
   const prev = checklist;
   checklist = {};
   renderAll();
@@ -379,11 +462,12 @@ async function clearChecklist(){
       .eq('user_id', currentUser.id)
       .eq('paper', currentPaper);
     if(error) throw error;
+    toast('Progress erased for this paper.');
   }catch(e){
     console.error('Clear failed', e);
     checklist = prev;
     renderAll();
-    alert('Could not clear your progress — please check your internet connection and try again.');
+    toast('Could not erase your progress — check your connection and try again.', 'err');
   }
 }
 
@@ -392,47 +476,64 @@ function updateProgress(){
   const done = ITEMS.filter(i=>checklist[i.uid]).length;
   const pct = total ? Math.round((done/total)*100) : 0;
   document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('progressTrack').setAttribute('aria-valuenow', pct);
   document.getElementById('progressLabel').textContent = `${done} / ${total} solved (${pct}%)`;
+  const ring = document.getElementById('ovRing');
+  if(ring){
+    ring.style.setProperty('--p', pct);
+    document.getElementById('ovPct').textContent = pct + '%';
+    document.getElementById('ovDone').textContent = done;
+    document.getElementById('ovLeft').textContent = total - done;
+  }
+}
+
+/* ---------- Overview card at the top of every view ---------- */
+function overviewHtml(){
+  const cfg = PAPER_CONFIG[currentPaper];
+  const total = ITEMS.length;
+  const level = examLevel === 'final' ? 'NIMHANS Final Year' : 'NIMHANS First Year';
+  const sittings = cfg.mode === 'topic-first' ? cfg.yearData().length : PAPERS.length;
+  return `<section class="overview" aria-label="Paper overview">
+    <div class="ring" id="ovRing" style="--p:0"><div class="ring-inner" id="ovPct">0%</div></div>
+    <div>
+      <div class="overview-kicker">${esc(level)}</div>
+      <h1>${esc(cfg.label)}</h1>
+      <div class="overview-stats">
+        <span><strong>${total}</strong> questions</span>
+        <span><strong id="ovDone">0</strong> done</span>
+        <span><strong id="ovLeft">${total}</strong> left</span>
+        <span><strong>${sittings}</strong> sittings</span>
+      </div>
+    </div>
+  </section>`;
 }
 
 /* ---------- View: Year-wise ---------- */
-function renderYearView(container, q){
-  if(PAPER_CONFIG[currentPaper].mode === 'topic-first'){ renderFYYearView(container, q); return; }
+function renderYearView(q){
+  if(PAPER_CONFIG[currentPaper].mode === 'topic-first'){ return renderFYYearView(q); }
   const papers = [...PAPERS].sort((a,b)=> b.sortKey.localeCompare(a.sortKey));
   const kinds = PAPER_CONFIG[currentPaper].primaryKinds;
-  let html = `<div class="section-heading"><div class="num">Y</div><h2>Papers, most recent first</h2><div class="section-rule"></div><div class="count">${papers.length} sittings</div></div>`;
-
+  let html = sectionHeading('Y', 'Papers, most recent first', `${papers.length} sittings`);
   let anyVisible = false;
 
   papers.forEach(p=>{
     const primaryItems = kinds.map(k=> ITEMS.find(i=>i.uid === p.id+'-'+k.key)).filter(Boolean);
     const snItems = ITEMS.filter(i=>i.kind==='short' && i.paper.id===p.id);
-
-    const visPrimary = primaryItems.filter(i=>matchesSearch(i,q));
-    const visSn = snItems.filter(i=>matchesSearch(i,q));
-
+    const visPrimary = primaryItems.filter(i=>isVisible(i,q));
+    const visSn = snItems.filter(i=>isVisible(i,q));
     if(visPrimary.length===0 && visSn.length===0) return;
     anyVisible = true;
 
     const paperItems = [...primaryItems, ...snItems];
-    const doneCount = paperItems.filter(i=>checklist[i.uid]).length;
-    const openAttr = (allExpanded || q) ? 'open' : '';
-
-    html += `<details class="paper-card" data-paper="${p.id}" ${openAttr}>
-      <summary class="paper-card-head">
-        <span class="chev">▶</span>
-        <div class="card-title-block">
-          <div class="title">${esc(p.sitting)} : ${esc(p.version)}</div>
-        </div>
-        <div class="paper-progress">${doneCount} / ${paperItems.length} done</div>
+    html += `<details class="paper-card" ${openAttr(q)}>
+      <summary class="card-head">${CHEV}
+        <span class="card-title">${esc(p.sitting)} · ${esc(p.version)}</span>
+        ${progressPill(paperItems)}
       </summary>
-      <div class="paper-body">`;
-
+      <div class="card-body">`;
     kinds.forEach(k=>{
-      const item = primaryItems.find(i=>i.kind===k.key);
-      if(item && matchesSearch(item,q)){
-        html += `<div class="qgroup-label">${esc(k.groupLabel)}</div>` + questionRowHtml(item, 1);
-      }
+      const item = visPrimary.find(i=>i.kind===k.key);
+      if(item) html += `<div class="qgroup-label">${esc(k.groupLabel)}</div>` + questionRowHtml(item, 1);
     });
     if(visSn.length){
       html += `<div class="qgroup-label">Short Notes</div>`;
@@ -441,68 +542,54 @@ function renderYearView(container, q){
     html += `</div></details>`;
   });
 
-  if(!anyVisible){
-    html += `<div class="empty-note">No questions match your search.</div>`;
-  }
-  container.innerHTML = html;
+  if(!anyVisible) html += emptyNote(hideDone && !q ? 'Everything here is done — nice work.' : 'No questions match your search.');
+  return html;
 }
 
 /* ---------- View: Topic-wise ---------- */
-function renderTopicView(container, q){
-  if(PAPER_CONFIG[currentPaper].mode === 'topic-first'){ renderFYTopicView(container, q); return; }
+function renderTopicView(q){
+  if(PAPER_CONFIG[currentPaper].mode === 'topic-first'){ return renderFYTopicView(q); }
   let html = '';
   const kinds = PAPER_CONFIG[currentPaper].primaryKinds;
 
   kinds.forEach((k, sectionIdx)=>{
     const kindItems = ITEMS.filter(i=>i.kind===k.key).sort((a,b)=> b.paper.sortKey.localeCompare(a.paper.sortKey));
-    const kindVis = kindItems.filter(i=>matchesSearch(i,q));
-    html += `<div class="section-heading"><div class="num">${sectionIdx+1}</div><h2>${esc(k.sectionTitle)}</h2><div class="section-rule"></div><div class="count">${kindItems.length} ${esc(k.unitNoun)}</div></div>`;
+    const kindVis = kindItems.filter(i=>isVisible(i,q));
+    html += sectionHeading(sectionIdx+1, k.sectionTitle, `${kindItems.length} ${k.unitNoun}`);
     if(kindVis.length){
-      const doneCount = kindItems.filter(i=>checklist[i.uid]).length;
-      const openAttr = (allExpanded || q) ? 'open' : '';
-      html += `<details class="topic-block" ${openAttr}>
-        <summary>
-          <span class="chev">▶</span>
-          <span class="tname">${esc(k.allLabel)}</span>
-          <span class="tcount">${doneCount}/${kindItems.length} done · ${kindItems.length} ${esc(k.unitNoun)}</span>
+      html += `<details class="topic-block" ${openAttr(q)}>
+        <summary class="card-head">${CHEV}
+          <span class="card-title">${esc(k.allLabel)}</span>
+          ${progressPill(kindItems, 'count')}
         </summary>
-        <div class="topic-body">`;
+        <div class="card-body">`;
       kindVis.forEach((i,idx)=> html += questionRowHtml(i, idx+1));
       html += `</div></details>`;
     } else {
-      html += `<div class="empty-note">No matches.</div>`;
+      html += emptyNote('No matches.');
     }
   });
 
-  // Final section: Short Notes — grouped by topic (disease/subject), topics sorted by frequency desc
+  // Short Notes — grouped by topic, topics sorted by frequency desc
   const shortItems = ITEMS.filter(i=>i.kind==='short');
   const topicMap = {};
-  shortItems.forEach(i=>{
-    if(!topicMap[i.topic]) topicMap[i.topic] = [];
-    topicMap[i.topic].push(i);
-  });
+  shortItems.forEach(i=>{ (topicMap[i.topic] = topicMap[i.topic] || []).push(i); });
   const topics = Object.keys(topicMap).sort((a,b)=> topicMap[b].length - topicMap[a].length || a.localeCompare(b));
-
-  html += `<div class="section-heading"><div class="num">${kinds.length+1}</div><h2>Short Notes — by Topic</h2><div class="section-rule"></div><div class="count">${shortItems.length} questions across ${topics.length} topics</div></div>`;
+  html += sectionHeading(kinds.length+1, 'Short Notes — by Topic', `${shortItems.length} questions · ${topics.length} topics`);
 
   let anyTopicVisible = false;
-
   function renderTopicBlock(topic){
     const list = topicMap[topic].sort((a,b)=> b.paper.sortKey.localeCompare(a.paper.sortKey));
-    const vis = list.filter(i=>matchesSearch(i,q));
-    if(vis.length===0 && q) return '';
+    const vis = list.filter(i=>isVisible(i,q));
+    if(vis.length===0 && isFiltering(q)) return '';
     anyTopicVisible = true;
-    const doneCount = list.filter(i=>checklist[i.uid]).length;
-    const openAttr = (allExpanded || q) ? 'open' : '';
-    const slug = 'topic-' + topic.replace(/[^a-z0-9]+/gi,'-').toLowerCase();
-    let block = `<details class="topic-block" id="${slug}" ${openAttr}>
-      <summary>
-        <span class="chev">▶</span>
-        <span class="tname">${esc(topic)}</span>
-        <span class="tcount">${doneCount}/${list.length} done</span>
+    let block = `<details class="topic-block" id="topic-${slugify(topic)}" ${openAttr(q)}>
+      <summary class="card-head">${CHEV}
+        <span class="card-title">${esc(topic)}</span>
+        ${progressPill(list, 'count')}
       </summary>
-      <div class="topic-body">`;
-    (q ? vis : list).forEach((i,idx)=> block += questionRowHtml(i, idx+1));
+      <div class="card-body">`;
+    vis.forEach((i,idx)=> block += questionRowHtml(i, idx+1));
     block += `</div></details>`;
     return block;
   }
@@ -511,149 +598,104 @@ function renderTopicView(container, q){
     P3_DOMAINS.forEach(domain=>{
       const domainTopics = topics.filter(t=> domainForTopic(t) && domainForTopic(t).key === domain.key);
       if(!domainTopics.length) return;
+      const inner = domainTopics.map(renderTopicBlock).join('');
+      if(!inner) return;
       const domainItems = domainTopics.flatMap(t=>topicMap[t]);
-      const domainDone = domainItems.filter(i=>checklist[i.uid]).length;
-      const openAttr = (allExpanded || q) ? 'open' : '';
-      html += `<details class="domain-block" ${openAttr}>
-        <summary class="domain-head">
-          <span class="chev">▶</span>
-          <span class="dname">${esc(domain.label)}</span>
-          <span class="tcount">${domainDone}/${domainItems.length} done · ${domainTopics.length} topics</span>
+      html += `<details class="domain-block" ${openAttr(q) || 'open'}>
+        <summary class="card-head">${CHEV}
+          <span class="card-title">${esc(domain.label)}</span>
+          ${progressPill(domainItems, 'count')}
         </summary>
-        <div class="domain-body">`;
-      domainTopics.forEach(t=> html += renderTopicBlock(t));
-      html += `</div></details>`;
+        <div class="domain-body">${inner}</div></details>`;
     });
-    // Any topics not classified (safety net) render flat, unclustered
-    const unclassified = topics.filter(t=>!domainForTopic(t));
-    unclassified.forEach(t=> html += renderTopicBlock(t));
+    topics.filter(t=>!domainForTopic(t)).forEach(t=> html += renderTopicBlock(t));
   } else {
     topics.forEach(topic=> html += renderTopicBlock(topic));
   }
 
-  if(!anyTopicVisible && q){
-    html += `<div class="empty-note">No short notes match your search.</div>`;
-  }
-
-  container.innerHTML = html;
+  if(!anyTopicVisible && isFiltering(q)) html += emptyNote('No short notes match.');
+  return html;
 }
 
 /* ---------- View: First Year — Topic-wise ---------- */
-function renderFYTopicView(container, q){
+function renderFYTopicView(q){
   const topics = PAPER_CONFIG[currentPaper].data();
-  let html = `<div class="section-heading"><div class="num">T</div><h2>${esc(PAPER_CONFIG[currentPaper].label)} — by Topic</h2><div class="section-rule"></div><div class="count">${topics.length} topics</div></div>`;
+  let html = sectionHeading('T', `${PAPER_CONFIG[currentPaper].label} — by Topic`, `${topics.length} topics`);
   let anyVisible = false;
 
   topics.forEach((t)=>{
     const topicItems = ITEMS.filter(i=>i.topic===t.topic);
-    const vis = topicItems.filter(i=>matchesSearch(i,q));
-    if(vis.length===0 && q) return;
+    const vis = topicItems.filter(i=>isVisible(i,q));
+    if(vis.length===0 && isFiltering(q)) return;
     anyVisible = true;
-    const doneCount = topicItems.filter(i=>checklist[i.uid]).length;
-    const openAttr = (allExpanded || q) ? 'open' : '';
-    const slug = 'topic-' + t.topic.replace(/[^a-z0-9]+/gi,'-').toLowerCase();
 
-    html += `<details class="topic-block" id="${slug}" ${openAttr}>
-      <summary>
-        <span class="chev">▶</span>
-        <span class="tname">${esc(t.topic)}</span>
-        <span class="tcount">${doneCount}/${topicItems.length} done</span>
+    html += `<details class="topic-block" id="topic-${slugify(t.topic)}" ${openAttr(q)}>
+      <summary class="card-head">${CHEV}
+        <span class="card-title">${esc(t.topic)}</span>
+        ${progressPill(topicItems, 'count')}
       </summary>
-      <div class="topic-body">`;
+      <div class="card-body">`;
 
     const notesHtml = TOPIC_NOTES[fySection()] ? TOPIC_NOTES[fySection()][t.topic] : null;
     if(notesHtml){
+      // notesHtml is trusted, first-party HTML shipped in notes-data.js
       html += `<details class="notes-panel">
-        <summary class="notes-toggle"><span class="notes-icon">📖</span> Study Notes</summary>
+        <summary>${CHEV}<svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> Study Notes</summary>
         <div class="notes-content">${notesHtml}</div>
       </details>`;
     }
 
-    if(t.subgroups){
-      let lastSub = null;
-      let idx = 0;
-      (q ? vis : topicItems).forEach(i=>{
-        if(i.subgroup && i.subgroup !== lastSub){
-          html += `<div class="qgroup-label">${esc(i.subgroup)}</div>`;
-          lastSub = i.subgroup;
-        }
-        idx++;
-        html += fyQuestionRowHtml(i, idx);
-      });
-    } else {
-      (q ? vis : topicItems).forEach((i,idx)=> html += fyQuestionRowHtml(i, idx+1));
-    }
+    let lastSub = null;
+    vis.forEach((i, idx)=>{
+      if(t.subgroups && i.subgroup && i.subgroup !== lastSub){
+        html += `<div class="qgroup-label">${esc(i.subgroup)}</div>`;
+        lastSub = i.subgroup;
+      }
+      html += fyQuestionRowHtml(i, idx+1);
+    });
     html += `</div></details>`;
   });
 
-  if(!anyVisible && q){
-    html += `<div class="empty-note">No questions match your search.</div>`;
-  }
-  container.innerHTML = html;
+  if(!anyVisible && isFiltering(q)) html += emptyNote('No questions match.');
+  return html;
 }
 
-/* ---------- View: First Year — by Exam Sitting (from the real YEAR_DATA set) ---------- */
+/* ---------- View: First Year — by Exam Sitting ---------- */
 const FY_MONTH_FULL = {Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};
 function formatFYSitting(yearStr){
   const m = (yearStr||'').match(/^([A-Za-z]{3})\w*\s+(\d{4})(?:\s*\(S(\d)\))?/);
   if(!m) return yearStr||'';
   const monthFull = FY_MONTH_FULL[m[1]] || m[1];
-  return m[3] ? `${monthFull} ${m[2]} : Set ${m[3]}` : `${monthFull} ${m[2]}`;
+  return m[3] ? `${monthFull} ${m[2]} · Set ${m[3]}` : `${monthFull} ${m[2]}`;
 }
 
-function renderFYYearView(container, q){
+function renderFYYearView(q){
   const yearGroups = PAPER_CONFIG[currentPaper].yearData();
   const textIndex = FY_TEXT_INDEX[currentPaper];
-
-  let html = `<div class="section-heading"><div class="num">Y</div><h2>${esc(PAPER_CONFIG[currentPaper].label)} — by Exam Sitting</h2><div class="section-rule"></div><div class="count">${yearGroups.length} sittings</div></div>`;
+  let html = sectionHeading('Y', `${PAPER_CONFIG[currentPaper].label} — by Exam Sitting`, `${yearGroups.length} sittings`);
   let anyVisible = false;
 
   yearGroups.forEach((g)=>{
     const list = g.questions.map(qq => textIndex.get(fyNorm(qq.text))).filter(Boolean);
-    const vis = list.filter(i=>matchesSearch(i,q));
-    if(vis.length===0 && q) return;
+    const vis = list.filter(i=>isVisible(i,q));
+    if(vis.length===0 && isFiltering(q)) return;
     anyVisible = true;
-    const doneCount = list.filter(i=>checklist[i.uid]).length;
-    const openAttr = (allExpanded || q) ? 'open' : '';
-
-    html += `<details class="paper-card" ${openAttr}>
-      <summary class="paper-card-head">
-        <span class="chev">▶</span>
-        <div class="card-title-block"><div class="title">${esc(formatFYSitting(g.year))}</div></div>
-        <div class="paper-progress">${doneCount} / ${list.length} done</div>
+    html += `<details class="paper-card" ${openAttr(q)}>
+      <summary class="card-head">${CHEV}
+        <span class="card-title">${esc(formatFYSitting(g.year))}</span>
+        ${progressPill(list)}
       </summary>
-      <div class="paper-body">`;
-    (q ? vis : list).forEach((i,idx)=> html += fyQuestionRowHtml(i, idx+1));
+      <div class="card-body">`;
+    vis.forEach((i,idx)=> html += fyQuestionRowHtml(i, idx+1));
     html += `</div></details>`;
   });
 
-  if(!anyVisible){
-    html += `<div class="empty-note">No questions match your search.</div>`;
-  }
-  container.innerHTML = html;
+  if(!anyVisible) html += emptyNote(hideDone && !q ? 'Everything here is done — nice work.' : 'No questions match your search.');
+  return html;
 }
 
 /* ---------- View: First Year — Q&A Mode ---------- */
-function fyQARowHtml(item, num){
-  const ans = (ANSWER_DATA[currentPaper] && ANSWER_DATA[currentPaper][item.uid]) ? ANSWER_DATA[currentPaper][item.uid] : null;
-  return `
-  <div class="qa-item">
-    <div class="qa-question">
-      <span class="qnum">${num}</span>
-      <span class="qa-qtext">${esc(item.text)}</span>
-      <span class="badge marks">${esc(item.typeLabel||'')}</span>
-      ${item.year ? `<span class="badge date">${esc(item.year)}</span>` : ''}
-    </div>
-    <div class="qa-answer">
-      ${ans ? ans : '<span class="qa-pending">Answer not added yet — check back soon.</span>'}
-    </div>
-  </div>`;
-}
-
-/* Group items with the exact same question text (e.g. asked in several
-   different sittings) into a single entry, so Q&A Mode doesn't repeat the
-   identical question+answer block once per sitting. Questions with even
-   slightly different wording are left as separate entries. */
+/* Group items with identical question text (asked in several sittings) into one entry. */
 function groupQAItems(items){
   const order = [];
   const byText = new Map();
@@ -674,117 +716,128 @@ function groupQAItems(items){
 function fyQAGroupRowHtml(group, num){
   const answerSet = ANSWER_DATA[currentPaper] || {};
   const answeredUid = group.uids.find(u=>answerSet[u]);
+  // answers are trusted, first-party HTML shipped in answers-data.js
   const ans = answeredUid ? answerSet[answeredUid] : null;
   const yearBadges = group.years.map(y=>`<span class="badge date">${esc(y)}</span>`).join('');
   return `
-  <div class="qa-item">
+  <article class="qa-item">
     <div class="qa-question">
       <span class="qnum">${num}</span>
       <span class="qa-qtext">${esc(group.text)}</span>
-      <span class="badge marks">${esc(group.typeLabel||'')}</span>
+      ${group.typeLabel ? `<span class="badge marks">${esc(group.typeLabel)}</span>` : ''}
       ${yearBadges}
     </div>
     <div class="qa-answer">
       ${ans ? ans : '<span class="qa-pending">Answer not added yet — check back soon.</span>'}
     </div>
-  </div>`;
+  </article>`;
 }
 
-function renderFYQAView(container, q){
+function renderFYQAView(q){
   const topics = PAPER_CONFIG[currentPaper].data();
   const answerSet = ANSWER_DATA[currentPaper] || {};
-  const allGroups = groupQAItems(ITEMS);
-  const answeredTotal = allGroups.filter(g=>g.uids.some(u=>answerSet[u])).length;
-
-  let html = `<div class="section-heading"><div class="num">QA</div><h2>${esc(PAPER_CONFIG[currentPaper].label)} — Question &amp; Answer Mode</h2><div class="section-rule"></div></div>`;
+  let html = sectionHeading('QA', `${PAPER_CONFIG[currentPaper].label} — Question & Answer Mode`);
   let anyVisible = false;
 
   topics.forEach((t)=>{
-    const topicItems = ITEMS.filter(i=>i.topic===t.topic);
-    const topicGroups = groupQAItems(topicItems);
+    const topicGroups = groupQAItems(ITEMS.filter(i=>i.topic===t.topic));
     const visGroups = topicGroups.filter(g=>matchesSearch({text:g.text, topic:g.topic, year:g.years.join(' ')}, q));
     if(visGroups.length===0 && q) return;
     anyVisible = true;
-    const answeredInTopic = topicGroups.filter(g=>g.uids.some(u=>answerSet[u])).length;
-    const openAttr = (allExpanded || q) ? 'open' : '';
-    const slug = 'qa-topic-' + t.topic.replace(/[^a-z0-9]+/gi,'-').toLowerCase();
-
-    html += `<details class="topic-block" id="${slug}" ${openAttr}>
-      <summary>
-        <span class="chev">▶</span>
-        <span class="tname">${esc(t.topic)}</span>
+    const answered = topicGroups.filter(g=>g.uids.some(u=>answerSet[u])).length;
+    html += `<details class="topic-block" id="qa-topic-${slugify(t.topic)}" ${openAttr(q)}>
+      <summary class="card-head">${CHEV}
+        <span class="card-title">${esc(t.topic)}</span>
+        <span class="card-count">${answered}/${topicGroups.length} answered</span>
       </summary>
-      <div class="topic-body">`;
-    (q ? visGroups : topicGroups).forEach((g,idx)=> html += fyQAGroupRowHtml(g, idx+1));
+      <div class="card-body">`;
+    visGroups.forEach((g,idx)=> html += fyQAGroupRowHtml(g, idx+1));
     html += `</div></details>`;
   });
 
-  if(!anyVisible && q){
-    html += `<div class="empty-note">No questions match your search.</div>`;
-  }
-  container.innerHTML = html;
+  if(!anyVisible && q) html += emptyNote('No questions match your search.');
+  return html;
 }
 
-/* ---------- Jump to a topic (from a badge click while in year view) ---------- */
+/* ---------- Jump to a topic (from a badge) ---------- */
 function jumpToTopic(topic){
-  if(currentView !== 'topic'){
-    setView('topic');
-  }
-  setTimeout(()=>{
-    const slug = 'topic-' + topic.replace(/[^a-z0-9]+/gi,'-').toLowerCase();
-    const el = document.getElementById(slug);
-    if(el){
-      el.setAttribute('open','');
-      el.scrollIntoView({behavior:'smooth', block:'start'});
-      const accent = getComputedStyle(document.body).getPropertyValue('--accent').trim() || '#b8863b';
-      el.style.outline = '2px solid ' + accent;
-      setTimeout(()=> el.style.outline='', 1400);
+  // the target block may be filtered out by an active search, so clear it first
+  const searching = !!document.getElementById('searchBox').value;
+  if(searching) setSearch('');
+  if(currentView !== 'topic') setView('topic');
+  else if(searching) renderAll();
+  requestAnimationFrame(()=>{
+    const el = document.getElementById('topic-' + slugify(topic));
+    if(!el) return;
+    el.setAttribute('open','');
+    const dom = el.closest('.domain-block');
+    if(dom) dom.setAttribute('open','');
+    el.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
+    el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
+    const sum = el.querySelector('summary');
+    if(sum) sum.focus({preventScroll:true});
+  });
+}
+
+/* ---------- Pressed-state helper for toggle buttons ---------- */
+function setPressed(id, on){
+  const el = document.getElementById(id);
+  if(el) el.setAttribute('aria-pressed', on ? 'true' : 'false');
+}
+function applyLevelUI(level){
+  setPressed('btn-levelFinal', level==='final');
+  setPressed('btn-levelFirst', level==='first');
+  document.getElementById('finalYearToggle').classList.toggle('hidden', level!=='final');
+  document.getElementById('firstYearToggle').classList.toggle('hidden', level!=='first');
+  document.getElementById('examLevelLabel').textContent = level==='final' ? 'NIMHANS Final Exam' : 'NIMHANS First Year Exam';
+  document.getElementById('btn-qa').classList.toggle('hidden', level!=='first');
+}
+function applyPaperUI(paper){
+  setPressed('btn-paper1', paper==='p1');
+  setPressed('btn-paper2', paper==='p2');
+  setPressed('btn-paper3', paper==='p3');
+  setPressed('btn-paperA', paper==='fy-neuro');
+  setPressed('btn-paperB', paper==='fy-psych');
+  document.body.classList.toggle('paper-2', paper==='p2');
+  document.body.classList.toggle('paper-3', paper==='p3');
+  document.body.classList.toggle('fy-neuro', paper==='fy-neuro');
+  document.body.classList.toggle('fy-psych', paper==='fy-psych');
+  document.getElementById('paperSubtitle').textContent = ' · ' + PAPER_CONFIG[paper].label;
+  document.getElementById('footerPaper').textContent = 'National Institute of Mental Health & Neuro Sciences · ' + PAPER_CONFIG[paper].label;
+  const tc = document.querySelector('meta[name="theme-color"]');
+  if(tc) tc.setAttribute('content', getComputedStyle(document.body).getPropertyValue('--brand-deep').trim() || '#0f3b3a');
+}
+function savedPaperFor(level){
+  try{
+    if(level === 'final'){
+      const saved = localStorage.getItem('nimhans_active_paper_final');
+      return (saved==='p1'||saved==='p2'||saved==='p3') ? saved : 'p1';
     }
-  }, 60);
+    const saved = localStorage.getItem('nimhans_active_paper_first');
+    return (saved==='fy-neuro'||saved==='fy-psych') ? saved : 'fy-neuro';
+  }catch(e){ return level==='final' ? 'p1' : 'fy-neuro'; }
 }
 
 /* ---------- Exam level switching (Final Year / First Year) ---------- */
 function setLevel(level){
   if(level === examLevel) return;
   examLevel = level;
-  document.getElementById('btn-levelFinal').classList.toggle('active', level==='final');
-  document.getElementById('btn-levelFirst').classList.toggle('active', level==='first');
-  document.getElementById('finalYearToggle').classList.toggle('hidden', level!=='final');
-  document.getElementById('firstYearToggle').classList.toggle('hidden', level!=='first');
-  document.getElementById('examLevelLabel').textContent = level==='final' ? 'NIMHANS Final Exam' : 'NIMHANS First Year Exam';
-  document.getElementById('btn-qa').classList.toggle('hidden', level!=='first');
-  if(level==='final' && currentView==='qa'){
-    currentView = 'year';
-    document.getElementById('btn-year').classList.add('active');
-    document.getElementById('btn-topic').classList.remove('active');
-    document.getElementById('btn-qa').classList.remove('active');
-  }
+  applyLevelUI(level);
+  if(level==='final' && currentView==='qa') setView('year', true);
   try{ localStorage.setItem('nimhans_active_level', level); }catch(e){}
-
-  let nextPaper;
-  try{
-    if(level === 'final'){
-      const saved = localStorage.getItem('nimhans_active_paper_final');
-      nextPaper = (saved==='p1'||saved==='p2'||saved==='p3') ? saved : 'p1';
-    } else {
-      const saved = localStorage.getItem('nimhans_active_paper_first');
-      nextPaper = (saved==='fy-neuro'||saved==='fy-psych') ? saved : 'fy-neuro';
-    }
-  }catch(e){ nextPaper = level==='final' ? 'p1' : 'fy-neuro'; }
-
-  currentPaper = null; // force setPaper to re-render even if nextPaper matches a stale value
-  setPaper(nextPaper);
+  currentPaper = null; // force setPaper to re-render
+  setPaper(savedPaperFor(level));
 }
 
 /* ---------- Paper switching ---------- */
 async function setPaper(paper){
+  if(!PAPER_CONFIG[paper]) return;
   try{
     await setPaperInner(paper);
   }catch(e){
     console.error('setPaper failed:', e);
     document.getElementById('app').innerHTML =
-      '<div class="sync-note">Something went wrong switching papers. '
-      + `<button class="resetbtn" onclick="setPaper('${paper}')" style="margin-left:8px;">Retry</button></div>`;
+      `<div class="sync-note">Something went wrong switching papers.<button type="button" class="inline-btn" data-action="paper" data-value="${esc(paper)}">Retry</button></div>`;
   }
 }
 
@@ -794,91 +847,101 @@ async function setPaperInner(paper){
   currentPaper = paper;
   PAPERS = PAPER_CONFIG[paper].data();
   ITEMS = buildItems();
-
-  const isFinal = ['p1','p2','p3'].includes(paper);
-  document.getElementById('btn-paper1').classList.toggle('active', paper==='p1');
-  document.getElementById('btn-paper2').classList.toggle('active', paper==='p2');
-  document.getElementById('btn-paper3').classList.toggle('active', paper==='p3');
-  document.getElementById('btn-paperA').classList.toggle('active', paper==='fy-neuro');
-  document.getElementById('btn-paperB').classList.toggle('active', paper==='fy-psych');
-  document.body.classList.toggle('paper-2', paper==='p2');
-  document.body.classList.toggle('paper-3', paper==='p3');
-  document.body.classList.toggle('fy-neuro', paper==='fy-neuro');
-  document.body.classList.toggle('fy-psych', paper==='fy-psych');
-  document.getElementById('paperSubtitle').textContent = ': ' + PAPER_CONFIG[paper].label;
-  document.getElementById('searchBox').value = '';
-
+  applyPaperUI(paper);
+  setSearch('');
   try{
-    if(isFinal) localStorage.setItem('nimhans_active_paper_final', paper);
+    if(['p1','p2','p3'].includes(paper)) localStorage.setItem('nimhans_active_paper_final', paper);
     else localStorage.setItem('nimhans_active_paper_first', paper);
   }catch(e){}
-
-  document.getElementById('app').innerHTML = '<div class="sync-note">Loading your progress…</div>';
+  showLoading();
   checklist = await loadChecklistFromCloud();
+  if(paper !== currentPaper) return; // user switched again while loading
   renderAll();
   syncHeaderHeight();
+  window.scrollTo({top:0});
+}
+
+function showLoading(){
+  document.getElementById('app').innerHTML =
+    '<div class="sync-note" role="status">Loading your progress…</div>' + '<div class="skeleton"></div>'.repeat(4);
 }
 
 /* ---------- View switching ---------- */
-function setView(view){
+function setView(view, silent){
   currentView = view;
-  document.getElementById('btn-year').classList.toggle('active', view==='year');
-  document.getElementById('btn-topic').classList.toggle('active', view==='topic');
-  document.getElementById('btn-qa').classList.toggle('active', view==='qa');
-  renderAll();
-  closeSidebar();
+  setPressed('btn-year', view==='year');
+  setPressed('btn-topic', view==='topic');
+  setPressed('btn-qa', view==='qa');
+  if(!silent){ renderAll(); closeSidebar(); }
 }
 
-function expandAll(){
-  allExpanded = true;
-  document.getElementById('expandBtn').classList.add('active');
-  document.getElementById('collapseBtn').classList.remove('active');
-  renderAll();
-}
-function collapseAll(){
-  allExpanded = false;
-  document.getElementById('collapseBtn').classList.add('active');
-  document.getElementById('expandBtn').classList.remove('active');
+function setExpanded(on){
+  allExpanded = on;
+  setPressed('expandBtn', on);
+  setPressed('collapseBtn', !on);
   renderAll();
 }
 
 /* ---------- Master render ---------- */
 function renderAll(){
+  if(!currentPaper || !PAPER_CONFIG[currentPaper]) return;
   const container = document.getElementById('app');
   const q = document.getElementById('searchBox').value.trim();
-  if(currentView === 'year'){
-    renderYearView(container, q);
-  } else if(currentView === 'qa'){
-    renderFYQAView(container, q);
-  } else {
-    renderTopicView(container, q);
-  }
+  GROUPS = []; UID_GROUPS = {};
+  let html = overviewHtml();
+  if(currentView === 'year') html += renderYearView(q);
+  else if(currentView === 'qa') html += renderFYQAView(q);
+  else html += renderTopicView(q);
+  container.innerHTML = html;
   updateProgress();
+}
+
+/* ---------- Search ---------- */
+let searchTimer = null;
+function setSearch(value){
+  const box = document.getElementById('searchBox');
+  box.value = value;
+  document.getElementById('searchClear').classList.toggle('hidden', !value);
 }
 
 /* ---------- Auth: sign in / sign out / auth state ---------- */
 let isApproved = false;
 let isAdmin = false;
 
-async function handleGoogleSignIn(){
+function setAuthStatus(text, kind){
+  const status = document.getElementById('authStatus');
+  status.className = 'auth-status' + (kind ? ' ' + kind : '');
+  status.textContent = text;
+}
+
+async function handleGoogleSignIn(btn){
+  if(!supabaseClient) return;
+  btn.disabled = true;
   const { error } = await supabaseClient.auth.signInWithOAuth({
     provider: 'google',
     options: { redirectTo: window.location.origin + window.location.pathname }
   });
   if(error){
-    document.getElementById('authStatus').className = 'auth-status err';
-    document.getElementById('authStatus').textContent = error.message;
+    btn.disabled = false;
+    setAuthStatus(error.message, 'err');
   }
 }
 
 async function handleAuthSubmit(e){
   e.preventDefault();
-  const email = document.getElementById('authEmail').value.trim();
+  if(!supabaseClient) return;
+  const input = document.getElementById('authEmail');
+  const email = input.value.trim();
+  if(!email || !input.checkValidity()){
+    setAuthStatus('Enter a valid email address, e.g. you@example.com.', 'err');
+    input.focus();
+    return;
+  }
   const btn = document.getElementById('authBtn');
-  const status = document.getElementById('authStatus');
+  const label = btn.textContent;
   btn.disabled = true;
-  status.className = 'auth-status';
-  status.textContent = 'Sending your link…';
+  btn.innerHTML = '<span class="spinner" aria-hidden="true"></span> Sending…';
+  setAuthStatus('');
 
   const { error } = await supabaseClient.auth.signInWithOtp({
     email,
@@ -886,24 +949,19 @@ async function handleAuthSubmit(e){
   });
 
   btn.disabled = false;
-  if(error){
-    status.className = 'auth-status err';
-    status.textContent = error.message;
-  } else {
-    status.className = 'auth-status ok';
-    status.textContent = 'Check your email for the sign-in link. You can close this tab after clicking it.';
-  }
-  return false;
+  btn.textContent = label;
+  if(error) setAuthStatus(error.message, 'err');
+  else setAuthStatus('Check your inbox for the sign-in link. You can close this tab after clicking it.', 'ok');
 }
 
 async function handleSignOut(){
-  await supabaseClient.auth.signOut();
+  if(supabaseClient) await supabaseClient.auth.signOut();
 }
 
 function onSignedIn(user){
   currentUser = user;
   document.getElementById('authGate').style.display = 'none';
-  document.getElementById('userEmail').textContent = user.email;
+  document.getElementById('userEmail').textContent = user.email || '';
   if(window.location.hash || window.location.search){
     history.replaceState(null, '', window.location.pathname);
   }
@@ -915,26 +973,30 @@ function onSignedOut(){
   isApproved = false;
   isAdmin = false;
   checklist = {};
+  document.getElementById('app').innerHTML = '';
   document.getElementById('pendingGate').classList.add('hidden');
   document.getElementById('adminPanel').classList.add('hidden');
+  document.getElementById('adminBtn').classList.add('hidden');
   document.getElementById('authGate').style.display = 'flex';
-  document.getElementById('authStatus').textContent = '';
-  document.getElementById('authStatus').className = 'auth-status';
+  setAuthStatus('');
   const emailInput = document.getElementById('authEmail');
   if(emailInput) emailInput.value = '';
 }
 
-supabaseClient.auth.onAuthStateChange((event, session)=>{
-  if(session && session.user){
-    if(!currentUser || currentUser.id !== session.user.id){
-      onSignedIn(session.user);
+if(supabaseClient){
+  supabaseClient.auth.onAuthStateChange((event, session)=>{
+    if(session && session.user){
+      if(!currentUser || currentUser.id !== session.user.id) onSignedIn(session.user);
+    } else {
+      onSignedOut();
     }
-  } else {
-    onSignedOut();
-  }
-});
+  });
+}
 
-/* ---------- Access control: is this signed-in email approved? ---------- */
+/* ---------- Access control ----------
+   NOTE: this is a UX gate only. The real enforcement must be Row Level
+   Security in Supabase (supabase_security.sql). Anything shipped as a
+   static file (question/answer data) is readable without signing in. */
 async function checkAccess(){
   if(!currentUser || !currentUser.email){
     showFatalBanner('Signed-in session looks invalid. Please sign in again.');
@@ -948,15 +1010,12 @@ async function checkAccess(){
       .select('is_admin')
       .eq('email', email)
       .maybeSingle());
-  }catch(e){
-    error = e;
-  }
+  }catch(e){ error = e; }
 
   if(error){
     console.error('Access check failed', error);
     document.getElementById('app').innerHTML =
-      '<div class="sync-note">Couldn\'t reach the server to check your access. '
-      + '<button class="resetbtn" onclick="checkAccess()" style="margin-left:8px;">Retry</button></div>';
+      '<div class="sync-note">Couldn\'t reach the server to check your access.<button type="button" class="inline-btn" data-action="check-access">Retry</button></div>';
     return;
   }
 
@@ -970,7 +1029,10 @@ async function checkAccess(){
     isApproved = false;
     isAdmin = false;
     document.getElementById('adminBtn').classList.add('hidden');
-    try{ await supabaseClient.from('pending_requests').upsert({ email }); }catch(e){ console.error(e); }
+    try{
+      const { error: reqErr } = await supabaseClient.from('pending_requests').upsert({ email });
+      if(reqErr) console.error(reqErr);
+    }catch(e){ console.error(e); }
     document.getElementById('pendingEmail').textContent = email;
     document.getElementById('app').innerHTML = '';
     document.getElementById('pendingGate').classList.remove('hidden');
@@ -978,16 +1040,27 @@ async function checkAccess(){
 }
 
 /* ---------- Admin panel ---------- */
+let adminReturnFocus = null;
 function openAdminPanel(){
+  adminReturnFocus = document.activeElement;
   document.getElementById('adminPanel').classList.remove('hidden');
+  document.querySelector('#adminPanel .admin-close').focus();
   loadAdminPanel();
 }
 function closeAdminPanel(){
   document.getElementById('adminPanel').classList.add('hidden');
+  if(adminReturnFocus && adminReturnFocus.focus) adminReturnFocus.focus();
+}
+
+function adminRowHtml(email, actionsHtml, extra){
+  return `<div class="admin-row">
+    <span class="aemail">${esc(email)}${extra || ''}</span>
+    <span class="actions">${actionsHtml}</span>
+  </div>`;
 }
 
 async function loadAdminPanel(){
-  if(!currentUser) return;
+  if(!currentUser || !isAdmin) return;
   const pendingEl = document.getElementById('pendingList');
   const approvedEl = document.getElementById('approvedList');
   pendingEl.innerHTML = '<div class="sync-note">Loading…</div>';
@@ -997,52 +1070,54 @@ async function loadAdminPanel(){
     supabaseClient.from('pending_requests').select('email, requested_at').order('requested_at', { ascending: false }),
     supabaseClient.from('allowed_users').select('email, is_admin, added_at').order('added_at', { ascending: false })
   ]);
+  if(!currentUser) return; // signed out while in flight
+  if(pErr || aErr){ console.error(pErr || aErr); toast('Could not load the access lists.', 'err'); }
 
-  if(!currentUser) return; // user signed out while this was in flight
-  if(pErr) console.error(pErr);
-  if(aErr) console.error(aErr);
-
+  // Emails come from the database: always escaped, never placed inside JS.
   pendingEl.innerHTML = (pending && pending.length)
-    ? pending.map(r => `
-        <div class="admin-row" data-email="${esc(r.email)}">
-          <span class="aemail">${esc(r.email)}</span>
-          <span class="actions">
-            <button class="approve" onclick="approveUser('${esc(r.email)}')">Approve</button>
-            <button class="reject" onclick="rejectUser('${esc(r.email)}')">Reject</button>
-          </span>
-        </div>`).join('')
+    ? pending.map(r => adminRowHtml(r.email,
+        `<button type="button" data-action="approve" data-email="${esc(r.email)}">Approve</button>
+         <button type="button" data-action="reject" data-email="${esc(r.email)}">Reject</button>`)).join('')
     : '<div class="empty-admin">No pending requests.</div>';
 
   approvedEl.innerHTML = (approved && approved.length)
-    ? approved.map(r => `
-        <div class="admin-row" data-email="${esc(r.email)}">
-          <span class="aemail">${esc(r.email)} ${r.is_admin ? '<span class=\"badge-admin\">admin</span>' : ''}</span>
-          <span class="actions">
-            ${(currentUser && r.email === currentUser.email) ? '' : `<button class="revoke" onclick="revokeUser('${esc(r.email)}')">Revoke</button>`}
-          </span>
-        </div>`).join('')
+    ? approved.map(r => adminRowHtml(r.email,
+        (r.email === currentUser.email) ? '' : `<button type="button" data-action="revoke" data-email="${esc(r.email)}">Revoke</button>`,
+        r.is_admin ? '<span class="badge-admin">admin</span>' : '')).join('')
     : '<div class="empty-admin">No approved users yet.</div>';
 }
 
-async function approveUser(email){
+async function adminAction(fn, okMsg, errMsg){
   try{
-    await supabaseClient.from('allowed_users').upsert({ email });
-    await supabaseClient.from('pending_requests').delete().eq('email', email);
-    await loadAdminPanel();
-  }catch(e){ console.error(e); alert('Could not approve — please try again.'); }
+    const err = await fn();
+    if(err) throw err;
+    toast(okMsg);
+  }catch(e){
+    console.error(e);
+    toast(errMsg, 'err');
+  }
+  await loadAdminPanel();
 }
-async function rejectUser(email){
-  try{
-    await supabaseClient.from('pending_requests').delete().eq('email', email);
-    await loadAdminPanel();
-  }catch(e){ console.error(e); alert('Could not reject — please try again.'); }
+function approveUser(email){
+  return adminAction(async ()=>{
+    const { error } = await supabaseClient.from('allowed_users').insert({ email });
+    if(error && error.code !== '23505') return error; // 23505 = already approved
+    const { error: dErr } = await supabaseClient.from('pending_requests').delete().eq('email', email);
+    return dErr;
+  }, `Approved ${email}`, 'Could not approve — please try again.');
 }
-async function revokeUser(email){
+function rejectUser(email){
+  return adminAction(async ()=>{
+    const { error } = await supabaseClient.from('pending_requests').delete().eq('email', email);
+    return error;
+  }, `Rejected ${email}`, 'Could not reject — please try again.');
+}
+function revokeUser(email){
   if(!confirm(`Revoke access for ${email}?`)) return;
-  try{
-    await supabaseClient.from('allowed_users').delete().eq('email', email);
-    await loadAdminPanel();
-  }catch(e){ console.error(e); alert('Could not revoke — please try again.'); }
+  return adminAction(async ()=>{
+    const { error } = await supabaseClient.from('allowed_users').delete().eq('email', email);
+    return error;
+  }, `Revoked ${email}`, 'Could not revoke — please try again.');
 }
 
 /* ---------- Bootstrap (runs once the user is signed in and approved) ---------- */
@@ -1053,8 +1128,7 @@ async function bootstrapApp(){
   }catch(e){
     console.error('bootstrapApp failed:', e);
     document.getElementById('app').innerHTML =
-      '<div class="sync-note">Something went wrong loading the app. '
-      + '<button class="resetbtn" onclick="bootstrapApp()" style="margin-left:8px;">Retry</button></div>';
+      '<div class="sync-note">Something went wrong loading the app.<button type="button" class="inline-btn" data-action="bootstrap">Retry</button></div>';
   }
 }
 
@@ -1063,66 +1137,133 @@ async function bootstrapAppInner(){
   try{
     const savedLevel = localStorage.getItem('nimhans_active_level');
     if(savedLevel === 'final' || savedLevel === 'first') startLevel = savedLevel;
+    hideDone = localStorage.getItem('pc_hide_done') === '1';
   }catch(e){}
-
-  let startPaper;
-  try{
-    if(startLevel === 'final'){
-      const saved = localStorage.getItem('nimhans_active_paper_final');
-      startPaper = (saved==='p1'||saved==='p2'||saved==='p3') ? saved : 'p1';
-    } else {
-      const saved = localStorage.getItem('nimhans_active_paper_first');
-      startPaper = (saved==='fy-neuro'||saved==='fy-psych') ? saved : 'fy-neuro';
-    }
-  }catch(e){ startPaper = startLevel==='final' ? 'p1' : 'fy-neuro'; }
+  document.getElementById('hideDone').checked = hideDone;
 
   examLevel = startLevel;
-  document.getElementById('btn-levelFinal').classList.toggle('active', startLevel==='final');
-  document.getElementById('btn-levelFirst').classList.toggle('active', startLevel==='first');
-  document.getElementById('finalYearToggle').classList.toggle('hidden', startLevel!=='final');
-  document.getElementById('firstYearToggle').classList.toggle('hidden', startLevel!=='first');
-  document.getElementById('examLevelLabel').textContent = startLevel==='final' ? 'NIMHANS Final Exam' : 'NIMHANS First Year Exam';
-  document.getElementById('btn-qa').classList.toggle('hidden', startLevel!=='first');
-
+  applyLevelUI(startLevel);
+  const startPaper = savedPaperFor(startLevel);
   currentPaper = startPaper;
   PAPERS = PAPER_CONFIG[startPaper].data();
   ITEMS = buildItems();
+  applyPaperUI(startPaper);
 
-  document.getElementById('btn-paper1').classList.toggle('active', startPaper==='p1');
-  document.getElementById('btn-paper2').classList.toggle('active', startPaper==='p2');
-  document.getElementById('btn-paper3').classList.toggle('active', startPaper==='p3');
-  document.getElementById('btn-paperA').classList.toggle('active', startPaper==='fy-neuro');
-  document.getElementById('btn-paperB').classList.toggle('active', startPaper==='fy-psych');
-  document.body.classList.toggle('paper-2', startPaper==='p2');
-  document.body.classList.toggle('paper-3', startPaper==='p3');
-  document.body.classList.toggle('fy-neuro', startPaper==='fy-neuro');
-  document.body.classList.toggle('fy-psych', startPaper==='fy-psych');
-  document.getElementById('paperSubtitle').textContent = ': ' + PAPER_CONFIG[startPaper].label;
-
-  document.getElementById('app').innerHTML = '<div class="sync-note">Loading your progress…</div>';
+  showLoading();
   checklist = await loadChecklistFromCloud();
   renderAll();
   syncHeaderHeight();
 }
 
-/* ---------- Sidebar (mobile off-canvas drawer) ---------- */
+/* ---------- Layout helpers ---------- */
 function syncHeaderHeight(){
   const header = document.querySelector('.topbar');
-  if(header){
-    document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
-  }
+  if(header) document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
 }
 window.addEventListener('resize', syncHeaderHeight);
 window.addEventListener('load', syncHeaderHeight);
 
-function toggleSidebar(){
-  const sidebar = document.getElementById('sidebar');
-  const backdrop = document.getElementById('sidebarBackdrop');
-  const isOpen = sidebar.classList.contains('open');
-  sidebar.classList.toggle('open', !isOpen);
-  backdrop.classList.toggle('show', !isOpen);
+function isDrawer(){ return matchMedia('(max-width:900px)').matches; }
+function openSidebar(){
+  document.getElementById('sidebar').classList.add('open');
+  document.getElementById('sidebarBackdrop').classList.add('show');
+  document.getElementById('hamburgerBtn').setAttribute('aria-expanded', 'true');
+  document.getElementById('searchBox').focus({preventScroll:true});
 }
 function closeSidebar(){
-  document.getElementById('sidebar').classList.remove('open');
+  const sb = document.getElementById('sidebar');
+  const wasOpen = sb.classList.contains('open');
+  sb.classList.remove('open');
   document.getElementById('sidebarBackdrop').classList.remove('show');
+  document.getElementById('hamburgerBtn').setAttribute('aria-expanded', 'false');
+  if(wasOpen && isDrawer()) document.getElementById('hamburgerBtn').focus({preventScroll:true});
 }
+function toggleSidebar(){
+  document.getElementById('sidebar').classList.contains('open') ? closeSidebar() : openSidebar();
+}
+
+/* ---------- Theme ---------- */
+function effectiveTheme(){
+  const t = document.documentElement.getAttribute('data-theme');
+  if(t) return t;
+  return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+function toggleTheme(){
+  const next = effectiveTheme() === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  try{ localStorage.setItem('pc_theme', next); }catch(e){}
+}
+
+/* ---------- Delegated event wiring ---------- */
+document.addEventListener('click', (e)=>{
+  const el = e.target.closest('[data-action]');
+  if(!el) return;
+  const a = el.dataset.action;
+  switch(a){
+    case 'reload': location.reload(); break;
+    case 'google-signin': handleGoogleSignIn(el); break;
+    case 'check-access': checkAccess(); break;
+    case 'signout': handleSignOut(); break;
+    case 'bootstrap': bootstrapApp(); break;
+    case 'toggle-sidebar': toggleSidebar(); break;
+    case 'close-sidebar': closeSidebar(); break;
+    case 'toggle-theme': toggleTheme(); break;
+    case 'level': setLevel(el.dataset.value); break;
+    case 'paper': setPaper(el.dataset.value); break;
+    case 'view': setView(el.dataset.value); break;
+    case 'expand-all': setExpanded(true); break;
+    case 'collapse-all': setExpanded(false); break;
+    case 'erase': clearChecklist(); break;
+    case 'clear-search': setSearch(''); renderAll(); document.getElementById('searchBox').focus(); break;
+    case 'jump-topic': e.preventDefault(); jumpToTopic(el.dataset.topic); break;
+    case 'top': window.scrollTo({top:0, behavior:'smooth'}); document.getElementById('app').focus({preventScroll:true}); break;
+    case 'admin-open': openAdminPanel(); break;
+    case 'admin-close': closeAdminPanel(); break;
+    case 'admin-backdrop': if(e.target === el) closeAdminPanel(); break;
+    case 'approve': if(isAdmin) approveUser(el.dataset.email); break;
+    case 'reject': if(isAdmin) rejectUser(el.dataset.email); break;
+    case 'revoke': if(isAdmin) revokeUser(el.dataset.email); break;
+  }
+});
+
+document.getElementById('app').addEventListener('change', (e)=>{
+  const cb = e.target;
+  if(cb.matches('input[type=checkbox][data-uid]')) toggleItem(cb.dataset.uid, cb.closest('.qitem'), cb);
+});
+
+document.getElementById('authForm').addEventListener('submit', handleAuthSubmit);
+
+document.getElementById('searchBox').addEventListener('input', (e)=>{
+  document.getElementById('searchClear').classList.toggle('hidden', !e.target.value);
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(renderAll, 160);
+});
+
+document.getElementById('hideDone').addEventListener('change', (e)=>{
+  hideDone = e.target.checked;
+  try{ localStorage.setItem('pc_hide_done', hideDone ? '1' : '0'); }catch(err){}
+  renderAll();
+});
+
+document.addEventListener('keydown', (e)=>{
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable;
+  if(e.key === 'Escape'){
+    if(!document.getElementById('adminPanel').classList.contains('hidden')){ closeAdminPanel(); return; }
+    if(document.getElementById('sidebar').classList.contains('open')){ closeSidebar(); return; }
+    if(e.target.id === 'searchBox' && e.target.value){ setSearch(''); renderAll(); return; }
+  }
+  if(e.key === '/' && !typing && currentUser && isApproved){
+    e.preventDefault();
+    if(isDrawer()) openSidebar(); else document.getElementById('searchBox').focus();
+  }
+});
+
+let scrollTick = false;
+window.addEventListener('scroll', ()=>{
+  if(scrollTick) return;
+  scrollTick = true;
+  requestAnimationFrame(()=>{
+    document.getElementById('backToTop').classList.toggle('show', window.scrollY > 900);
+    scrollTick = false;
+  });
+}, {passive:true});
