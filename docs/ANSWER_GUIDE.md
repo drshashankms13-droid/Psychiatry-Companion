@@ -55,10 +55,11 @@ The three `##` sections are required and must use exactly these headings. Inside
 The answer a student learns and writes in the exam. It sits between a bare skeleton and a textbook chapter.
 
 - **Length:** about **800–1,300 words** for a 10-mark short note (roughly double a bare skeleton); up to about **1,800** for 20–30 mark essays and applied cases.
-- **Structure:** definition → mechanism → the core clinical content (usually one comparison table) → assessment → management as steps or a flowchart → key evidence named briefly → pitfalls → a conclusion that takes a position.
+- **Structure:** definition → mechanism → the core clinical content (usually one comparison table) → assessment → management as steps or a flowchart → key evidence named briefly → a conclusion that takes a position.
 - Includes the **key numbers, criteria, trials and drug doses** an examiner expects to see.
 - No "why it matters" or motivational preamble — start with the definition.
 - Use the heading **Mechanism** (not "mechanism in one line").
+- No "Pitfalls" section.
 
 ### In depth — shown behind the "In Depth" toggle
 

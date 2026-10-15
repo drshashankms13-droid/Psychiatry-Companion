@@ -30,9 +30,6 @@ Step 1 → Step 2 → Step 3, with key drug doses.
 ### Key evidence
 - Trial (year): one-line result.
 
-### Pitfalls
-- …
-
 **Conclusion.** Two or three sentences that take a position.
 
 ## In depth

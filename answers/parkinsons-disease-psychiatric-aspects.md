@@ -89,13 +89,6 @@ Treat **delirium** precipitants (infection, dehydration, hyponatraemia, new drug
 - **EXPRESS (2004):** rivastigmine modestly improved cognition in PD dementia.
 - **DOMINION (2010):** ICDs in about 14%; dopamine agonists raise the odds 2–3.5-fold.
 
-### Pitfalls
-
-- Hypomimia, bradyphrenia and fatigue mimic depression; apathy is not depression.
-- New confusion with hallucinations is **delirium until proved otherwise**.
-- Dementia within a year of parkinsonism suggests **dementia with Lewy bodies**, not PD dementia.
-- Ask about gambling and sexual behaviour every visit when a patient takes an agonist.
-
 **Conclusion.** Psychiatric syndromes are intrinsic to Parkinson's disease and its treatment, not incidental complications. Good management links each symptom to disease stage, motor fluctuations and medication, rationalises drugs before adding new ones, and uses motor-sparing treatments — SSRIs/SNRIs and CBT for depression, clozapine or pimavanserin for psychosis, agonist reduction for impulse-control disorders, and cholinesterase inhibitors for dementia.
 
 ## In depth
