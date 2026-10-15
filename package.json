@@ -1,0 +1,11 @@
+{
+  "name": "psychiatry-companion",
+  "private": true,
+  "description": "NIMHANS MD Psychiatry previous-year questions and answers",
+  "scripts": {
+    "build:answers": "node scripts/build-answers.js"
+  },
+  "devDependencies": {
+    "marked": "^18.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+node_modules/
+# Private textbook PDFs and notes used to write answers — never commit these.
+sources/

@@ -73,6 +73,8 @@ function dataFilesOk(){
 // TOPIC_NOTES and ANSWER_DATA are optional (Study Notes / Q&A Mode enhancements).
 if(typeof TOPIC_NOTES === 'undefined'){ window.TOPIC_NOTES = { neuro:{}, psych:{} }; }
 if(typeof ANSWER_DATA === 'undefined'){ window.ANSWER_DATA = { 'fy-neuro':{}, 'fy-psych':{} }; }
+if(typeof FINAL_ANSWERS === 'undefined'){ window.FINAL_ANSWERS = { answers:{}, byQuestion:{} }; }
+if(typeof finalQid === 'undefined'){ window.finalQid = function(p, t){ return p + '-' + String(t||'').trim().toLowerCase().replace(/\s+/g,' '); }; }
 
 let currentUser = null;
 
@@ -759,6 +761,132 @@ function renderFYQAView(q){
   return html;
 }
 
+/* ---------- View: Final Year — Q&A Mode ----------
+   Each question gets a stable ID from qid.js. Answers (final-answers-data.js,
+   built from answers/*.md) can cover several IDs, so differently-worded
+   repeats of the same question collapse into one entry with one answer. */
+let finalQAFilter = 'all'; // 'all' | 'answered' | 'pending'
+const FINAL_KIND_LABEL = { critical:'Critical essay', applied:'Applied case', essay1:'Essay', essay2:'Essay', short:'Short note' };
+const STATUS_LABEL = { draft:'Draft — not yet reviewed', reviewed:'Reviewed', verified:'Verified against sources' };
+
+function buildFinalQAGroups(){
+  const A = FINAL_ANSWERS || { answers:{}, byQuestion:{} };
+  const groups = new Map();
+  ITEMS.forEach(i=>{
+    const qid = finalQid(currentPaper, i.text || i.stem);
+    const answerId = A.byQuestion[qid] || null;
+    const key = answerId ? 'a:' + answerId : 'q:' + qid;
+    if(!groups.has(key)){
+      groups.set(key, { key, answerId, topic: i.topic, wordings: new Map(), sittings: [], uids: [] });
+    }
+    const g = groups.get(key);
+    if(!g.wordings.has(qid)) g.wordings.set(qid, { text: i.text, stem: i.stem, subs: i.subs, kind: i.kind, marks: i.marks });
+    g.sittings.push({ label: `${i.paper.date} · ${i.paper.version}`, sortKey: i.paper.sortKey });
+    g.uids.push(i.uid);
+  });
+  groups.forEach(g=> g.sittings.sort((a,b)=> b.sortKey.localeCompare(a.sortKey)));
+  return [...groups.values()];
+}
+
+function finalWordingHtml(w){
+  if(w.subs && w.subs.length){
+    return `<span class="stem">${esc(w.stem)}</span><ol>${w.subs.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>`;
+  }
+  return esc(w.text || w.stem);
+}
+
+function finalQARowHtml(g, num){
+  const A = FINAL_ANSWERS || { answers:{} };
+  const ans = g.answerId ? A.answers[g.answerId] : null;
+  const words = [...g.wordings.values()];
+  const first = words[0];
+  const alt = words.slice(1);
+  const altHtml = alt.length
+    ? `<div class="qa-alt"><span class="qa-alt-label">Also asked as</span><ul>${alt.map(w=>`<li>${finalWordingHtml(w)}</li>`).join('')}</ul></div>` : '';
+  const times = g.sittings.length;
+  const sittingBadges = g.sittings.map(s=>`<span class="badge date">${esc(s.label)}</span>`).join('');
+  let answerHtml;
+  if(ans){
+    // answers are trusted, first-party HTML generated from answers/*.md
+    answerHtml = `
+      <div class="ans-meta">
+        <span class="badge status-${esc(ans.status)}">${esc(STATUS_LABEL[ans.status] || ans.status)}</span>
+        ${ans.updated ? `<span class="ans-updated">Updated ${esc(ans.updated)}</span>` : ''}
+      </div>
+      <details class="ans-section" open><summary>${CHEV} Exam skeleton</summary><div class="ans-body">${ans.skeleton}</div></details>
+      <details class="ans-section"><summary>${CHEV} Full answer</summary><div class="ans-body">${ans.full}</div></details>
+      <details class="ans-section"><summary>${CHEV} References</summary><div class="ans-body">${ans.refs}</div></details>`;
+  } else {
+    answerHtml = '<span class="qa-pending">Answer not added yet — check back soon.</span>';
+  }
+  return `
+  <article class="qa-item" id="qa-${esc(g.key.replace(/[^a-z0-9-]/gi,'-'))}">
+    <div class="qa-question">
+      <span class="qnum">${num}</span>
+      <div class="qa-qtext">${finalWordingHtml(first)}${altHtml}</div>
+    </div>
+    <div class="qmeta qa-badges">
+      <span class="badge marks">${esc(FINAL_KIND_LABEL[first.kind] || '')}${first.marks ? ' · ' + esc(first.marks) + ' marks' : ''}</span>
+      <span class="badge freq${times > 1 ? ' repeat' : ''}">Asked ${times}×</span>
+      ${sittingBadges}
+    </div>
+    <div class="qa-answer${ans ? '' : ' pending'}">${answerHtml}</div>
+  </article>`;
+}
+
+function finalGroupMatches(g, q){
+  if(!q) return true;
+  const hay = [...g.wordings.values()].map(w=>[w.text||'', w.stem||'', (w.subs||[]).join(' ')].join(' '))
+    .concat([g.topic||'', g.sittings.map(s=>s.label).join(' ')]).join(' ').toLowerCase();
+  return hay.includes(q.toLowerCase());
+}
+
+function renderFinalQAView(q){
+  const all = buildFinalQAGroups();
+  const answeredCount = all.filter(g=>g.answerId).length;
+  let html = sectionHeading('QA', `${PAPER_CONFIG[currentPaper].label} — Question & Answer Mode`, `${answeredCount}/${all.length} answered`);
+  const fbtn = (v, label) => `<button type="button" data-action="qa-filter" data-value="${v}" aria-pressed="${finalQAFilter===v}">${label}</button>`;
+  html += `<div class="qa-filter" role="group" aria-label="Filter answers">${fbtn('all','All')}${fbtn('answered','Answered')}${fbtn('pending','Not yet answered')}</div>`;
+
+  const shown = all.filter(g=>{
+    if(finalQAFilter === 'answered' && !g.answerId) return false;
+    if(finalQAFilter === 'pending' && g.answerId) return false;
+    return finalGroupMatches(g, q);
+  });
+  const byTopic = new Map();
+  all.forEach(g=>{ const t = g.topic || 'Other'; if(!byTopic.has(t)) byTopic.set(t, []); byTopic.get(t).push(g); });
+  const topics = [...byTopic.keys()].sort((a,b)=>{
+    const fa = byTopic.get(a).reduce((n,g)=>n+g.sittings.length,0);
+    const fb = byTopic.get(b).reduce((n,g)=>n+g.sittings.length,0);
+    return fb - fa || a.localeCompare(b);
+  });
+
+  let anyVisible = false;
+  topics.forEach(t=>{
+    const topicAll = byTopic.get(t);
+    const vis = shown.filter(g=>(g.topic||'Other')===t).sort((a,b)=> b.sittings.length - a.sittings.length);
+    if(!vis.length) return;
+    anyVisible = true;
+    const answered = topicAll.filter(g=>g.answerId).length;
+    html += `<details class="topic-block" id="qa-topic-${slugify(t)}" ${openAttr(q)}>
+      <summary class="card-head">${CHEV}
+        <span class="card-title">${esc(t)}</span>
+        <span class="card-count">${answered}/${topicAll.length} answered</span>
+      </summary>
+      <div class="card-body">`;
+    vis.forEach((g,idx)=> html += finalQARowHtml(g, idx+1));
+    html += `</div></details>`;
+  });
+
+  if(!anyVisible) html += emptyNote(q ? 'No questions match your search.' : (finalQAFilter === 'answered' ? 'No answers added for this paper yet.' : 'Every question here has an answer.'));
+  return html;
+}
+
+function setQAFilter(v){
+  finalQAFilter = (v === 'answered' || v === 'pending') ? v : 'all';
+  renderAll();
+}
+
 /* ---------- Jump to a topic (from a badge) ---------- */
 function jumpToTopic(topic){
   // the target block may be filtered out by an active search, so clear it first
@@ -790,7 +918,7 @@ function applyLevelUI(level){
   document.getElementById('finalYearToggle').classList.toggle('hidden', level!=='final');
   document.getElementById('firstYearToggle').classList.toggle('hidden', level!=='first');
   document.getElementById('examLevelLabel').textContent = level==='final' ? 'NIMHANS Final Exam' : 'NIMHANS First Year Exam';
-  document.getElementById('btn-qa').classList.toggle('hidden', level!=='first');
+  document.getElementById('btn-qa').classList.remove('hidden');
 }
 function applyPaperUI(paper){
   setPressed('btn-paper1', paper==='p1');
@@ -823,7 +951,6 @@ function setLevel(level){
   if(level === examLevel) return;
   examLevel = level;
   applyLevelUI(level);
-  if(level==='final' && currentView==='qa') setView('year', true);
   try{ localStorage.setItem('nimhans_active_level', level); }catch(e){}
   currentPaper = null; // force setPaper to re-render
   setPaper(savedPaperFor(level));
@@ -890,7 +1017,7 @@ function renderAll(){
   GROUPS = []; UID_GROUPS = {};
   let html = overviewHtml();
   if(currentView === 'year') html += renderYearView(q);
-  else if(currentView === 'qa') html += renderFYQAView(q);
+  else if(currentView === 'qa') html += (PAPER_CONFIG[currentPaper].mode === 'topic-first' ? renderFYQAView(q) : renderFinalQAView(q));
   else html += renderTopicView(q);
   container.innerHTML = html;
   updateProgress();
@@ -1211,6 +1338,7 @@ document.addEventListener('click', (e)=>{
     case 'level': setLevel(el.dataset.value); break;
     case 'paper': setPaper(el.dataset.value); break;
     case 'view': setView(el.dataset.value); break;
+    case 'qa-filter': setQAFilter(el.dataset.value); break;
     case 'expand-all': setExpanded(true); break;
     case 'collapse-all': setExpanded(false); break;
     case 'erase': clearChecklist(); break;
