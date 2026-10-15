@@ -7,39 +7,50 @@ updated: YYYY-MM-DD
 reviewer:
 ---
 
-## Exam skeleton
+## Exam answer
 
-**Definition.** One sentence.
+**Definition.** One or two sentences.
 
-### Heading 1
-- Key point with number/trial/dose.
+### Mechanism
+Causal chain: A → B → C.
 
-### Heading 2
-- …
+### Clinical features
+Main content, usually one comparison table.
 
-| Comparison | A | B |
+| Feature | A | B |
 | --- | --- | --- |
 | … | … | … |
 
-Step 1 → Step 2 → Step 3
+### Assessment
+- Key history points, scales, investigations.
 
-**Conclusion.** One sentence that takes a position.
+### Management
+Step 1 → Step 2 → Step 3, with key drug doses.
 
-## Full answer
+### Key evidence
+- Trial (year): one-line result.
 
-### 1. Introduction
-### 2. Epidemiology
-### 3. Classification and concepts (ICD-11 vs DSM-5-TR)
-### 4. Aetiology and mechanism
-### 5. Clinical features
-### 6. Assessment
-### 7. Differential diagnosis
-### 8. Management
-### 9. Evidence
-### 10. Critical appraisal
-### 11. Indian context
-### 12. Recent advances
-### 13. Conclusion
+### Pitfalls
+- …
+
+**Conclusion.** Two or three sentences that take a position.
+
+## In depth
+
+Only material that is NOT already in the Exam answer.
+
+### Background
+### Epidemiology
+### Classification and criteria
+### Mechanism in detail
+### Clinical features in detail
+### Assessment in detail
+### Differential diagnosis
+### Management details
+### Evidence table
+### Critical appraisal
+### Indian context
+### Recent advances
 
 ## References
 
