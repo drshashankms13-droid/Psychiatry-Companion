@@ -10,7 +10,7 @@ Static site (no framework) listing NIMHANS MD Psychiatry previous-year questions
 - `answers-data.js` — First Year answers (hand-maintained HTML strings keyed by item uid).
 - `qid.js` — stable Final Year question IDs (`finalQid(paper, text)`), shared by the site and the build script.
 - `answers/*.md` — **Final Year answers, one Markdown file per question family.** Source of truth.
-- `final-answers-data.js` — GENERATED from `answers/*.md` by `npm run build`. Never edit by hand.
+- `final-answers-data.js` — GENERATED from `answers/*.md` by `npm run build:answers`. Never edit by hand.
 - `docs/QUESTION_INDEX.md` — GENERATED list of every Final Year question with its ID.
 - `docs/PRIORITY.md` — repeated question families and topic frequency (what to answer first).
 - `docs/ANSWER_GUIDE.md` — **the required template, depth standard, citation and review rules. Read it before writing any answer.**
@@ -21,7 +21,7 @@ Static site (no framework) listing NIMHANS MD Psychiatry previous-year questions
 2. Copy `answers/_TEMPLATE.md` to `answers/<family-name>.md`; fill `covers:` with IDs from `docs/QUESTION_INDEX.md` / `docs/PRIORITY.md`.
 3. Base content on the sources the user provides; cite edition + chapter. Paraphrase — never paste textbook text. Never commit source PDFs (`sources/` is git-ignored).
 4. Always set `status: draft`. Only a human reviewer sets `reviewed` or `verified`.
-5. Run `npm run build`; it must pass. Commit the answer file together with the regenerated `final-answers-data.js` and `docs/QUESTION_INDEX.md`.
+5. Run `npm run build:answers`; it must pass. Commit the answer file together with the regenerated `final-answers-data.js` and `docs/QUESTION_INDEX.md`.
 
 ## Testing locally
 

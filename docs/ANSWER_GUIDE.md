@@ -15,7 +15,7 @@ answers/
 - **One file per question family**, named in lowercase with hyphens. The file name is the answer's ID.
 - The file's `covers:` list holds the question IDs it answers. Find IDs in `docs/QUESTION_INDEX.md` (every question) or `docs/PRIORITY.md` (repeated questions already grouped).
 - A question may be covered by **only one** answer file. Differently worded repeats — and the same question appearing in two papers — go in one `covers:` list.
-- Never edit `final-answers-data.js` by hand. Run `npm run build` (see section 6).
+- Never edit `final-answers-data.js` by hand. Run `npm run build:answers` (see section 6).
 
 ## 2. File format
 
@@ -106,7 +106,7 @@ The site shows the status as a coloured badge on every answer, so readers know h
 
 ```bash
 npm install        # once
-npm run build      # regenerates final-answers-data.js and docs/QUESTION_INDEX.md
+npm run build:answers      # regenerates final-answers-data.js and docs/QUESTION_INDEX.md
 ```
 
 The build stops with an error if an answer covers an unknown or already-covered question ID, has an invalid status, or is missing a required section. Commit the answer file **and** the regenerated `final-answers-data.js` and `docs/QUESTION_INDEX.md` together.
@@ -118,5 +118,5 @@ If a question's wording is edited in `final-data.js`, its ID changes; the build 
 1. Pick the next cluster from `docs/PRIORITY.md` (repeated questions first, then the most-examined topics).
 2. Gather sources for that cluster (chapters, guidelines, key papers) into `sources/` locally — or upload them to the AI session.
 3. Write or generate the answers as `draft`, one file per question family.
-4. `npm run build`, check the answers on the site locally (open `index.html` via a local server), commit on a branch, open a pull request.
+4. `npm run build:answers`, check the answers on the site locally (open `index.html` via a local server), commit on a branch, open a pull request.
 5. A reviewer reads the pull request, fixes errors, sets `reviewed`/`verified`, and merges.

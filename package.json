@@ -3,7 +3,7 @@
   "private": true,
   "description": "NIMHANS MD Psychiatry previous-year questions and answers",
   "scripts": {
-    "build": "node scripts/build-answers.js"
+    "build:answers": "node scripts/build-answers.js"
   },
   "devDependencies": {
     "marked": "^18.0.0"
