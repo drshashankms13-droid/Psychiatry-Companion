@@ -30,9 +30,9 @@ updated: 2026-10-15
 reviewer:
 ---
 
-## Exam skeleton
+## Exam answer
 ...
-## Full answer
+## In depth
 ...
 ## References
 ...
@@ -50,30 +50,35 @@ The three `##` sections are required and must use exactly these headings. Inside
 
 ## 3. Depth standard
 
-### Exam skeleton — what you write in the exam hall
+### Exam answer — always visible on the site
 
-- Fits on **about one printed page** (350–600 words).
-- Mirrors the structure of the full answer, so revising it recalls the full content.
-- Contains: one-line definition → headings in exam order → the **key numbers, trials, doses and criteria** under each heading → one table or flowchart → one-line conclusion.
-- Written so it can be reproduced in roughly 15 minutes for a 10-mark short note, scaled up for 20–30 mark essays (more headings, not longer sentences).
+The answer a student learns and writes in the exam. It sits between a bare skeleton and a textbook chapter.
 
-### Full answer — for understanding
+- **Length:** about **800–1,300 words** for a 10-mark short note (roughly double a bare skeleton); up to about **1,800** for 20–30 mark essays and applied cases.
+- **Structure:** definition → mechanism → the core clinical content (usually one comparison table) → assessment → management as steps or a flowchart → key evidence named briefly → a conclusion that takes a position.
+- Includes the **key numbers, criteria, trials and drug doses** an examiner expects to see.
+- No "why it matters" or motivational preamble — start with the definition.
+- Use the heading **Mechanism** (not "mechanism in one line").
+- No "Pitfalls" section.
 
-Target **2,000–3,500 words** for an essay or critical question, **1,200–2,000** for a short note. Cover every relevant item below, in this order, and say explicitly when an item does not apply:
+### In depth — shown behind the "In Depth" toggle
 
-1. **Introduction** — definition, origin of the concept (who, when), why it matters.
-2. **Epidemiology** — prevalence and incidence with numbers; Indian data (NMHS, ICMR, Indian studies) wherever they exist.
-3. **Classification / concepts** — ICD-11 and DSM-5-TR positions, and where they differ.
-4. **Aetiology and mechanism** — written as causal chains (A → B → C), not lists of words.
-5. **Clinical features** — phenomenology, subtypes, course.
-6. **Assessment** — history, examination, scales (with what they measure), investigations with the reason for each.
-7. **Differential diagnosis** — as a table with the distinguishing feature for each.
-8. **Management** — stepwise and guideline-anchored; drug **doses**, durations, monitoring, special populations (pregnancy, elderly, children, medical comorbidity), psychological and social treatment.
-9. **Evidence** — landmark trials and meta-analyses: **author, year, design, sample size, main result**.
+Additional material for understanding. **It must not repeat anything already in the Exam answer** — no restated definitions, tables or management steps. A reader opens it to learn what the Exam answer leaves out.
+
+Target **1,500–3,000 words of new content**. Use these headings, in this order, skipping any that would only repeat the Exam answer:
+
+1. **Background** — origin of the concept (who, when), historical development.
+2. **Epidemiology** — figures *not* in the exam answer: global burden, Indian data (NMHS, ICMR, Indian studies), risk factors; plus the sources of the frequencies quoted in the exam answer.
+3. **Classification and criteria** — ICD-11 and DSM-5-TR positions, specific diagnostic criteria, where they differ.
+4. **Mechanism in detail** — causal chains (A → B → C), neurotransmitter tables, models.
+5. **Clinical features in detail** — phenomenology, subtypes, course, examples.
+6. **Assessment in detail** — scales and what they measure, investigations with the reason for each.
+7. **Differential diagnosis** — a table with the distinguishing feature for each.
+8. **Management details** — doses, cautions, interactions, special populations (pregnancy, elderly, children, medical comorbidity) not given in the exam answer.
+9. **Evidence table** — landmark trials and meta-analyses: author, year, design, sample size, main result.
 10. **Critical appraisal** — controversies, limitations of the evidence, competing views. **Mandatory** for any question phrased "critically evaluate", "comment on", or a statement in quotes.
 11. **Indian context** — Mental Healthcare Act 2017, RPwD Act 2016, NDPS, BNS 2023, POCSO, national programmes (NMHP/DMHP, Tele-MANAS, National Suicide Prevention Strategy), service realities, cultural factors.
 12. **Recent advances** — developments from roughly the last five years, labelled as established or investigational.
-13. **Conclusion** — two to four sentences that take a position.
 
 Applied (case-based) questions: answer **each sub-question in order** under its own heading, using the patient's details; then add the general principles.
 

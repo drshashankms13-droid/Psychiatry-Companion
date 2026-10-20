@@ -494,7 +494,6 @@ function overviewHtml(){
   const cfg = PAPER_CONFIG[currentPaper];
   const total = ITEMS.length;
   const level = examLevel === 'final' ? 'NIMHANS Final Year' : 'NIMHANS First Year';
-  const sittings = cfg.mode === 'topic-first' ? cfg.yearData().length : PAPERS.length;
   return `<section class="overview" aria-label="Paper overview">
     <div class="ring" id="ovRing" style="--p:0"><div class="ring-inner" id="ovPct">0%</div></div>
     <div>
@@ -504,7 +503,6 @@ function overviewHtml(){
         <span><strong>${total}</strong> questions</span>
         <span><strong id="ovDone">0</strong> done</span>
         <span><strong id="ovLeft">${total}</strong> left</span>
-        <span><strong>${sittings}</strong> sittings</span>
       </div>
     </div>
   </section>`;
@@ -813,9 +811,10 @@ function finalQARowHtml(g, num){
         <span class="badge status-${esc(ans.status)}">${esc(STATUS_LABEL[ans.status] || ans.status)}</span>
         ${ans.updated ? `<span class="ans-updated">Updated ${esc(ans.updated)}</span>` : ''}
       </div>
-      <details class="ans-section" open><summary>${CHEV} Exam skeleton</summary><div class="ans-body">${ans.skeleton}</div></details>
-      <details class="ans-section"><summary>${CHEV} Full answer</summary><div class="ans-body">${ans.full}</div></details>
-      <details class="ans-section"><summary>${CHEV} References</summary><div class="ans-body">${ans.refs}</div></details>`;
+      <div class="ans-exam-label">Exam answer</div>
+      <div class="ans-body ans-exam">${ans.exam}</div>
+      <details class="ans-section ans-depth"><summary>${CHEV} In Depth <span class="ans-hint">additional material beyond the exam answer</span></summary><div class="ans-body">${ans.depth}</div></details>
+      <details class="ans-section ans-refs"><summary>${CHEV} References</summary><div class="ans-body">${ans.refs}</div></details>`;
   } else {
     answerHtml = '<span class="qa-pending">Answer not added yet — check back soon.</span>';
   }

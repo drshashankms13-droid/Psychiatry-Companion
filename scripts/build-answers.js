@@ -23,7 +23,7 @@ const OUT_JS = path.join(ROOT, 'final-answers-data.js');
 const OUT_INDEX = path.join(ROOT, 'docs', 'QUESTION_INDEX.md');
 
 const STATUSES = ['draft', 'reviewed', 'verified'];
-const REQUIRED_SECTIONS = ['Exam skeleton', 'Full answer', 'References'];
+const REQUIRED_SECTIONS = ['Exam answer', 'In depth', 'References'];
 
 /* ---------- load question data ---------- */
 function loadPapers() {
@@ -123,8 +123,8 @@ function main() {
         updated: meta.updated || '',
         reviewer: meta.reviewer || '',
         covers: meta.covers,
-        skeleton: marked.parse(sec['Exam skeleton']),
-        full: marked.parse(sec['Full answer']),
+        exam: marked.parse(sec['Exam answer']),
+        depth: marked.parse(sec['In depth']),
         refs: marked.parse(sec['References'])
       };
     } catch (e) {
