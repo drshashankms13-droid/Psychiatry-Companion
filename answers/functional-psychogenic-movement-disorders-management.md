@@ -12,6 +12,7 @@ reviewer:
 > 1. UpToDate, "Functional movement disorders" (Lidstone, updated July 2025) [1].
 > 2. The user's notes "FND motor weakness" [2].
 > 3. Sahota et al., *J Contemp Psychother* 2022 (psychotherapy for dissociative motor disorder in India) [3].
+> 4. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Psychogenic movement disorder", pp. 793–796, for the older (2009) evidence base [4].
 >
 > Clinical features and positive signs are covered in more depth in the companion answer `functional-neurological-disorder-clinical-features-and-assessment`.
 
@@ -184,6 +185,68 @@ Throughout, avoid iatrogenic harm. In India, culture-sensitive psychotherapy wit
 | Inpatient multidisciplinary programme | Prospective observational, n = 66 | Large improvement; 66% better at 1 year |
 | Prognosis review | 24 studies, n = 2,069 | 40% same or worse; 20% remission |
 
+### Lishman (2009): the older evidence base [4]
+- **Frequency:**
+  - about one-third of general neurology patients have symptoms at best partly explained by disease;
+  - **fewer than 5%** later prove to have a missed organic diagnosis;
+  - about **5%** of movement-disorder clinic patients have PMD.
+- **Two diagnostic judgements:**
+  1. **Unconscious vs conscious** symptom production. Unconscious = conversion (somatoform) disorder.
+  2. If feigned: **factitious disorder** (sick-role motive) vs **malingering** (external gain; not a medical diagnosis).
+  - Both are better seen as **dimensions**.
+- **Fahn–Williams (1988) diagnostic certainty:**
+
+  | Level | Criteria |
+  | --- | --- |
+  | **Documented** | Persistent relief with psychotherapy, suggestion or placebo; or absent when the patient believes they are unobserved |
+  | **Clinically established** | Incongruent or inconsistent **plus** other psychogenic signs, multiple somatisations or obvious psychiatric disturbance |
+  | **Probable** | Incongruent or inconsistent, **or** psychogenic signs or multiple somatisations |
+  | **Possible** | Evidence of emotional disturbance |
+
+  The first two were later merged as "clinically definite".
+
+- **Profile:**
+  - two-thirds female; early 40s;
+  - **tremor about 40%**, dystonia about one-third; gait, myoclonus and parkinsonism less common.
+- **History clues:**
+  - abrupt onset, rapid progression to maximum severity;
+  - migrating, variable movements;
+  - past medically unexplained symptoms;
+  - onset after **minor physical injury** (more often than after psychological trauma).
+- **Examination (Stone 2005, Table 12.3):**
+  - **tremor:** variability, distraction, **entrainment** (a 3 Hz rhythm may be more sensitive), **co-activation** (loading increases a functional tremor);
+  - **dystonia:** distraction;
+  - **myoclonus:** variable and long (>75 ms) stimulus–jerk latency.
+  - **A negative test does not exclude PMD.**
+- **Caveats:**
+  - placebo or psychotherapy response is not foolproof: cervical dystonia remits transiently in up to 25%;
+  - contractures can make psychogenic fixed dystonia persist in sleep or under anaesthesia;
+  - a psychiatric history does not prove PMD: organic disorders such as Huntington's have high psychiatric comorbidity.
+- **Fixed dystonia (Schrag 2004):**
+  - **68%** began after peripheral injury; 44% had CRPS features;
+  - 37% clinically definite PMD; 29% somatisation disorder; only 10% with no suggestion of a psychogenic disorder.
+- **Investigations:**
+  - **DAT-SPECT** (abnormal in over 90% of early PD) for psychogenic parkinsonism;
+  - **EMG** (frequency variability, co-activation, entrainment, myoclonus latency);
+  - **EEG back-averaging**: a **Bereitschaftspotential** before jerks supports psychogenic myoclonus.
+- **Comorbidity (Feinstein 2001, n = 42):**
+  - lifetime major depression 43%; anxiety disorders 38%;
+  - **personality disorder 45%**; other unexplained symptoms 38%.
+- **Mechanism (tremor):** voluntary-like activity, or **co-contraction producing clonus**.
+- **Prognosis:**
+  - remission in 35% over 6 years (Factor);
+  - an intensive programme (psychotherapy, family sessions, hypnosis, placebo, antidepressants in 71%) gave **52% significant benefit and 25% complete resolution** (Williams 1995);
+  - but Feinstein found only **4 of 42 remitted** at 3.2 years, with over half the same or worse.
+  - **Poor prognostic factors:** long duration, gradual onset, psychiatric comorbidity.
+  - Functional motor symptoms are often **replaced or joined by new ones** (83% had significant somatic symptoms at 12.5 years).
+- **Management (2009):**
+  - no controlled trials then;
+  - **careful explanation of the diagnosis is paramount**;
+  - identify **maintaining factors**;
+  - **antidepressants may help even without depression**;
+  - CBT or other psychotherapy;
+  - multidisciplinary psychotherapy plus physiotherapy.
+
 ### Critical appraisal (from the sources)
 - **Weak prognostic data:** most prognostic studies are in untreated cohorts and lack neurological controls [1].
 - **Narrow physiotherapy evidence:** the largest RCT showed no primary-outcome advantage for specialist physiotherapy [1].
@@ -199,3 +262,4 @@ Throughout, avoid iatrogenic harm. In India, culture-sensitive psychotherapy wit
 1. Lidstone SC. Functional movement disorders. In: UpToDate (Hurtig HI, Eichler AF, eds). Topic 14132, version 36.0; last updated 14 July 2025.
 2. User's notes: "FND motor weakness" (clinician perpetuating factors; psychotherapy approaches).
 3. Sahota PBK, et al. Finding one's voice: psychotherapy for dissociative motor disorders in the Indian context. *J Contemp Psychother* 2022. doi:10.1007/s10879-022-09538-7.
+4. Henderson M, Mellers JDC. Movement disorders. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, "Psychogenic movement disorder", pp. 793–796 (Tables 12.2, 12.3).

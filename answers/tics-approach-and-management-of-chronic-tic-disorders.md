@@ -13,8 +13,9 @@ reviewer:
 > 2. DSM-5-TR, "Tic disorders" [2].
 > 3. *The Maudsley Prescribing Guidelines*, 15th ed., "Tics and Tourette's syndrome in children and adolescents", pp. 614–617 [3].
 > 4. UpToDate, "Functional movement disorders" (Lidstone 2025), section on functional tics [4].
+> 5. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Gilles de la Tourette's syndrome", pp. 786–793, for comorbidity, aetiology, course and the older drug/surgical evidence [5].
 >
-> Nothing else has been added.
+> Nothing else has been added. Lishman's drug evidence predates Maudsley's; where they differ, Maudsley is the more current.
 
 ## Exam answer
 
@@ -147,14 +148,74 @@ Effect sizes are similar to antipsychotics [3].
 
 ## In depth
 
+### Lishman: Tourette's syndrome in more depth [5]
+- **Phenomenology:**
+  - motor tics begin about age 7, vocal tics about 4 years later, coprolalia around puberty;
+  - simple tics can be clonic (blink), tonic (arm stretch) or dystonic (grimace).
+- **Coprolalia:**
+  - about one-third of clinic samples, but **only about 10% of all sufferers**; less common than echolalia or palilalia;
+  - "mental coprolalia"; **copropraxia** (obscene gestures);
+  - non-obscene socially inappropriate behaviour.
+- **Modulation:**
+  - **worse** with anxiety, excitement, anger, boredom, self-consciousness, and **"releasing tics"** on relaxing after stress;
+  - **better** with concentration, alcohol and sexual arousal;
+  - tics can persist in sleep, and even increase in REM sleep.
+- **Echophenomena:** fewer than one-third.
+- **Cognition:**
+  - IQ usually normal;
+  - **visuopractic deficits** (verbal > performance IQ);
+  - **attentional deficits** (sustaining, focusing, shifting);
+  - more common in autism spectrum disorder.
+- **Comorbidity:**
+
+  | Condition | Frequency or feature |
+  | --- | --- |
+  | **ADHD** | 31–91%; often the reason for referral and a major contributor to psychosocial impairment |
+  | **OCD/OCB** | 32% up to 89%; **"evening up"**/symmetry, touching, counting, "just right"; shared genetic liability; OCD in relatives |
+  | **Self-injurious behaviour** | 14–60% (definition-dependent); severe form about 4%, linked to impulse-control problems |
+  | **Depression / anxiety** | About 20% / 18% |
+  | **Sleep problems** | Nightmares, sleepwalking, night terrors (up to one-third) |
+  | Conduct problems, sexual disinhibition | Claimed, but without controlled data |
+  | Psychosis | No special relationship |
+
+- **Course:**
+  - waxing and waning; tics change over time;
+  - **about half tic-free by 18**; 30–40% remit completely by late adolescence;
+  - adult symptoms are more stable;
+  - **quality of life** worsened by employment status, tic severity, OCB, anxiety and depression.
+- **Aetiology** (from older to current views):
+  - **psychoanalytic:** repressed aggressive or sexual impulses; coprolalia seemed to support this, but susceptibility to emotion does not imply causation;
+  - **learning theory:** a conditioned anxiety-reducing response;
+  - **developmental:** immature motor control; male excess, onset at 6–8, remission at adolescence;
+  - **organic:** an inherited developmental disorder of synaptic transmission that **disinhibits cortico–striato–thalamo–cortical circuits**.
+    - **Dopamine hypersensitivity:** neuroleptic response; tardive Tourettism; raised blink rate; more striatal DAT.
+    - **Imaging:** caudate and basal ganglia asymmetry; prefrontal/orbitofrontal change; hypoperfusion; reduced D2.
+    - **Physiology:** **no Bereitschaftspotential before tics** (but normal before mimicked tics), implying a subcortical origin.
+    - **Perinatal risk:** maternal stress, smoking, caffeine or alcohol; low birthweight; hypoxia.
+  - **Genetics:** MZ concordance 53% vs DZ 8% (77% vs 23% for any tic). The **unaffected MZ co-twin had the higher birthweight**. Possibly a major autosomal gene with incomplete penetrance; spectrum with chronic tics and OCD; linkage to chromosomes 11q, 4, 8, 2.
+  - **PANDAS** (streptococcal; anti-basal ganglia antibodies): accounts for **only a small proportion**; prospective studies found no clear link.
+- **Older treatment evidence (Lishman):**
+  - **Aim:** reduce tics enough to allow normal function, not abolish them.
+  - **Behavioural:** massed practice (mixed results); **incompatible-response training**; operant reward for tic-free periods.
+  - **Haloperidol:** over 80% improve, but 13% stop because of dysphoria or sedation; start 0.25–0.5 mg, often 2–3 mg/day suffices.
+  - **Pimozide:** less sedating, possibly preferable. **Sulpiride:** fewer EPS.
+  - **Risperidone:** two RCTs.
+  - **Clonidine/guanfacine:** RCTs.
+  - Others: clonazepam, clomipramine, tetrabenazine, presynaptic dopamine agonists (pergolide, ropinirole).
+  - **Botulinum toxin to the vocal cords** for vocal tics or coprolalia.
+  - **Surgery** (thalamic or dentate lesions; **thalamic high-frequency stimulation**) for occasional refractory cases.
+  - **Treat comorbid OCD (SSRI/clomipramine; fluoxetine did not worsen tics) and ADHD (stimulants do not worsen tics) first** (Leckman).
+  - Supportive psychotherapy, group counselling and Tourette associations.
+- **Differential:** **latah**, myriachit and the "jumping Frenchmen of Maine" are **startle-induced culture-bound reactions**, not tics: echolalia, echopraxia and automatic obedience, always provoked.
+
 ### Why tics are hard to see in clinic [1]
 Anxiety during examination suppresses tics. Partners or parents often notice them more than patients. Home video is a useful substitute.
 
 ### Not covered by the sources (deliberately left blank)
 - Rating scales (e.g., YGTSS).
-- Deep brain stimulation for refractory Tourette's syndrome.
+- Current DBS targets and selection criteria for refractory Tourette's syndrome (Lishman 2009 mentions thalamic stimulation only).
+- CBIT/habit-reversal protocol details.
 - Adult-specific pharmacological evidence (Maudsley's section is child and adolescent focused).
-- Neurobiology (cortico-striato-thalamo-cortical circuits).
 
 ## References
 
@@ -162,3 +223,4 @@ Anxiety during examination suppresses tics. Partners or parents often notice the
 2. American Psychiatric Association. *DSM-5-TR*. 2022; Neurodevelopmental disorders: Tic disorders (criteria, diagnostic features, prevalence, course, risk factors, suicide, differential diagnosis, comorbidity).
 3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025; Chapter 5, "Tics and Tourette's syndrome in children and adolescents", pp. 614–617 (Figure 5.2).
 4. Lidstone SC. Functional movement disorders. In: UpToDate, 2025 (section on functional tics; Table 4).
+5. Henderson M, Mellers JDC. Movement disorders. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, "Gilles de la Tourette's syndrome", pp. 786–793.

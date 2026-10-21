@@ -8,259 +8,296 @@ covers:
   - p3-dc17344a
   - p3-868b6f08
 status: draft
-updated: 2026-10-15
+updated: 2026-10-21
 reviewer:
 ---
 
+> **Source discipline:** this answer uses only two sources:
+> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Psychiatric aspects of parkinsonism", pp. 761–772 [1].
+> 2. *The Maudsley Prescribing Guidelines*, 15th ed. (2025), "Parkinson's disease", pp. 840–842 [2].
+>
+> **About the two sources:**
+> - Lishman is 16 years older than Maudsley. Where they disagree, both views are given and the disagreement is flagged.
+> - **Not covered by either source:** impulse-control disorders as a syndrome, MDS-era rating scales, and DBS-related psychiatric effects beyond Lishman's brief mention. These are listed at the end.
+
 ## Exam answer
 
-**Definition.** Parkinson's disease (PD) is a progressive α-synucleinopathy in which neuropsychiatric syndromes — depression, anxiety, apathy, psychosis, impulse-control disorders, cognitive impairment and sleep disorders — are common, often precede the motor signs, and arise from three sources: the disease itself, its treatment (dopaminergic drugs, deep-brain stimulation), and the psychological response to a chronic disabling illness.
+**Introduction.** Parkinson's disease (PD) is a progressive degeneration of the pigmented brainstem nuclei, mainly the substantia nigra, with striatal dopamine deficiency [1].
 
-### Mechanism
+Psychiatric comorbidity is common [2]:
+- about **25%** have major depression;
+- **25%** have milder depression;
+- **25%** have anxiety disorders;
+- **25%** have psychosis.
 
-**Braak staging:** α-synuclein pathology spreads in a predictable sequence.
+**Dementia risk** is raised **3.5–6-fold** [2]; Lishman's older consensus was **two- to threefold** [1].
+- **Depression and anxiety** often **precede** the motor diagnosis.
+- **Psychosis, dementia and delirium** cluster in **later stages** [2].
 
-Stage 1–2: dorsal vagal nucleus, olfactory bulb, **locus coeruleus (noradrenaline), raphe (serotonin)** → hyposmia, constipation, RBD, depression, anxiety (prodromal)
-→ Stage 3–4: **substantia nigra**, basal forebrain, amygdala → motor syndrome, early emotional and cognitive change
-→ Stage 5–6: limbic and neocortical spread → dementia, psychosis.
+Psychiatric features come from three sources [1]:
+- **the disease process itself:** monoaminergic and cholinergic loss;
+- **its treatment:** levodopa, dopamine agonists, anticholinergics, amantadine, surgery;
+- **psychological reaction** to a chronic disabling illness.
 
-- **Dopamine loss** (nigrostriatal, mesolimbic, mesocortical) → apathy, anhedonia, executive dysfunction.
-- **Dopaminergic drugs** over-stimulating the relatively preserved ventral striatum → impulse-control disorders, psychosis.
-- **Noradrenaline and serotonin loss** → depression, anxiety.
-- **Cholinergic loss** (nucleus basalis of Meynert) → dementia, visual hallucinations.
+**Mjönes (1949):** mental symptoms in **about 40%** of 262 patients. Three classical groups [1]:
+1. personality change (suspicion, irritability, egocentricity);
+2. memory/intellectual impairment;
+3. psychosis (depression, paranoia, visual hallucinations).
 
-### Clinical syndromes
+A specific "parkinsonian personality" or "parkinsonian psychosis" is **no longer recognised** [1].
 
-| Syndrome | Frequency | Key features |
-| --- | --- | --- |
-| Depression | MDD ~17%; clinically significant depressive symptoms ~35% | Anhedonia, pessimism, less guilt than primary depression; may precede motor signs; mood dips in OFF periods |
-| Anxiety | ~31% | GAD, panic, social anxiety, fear of falling; **OFF-period panic** |
-| Apathy | ~40% | Loss of motivation **without sadness**; worse after agonist withdrawal or STN-DBS |
-| Psychosis | Hallucinations in up to 50% over the illness | Minor phenomena (presence, passage, illusions) → well-formed visual hallucinations with insight → delusions (persecutory, jealousy) without insight |
-| Impulse-control disorders | ~14% | Gambling, hypersexuality, compulsive buying, binge eating; **punding**; **dopamine dysregulation syndrome**; linked to dopamine agonists |
-| Cognitive impairment | PD-MCI ~25%; dementia in ~80% after 20 years | Executive, attention, visuospatial; retrieval more than storage memory deficit |
-| Sleep | RBD ~40–50% | Dream enactment; insomnia; daytime sleepiness and sleep attacks with agonists |
+### 1. Depression [1, 2]
 
-**Iatrogenic syndromes**
-- **Dopamine agonist withdrawal syndrome (DAWS):** anxiety, panic, dysphoria, pain and craving on tapering an agonist; does not respond to levodopa.
-- **After STN-DBS:** transient hypomania or impulsivity early; later apathy and depression as drugs are reduced; increased suicide risk.
+**Prevalence:**
+- Reported figures range from 5% to 90%, depending on sample and criteria.
+- Starkstein (PSE/DSM-III): 21/105 major and 20/105 minor depression.
+- Cummings: about **40%** (major and minor combined).
+- Community (Norway): 8% major depression, 45% depressive symptoms.
+- Neurology clinic: 17% major depression.
 
-### Assessment
+**Reactive vs intrinsic:**
+- **Reactive evidence:**
+  - correlation with motor severity (Mindham);
+  - **depression tracks handicap rather than impairment**: in Schrag 2001, handicap explained more than 50% of the variance and disease severity only 28%.
+- **Intrinsic evidence:**
+  - more depression than in equally disabled controls (Robins 1976);
+  - **depression often precedes motor symptoms** (a prodrome 4–6 years ahead; odds ratio 1.9 in records-linkage);
+  - inverted-U relation to Hoehn & Yahr stage (more in early and late stages).
+- **Neurobiology:**
+  - loss of serotonergic dorsal raphe, noradrenergic locus caeruleus and amygdala catecholamines;
+  - reduced DAT in the left anterior putamen;
+  - orbitofrontal and medial frontal hypometabolism.
 
-- History from **patient and caregiver** (patients hide ICDs); relate each symptom to motor onset, drug changes and **ON/OFF timing**; ask about suicide.
-- Scales: MDS-UPDRS Part I; GDS-15 or HADS (depression); Parkinson Anxiety Scale; Starkstein Apathy Scale; **QUIP** (impulse-control disorders); **MoCA** (cognition); SCOPA-PC (psychosis).
-- Investigations to exclude delirium and mimics: CBC, sodium and electrolytes, renal and liver function, TSH, B12, glucose, urine; imaging, EEG or polysomnography when indicated.
+**Risk factors:**
+- early onset;
+- family history of depression;
+- atypical signs (autonomic, pyramidal, rapid progression);
+- cognitive impairment.
 
-### Management
+Age, sex, duration and levodopa duration are not consistent predictors [1].
 
-**General principles:** optimise motor fluctuations first → rationalise drugs before adding new ones → choose psychotropics that do not worsen parkinsonism, falls or cognition → involve the neurologist and the family.
+**Phenomenology:**
+- pessimism, hopelessness, low motivation, health concern;
+- **guilt, self-blame and worthlessness usually absent**;
+- more dysphoria and irritability, less suicidality;
+- anhedonia in 80% of the depressed;
+- tearfulness or **emotionalism** in about 10%.
 
-**Depression**
-- SSRIs (sertraline, escitalopram, paroxetine) or SNRI (venlafaxine) — effective without motor worsening in the **SAD-PD** trial.
-- Nortriptyline effective but anticholinergic; pramipexole has an antidepressant effect but raises ICD risk.
-- **CBT** effective; **ECT** for severe, psychotic or suicidal depression (often transiently improves motor symptoms).
+**Assessment problem:**
+- Somatic items (slowness, masked face) overlap with PD itself.
+- BDI cut-off of 8/9 is sensitive but not specific; 16/17 is needed for specificity.
+- GDS somatic items over-score.
+- **HAM-D performed better than MADRS** against DSM-IV.
 
-**Anxiety:** smooth dopaminergic delivery for OFF-period anxiety; SSRIs/SNRIs; CBT; avoid long-term benzodiazepines.
+**Why it matters:**
+- faster motor and cognitive decline (MMSE decline halved in treated patients);
+- worse self-care;
+- the **strongest determinant of quality of life**: BDI explains more than 50% of the variance, versus 17% for stage and medication;
+- **carer burden**: five times more psychiatric illness in spouse-carers.
 
-**Apathy:** exclude depression and dementia; optimise dopamine; rivastigmine; behavioural activation.
+**Mood swings with on–off fluctuations:**
+- depression and anxiety when "off", occasionally elation when "on";
+- rarely with psychotic features;
+- helped by smaller, more frequent doses [1].
+- Depression can also follow **withdrawal of dopamine agonists** [2].
 
-**Psychosis — stepwise**
+**Management (Maudsley Table 10.13)** [2]:
+1. **Exclude or treat organic causes**, e.g., hypothyroidism (relatively common in PD).
+2. **SSRIs first line** (modest effect size); **sertraline preferred**.
+   - May worsen tremor.
+   - Serotonin-syndrome risk with selegiline or rasagiline.
+   - SNRIs (venlafaxine, duloxetine) are next; venlafaxine may slightly worsen motor symptoms.
+   - **TCAs poorly tolerated**: anticholinergic (cognition, constipation) and α-blocking (autonomic) effects.
+   - A 2022 network meta-analysis found **dopamine agonists and SSRIs** most effective and acceptable.
+   - Limited evidence for agomelatine, bupropion and vortioxetine.
+3. **Dopamine agonist augmentation** (e.g., pramipexole), but this raises **impulse-control disorder** risk. Agonists also work as monotherapy.
+4. **ECT:** good response of **both mood and motor symptoms**, but high delirium risk, especially with cognitive impairment.
+5. Then the treatment-resistant depression algorithm.
 
-Treat **delirium** precipitants (infection, dehydration, hyponatraemia, new drugs)
-→ withdraw drugs in this order: anticholinergics → amantadine → MAO-B inhibitors → dopamine agonists → COMT inhibitors → reduce levodopa last
-→ if still distressing: **clozapine 6.25–50 mg/day** (best evidence; blood monitoring) or **pimavanserin 34 mg/day** (5-HT2A inverse agonist); quetiapine widely used but weak evidence
-→ add **rivastigmine** if cognitive impairment.
+**Other measures** [1]:
+- psychosocial support for patient and carer;
+- **CBT** (little PD-specific evidence; may help younger patients and carer distress);
+- physiotherapy and activity.
 
-**Never** use haloperidol, risperidone or olanzapine — they worsen parkinsonism and can cause severe sensitivity reactions.
+> ⚠️ **Discrepancy:** Lishman (2009) cites the only RCT then available (citalopram), which showed no benefit over placebo, and calls the evidence weak [1]. Maudsley (2025) treats SSRIs as first line with a modest effect [2].
 
-**Impulse-control disorders:** **reduce or stop the dopamine agonist** (most effective step), taper slowly and watch for DAWS; compensate with levodopa; CBT, financial safeguards, spouse involvement; supervise levodopa supply in DDS.
+### 2. Anxiety [1, 2]
+- **About 25%** [2]. HADS: 20% probable and 29% possible anxiety [1].
+- Often part of a depressive syndrome, but not always.
+- **Often precedes motor onset:** odds ratio 2.2; it predicted later PD in a prospective study.
+- **Treatment:** no trial evidence (Lishman). **SSRIs are probably the best option.** Use **benzodiazepines with great caution**. Anxiety has improved after pallidal surgery in reports [1].
 
-**Cognitive impairment:** **rivastigmine** (EXPRESS trial) or donepezil; stop anticholinergics; treat vascular risk and sleep; capacity and driving assessment.
+### 3. Apathy [1]
+- **Definition:** diminished goal-directed behaviour, cognition and emotional concomitants, causing distress and not due to reduced consciousness or drugs (Starkstein).
+- **Prevalence:** 17–42%.
+- More common than in equally disabled osteoarthritis controls, so it is likely part of the disease.
+- **Distinct from depression** and linked to cognitive impairment.
+- **Treatment:** responds poorly to antidepressants and levodopa. Case reports suggest benefit from methylphenidate, pramipexole, or testosterone if deficient.
 
-**RBD:** bedroom safety; melatonin first; clonazepam with caution.
+### 4. Cognitive impairment and dementia [1, 2]
+- **Risk** (two- to threefold [1]; 3.5–6-fold [2]):
+  - Biggins (prospective): **cumulative incidence 19% over 4.5 years** vs 0 in controls;
+  - Mayo series: 9.4% vs 2.9%.
+- **Risk factors:**
+  - **older age and older age at onset** (dementia is rare with onset before 50);
+  - more severe or rapidly progressive motor disability;
+  - poorer levodopa response;
+  - depression.
+- **Profile:**
+  - usually **"subcortical"**: bradyphrenia, executive and frontal deficits (Wisconsin Card Sorting Test, verbal fluency), retrieval memory deficit;
+  - some patients have cortical features overlapping with Alzheimer's.
+- **Causes** (multiple):
+  - (a) mesocortical/mesolimbic dopamine loss and noradrenergic locus caeruleus loss;
+  - (b) coexisting Alzheimer pathology (uncertain);
+  - (c) **nucleus basalis of Meynert cholinergic loss** (up to 70%);
+  - (d) **cortical Lewy bodies**.
+- **Treatment** [2]:
+  - **cholinesterase inhibitors** improve global function, cognition, behaviour and ADL (Cochrane and RCTs), but **may worsen motor function, especially tremor**;
+  - memantine: mixed evidence;
+  - **stop anticholinergic drugs**: PD patients often carry a high anticholinergic burden.
 
-**DBS:** psychiatric screening before surgery; monitor mood, apathy, impulsivity and suicide afterwards.
+### 5. Psychosis (p3-868b6f08) [1, 2]
 
-### Key evidence
+**In untreated PD:**
+- rare;
+- usually affective (depressive);
+- schizophrenia-like psychosis is rare.
 
-- **SAD-PD (2012):** paroxetine and venlafaxine XR improved depression in PD.
-- **Parkinson Study Group (1999):** low-dose clozapine improved psychosis without motor worsening.
-- **Pimavanserin phase 3 (2014):** improved PD psychosis; FDA approved 2016.
-- **EXPRESS (2004):** rivastigmine modestly improved cognition in PD dementia.
-- **DOMINION (2010):** ICDs in about 14%; dopamine agonists raise the odds 2–3.5-fold.
+Today, psychosis in PD is **mostly linked to medication** [1, 2].
 
-**Conclusion.** Psychiatric syndromes are intrinsic to Parkinson's disease and its treatment, not incidental complications. Good management links each symptom to disease stage, motor fluctuations and medication, rationalises drugs before adding new ones, and uses motor-sparing treatments — SSRIs/SNRIs and CBT for depression, clozapine or pimavanserin for psychosis, agonist reduction for impulse-control disorders, and cholinesterase inhibitors for dementia.
+**Prevalence:**
+- 40% (Cummings);
+- hallucinations 27% and delusions 16% (Aarsland, NPI);
+- **39.8%** if "minor" phenomena are included [1].
+
+**Phenomenology** [1]:
+
+| Feature | Description |
+| --- | --- |
+| **Visual hallucinations** (commonest) | **Clear sensorium** (unlike delirium); eyes open; dim light; afternoon or evening; complex, vivid, coloured, brief (seconds to minutes) |
+| "Minor" phenomena | **Presence** hallucinations (someone behind); **passage** hallucinations (a figure passing at the side) |
+| Auditory | Uncommon. Indistinct "crowd" voices, non-threatening; may co-occur with visual [1]. Commoner in younger patients [2] |
+| Tactile, gustatory, olfactory | Rare |
+| Delusions | Less common than hallucinations; usually **persecutory**; Capgras reported; formal thought disorder very rare |
+| Sexual | Increased libido, occasionally **paraphilias**, after levodopa |
+| Insight | Retained early (70%), lost later |
+
+**Anticholinergic and amantadine psychoses** occur **within a delirium**. Hallucinations are multimodal and threatening, which distinguishes them from the clear-sensorium type [1].
+
+**Risk factors:**
+- **cognitive impairment/dementia** (the strongest);
+- age and illness duration;
+- disease severity;
+- sleep disorders: vivid dreams, REM intrusions and RBD [1, 2];
+- visual or ocular dysfunction (acuity, colour, contrast);
+- past psychiatric history.
+
+Psychosis and dementia predict each other [2].
+
+**Drug link:**
+- **Dopamine agonists carry two to three times the psychosis risk of levodopa.** Psychiatric adverse effects are the commonest reason to stop agonists [1].
+- Anticholinergics and agonists are worse than levodopa or COMT inhibitors [2].
+- The relationship is **not simple dose-dependence**: most patients tolerate levodopa for years, and IV levodopa did not worsen existing hallucinations [1].
+
+**Mechanisms** [1]:
+- **dopamine:** not simple receptor hypersensitivity;
+- **serotonin:** 5-HT/DA imbalance, by analogy with LSD at 5-HT2A;
+- **acetylcholine:** reduced cortical ChAT; link with cognitive impairment;
+- **cortical Lewy bodies:** psychosis rises from PD to PDD to DLB.
+
+**Consequences:**
+- **the single biggest factor in nursing-home placement** [1];
+- caregiver distress;
+- early death [2].
+
+**Management (Maudsley Table 10.14; Lishman)** [1, 2]:
+1. **Exclude delirium** and other organic causes.
+2. **Optimise the environment** (orientation, carer interaction).
+3. **Mild hallucinations with insight that are not troubling: do not treat.**
+4. **Reduce or stop drugs.** Adjust the most recently added drug first. Then stop, in order [1]:
+   - **anticholinergics**;
+   - **dopamine agonists**;
+   - **COMT inhibitors**.
+   Balance psychosis against mobility.
+5. **Antipsychotic:**
+   - **Low-dose quetiapine** (25–200 mg) is the least badly tolerated, with marginal efficacy. It is reasonable to try before clozapine, but the success rate is low.
+   - **Avoid** risperidone and conventional antipsychotics.
+   - Olanzapine and aripiprazole worsen motor function without proven benefit; two olanzapine RCTs were negative [1, 2].
+   - All antipsychotics carry mortality and vascular risk in the elderly.
+6. **Cholinesterase inhibitor**, especially with dementia; it may also reduce falls (rivastigmine improved hallucinations [1]).
+7. **Clozapine: the drug of choice.**
+   - Effective in RCTs at very low doses: **start 6.25 mg; usual 25–35 mg/day**.
+   - It also reduces tremor.
+   - Relapse is common on withdrawal.
+   - Monitor blood counts as in schizophrenia.
+   - It is underused [1, 2].
+8. **ECT** if refractory (delirium risk) [1, 2].
+9. **Pimavanserin** (a 5-HT2A inverse agonist; not available everywhere): effective, no motor worsening. It and clozapine are the only drugs "unreservedly recommended" [2].
+
+> ⚠️ **Discrepancy:** Lishman (2009) called quetiapine "safe and effective". Maudsley (2025) notes several negative placebo-controlled trials and only marginal efficacy [1, 2].
+
+### 6. Personality change [1]
+- Irritability, egocentricity, querulousness, suspiciousness;
+- exaggeration of obsessional traits; hypochondriasis;
+- euphoria is rare (linked to dementia).
+- **No PD-specific personality change.** These features are largely explained by vulnerability and the stress of disability.
+- **Premorbid personality** (industrious, rigid, emotionally controlled; Sands, Booth) is **not well founded**. Twin studies show the affected twin was more introverted before onset.
+- **Less smoking** in affected twins.
+
+### 7. Behavioural effects of dopaminergic treatment [1, 2]
+- **Dopamine dysregulation syndrome** (Giovannoni criteria) [1]:
+  - levodopa-responsive PD;
+  - escalating doses;
+  - pathological use (demanding more despite dyskinesias; hoarding; refusing reduction);
+  - social or occupational impairment;
+  - mania-like states and withdrawal syndrome;
+  - lasting ≥6 months.
+  - Most often seen with short-acting levodopa.
+- **Hypersexuality and paraphilias** [1].
+- **Impulse-control disorders** with dopamine agonists [2].
+- **Mood:** euphoria at peaks; dysphoria, anhedonia and anxiety on withdrawal [1].
+- **Surgery:** behavioural complications after adrenal-medulla transplantation; compulsive DBS-stimulator use reported [1].
+
+### 8. Sleep [1, 2]
+- **Vivid dreams** in about 25%.
+- **REM sleep behaviour disorder.**
+- Daytime REM intrusions corresponding to hallucinations.
+- These are established risk factors for psychosis.
+
+**Conclusion.** In PD, psychiatric disorders are:
+- **common:** depression, anxiety and apathy (often prodromal); dementia and psychosis later;
+- **partly intrinsic** to the neurodegeneration;
+- **partly iatrogenic** (dopaminergic, anticholinergic).
+
+They are the main determinants of quality of life and institutionalisation. Management:
+- exclude organic causes;
+- rationalise anti-parkinsonian drugs together with the neurologist;
+- SSRI (sertraline) or agonist for depression;
+- quetiapine trial, then **clozapine** (or pimavanserin) for psychosis;
+- cholinesterase inhibitors for dementia;
+- ECT for refractory cases;
+- carer support throughout.
 
 ## In depth
 
-### Background
+### Differentiating psychosis types in PD [1]
 
-James Parkinson's 1817 *Essay on the Shaking Palsy* described the senses and intellect as uninjured — a view now known to be wrong. Recognition of PD as a multisystem disorder with a long non-motor prodrome grew from Braak's neuropathological staging (2003) and from cohort studies showing that depression, anxiety, RBD, hyposmia and constipation often precede motor diagnosis by years. Non-motor symptoms are now recognised as the main determinants of quality of life, caregiver strain and institutional care, yet they are missed in a large proportion of routine neurology consultations.
-
-### Epidemiology
-
-- PD affects roughly 1% of people over 60 and over 6 million people worldwide (Global Burden of Disease 2016); numbers are rising with population ageing.
-- In India, community prevalence estimates vary widely; the highest reported was among the Parsi community of Mumbai (Bharucha et al., 1988). Most Indian estimates are lower than Western figures, partly because of methodology and under-ascertainment.
-- Sources of the frequencies in the exam answer: depression — Reijnders et al., 2008 (systematic review); anxiety — Broen et al., 2016 (meta-analysis); apathy — den Brok et al., 2015 (meta-analysis); ICDs — DOMINION, 2010; PD-MCI — Aarsland et al., 2010 (pooled analysis); dementia — Sydney multicentre study, Hely et al., 2008; psychosis — Forsaa et al., 2010 (cross-sectional prevalence 20–40%, cumulative up to ~60% over long follow-up).
-- Risk factors for ICDs: younger age at onset, male sex (gambling, hypersexuality), personal or family history of addiction, novelty-seeking traits, depression, higher agonist dose.
-- Risk factors for psychosis: older age, longer illness, cognitive impairment, visual impairment, RBD, higher dopaminergic load.
-
-### Classification and criteria
-
-- **ICD-11** codes these as *secondary* mental or behavioural syndromes (e.g. secondary mood syndrome, secondary psychotic syndrome) alongside the PD code. **DSM-5-TR** uses "depressive disorder due to another medical condition", "psychotic disorder due to another medical condition", and "major or mild neurocognitive disorder due to Parkinson's disease".
-- **PD psychosis criteria** (NINDS/NIMH workgroup, Ravina et al., 2007): illusions, false sense of presence, hallucinations or delusions; onset after PD diagnosis; recurrent or continuous for at least one month; not better explained by delirium, schizophrenia, DLB or another cause.
-- **One-year rule:** dementia beginning more than a year after established parkinsonism = PD dementia; before or within a year = dementia with Lewy bodies. It is a clinical convention — both are Lewy body diseases.
-- **MDS criteria** exist for PD-MCI (Litvan et al., 2012) and PD dementia (Emre et al., 2007).
-
-### Mechanism in detail
-
-**Neurotransmitter systems**
-
-| System | Lesion | Psychiatric consequence |
+| Feature | Dopaminergic-drug psychosis | Anticholinergic/amantadine psychosis |
 | --- | --- | --- |
-| Dopamine (disease) | Nigrostriatal, mesolimbic, mesocortical loss | Apathy, anhedonia, executive dysfunction, OFF-period dysphoria |
-| Dopamine (drugs) | Preserved ventral striatum over-stimulated | ICDs, punding, psychosis |
-| Noradrenaline | Locus coeruleus | Anxiety, depression, attention deficits |
-| Serotonin | Raphe nuclei | Depression, anxiety |
-| Acetylcholine | Nucleus basalis of Meynert, pedunculopontine nucleus | Dementia, visual hallucinations, falls |
+| Consciousness | Clear | Delirium |
+| Hallucinations | Visual, complex, benign, brief | Multimodal, threatening |
+| Onset | Usually years into treatment; older, cognitively impaired | Soon after starting, especially in the elderly or when added to levodopa |
 
-**Visual hallucinations — Perception and Attention Deficit model (Collerton et al., 2005).** Impaired visual processing (retinal dopamine loss, ventral visual stream dysfunction) combined with impaired attentional control (cholinergic deficit) allows an incorrect "proto-object" to be perceived as real; intrusion of REM-type imagery into wakefulness contributes. Dopaminergic drugs lower the threshold but are not the sole cause, which explains why hallucinations persist in some patients despite drug reduction.
+### Not covered by the sources (deliberately left blank)
+- **Impulse-control disorders** (pathological gambling, compulsive shopping, binge eating, punding): prevalence, risk factors, management. Maudsley mentions only the risk; Lishman covers only DDS. A separate DA-agonist answer covers what exists.
+- **Psychiatric effects of subthalamic DBS** (mania, suicide, apathy).
+- **Rating scales** (e.g., MDS-UPDRS Part I, PPRS, NMSS).
+- **MDS clinical criteria for PD dementia and PD-MCI.**
+- Specific anxiety disorders (panic, social phobia) in PD.
 
-**Impulse-control disorders — the "overdose hypothesis".** The dose of dopaminergic drug needed to replace dopamine in the depleted dorsal striatum over-doses the relatively spared ventral striatum, which drives reward and motivation. Agonists with high D3 affinity (pramipexole, ropinirole) carry the highest risk; continuous, non-physiological stimulation and individual vulnerability (addiction traits) add to it.
-
-**Psychological factors.** Loss of role and independence, visible disability, uncertainty about progression and stigma add to the biological vulnerability to depression and anxiety.
-
-### Clinical features in detail
-
-- **Depression:** suicidal ideation is common; completed suicide is not clearly increased overall but is increased in the first years after STN-DBS. Irritability and pessimism are prominent; anhedonia overlaps with apathy.
-- **Non-motor fluctuations:** dysphoria, tearfulness, panic and pain can appear as each levodopa dose wears off and disappear when the next takes effect — ask the patient to keep a diary of symptoms against dose times.
-- **Psychosis phenomenology:** passage hallucinations are fleeting figures or animals in peripheral vision; presence hallucinations are a vivid sense that someone is nearby; pareidolia (faces in patterns) is common. Well-formed hallucinations are often silent people, children or animals, typically in the evening. **Delusional jealousy (Othello syndrome)** is characteristic. Auditory, tactile and olfactory hallucinations are less common. Psychosis predicts dementia, nursing-home placement and mortality.
-- **Impulse-control and related behaviours:**
-
-| Behaviour | Description |
-| --- | --- |
-| Pathological gambling | Including online gambling and lotteries; debt often hidden |
-| Hypersexuality | Increased demands, pornography, paraphilic behaviour, infidelity |
-| Compulsive buying | Repeated unneeded purchases |
-| Binge eating | Weight gain, nocturnal eating, sweet craving |
-| Punding | Repetitive, purposeless handling of objects — sorting, dismantling, collecting |
-| Hobbyism, walkabout | Excessive hobbies; aimless wandering |
-| Dopamine dysregulation syndrome | Compulsive overuse of levodopa or apomorphine beyond motor need, with hypomania, irritability and denial |
-
-- **Cognition:** posterior cortical deficits (semantic fluency, figure copying) predict progression to dementia better than frontal-executive deficits (CamPaIGN cohort). PD dementia brings fluctuating attention, hallucinations and apathy.
-- **RBD:** isolated RBD converts to a synucleinopathy at about 6% per year and in over 70% by 12 years (Postuma et al., 2019) — a key prodromal marker.
-- **DAWS:** occurs in roughly 15–20% of patients tapering an agonist; symptoms resemble drug withdrawal in addiction and may persist for months, sometimes forcing a slower taper.
-
-### Assessment in detail
-
-| Domain | Instrument | Notes |
-| --- | --- | --- |
-| Global non-motor | MDS-UPDRS Part I; Non-Motor Symptoms Scale/Questionnaire | Quick screen across domains |
-| Depression | GDS-15, HADS, BDI, HAM-D | Use PD-validated cut-offs; somatic items inflate scores |
-| Anxiety | Parkinson Anxiety Scale | Captures episodic and avoidance anxiety |
-| Apathy | Starkstein Apathy Scale, Lille Apathy Rating Scale | Separate from depression |
-| Psychosis | SAPS-PD, SCOPA-PC, NPI | Include minor phenomena |
-| ICDs | QUIP / QUIP-RS | Completed by patient **and** informant |
-| Cognition | MoCA, SCOPA-COG, ACE-III | MoCA more sensitive than MMSE for PD-MCI |
-| Sleep | RBD Screening Questionnaire, Epworth Sleepiness Scale | Polysomnography to confirm RBD |
-
-Examine in a known motor state (ON or OFF) and note it; check orthostatic BP (falls, syncope with psychotropics) and vision (hallucination risk). Investigate rapidly progressive or atypical cognitive decline with neuroimaging; use EEG when fluctuating consciousness suggests seizures or delirium.
-
-### Differential diagnosis
-
-| Presentation | Consider | Distinguishing point |
-| --- | --- | --- |
-| Low mood and slowing | Apathy; hypomimia/bradyphrenia; hypothyroidism | Apathy lacks sadness; motor signs without negative cognitions |
-| Fluctuating confusion + hallucinations | Delirium | Acute onset, inattention, identifiable precipitant |
-| Early dementia + hallucinations | Dementia with Lewy bodies | Dementia before or within one year of parkinsonism |
-| Parkinsonism with early falls, gaze palsy, autonomic failure | PSP, MSA | Poor levodopa response, red flags |
-| Parkinsonism in a patient on antipsychotics | Drug-induced parkinsonism | Symmetric onset, temporal link to D2 blocker, normal DAT-SPECT |
-| Episodic anxiety or dysphoria | Non-motor OFF fluctuation | Linked to dosing timetable |
-| Spending, hypersexuality | Mania; frontotemporal dementia | Temporal link to agonist; resolves on withdrawal |
-
-### Management details
-
-- **Antidepressant cautions:** serotonin syndrome with SSRIs plus MAO-B inhibitors is rare at usual doses but monitor; SSRIs can occasionally worsen tremor or restless legs; check sodium in the elderly (SIADH); mirtazapine helps insomnia and appetite but sedates; bupropion may help fatigue and apathy but can cause agitation.
-- **ECT:** risk of post-ECT delirium in patients with cognitive impairment; motor improvement is usually temporary.
-- **rTMS:** modest antidepressant effect in trials.
-- **Clozapine practicalities:** start 6.25–12.5 mg at night; most patients respond below 50 mg; blood-count monitoring as per local protocol; watch sedation, orthostasis and sialorrhoea.
-- **Pimavanserin:** no D2 blockade; onset over several weeks; QT prolongation; not widely available in India.
-- **Quetiapine:** 12.5–150 mg/day; several RCTs failed to separate from placebo; sedation and orthostasis.
-- **Avoid in all Lewy body disease:** typical antipsychotics, risperidone, olanzapine, aripiprazole — motor worsening and potentially fatal neuroleptic sensitivity reactions.
-- **ICDs:** amantadine has conflicting evidence and may itself be associated with ICDs; naltrexone is unproven; CBT has RCT support (Okai et al., 2013).
-- **Rivastigmine:** can transiently worsen tremor; nausea and weight loss; patch formulation better tolerated. Memantine has smaller, inconsistent effects.
-- **RBD drugs:** melatonin 3–12 mg at night; clonazepam 0.25–1 mg (caution: falls, sleep apnoea, cognition).
-- **Insomnia:** treat nocturnal akinesia, nocturia and pain; CBT-I.
-- **Palliative care:** advance care planning while capacity is intact; caregiver respite and support groups, especially with psychosis, ICDs or dementia.
-
-### Evidence table
-
-| Study | Design | Main finding |
-| --- | --- | --- |
-| Reijnders et al., 2008 | Systematic review | MDD ~17%; clinically significant depressive symptoms ~35% |
-| SAD-PD (Richard et al., 2012) | RCT, n = 115 | Paroxetine and venlafaxine XR improved depression; no motor worsening |
-| Menza et al., 2009 | RCT, n = 52 | Nortriptyline superior to placebo; paroxetine CR not |
-| Barone et al., 2010 | RCT, n ≈ 300 | Pramipexole improved depressive symptoms vs placebo |
-| Dobkin et al., 2011 | RCT, n = 80 | CBT superior to clinical monitoring for depression |
-| Parkinson Study Group, 1999 | RCT, n = 60 | Low-dose clozapine improved psychosis; no motor worsening |
-| Cummings et al., 2014 | Phase 3 RCT, n = 199 | Pimavanserin improved PD psychosis |
-| EXPRESS (Emre et al., 2004) | RCT, n = 541 | Rivastigmine modestly improved cognition in PD dementia |
-| DOMINION (Weintraub et al., 2010) | Cross-sectional, n = 3,090 | ICDs in 13.6%; agonists raised odds 2–3.5-fold |
-| Devos et al., 2014 | RCT | Rivastigmine improved apathy in non-demented, non-depressed patients |
-| Hely et al., 2008 (Sydney) | 20-year cohort | ~80% of survivors developed dementia |
-| Postuma et al., 2019 | Multicentre cohort, n = 1,280 | Isolated RBD converted at ~6% per year |
-
-### Critical appraisal
-
-- **Under-recognition:** structured screening substantially increases detection compared with routine consultation.
-- **Measurement problem:** depression scales with somatic items inflate scores in PD; PD-validated cut-offs or core mood items are needed.
-- **Thin evidence base:** antidepressant evidence rests on a few small, short RCTs with high placebo response.
-- **Quetiapine paradox:** the most widely used antipsychotic for PD psychosis has the weakest trial support, while clozapine — the best supported — is underused because of monitoring burden.
-- **Pimavanserin:** approval rested on one positive phase 3 trial; questions remain about effect size, QT prolongation and the mortality warning shared by all antipsychotics in elderly patients with dementia.
-- **Agonist trade-off:** dopamine agonists delay levodopa motor complications at a behavioural cost that often falls on families; informed consent about ICD risk before prescribing is a clinical and ethical duty.
-- **DBS:** excellent motor results can coexist with poor psychosocial adjustment, showing the need for psychiatric input in selection and follow-up.
-
-### Indian context
-
-- Most patients are managed by neurologists or physicians; psychiatric syndromes are often not screened for, and families may attribute behaviour change to ageing, medication "weakness" or character.
-- **Cost and access:** clozapine needs reliable laboratory follow-up; pimavanserin is not widely available; generic SSRIs, rivastigmine and levodopa are affordable.
-- ICD consequences (gambling, debt, sexual behaviour) carry particular stigma and marital consequences; enquire sensitively with the spouse.
-- **Mental Healthcare Act 2017:** capacity is decision-specific — a patient with PD dementia may retain capacity for some decisions; advance directives and nominated representatives are useful before cognition declines; admission for severe psychosis or suicidality follows MHCA provisions.
-- **RPwD Act 2016:** Parkinson's disease is listed among chronic neurological conditions for disability certification and benefits.
-- DBS is available at a limited number of tertiary centres; psychiatric screening should be built into these programmes.
-
-### Recent advances
-
-- **α-synuclein seed amplification assays** (CSF, skin) detect pathological synuclein with high accuracy, including in prodromal disease (Siderowf et al., 2023), leading to proposed **biological staging** of PD (2024).
-- **Pimavanserin** as a non-dopaminergic antipsychotic (established in the US; limited availability elsewhere).
-- **Telehealth and caregiver-inclusive CBT** for depression and anxiety.
-- **Continuous dopaminergic delivery** — levodopa–carbidopa intestinal gel, subcutaneous foslevodopa–foscarbidopa, apomorphine infusion — smooths fluctuations and may reduce OFF-period anxiety and dysphoria.
-- **rTMS and other neuromodulation** for depression in PD (modest evidence).
-- **Prodromal trials** of potential disease-modifying agents in people with isolated RBD.
+Upload a recent review (e.g., Weintraub et al., *BMJ* 2022, or UpToDate "Neuropsychiatric manifestations of Parkinson disease") if you want these covered.
 
 ## References
 
-> **Draft note:** written from the author's knowledge of the literature, without uploaded source chapters. Check every figure and dose against the sources below before marking this answer `reviewed`.
-
-1. Weintraub D, Aarsland D, Biundo R, et al. Management of psychiatric and cognitive complications in Parkinson's disease. *BMJ*, 2022;379:e068718.
-2. Reijnders JS, Ehrt U, Weber WE, Aarsland D, Leentjens AF. A systematic review of prevalence studies of depression in Parkinson's disease. *Movement Disorders*, 2008;23:183–189.
-3. Broen MP, Narayen NE, Kuijf ML, et al. Prevalence of anxiety in Parkinson's disease: a systematic review and meta-analysis. *Movement Disorders*, 2016;31:1125–1133.
-4. den Brok MG, van Dalen JW, van Gool WA, et al. Apathy in Parkinson's disease: a systematic review and meta-analysis. *Movement Disorders*, 2015;30:759–769.
-5. Ravina B, Marder K, Fernandez HH, et al. Diagnostic criteria for psychosis in Parkinson's disease: report of an NINDS/NIMH work group. *Movement Disorders*, 2007;22:1061–1068.
-6. Weintraub D, Koester J, Potenza MN, et al. Impulse control disorders in Parkinson disease: a cross-sectional study of 3090 patients (DOMINION). *Archives of Neurology*, 2010;67:589–595.
-7. Richard IH, McDermott MP, Kurlan R, et al. A randomized, double-blind, placebo-controlled trial of antidepressants in Parkinson disease (SAD-PD). *Neurology*, 2012;78:1229–1236.
-8. Menza M, Dobkin RD, Marin H, et al. A controlled trial of antidepressants in patients with Parkinson disease and depression. *Neurology*, 2009;72:886–892.
-9. Barone P, Poewe W, Albrecht S, et al. Pramipexole for the treatment of depressive symptoms in patients with Parkinson's disease. *Lancet Neurology*, 2010;9:573–580.
-10. Dobkin RD, Menza M, Allen LA, et al. Cognitive-behavioral therapy for depression in Parkinson's disease: a randomized, controlled trial. *American Journal of Psychiatry*, 2011;168:1066–1074.
-11. Parkinson Study Group. Low-dose clozapine for the treatment of drug-induced psychosis in Parkinson's disease. *New England Journal of Medicine*, 1999;340:757–763.
-12. Cummings J, Isaacson S, Mills R, et al. Pimavanserin for patients with Parkinson's disease psychosis. *Lancet*, 2014;383:533–540.
-13. Emre M, Aarsland D, Albanese A, et al. Rivastigmine for dementia associated with Parkinson's disease (EXPRESS). *New England Journal of Medicine*, 2004;351:2509–2518.
-14. Devos D, Moreau C, Maltête D, et al. Rivastigmine in apathetic but dementia and depression-free patients with Parkinson's disease. *Journal of Neurology, Neurosurgery and Psychiatry*, 2014;85:668–674.
-15. Hely MA, Reid WG, Adena MA, et al. The Sydney multicenter study of Parkinson's disease: the inevitability of dementia at 20 years. *Movement Disorders*, 2008;23:837–844.
-16. Postuma RB, Iranzo A, Hu M, et al. Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder. *Brain*, 2019;142:744–759.
-17. Braak H, Del Tredici K, Rüb U, et al. Staging of brain pathology related to sporadic Parkinson's disease. *Neurobiology of Aging*, 2003;24:197–211.
-18. Collerton D, Perry E, McKeith I. Why people see things that are not there: a novel Perception and Attention Deficit model for recurrent complex visual hallucinations. *Behavioral and Brain Sciences*, 2005;28:737–757.
-19. Siderowf A, Concha-Marambio L, Lafontant DE, et al. Assessment of heterogeneity among participants in the Parkinson's Progression Markers Initiative cohort using α-synuclein seed amplification. *Lancet Neurology*, 2023;22:407–417.
-20. Bharucha NE, Bharucha EP, Bharucha AE, et al. Prevalence of Parkinson's disease in the Parsi community of Bombay, India. *Archives of Neurology*, 1988;45:1321–1323.
-21. David AS, Fleminger S, Kopelman MD, et al. (eds). *Lishman's Organic Psychiatry*, 4th edition — chapter on movement disorders.
-22. Government of India. Mental Healthcare Act, 2017; Rights of Persons with Disabilities Act, 2016.
+1. Henderson M, Mellers JDC. Movement disorders. In: David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry: A Textbook of Neuropsychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, pp. 761–772 (psychiatric aspects of parkinsonism; affective disorder; psychoses; apathy; dopamine dysregulation).
+2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 10, "Parkinson's disease", pp. 840–842 (Tables 10.13, 10.14; Box 10.4).

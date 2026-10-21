@@ -14,6 +14,7 @@ reviewer:
 >    - "Akathisia", pp. 131–133;
 >    - "Treatment of tardive dyskinesia", pp. 135–137 (Tables 1.29–1.30);
 >    - "Neuroleptic malignant syndrome", pp. 150–151 (Table 1.33).
+> 3. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Drug-induced disorders", pp. 745–752, added in the In-depth section [3].
 >
 > Where the two sources disagree, both are shown and the discrepancy is flagged. Nothing else has been added.
 
@@ -272,8 +273,84 @@ They arise from striatal D2 blockade, depend on dose and potency, and are less c
 - **Vitamin B6 dose for akathisia:** 1,200 mg vs 300 mg/day within the slides; no dose in Maudsley.
 - **Dantrolene regimen:** as written in the slides, it is unusual. Verify against a pharmacology text.
 
+### Lishman (2009): additional detail [3]
+- **Potency:**
+  - piperazine phenothiazines (trifluoperazine) cause more EPS than aliphatic or piperidine ones (chlorpromazine, thioridazine);
+  - butyrophenones are particularly potent;
+  - atypicals reduce, but do not eliminate, the risk.
+- **Drug-induced parkinsonism:**
+  - 20–40% of patients; within the first month; dose-dependent; more common with age;
+  - **bradykinesia is the earliest and commonest sign**; upper limbs, then jaw, then legs;
+  - **bilateral and symmetrical, with little tremor**;
+  - **rabbit syndrome**: late fine perioral tremor;
+  - drooling from reduced swallowing (unlike clozapine hypersalivation);
+  - may resolve with tolerance or take **up to 18 months** after stopping; failure to recover suggests underlying PD;
+  - severe cases resemble **catatonia** or akinetic mutism (differentiate from NMS).
+  - **Management:** anticholinergics, **tapered after 3 months**. Routine prophylactic anticholinergics are contraindicated.
+- **Akathisia:**
+  - **up to 90% of young patients**;
+  - deep leg sensations; rocking from foot to foot or walking on the spot, through to an inability to sit;
+  - **pseudoakathisia** (objective signs without subjective distress) in negative-symptom patients;
+  - **Barnes rating scale**.
+  - **Differentiate restless legs syndrome:**
+    - 6–9% of the community;
+    - evening or night worsening;
+    - **periodic limb movements in sleep in 80%**;
+    - iron deficiency, renal failure, pregnancy;
+    - check ferritin; dopaminergic first line.
+  - **Treatment:** dose reduction, **propranolol** (most encouraging), benzodiazepines, amantadine, clonidine. Anticholinergics are rarely useful.
+- **Acute dystonia:**
+  - about 2%; days after oral or hours after IM dosing; **peak at 24–48 hours**;
+  - young males; previous dystonia; cocaine use;
+  - oculogyric deviation, trismus, tongue protrusion, **laryngeal stridor**, opisthotonos;
+  - can be **mistaken for status epilepticus, tetanus or hysteria**.
+  - **Treatment:** IV/IM benzatropine, diphenhydramine or procyclidine; IV diazepam.
+  - **Prophylactic anticholinergic** is justified only after a previous dystonic reaction.
+- **Tardive dyskinesia:**
+  - **orofacial** in three-quarters, limbs in half, trunk in a quarter;
+  - **no rhythmic tremor**; worse with stress; less with drowsiness;
+  - spontaneous dyskinesia in up to 6% of people in their 70s.
+  - **Incidence:** 10–20% after 1 year (APA Task Force); 25% at 1 year rising to **53% at 3 years** (Woerner); disabling in 5–10%.
+  - **DSM-IV duration rule:** 3 months of exposure (1 month if over 60) and symptoms for more than 4 weeks.
+  - **Risk factors:**
+    - age over 40; elderly women;
+    - brain damage (ECT or leucotomy history, cognitive impairment, negative symptoms, ventricular enlargement);
+    - **affective disorder**; diabetes;
+    - **alcohol misuse (threefold)**; earlier acute EPS;
+    - **drug holidays**; CYP2D6 and DRD3 variants.
+  - **Atypicals:** 5–10 times lower risk (risperidone vs haloperidol).
+  - **Course:**
+    - 25–50% improve markedly within a year of stopping;
+    - at 5 years, half are stable, a quarter fluctuate, 11% improve, 8% worsen;
+    - **about 30% of adults are permanent** (especially the elderly); **children recover**.
+  - **Other drugs that can cause it:** oral contraceptives, anticonvulsants, TCAs, metoclopramide.
+  - **Management:**
+    - stop anticholinergics;
+    - taper the antipsychotic (30–50% improve; may transiently worsen);
+    - switch, including to **clozapine**;
+    - tetrabenazine (avoid in depression), clonazepam, **vitamin E**, gabapentin, melatonin, pyridoxine, donepezil;
+    - **never increase neuroleptics to mask TD** unless it is life-threatening.
+- **Tardive dystonia:**
+  - after 3–7 years (can be under 1 year); **more distressing and disabling than TD**;
+  - focal onset, spreading to segmental (two-thirds) or generalised (15%);
+  - younger patients have more generalised dystonia;
+  - laryngospasm can need tracheostomy;
+  - **anticholinergics may help** (they worsen TD);
+  - remission in under 15%; a better outcome if exposure was under 10 years.
+  - **Treatment:** taper the drug; anticholinergic; reserpine or tetrabenazine (two-thirds improve); benzodiazepines, baclofen; **clozapine (drug of choice if antipsychotic needed)**, ± clonazepam; **botulinum toxin** for focal forms.
+  - **Exclude Wilson's**; don't mistake it for a psychogenic disorder.
+- **Tardive akathisia:**
+  - after a mean of 4.5 years; **worsens on dose reduction** (unlike acute akathisia);
+  - marching, leg crossing, rocking, moaning;
+  - reserpine or tetrabenazine best (one-third resolve); **β-blockers and anticholinergics ineffective**; lorazepam occasionally helps.
+- **Pathophysiology:**
+  - **parkinsonism:** "chemical denervation" (D2 blockade); fast-dissociation hypothesis for atypicals;
+  - **akathisia:** extrastriatal D2 blockade with adrenergic involvement;
+  - **acute dystonia:** presynaptic mismatch or D1 over-activity, possibly σ receptors;
+  - **TD:** **D2 receptor supersensitivity/upregulation** and D1/D2 imbalance (explains withdrawal emergence and masking by higher doses), plus **excitotoxic or free-radical loss of GABAergic pallido-thalamic neurones** (supports the antioxidant rationale).
+
 ### Not covered by the sources (deliberately left blank)
-- Rabbit syndrome, tardive tics and tardive myoclonus.
+- Tardive tics and tardive myoclonus.
 - Detailed DSM-5-TR criteria text (taken here from the slides only).
 - Paediatric considerations.
 
@@ -290,3 +367,4 @@ They arise from striatal D2 blockade, depend on dose and potency, and are less c
    - Akathisia, pp. 131–133;
    - Treatment of tardive dyskinesia, pp. 135–137 (Tables 1.29, 1.30);
    - Neuroleptic malignant syndrome, pp. 150–151 (Table 1.33).
+3. Henderson M, Mellers JDC. Movement disorders. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, "Drug-induced disorders", pp. 745–752.
