@@ -4,16 +4,26 @@ covers:
   - p3-48ca1b5a
   - p3-97f84952
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009) [1]:
+> **Source discipline:** this answer uses *Lishman's Organic Psychiatry*, 4th ed. (2009) [1]:
 > - Chapter 13, "REM sleep behaviour disorder" (Fig. 13.4), pp. 839–840; sleep architecture, pp. 818–820;
 > - Chapter 6, differentiation from epilepsy, pp. 360–361;
 > - Chapter 12, sleep disorders in MSA, p. 779.
 >
-> ⚠️ **Major gap:** Lishman (2009) does **not** describe RBD as a **prodrome of synucleinopathies** in quantitative terms (phenoconversion rates to PD, DLB or MSA), the **ICSD-3 diagnostic criteria**, **melatonin** as a first-line option, or bed-partner safety guidance beyond the case material. It links RBD only to "dementia, Parkinson's disease, narcolepsy" and MSA. Please upload a sleep-medicine source (e.g., the BAP 2019 sleep consensus, ICSD-3 or a review) if you want these.
+> **Added source:** *Continuum* vol. 28, no. 5, **Movement Disorders** (2022) [2]:
+> - Chahine, "Prodromal α-Synucleinopathies", pp. 1268–1280;
+> - Thaler and Alcalay, "Diagnosis and Medical Management of Parkinson Disease", pp. 1286, 1295;
+> - Claassen, "Multiple System Atrophy", p. 1358.
+>
+> ⚠️ **Remaining gaps:**
+> - **ICSD-3 diagnostic criteria** (text);
+> - **doses** of melatonin and clonazepam;
+> - **RBD screening questionnaires**.
+>
+> Not filled from memory.
 
 ## Exam answer
 
@@ -68,15 +78,34 @@ RBD pointers: **older age at onset**, associated **degenerative neurological dis
 4. **Review drugs:** stimulants and tricyclics (in narcolepsy), and alcohol or drug withdrawal.
 5. **Investigate for associated neurological disease** (parkinsonism, dementia, narcolepsy, brainstem lesion).
 
-**Conclusion.** RBD is a REM parasomnia in which loss of REM atonia lets patients act out vivid, often violent dreams. It typically affects older men in the later part of the night, causes frequent injury, and is associated with Parkinson's disease, dementia, MSA and narcolepsy. **Polysomnography** confirms **REM sleep without atonia** and excludes epilepsy and OSA. **Clonazepam** is rapidly effective, with desipramine, carbidopa or clonidine as alternatives, alongside safety measures and a search for underlying neurodegenerative disease.
+### Update from Continuum 2022: RBD as a prodromal synucleinopathy [2]
+- **Isolated (idiopathic) RBD** is **highly specific** for future **PD, DLB or MSA**: **at least half, and perhaps up to 80%**, are later diagnosed with an α-synucleinopathy.
+  - PD diagnosis occurs at **about 6% per year**.
+  - Of prodromal people who convert, about **55% develop PD, 45% DLB**, rarely MSA.
+  - **More severe cognitive dysfunction predicts dementia.**
+- **Prevalence:** **at least 2.2%** of older adults, similar to the prevalence of PD. Prodromal PD is **commoner in men**.
+- **Only call RBD "isolated" after evaluation:** exclude **narcolepsy, structural brainstem lesions and immune-mediated disorders** (history, examination, imaging as appropriate).
+- **Antidepressants** can cause RBD or lower its threshold:
+  - **SSRIs, SNRIs, TCAs** aggravate it, so review them;
+  - in some patients the **depression itself may be a prodromal feature** of synucleinopathy (psychiatric relevance).
+- **PSG:** REM sleep without atonia shows as **increased chin or limb EMG**. In MSA, **sleep-disordered breathing or stridor** can be mistaken for dream enactment, so **PSG is needed when in doubt**.
+- **Treatment:**
+  - **safe sleep environment** (remove sharp objects; bedrails);
+  - **melatonin and/or clonazepam**, though "no firm evidence" supports either.
+- **Counselling and follow-up:**
+  - discuss the **risk of a neurodegenerative disorder**;
+  - refer for anxiety or depression;
+  - **regular exercise**, vascular risk-factor control, **avoid head trauma**;
+  - offer **research participation**;
+  - **no treatment yet prevents conversion**; prodromal criteria and biomarkers are **research tools, not yet clinical**.
+
+**Conclusion.** RBD is a REM parasomnia in which loss of REM atonia lets patients act out vivid, often violent dreams. It typically affects older men in the later part of the night, causes frequent injury, and is associated with Parkinson's disease, dementia, MSA and narcolepsy. **Polysomnography** confirms **REM sleep without atonia** and excludes epilepsy and OSA. **Clonazepam** or **melatonin** (Continuum 2022; Lishman also lists desipramine, carbidopa and clonidine) plus safety measures. Isolated RBD is a strong **prodrome of PD, DLB or MSA** (50–80% convert, about 6% a year to PD), so counselling, review of serotonergic antidepressants and neurological follow-up are essential.
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- ICSD-3 criteria; RBD as a prodromal synucleinopathy (phenoconversion over 70–90% over 10–15 years); DLB diagnostic role.
-- **Melatonin** as first-line treatment; clonazepam cautions in the elderly (falls, cognition, OSA).
-- Antidepressant-induced RBD (SSRIs, SNRIs) beyond Lishman's TCA mention.
-- RBD questionnaires (RBDSQ); isolated vs secondary RBD terminology.
+- ICSD-3 criteria text; RBD questionnaires (RBDSQ).
+- Melatonin and clonazepam doses; clonazepam cautions in the elderly.
 
 ## References
 
@@ -84,3 +113,4 @@ RBD pointers: **older age at onset**, associated **degenerative neurological dis
    - Chapter 6: pp. 360–361 (sleep disorders in the differential diagnosis of epilepsy);
    - Chapter 12: p. 779 (sleep disorders in MSA);
    - Chapter 13: pp. 818–820 (sleep architecture; Fig. 13.3), 823 (alcohol and REM atonia), 826 (narcolepsy), 839–840 (REM sleep behaviour disorder; Fig. 13.4).
+2. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): Chahine LM. Prodromal α-synucleinopathies, 1268–1280 (RBD, p. 1271; epidemiology and phenoconversion, pp. 1273–1274; Case 1-1 and preventive measures, pp. 1276–1278); Thaler A, Alcalay RN. Diagnosis and medical management of Parkinson disease, 1281–1300 (pp. 1286, 1295); Claassen DO. Multiple system atrophy, 1350–1363 (p. 1358).
