@@ -1,188 +1,204 @@
 ---
-title: Assessment and management of psychotropic-induced metabolic syndrome
+title: Psychotropic-induced metabolic syndrome — impact on schizophrenia treatment, assessment and management
 covers:
   - p1-c764876f
+  - p3-124a6b89
 status: draft
-updated: 2026-10-20
+updated: 2026-10-21
 reviewer:
 ---
 
+> **Source discipline:** rewritten on 21 Oct 2026 to use **only** these uploaded sources:
+> 1. Cooper SJ, et al. BAP guidelines on weight gain, metabolic disturbances and cardiovascular risk with psychosis and antipsychotics, *J Psychopharmacol* 2016 [1].
+> 2. The PROGRESS "Guideline on metformin for prevention of antipsychotic-induced weight gain", *Schizophr Bull* 2025 (algorithm figure) [2].
+> 3. *The Maudsley Prescribing Guidelines*, 15th ed., Chapter 1 [3].
+> 4. Mishra KK, et al. IPS CPG on psychiatric disorders in endocrine disorders, 2022 [4].
+> 5. The departmental endocrine/metabolism presentation [5].
+>
+> Content in the earlier version that came from outside these sources has been removed.
+
 ## Exam answer
 
-**Definition.** Metabolic syndrome is a cluster of cardiometabolic risk factors: central obesity, raised triglycerides, low HDL, hypertension and dysglycaemia. Together they raise the risk of type 2 diabetes about fivefold and cardiovascular disease about twofold. **Psychotropic-induced** metabolic syndrome is caused or worsened by medication, mainly antipsychotics (especially olanzapine and clozapine), but also valproate, lithium, mirtazapine and some TCAs. On top of the illness-related risk in psychosis (smoking, inactivity, diet, possible intrinsic insulin resistance), it drives the 15–20-year mortality gap [1].
+### Why it matters [1, 3, 5]
+- **Mortality:** life expectancy in schizophrenia is reduced by **about 20 years**. **Physical illness, especially cardiovascular disease, is the main cause**: 60% of the excess mortality, and CVD deaths are twice as likely [1].
+- **Prevalence of metabolic syndrome:** about **35.3%** of people taking antipsychotics (meta-analysis of 24,892) [1]. It is 2–3 times the general population, with obesity RR 1.5–2 and diabetes RR about 2 [1]. Indian data (Grover) show about 36% in schizophrenia [5].
+- **Obesity and diabetes:** **8 in 10** people experience antipsychotic-induced weight gain [2]. Diabetes is 2–3 times population rates [3].
+- **Adherence and self-image:** weight gain reinforces negative self-views, causes **poor adherence and relapse**, and is the side effect callers to the SANE helpline find most distressing [1].
+- **Poor monitoring:** at best about one-third of patients receive comprehensive monitoring each year. Interventions follow in only 52% with raised BMI and 56% with raised glucose (UK national audit) [1].
 
-**Criteria (IDF 2005 / harmonised 2009, with South Asian cut-offs):** waist ≥90 cm in men or ≥80 cm in women, **plus** any two of:
-- triglycerides ≥150 mg/dL (1.7 mmol/L) or on treatment;
-- HDL <40 mg/dL in men or <50 mg/dL in women;
-- BP ≥130/85 mmHg or on treatment;
-- fasting glucose ≥100 mg/dL (5.6 mmol/L) or diagnosed diabetes.
+### Definition [1, 4]
+**Metabolic syndrome:** central obesity plus two of four: hypertension, raised fasting glucose, low HDL, raised triglycerides (Alberti, as cited in [1]).
 
-(NCEP ATP-III: any three of five, with waist >102/88 cm.)
-
-### Mechanism
-- **Receptor effects:** H1 and 5-HT2C blockade → increased appetite and reduced satiety (hypothalamic AMPK, leptin resistance) → weight gain.
-- **Direct metabolic effects:** M3 blockade on β-cells → reduced insulin secretion; direct hepatic and muscle insulin resistance, dyslipidaemia (raised triglycerides) — **can occur before weight gain** (olanzapine and clozapine can cause DKA early).
-- **Other contributors:** sedation and inactivity; illness factors (negative symptoms, poor diet, smoking, alcohol, poverty) [1].
-
-### Liability by drug
-
-| Risk | Antipsychotics | Other psychotropics |
+| Criterion | NCEP ATP III (2005, revised) | IDF (2005) |
 | --- | --- | --- |
-| High | Clozapine, olanzapine | Valproate, mirtazapine, lithium (weight), TCAs (amitriptyline) |
-| Medium | Quetiapine, risperidone, paliperidone, iloperidone, asenapine | Pregabalin |
-| Low | Aripiprazole, brexpiprazole, cariprazine, lurasidone, ziprasidone, amisulpride, haloperidol, xanomeline–trospium | Lamotrigine, bupropion, SSRIs (most; paroxetine more) |
+| Structure | Any 3 of 5 | Increased waist circumference + any 2 |
+| Waist | ≥102 cm (men), ≥88 cm (women) | Increased, e.g., ≥90 cm (men), ≥80 cm (women) |
+| Triglycerides | ≥1.7 mmol/L (150 mg/dL) or on treatment | Same |
+| HDL | <1.03 mmol/L (men), <1.29 mmol/L (women) or on treatment | Same |
+| BP | ≥130/85 mmHg or on treatment | Same |
+| Fasting glucose | ≥5.6 mmol/L (100 mg/dL) or diagnosed type 2 diabetes | Same |
 
-Sources: BAP 2016 clusters [1]; xanomeline–trospium [3].
+These values are adapted from IPS CPG Table 6 [4]. The source table also lists WHO 1998 and EGIR 1999 definitions; its layout is partly garbled in the PDF, so verify the cut-offs against the original. Individual risk factors and overall CVD risk matter more than the categorical label [1].
 
-8 out of 10 patients gain weight on antipsychotics, and drug choice is the strongest baseline predictor. Low and normal BMI individuals gain the most [2].
+### Causes: a multifactorial model [1, 3, 5]
+- **Illness and lifestyle:**
+  - poor diet (more saturated fat and sugar, less fibre and fruit);
+  - sedentary life;
+  - **smoking**, alcohol;
+  - deprivation;
+  - inferior medical care [1].
+- **Pre-existing risk: the sources conflict.**
+  - **BAP:** drug-naive first-episode patients show **no inherent metabolic abnormality** (including EUFEST) [1].
+  - **Maudsley:** insulin resistance and diabetes in schizophrenia **pre-date antipsychotics** [3].
+- **Antipsychotics:**
+  - **mechanisms:** **5-HT2C** and **H1** antagonism (hypothalamic appetite control), α-adrenergic and D2 effects, **leptin resistance** [1, 3];
+  - **direct insulin resistance** and impaired insulin secretion, **independent of weight**, especially with clozapine and olanzapine [1, 3];
+  - **three routes to diabetes:** β-cell damage, direct insulin-signalling effects, and indirect effects through weight gain [5].
+- **Time course:** weight gain appears within **6–8 weeks**. A **gain of more than 5% at 1 month** predicts long-term gain [1, 3]. In first-episode patients, gain over 3 months is **7–8% with risperidone and 13% with olanzapine** [1]. Over 10 years the mean gain is 15 kg, 9 kg of it in year 1 [3].
+- **Pharmacogenetics:** 5-HT2C and leptin promoter polymorphisms are most replicated; MC4R, FTO and MTHFR are also implicated [1].
 
-### Assessment (monitoring schedule)
+### Liability by drug [1, 2, 3, 4]
 
-| Parameter | Baseline | Follow-up |
+| Risk | Weight (BAP Table 2; Maudsley 1.31) | Glucose and lipids (Maudsley) |
 | --- | --- | --- |
-| Personal and family history of diabetes and CVD, smoking, alcohol, diet, activity | ✓ | Yearly |
-| Weight, BMI | ✓ | Weekly for 6 weeks, at 12 weeks, then 3-monthly in year 1, then yearly |
-| Waist circumference | ✓ | 12 weeks, yearly |
-| BP, pulse | ✓ | 12 weeks, yearly |
-| Fasting glucose / HbA1c | ✓ | 12 weeks, yearly (more often if high risk) |
-| Fasting lipids | ✓ | 12 weeks, yearly |
-| 10-year CVD risk (QRISK3, WHO/ISH charts) | ✓ | Yearly |
-| Also: prolactin, ECG, LFT, renal function (before metformin/lithium) | ✓ | As indicated |
+| **High** | **Olanzapine, clozapine**; chlorpromazine high/medium | Strongest links to diabetes, **ketoacidosis** and hypertriglyceridaemia. Up to one-third on clozapine develop diabetes by 5 years. Olanzapine raises triglycerides by about 40%, sometimes without weight gain |
+| **Medium** | Quetiapine, risperidone, paliperidone | Quetiapine diabetes risk dose-related (400 mg or more) |
+| **Low** | Aripiprazole, lurasidone, ziprasidone, amisulpride, asenapine, haloperidol; brexpiprazole, cariprazine, lumateperone [3] | Minimal effect on glucose and lipids. **Aripiprazole** may even reverse dyslipidaemia or diabetes |
 
-A gain of more than 7% from baseline weight is clinically significant [1].
+The metformin guideline groups drugs as **high risk** (olanzapine, clozapine; "not first line"), **medium** (quetiapine, paliperidone, risperidone) and **lower** (all others) [2]. The IPS CPG lists **ziprasidone and lurasidone as preferred**, and **olanzapine, clozapine and sertindole to be avoided** with risk factors [4].
 
-### Management (stepwise)
-1. **Prevention at initiation:** choose a low-risk drug, especially in young and first-episode patients; give lifestyle advice from day one.
-2. **Lifestyle:** dietary advice plus exercise (150 minutes/week); structured behavioural programmes reduce weight by about 3 kg vs control, and benefits fade without booster sessions [1].
-3. **Review the drug:** lower the dose; **switch** to a lower-liability drug (aripiprazole, lurasidone, amisulpride, haloperidol), weighing relapse risk [1].
-4. **Metformin:** with or after food; 500 mg once daily → 500 mg twice daily (week 2) → 1 g + 500 mg (week 4) → 1 g twice daily (week 6). Target 1–2 g/day; maximum 1 g/day if eGFR 30–44. **Co-commence** with olanzapine or clozapine, or with medium-risk drugs plus a risk factor (age 10–25, BMI >25, pre-diabetes, hypertension, dyslipidaemia, diabetes). Start in anyone gaining >3% in the first year [2]. It reverses about 3 kg of weight gain vs placebo [1].
-5. **Adjunctive aripiprazole** with clozapine or olanzapine: about 2 kg weight loss [1].
-6. **GLP-1 receptor agonists** (liraglutide, semaglutide, exenatide) if BMI ≥30, or 27–30 with a comorbidity, or if metformin is unavailable or ineffective [2].
-7. **Treat each component:** statins, antihypertensives, diabetes treatment per standard guidelines; smoking cessation (varenicline, NRT, bupropion); alcohol interventions [1].
-8. **Bariatric surgery** in extreme cases [1].
+### Assessment and monitoring (BAP; all "standard of good practice") [1, 3]
 
-### Key evidence
-- **Pillinger 2020** network meta-analysis: clozapine and olanzapine have the worst metabolic effects; aripiprazole, brexpiprazole, cariprazine and lurasidone the least.
-- **BAP 2016:** lifestyle programmes about −3 kg; metformin about −3 kg; adjunctive aripiprazole about −2 kg; switching can help; topiramate −2.8 kg but cognitive side effects limit use [1].
-- **Schizophrenia Bulletin 2025 metformin guideline:** co-commence metformin with high-risk antipsychotics [2].
-- **STEP-type trials:** semaglutide and liraglutide reduce clozapine- and olanzapine-induced weight gain (liraglutide RCT, Larsen 2017: −5.3 kg).
+| Parameter | Baseline | Then |
+| --- | --- | --- |
+| **Weight/BMI** (and waist) | Yes | **Weekly for 4–6 weeks**, then every 2–4 weeks to 12 weeks (at minimum every 4 weeks for 12 weeks); 6 months; at least annually |
+| **Glucose** | Fasting or random glucose early; HbA1c | 12 weeks, 6 months, then annually |
+| **Lipids** (total/HDL ratio; random if fasting not possible) | Yes | 12 weeks, 6 months, annually. **Clozapine/olanzapine: every 3 months for the first year** [3] |
+| **BP** | Yes | 12 weeks, 6 months, annually |
+| **Smoking and alcohol** | Ask at every opportunity | — |
+| **Risk prediction** | **QRISK2**: useful but may underestimate risk in psychosis, and validated only over 25 years | — |
 
-**Conclusion.** Psychotropic-induced metabolic syndrome is common, predictable and largely preventable. It must be anticipated at the time of prescribing, monitored systematically, and treated early with lifestyle change, drug review, metformin and, where needed, GLP-1 agonists, while the underlying illness stays controlled. Physical health monitoring is part of psychiatric treatment, not an optional add-on.
+- **When to repeat the cycle:** after **any antipsychotic switch**.
+- **Ethnicity:** take it into account when interpreting BMI [1].
+- **Shared decisions:** discuss metabolic risks at the start so patients can make informed choices. Decisions should be shared with patient and carer [1].
+- **IPS CPG checklist before starting** [4]: fasting and postprandial glucose (HbA1c if deranged), history of gestational diabetes, obesity, family history of diabetes, lipids.
+
+### Management
+
+**1. Prevention at initiation:**
+- **Drug choice:** the most important baseline predictor [2]. Use a lower-risk drug where possible.
+- **Lowest effective dose.** Note that weight-gain risk appears even at subtherapeutic doses [3].
+- **Early metformin (PROGRESS guideline)** [2]:
+  - **co-commence metformin** with a **high-risk** drug in those with any risk factor (hypertension, dyslipidaemia, diabetes or pre-diabetes, BMI >25, **age 10–25**);
+  - **commence metformin** if **more than 3% weight is gained at any time in the first year** (e.g., 60 kg → 1.8 kg);
+  - **consider a GLP-1 agonist** if BMI ≥30, or BMI 27–30 with a comorbidity.
+
+**2. Lifestyle interventions are first line and should continue throughout** [1]:
+- **Effect:** about **3 kg / 1 kg/m² more weight loss** than control (grade A).
+- **Prevention:** they attenuate gain in first episode (B).
+- **Design:** psychosis-specific group plus individual programmes work best; booster sessions may be needed (C).
+- **Size of benefit:** most interventions give 2–3.5 kg loss. **Each 1 kg/m² rise in BMI increases diabetes risk by 8.4%** [1].
+- **IPS CPG targets** [4]: 30 minutes of exercise daily; **at least 7% weight loss**; healthy diet; no smoking; stress management.
+
+**3. Antipsychotic switching** (B) [1, 3]:
+- **Evidence:** switching from olanzapine to aripiprazole or quetiapine gives about 3 kg more loss than staying.
+- **Balance:** weigh the benefit against **relapse risk**.
+- **Choice of drug:** switch to aripiprazole, brexpiprazole, cariprazine, lurasidone or ziprasidone for pre-diabetes or diabetes [3]. D2 partial agonists are preferred after antipsychotic-induced dyslipidaemia [3].
+
+**4. Adjunctive aripiprazole** (B) [1, 3]:
+- **Use:** for clozapine- or olanzapine-associated gain only.
+- **Effect:** about 2 kg loss and improved lipids. Not supported for other drugs.
+
+**5. Metformin** (A) [1, 2, 3]:
+- **Effect:** about 3 kg weight reduction vs placebo; **attenuates first-episode gain by about 5 kg**. Improves lipids [3].
+- **Status:** Maudsley calls it the **drug of choice** for prevention and treatment. Cochrane 2022 rates the evidence low-certainty [3].
+- **Before starting:** check **GFR**.
+- **Contraindications:** acidosis, GFR <30, hepatic insufficiency, acute illness, harmful alcohol use.
+- **Dosing:** 500 mg, titrated over 6 weeks to **1 g twice daily** (1–2 g/day); maximum 1 g if GFR 30–44.
+- **Side effects:**
+  - common: GI upset; **B12 deficiency**;
+  - rare: lactic acidosis.
+- **Monitoring:** weight, LFT, HbA1c and **B12** annually (6-monthly at risk); renal function.
+- **When to stop:**
+  - lactic acidosis risk (dehydration, alcohol, sepsis, MI, iodinated contrast);
+  - GFR <30;
+  - BMI <20;
+  - when unwell ("sick day rule");
+  - when the antipsychotic stops [2].
+
+**6. Other drugs** [1, 3]:
+- **GLP-1 agonists:**
+  - liraglutide 3 mg is recommended for pre-diabetes, diabetes or clozapine-associated gain [3];
+  - BAP (2016) noted no psychosis RCTs at that time [1];
+  - exenatide for clozapine; semaglutide case series [3].
+- **Orlistat:** effect in men only; high discontinuation [1]. "Good choice" for clozapine-associated gain plus constipation [3].
+- **Topiramate:** effective but adverse cognitive effects [1, 3].
+- **Not recommended routinely:**
+  - reboxetine (single group);
+  - amantadine, melatonin, zonisamide (data too limited);
+  - atomoxetine, fluoxetine, H2-blockers (ineffective) [1].
+- **Samidorphan + olanzapine:** mitigates gain (FDA 2021) [3].
+- **Bariatric surgery:** only for extreme obesity [1, 3].
+
+**7. Medical comorbidity** [1, 3]:
+- **Pre-diabetes:** **screen annually** for those on antipsychotics. Manage as in the general population.
+- **Diabetes:** managed by primary care or a physician.
+- **Dyslipidaemia:**
+  - statins are not contraindicated with antipsychotics;
+  - treat triglycerides with diet, fish oil or fibrates;
+  - severe hypertriglyceridaemia (>5 mmol/L) risks **pancreatitis**.
+- **Hypertension:** as standard, but beware additive hypotension.
+- **Smoking:** cessation services; **NRT, bupropion and varenicline** are supported by meta-analysis.
+- **Alcohol:** naltrexone or acamprosate; consider clozapine for persistent substance misuse [1].
+
+**8. Service delivery** [1]:
+- **Agree responsibility** between primary and secondary care for monitoring and management.
+- **Share clinical information.**
+- **Provide lifestyle programmes** locally.
+
+### How metabolic disorders shape antipsychotic prescribing in schizophrenia (p3-124a6b89)
+1. **Choose the drug** by metabolic risk as well as efficacy. Discuss this at the start [1, 2].
+2. **Check baseline risk** (BMI, glucose/HbA1c, lipids, BP, family history, gestational diabetes, smoking) [1, 4].
+3. **Avoid olanzapine and clozapine first line in those with risk factors.** If they are essential (e.g., clozapine for TRS), co-commence metformin and/or add aripiprazole [2, 3, 4].
+4. **Use the lowest effective dose; avoid polypharmacy** [3].
+5. **Monitor intensively** in the first 12 weeks, then at 6 months and yearly. Act on more than 3–5% early gain [1, 2].
+6. **Balance relapse risk** against metabolic benefit when switching [1].
+7. **Diabetes or dyslipidaemia on treatment:** switch to aripiprazole, lurasidone, ziprasidone, cariprazine or brexpiprazole; treat the medical condition [3].
+8. **Monitor for ketoacidosis** with clozapine and olanzapine, which can occur without weight gain [3].
+
+**Conclusion.** Antipsychotic-induced metabolic syndrome (in about 35% of treated patients) is a major driver of the 20-year mortality gap in schizophrenia. Management rests on:
+- choosing lower-risk drugs and doses;
+- structured monitoring from baseline;
+- first-line lifestyle programmes;
+- early metformin (especially with olanzapine or clozapine);
+- switching or aripiprazole augmentation;
+- GLP-1 agonists in selected cases;
+- active treatment of diabetes, lipids, BP, smoking and alcohol, with clear primary–secondary care responsibility.
 
 ## In depth
 
-### Background
-- Reaven (1988) described "syndrome X" (insulin resistance). NCEP ATP-III (2001) and IDF (2005) defined criteria; the 2009 harmonised definition followed.
-- Diabetes in psychosis was noted before antipsychotics (Maudsley, 1879: "diabetes is a disease which shows itself in families in which insanity prevails"). Interest surged after clozapine and olanzapine.
-- Consensus statements followed: ADA/APA (2004); Maudsley guidance; the BAP guidelines (2011, updated 2016); NICE CG178 (2014); the 2025 metformin guideline (Schizophrenia Bulletin) [1,2].
+### Evidence grading (BAP Table 1) [1]
+**Strength of recommendation:** A = meta-analyses/RCTs; B = category II or extrapolated; C = descriptive; D = expert opinion; **S = standard of good practice** (all the monitoring recommendations).
 
-### Epidemiology
-- Metabolic syndrome affects about 30–35% of people with schizophrenia (about 10% at first episode, rising quickly with treatment) and about 30% with bipolar disorder.
-- Diabetes is 2–3 times more common than in the general population.
-- About 8 in 10 people gain weight on antipsychotics [2].
-- Smoking: about 60–65% of people with schizophrenia smoke; quit rates are about half those of the general population [1].
-- Indian studies: metabolic syndrome in about 25–45% of patients on antipsychotics (AIIMS, PGIMER and NIMHANS data). South Asians develop diabetes at a lower BMI.
+### Critical appraisal (from the sources)
+- **Short trials:** most weight-loss RCTs last 6–12 weeks with 30–60 participants [1].
+- **Underestimation:** meta-analyses underestimate drug effects because participants were often pre-treated [1].
+- **Conflict on pre-existing risk:** BAP vs Maudsley on whether metabolic risk precedes antipsychotics [1, 3].
+- **QRISK2 limits:** it is not validated for under-25s and may underestimate risk [1].
 
-### Classification and criteria
-
-| Criterion | IDF/harmonised (South Asian) | NCEP ATP-III |
-| --- | --- | --- |
-| Waist | ≥90 cm (M), ≥80 cm (F) — mandatory in IDF | >102 (M), >88 cm (F) |
-| Triglycerides | ≥150 mg/dL | ≥150 mg/dL |
-| HDL | <40 (M), <50 (F) mg/dL | Same |
-| BP | ≥130/85 | Same |
-| Fasting glucose | ≥100 mg/dL | ≥110 (original) / ≥100 (revised) |
-
-Asian BMI thresholds: overweight ≥23, obese ≥25 kg/m² (WHO expert consultation 2004; Indian consensus).
-
-### Mechanism in detail
-
-| Pathway | Detail |
-| --- | --- |
-| H1 antagonism | Hypothalamic AMPK activation → hunger; strongest correlate of weight gain |
-| 5-HT2C antagonism | Reduced POMC signalling → reduced satiety; HTR2C −759C/T polymorphism modulates risk |
-| M3 antagonism | Impaired glucose-stimulated insulin release |
-| D2 antagonism | Reward/feeding effects; prolactin → insulin resistance |
-| Direct tissue effects | Olanzapine reduces insulin sensitivity in muscle and liver within days; SREBP activation → lipogenesis |
-| Illness-related | Negative symptoms, sedentary lifestyle, poor diet, smoking, poverty, stress (HPA), possible intrinsic dysglycaemia |
-
-### Clinical features in detail
-- Weight gain is fastest in the first 6–12 weeks and may plateau after 1–2 years (olanzapine continues to rise for longer).
-- Dyslipidaemia (especially triglycerides) and hyperglycaemia can appear early. Diabetic ketoacidosis may occur within months with clozapine or olanzapine.
-- Children and adolescents gain more weight (younger age is a risk factor) [2].
-- Weight gain causes non-adherence, low self-esteem and stigma [1].
-- Complications: NAFLD, obstructive sleep apnoea, hypertension, coronary disease, stroke, osteoarthritis.
-
-### Assessment in detail
-- **Risk scores:** QRISK3 (includes severe mental illness and antipsychotic use as variables); WHO/ISH charts or the Indian (ICMR) CVD risk approach.
-- **Tests:** HbA1c (unaffected by fasting; useful when adherence to fasting is uncertain); fasting glucose; OGTT if borderline; fasting lipid profile; LFT (NAFLD); TSH (hypothyroidism, e.g., with lithium); renal function (before metformin); vitamin B12 (on metformin; yearly) [2].
-- **Who monitors?** Often unclear between psychiatry and primary care, which is one reason monitoring is poor [1]. Use a shared care protocol with a named responsible clinician.
-
-### Differential — causes of weight gain or metabolic change in a psychiatric patient
-
-| Cause | Clue |
-| --- | --- |
-| Antipsychotic or mood stabiliser | Temporal relation; drug liability |
-| Hypothyroidism | Lithium; fatigue, TSH raised |
-| Cushing's syndrome / steroid use | Striae, proximal myopathy |
-| Depression with hyperphagia / atypical depression | Mood, appetite, hypersomnia |
-| Binge eating disorder | Loss-of-control eating episodes |
-| Alcohol misuse | High triglycerides, raised GGT |
-| PCOS (valproate) | Hirsutism, menstrual irregularity |
-| Smoking cessation | Weight gain after quitting; raised clozapine levels |
-
-### Management details
-- **Metformin cautions:** avoid in eGFR <30, acute metabolic acidosis, hepatic insufficiency, acute illness, heavy alcohol use. Stop before iodinated contrast and restart ≥48 hours later. "Sick day rule": stop if dehydrated or systemically unwell. Stop if BMI <20. Side effects: GI (<1 in 10), B12 deficiency (about 7% over 4 years), taste disturbance, rare lactic acidosis [1,2].
-- **GLP-1 agonists:** semaglutide 0.25 → 2.4 mg weekly; GI side effects. They may reduce alcohol use. Watch for pancreatitis and gallbladder disease.
-- **Statins:** per CVD risk (atorvastatin 20 mg for primary prevention).
-- **Antihypertensives:** ACE inhibitors or ARBs (check interaction with lithium, which raises lithium levels).
-- **Switching:** cross-taper over 2–4 weeks; switching off clozapine is generally inadvisable in treatment-resistant schizophrenia, so add metformin or aripiprazole instead [1].
-- **Smoking cessation:** controlled reduction with monitoring of clozapine and olanzapine levels (CYP1A2 induction ends, so levels rise by up to 50%) [1].
-- **Special populations:**
-  - Pregnancy: gestational diabetes risk with olanzapine and clozapine; screen with OGTT.
-  - Children: lifestyle measures plus metformin [2].
-  - Elderly: careful with metformin in renal decline.
-
-### Evidence table
-
-| Study | Design | n | Result |
-| --- | --- | --- | --- |
-| Allison et al., 1999 | Meta-analysis | 81 studies | Weight gain ranking: clozapine > olanzapine > … > ziprasidone |
-| Correll et al., 2009 (SATIETY) | Cohort, youth first exposure | 272 | Olanzapine +8.5 kg in 11 weeks |
-| Wu et al., 2008 | RCT metformin ± lifestyle | 128 | Metformin + lifestyle −4.7 kg vs placebo |
-| de Silva et al., 2016 | Meta-analysis metformin | 12 RCTs | −3.27 kg |
-| Larsen et al., 2017 | RCT liraglutide | 103 | −5.3 kg vs placebo on clozapine/olanzapine |
-| Pillinger et al., 2020 | Network meta-analysis | 100 trials | Metabolic ranking of 18 antipsychotics |
-| BAP 2016 [1] | Guideline | — | Lifestyle −3 kg; metformin −3 kg; aripiprazole adjunct −2 kg |
-| Fabiano et al., 2025 [3] | Meta-analysis xanomeline–trospium | 690 | ≥7% weight gain RR 0.46 |
-
-### Critical appraisal
-- **Monitoring gap:** audits repeatedly show less than half of patients get full metabolic monitoring [1].
-- **Evidence gaps:** many metformin trials are small, Chinese, single-group studies with heterogeneity [1]. GLP-1 data in SMI are emerging. Long-term cardiovascular outcomes have not been shown.
-- **Switching trade-off:** the metabolic gain must be weighed against the risk of relapse.
-- **Illness-related risk:** some dysglycaemia exists in drug-naïve first-episode patients, so drugs are not the whole story.
-- **Responsibility:** psychiatric teams must take ownership of physical health and not leave it to primary care.
-
-### Indian context
-- High background prevalence of diabetes (ICMR-INDIAB: about 11%) and of abdominal obesity, so the risk is compounded.
-- Olanzapine is often first-line because it is cheap and effective; metformin and lifestyle advice are cheap and should be routine.
-- Diet: high carbohydrate intake; give culturally tailored advice (portion control, reduce sugar and refined grains, include pulses and vegetables).
-- Public health programmes for NCDs (NPCDCS, renamed NP-NCD) offer screening at Ayushman Arogya Mandirs, which can be integrated with the DMHP.
-- Indian Psychiatric Society guidance recommends metabolic monitoring for antipsychotic users.
-
-### Recent advances
-- **Established:** metformin co-prescription at initiation (2025 guideline) [2].
-- **Emerging:**
-  - GLP-1 receptor agonists (semaglutide, tirzepatide) for antipsychotic-induced weight gain, with RCTs ongoing.
-  - Olanzapine–samidorphan (US, 2021) with less weight gain.
-  - Xanomeline–trospium is weight-neutral [3].
-- **Investigational:** pharmacogenomic prediction of weight gain (HTR2C, MC4R); digital lifestyle coaching.
+### Not covered by the sources (deliberately left blank)
+- Indian guideline-specific monitoring schedules, beyond the IPS CPG checklist.
+- Children and adolescents (BAP Appendix 2 only).
+- Paediatric metformin dosing beyond the PROGRESS algorithm.
 
 ## References
 
-1. Cooper SJ, Reynolds GP, Barnes TRE, et al. BAP guidelines on the management of weight gain, metabolic disturbances and cardiovascular risk associated with psychosis and antipsychotic drug treatment. *J Psychopharmacol* 2016; 30(8):717–748.
-2. Guideline on metformin for prevention of antipsychotic-induced weight gain (PROGRESS group, St John of God/St Vincent's/UCD). *Schizophr Bull* 2025; 51(5):1201 (guideline algorithm).
-3. Fabiano N, Wong S, Zhou C, et al. Efficacy, tolerability, and safety of xanomeline-trospium chloride for schizophrenia: a systematic review and meta-analysis. *Eur Neuropsychopharmacol* 2025; 92:62–73.
-4. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025; Chapter 1 (Antipsychotic-induced weight gain; Treatment of antipsychotic-induced weight gain; Diabetes and impaired glucose tolerance; Effects on plasma lipids); Chapter 2 (Physical monitoring in bipolar disorder).
-5. Pillinger T, McCutcheon RA, Vano L, et al. Comparative effects of 18 antipsychotics on metabolic function in patients with schizophrenia. *Lancet Psychiatry* 2020; 7:64–77.
-6. Alberti KG, Eckel RH, Grundy SM, et al. Harmonizing the metabolic syndrome. *Circulation* 2009; 120:1640–1645.
+1. Cooper SJ, Reynolds GP, et al. BAP guidelines on the management of weight gain, metabolic disturbances and cardiovascular risk associated with psychosis and antipsychotic drug treatment. *J Psychopharmacol* 2016; 30(8):717–748.
+2. PROGRESS group (St John of God, UCD, HRB, St Vincent's University Hospital). Guideline on metformin for prevention of antipsychotic-induced weight gain. *Schizophr Bull* 2025; 51(5):1201 (Figure 1, guideline algorithm).
+3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025; Chapter 1:
+   - Antipsychotic-induced weight gain, pp. 141–142 (Table 1.31);
+   - Treatment of antipsychotic-induced weight gain, pp. 144–146 (Table 1.32);
+   - Effects on plasma lipids, pp. 169–171;
+   - Diabetes and impaired glucose tolerance, pp. 174–176.
+4. Mishra KK, Sawant N, Garg S. Management of psychiatric disorders in patients with endocrine disorders. *Indian J Psychiatry* 2022; 64(Suppl 2):S402–S413 (Tables 4 and 6; Figure 6).
+5. "Neuropsychiatric aspects of endocrinal disorders": CLP departmental presentation (slides 61–68).

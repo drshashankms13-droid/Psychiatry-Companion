@@ -192,3 +192,8 @@ These need your confirmation that Maudsley-only (prescribing focus) is acceptabl
 | 3 | **Parkinson's source** (Weintraub *BMJ* 2022 or UpToDate), to fix the unsourced answer | 17, 18 | 7 |
 | 4 | **FND / PNES review** | 31–34 | 9 |
 | 5 | **ICHD-3 + migraine UpToDate** | 64 | 7 |
+
+### Answered from already-held sources (after batch 1)
+- Family 55, breaking bad news (p3-68863715): Rosenzweig 2012 (SPIKES) only. Still needs a psycho-oncology source.
+- Family 43, metabolic disorders in schizophrenia (p3-124a6b89): BAP 2016, PROGRESS metformin guideline 2025, Maudsley 15e, IPS endocrine CPG.
+- Family 62, anticonvulsants in psychiatry (p3-9359b871) and lithium neurotoxicity (p3-fff05a15): Maudsley 15e and epilepsy slides. Still needs a SILENT/lithium-toxicity review.
