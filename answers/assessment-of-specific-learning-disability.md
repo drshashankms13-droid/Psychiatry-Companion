@@ -3,7 +3,7 @@ title: Assessment of (specific) learning disability
 covers:
   - p1-c48837f8
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -95,9 +95,11 @@ A typical cascade: dyslexia → poor grades → punishment at home and school �
 
 **8. Certification under the RPwD Act 2016** (after a teacher screen at class 3 or age 8) [2]:
 - Paediatrician: vision, hearing and neurological examination.
-- Psychologist: **IQ ≥85** (MISIC or WISC-III, as notified).
+- Psychiatrist: rule out comorbidities and mimics (emotional and behavioural disorders) [6].
+- Psychologist: **IQ ≥85** (2024 guidelines: MISIC, **WISC-IV**, **NIEPID Indian Test of Intelligence**, BKT or VSMS) [6].
 - **NIMHANS battery** for SLD.
-- A psychiatrist was added to the board by a 2020 amendment.
+- **NIMHANS battery or the Grade Level Assessment Device (GLAD)**; SLD is diagnosed when the child functions **3 SD below the current class**, with normal vision and hearing, no mimicking emotional or behavioural disorder, and adequate opportunity to learn [6].
+- Certification from age 8; repeat in Class X and Class XII if needed; lifelong after 18. The board includes a psychiatrist or child psychiatrist [6].
 - This allows board exemptions and concessions.
 
 ### Management linked to assessment
@@ -201,7 +203,7 @@ A typical cascade: dyslexia → poor grades → punishment at home and school �
 ### Critical appraisal
 - **Construct debate:** SLD is "one of the least understood and most debated disabling conditions" (Lyon 1996). There is **no natural cut-point**, because academic skills are continuously distributed [2].
 - **Discrepancy vs response-to-intervention:** IQ discrepancy has poor validity, and verbal IQ is depressed by the language deficit itself [2].
-- **RPwD certification problems** (Kishore et al. 2021) [2]:
+- **RPwD certification problems** (Kishore et al. 2021, written about the 2018 guidelines) [2]. The **2024 revision** [6] addressed some of these: it now allows WISC-IV and the NIEPID test, adds GLAD as an alternative achievement tool, makes the psychiatrist's role explicit, and says the tools apply at all ages until new scales are validated. The fixed IQ ≥85 threshold and the lack of vernacular tools remain:
   - Mandated tests (MISIC, unrevised since 1969; WISC-III, no Indian norms) are outdated.
   - The fixed **IQ ≥85** threshold excludes children with lower IQ caused by the test's verbal load.
   - The NIMHANS Index is limited to ages 5–12, English and maths; there are **no vernacular-language tools**.
@@ -222,7 +224,7 @@ A typical cascade: dyslexia → poor grades → punishment at home and school �
   - Children with **benchmark disability** have the right to free education (Section 31).
   - Section 16 places duties on educational institutions: reasonable accommodation, monitoring, and suitable modifications in exams.
   - Reservation: 1% of posts is shared with autism, intellectual disability and mental illness [2].
-- **Certification flow:** school screening committee (headed by the principal) → paediatrician → psychologist (IQ) → NIMHANS battery → certificate. Psychiatrists were added through the 2020 amendment [2].
+- **Certification flow (2024 guidelines):** school screening committee (headed by the principal) → paediatrician (vision, hearing, neurological) → psychiatrist (comorbidity and mimics) → psychologist (IQ ≥85) → NIMHANS battery or GLAD → Medical Board certificate [6]. Psychiatrists were first added to the board through the 2020 amendment [2].
 - **NEP 2020** emphasises early identification and support for children with SLD.
 - **Public awareness:** the film *Taare Zameen Par* (2007) raised awareness. A psychiatric commentary is in the *Indian Journal of Psychiatry* (Rao & Krishna 2008) [1].
 - **Resources:** Maharashtra Dyslexia Association; Madras Dyslexia Association; NIMHANS Child and Adolescent Psychiatry and Clinical Psychology departments [1].
@@ -242,3 +244,4 @@ A typical cascade: dyslexia → poor grades → punishment at home and school �
 3. American Psychiatric Association. *DSM-5-TR*. 2022; Specific learning disorder.
 4. World Health Organization. *ICD-11 Clinical Descriptions and Diagnostic Requirements*. 2024; Developmental learning disorder (6A03).
 5. Government of India. *The Rights of Persons with Disabilities Act, 2016*; Guidelines for assessment and certification of specified disabilities (Gazette notification, 2018; amended 2020).
+6. Ministry of Social Justice and Empowerment (DEPwD). *Guidelines for assessing the extent of specified disability under the RPwD Act, 2016*. Gazette of India, Extraordinary, 12/14 March 2024 (supersedes 2018). Section on specific learning disabilities. (User's PDF.)
