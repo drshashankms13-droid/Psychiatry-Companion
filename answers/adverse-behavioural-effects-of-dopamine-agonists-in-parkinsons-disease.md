@@ -3,18 +3,25 @@ title: Adverse behavioural effects of dopamine agonists in Parkinson's disease
 covers:
   - p3-b1a8b8ba
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only two sources:
+> **Source discipline:** this answer uses three sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed. [2]:
 >    - "Parkinson's disease", pp. 840–842;
 >    - Table 15.3 "Psychiatric adverse effects of drugs" (antiparkinsonian section), pp. 970–971;
 >    - sexual disinhibition in dementia, p. 681.
 >
-> **Major gap:** neither source describes **impulse-control disorders** (gambling, compulsive shopping, binge eating, hypersexuality, punding) in detail. Maudsley only states that agonists raise the risk. ICD prevalence, risk factors and management are **left blank**. This is the core of this question, so please upload a source (e.g., UpToDate "Impulse control disorders in Parkinson disease" or Weintraub 2010).
+> 3. *Continuum* 2022; 28(5, Movement Disorders) [3]:
+>    - Thaler A, Alcalay RN, "Diagnosis and Medical Management of Parkinson Disease", pp. 1290, 1295;
+>    - Weintraub D, Irwin D, "Cognitive and Neuropsychiatric Symptoms in PD and DLB", pp. 1320–1321;
+>    - Rawls AE, "Surgical Therapies", pp. 1304–1305.
+>
+> These fill the ICD gap in [1] and [2]. See "Impulse control disorders (Continuum 2022)".
+>
+> **Remaining gaps:** DOMINION-type risk-factor data (male sex, novelty seeking); amantadine for ICDs.
 
 ## Exam answer
 
@@ -75,6 +82,24 @@ reviewer:
 5. **Dementia:** cholinesterase inhibitor [2].
 6. **On reduction:** watch for withdrawal dysphoria and depression [1, 2].
 
+### Impulse control disorders (Continuum 2022) [3]
+- **Agonists available:** pramipexole and ropinirole (tablets), **rotigotine** (patch), **apomorphine** (sublingual film or subcutaneous). Ergot agonists are rarely used (**cardiac valvulopathy**).
+- **Side effects:** nausea, leg oedema, **orthostatic hypotension**, **sleep attacks**, and **ICDs**:
+  - **gambling, hoarding, excessive shopping, binge eating, hypersexuality**;
+  - devastating psychological, social, **legal and financial** consequences.
+- **Epidemiology:**
+  - **cross-sectional prevalence 14%**; **5-year cumulative incidence up to 46%**;
+  - **seen only in treated patients**; **highest risk with dopamine agonists**.
+- **Related behaviours:** **dopamine dysregulation syndrome** (compulsive medication use) and **punding** (repetitive non-goal-directed activity).
+- **Risk factors:** **younger age**; **premorbid behavioural addiction or drug abuse**.
+- **Screening:** ask about the whole range of behaviours and comorbid disorders. **QUIP-RS** (gambling, sex, eating, buying, hobbyism, punding, medication abuse) and the **Ardouin Scale** (hyper- and hypodopaminergic behaviours).
+- **Management:**
+  1. **slowly taper and stop the dopamine agonist** (the mainstay), offsetting with **more levodopa**; also review **amantadine and MAO-B inhibitors**;
+  2. watch for **dopamine agonist withdrawal syndrome (DAWS)**: agitation, anxiety, depression, fatigue, **orthostatic hypotension**, irritability, **despite extra levodopa**;
+  3. if tapering fails: **STN-DBS** (allows big reductions in dopaminergic drugs), though STN-DBS itself can cause ICDs and apathy;
+  4. **naltrexone** and **CBT**: positive early signals.
+- **Apathy** is the "hypodopaminergic" counterpart and can emerge when agonists are withdrawn or after STN-DBS.
+
 **Conclusion.** Dopamine agonists:
 - spare levodopa and delay dyskinesias;
 - carry greater risk than levodopa of psychosis (two- to threefold), ICDs, hypersexuality and withdrawal mood disturbance;
@@ -89,9 +114,8 @@ Management is careful dose reduction, then clozapine or pimavanserin for persist
 - Bromocriptine: caution in peripheral vascular disease; contraindicated in ischaemic heart disease; postural hypotension and nausea (domperidone helps).
 
 ### Not covered by the sources (deliberately left blank)
-- **ICDs:** prevalence (e.g., figures from DOMINION), specific types (pathological gambling, compulsive buying, binge eating, punding, hobbyism), risk factors (young age, male sex, novelty seeking, prior addiction), screening (QUIP), and management (agonist taper, amantadine, CBT).
-- **Dopamine agonist withdrawal syndrome (DAWS)** as a defined syndrome. Maudsley cites Rabinak 2010 but gives no details.
-- Agonist-related **sudden sleep attacks**.
+- DOMINION study figures and other risk factors (male sex, novelty seeking).
+- Amantadine as a treatment for ICDs.
 
 ## References
 
@@ -100,3 +124,4 @@ Management is careful dose reduction, then clozapine or pimavanserin for persist
    - Chapter 10, "Parkinson's disease", pp. 840–842;
    - Chapter 15, Table 15.3, pp. 970–971;
    - BPSD sexual disinhibition, p. 681.
+3. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): Thaler A, Alcalay RN. Diagnosis and medical management of Parkinson disease, 1281–1300 (dopamine agonists and DAWS, p. 1290; impulse control disorders, p. 1295); Weintraub D, Irwin D. Cognitive and neuropsychiatric symptoms in PD and DLB, 1314–1332 (ICDs and apathy, pp. 1320–1321); Rawls AE. Surgical therapies for Parkinson disease, 1301–1313 (pp. 1304–1305).

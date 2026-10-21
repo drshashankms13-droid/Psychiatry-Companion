@@ -8,13 +8,14 @@ covers:
   - p3-dc17344a
   - p3-868b6f08
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only two sources:
+> **Source discipline:** this answer uses three sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Psychiatric aspects of parkinsonism", pp. 761–772 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed. (2025), "Parkinson's disease", pp. 840–842 [2].
+> 3. *Continuum* 2022; 28(5, Movement Disorders): Weintraub D, Irwin D, "Diagnosis and Treatment of Cognitive and Neuropsychiatric Symptoms in Parkinson Disease and Dementia With Lewy Bodies", pp. 1314–1332; Rawls AE, "Surgical Therapies" (DBS), pp. 1302–1305; Chahine LM, "Prodromal α-Synucleinopathies" [3]. See the "Update from Continuum 2022" section.
 >
 > **About the two sources:**
 > - Lishman is 16 years older than Maudsley. Where they disagree, both views are given and the disagreement is flagged.
@@ -264,6 +265,71 @@ Psychosis and dementia predict each other [2].
 - Daytime REM intrusions corresponding to hallucinations.
 - These are established risk factors for psychosis.
 
+### Update from Continuum 2022 [3]
+**Cognition:**
+- Dementia (PDD) eventually develops in the **overwhelming majority**; **up to a third have PD-MCI**, which predicts faster progression to dementia and higher mortality. **10–20%** have deficits at diagnosis.
+- Deficits can involve **any domain** (not only executive). **Fluctuations** occur.
+- **Validated tools:** PD-CRS, PANDA, SCOPA-COG, DRS-2, **MoCA**; PDAQ-15 and PD-CFRS for function.
+- **Initial PD drug class does not affect long-term dementia**, but **anticholinergic burden** worsens cognition.
+- **Treatment:**
+  - **rivastigmine**: one large positive RCT, with modest effect;
+  - donepezil numerically similar (negative overall);
+  - **memantine: no clear benefit**;
+  - **no drug works for PD-MCI**;
+  - treat vascular risk, **orthostatic hypotension** and **sleep apnoea**;
+  - cognitive and physical training.
+- **AD co-pathology** (up to 50% of Lewy body disorders) brings earlier memory and language deficits and a worse prognosis.
+
+**Depression:**
+- **About 20%** at any time; **30–50%** cumulative; **60% in late-stage disease**; can occur **in the prodrome**.
+- **Scales:** BDI, HAM-D, MADRS, GDS, HADS (with PD-specific cut-offs).
+- **Treatment:**
+  - **SSRIs, SNRIs and TCAs** are comparably effective, and **none worsens motor function**;
+  - **MAO-B inhibitors are not supported as monotherapy**; **dopamine agonists** may help mood;
+  - **CBT** (including **telemedicine CBT for 3 months**), aerobic exercise, **bright light therapy**;
+  - rTMS mixed;
+  - **ECT** is effective and safe for severe or refractory depression, with **temporary motor improvement**.
+
+**Anxiety:**
+- **30–35%**; a third have more than one disorder (GAD commonest; panic, social phobia, agoraphobia). **65–90% overlap with depression.**
+- **About 35%** have anxiety or depression as **"off"-period non-motor fluctuations**.
+- **Parkinson Anxiety Scale** (12 items).
+- **No pharmacological RCTs:** SSRIs used, sometimes lorazepam or alprazolam. **CBT** was superior in the first RCT; **mindfulness-based yoga** helps.
+
+**Psychosis:**
+- **Minor hallucinations** (presence, passage, illusions) **up to 45%**; visual hallucinations **15%**; non-visual hallucinations 35%; delusions 4%; **cumulative up to 60%**. Linked to **institutionalisation and mortality**. Minor hallucinations occur even in untreated PD.
+- **Scales:** PPRS, PPQ, SAPS-PD.
+- **Management:**
+  - **reduce dopamine replacement**; rule out **delirium**; cut anticholinergics;
+  - **pimavanserin** (5-HT2A inverse agonist): **FDA-approved for PD psychosis**;
+  - **quetiapine**: little RCT evidence but the most used;
+  - **clozapine**: effective but limited by blood monitoring;
+  - **ECT** improves psychosis, mood and motor symptoms without cognitive harm;
+  - AChE-Is failed to prevent psychosis in one study;
+  - antipsychotics may **increase mortality** in PD, as in AD.
+
+**Impulse control disorders (ICDs):**
+- Gambling, buying, sexual behaviour, eating: **cross-sectional prevalence 14%**, **5-year cumulative incidence up to 46%**, **only in treated patients**, highest with **dopamine agonists**.
+- Related: dopamine dysregulation syndrome and punding.
+- **Risk factors:** younger age; prior behavioural addiction or drug abuse.
+- **Scales:** **QUIP-RS**; Ardouin Scale.
+- **Management:**
+  - **taper and stop the dopamine agonist** (watch for **dopamine agonist withdrawal syndrome**), raising levodopa;
+  - if that fails, **DBS** (allows large dopaminergic reductions);
+  - **naltrexone** and **CBT** show early promise.
+
+**Apathy:**
+- **15–70% (mean 35%)**; Apathy Evaluation Scale (AES-12PD), LARS.
+- Treatment: dopamine agonists (mixed), AChE-Is (preliminary), stimulants (no trials).
+- **STN-DBS increases apathy**, especially with pre-operative ICDs. Pre-operative apathy raises the risk of new ICDs.
+
+**DBS (psychiatric aspects):**
+- STN-DBS may **worsen depression and anxiety** and cause **ICDs**;
+- a **psychiatrist and neuropsychologist** are part of the candidacy team;
+- **dementia excludes surgery**.
+
+**Prodromal features:** **depression, anxiety and RBD** may precede motor PD. In antidepressant-associated RBD, the depression itself may be prodromal.
+
 **Conclusion.** In PD, psychiatric disorders are:
 - **common:** depression, anxiety and apathy (often prodromal); dementia and psychosis later;
 - **partly intrinsic** to the neurodegeneration;
@@ -289,15 +355,12 @@ They are the main determinants of quality of life and institutionalisation. Mana
 | Onset | Usually years into treatment; older, cognitively impaired | Soon after starting, especially in the elderly or when added to levodopa |
 
 ### Not covered by the sources (deliberately left blank)
-- **Impulse-control disorders** (pathological gambling, compulsive shopping, binge eating, punding): prevalence, risk factors, management. Maudsley mentions only the risk; Lishman covers only DDS. A separate DA-agonist answer covers what exists.
-- **Psychiatric effects of subthalamic DBS** (mania, suicide, apathy).
-- **Rating scales** (e.g., MDS-UPDRS Part I, PPRS, NMSS).
-- **MDS clinical criteria for PD dementia and PD-MCI.**
-- Specific anxiety disorders (panic, social phobia) in PD.
-
-Upload a recent review (e.g., Weintraub et al., *BMJ* 2022, or UpToDate "Neuropsychiatric manifestations of Parkinson disease") if you want these covered.
+- **MDS clinical criteria for PDD and PD-MCI** (text). Continuum cites them but does not list the criteria.
+- Suicide risk after STN-DBS.
+- Specific doses of pimavanserin and clozapine in PD (not given in [3]).
 
 ## References
 
 1. Henderson M, Mellers JDC. Movement disorders. In: David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry: A Textbook of Neuropsychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, pp. 761–772 (psychiatric aspects of parkinsonism; affective disorder; psychoses; apathy; dopamine dysregulation).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 10, "Parkinson's disease", pp. 840–842 (Tables 10.13, 10.14; Box 10.4).
+3. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): Weintraub D, Irwin D. Diagnosis and treatment of cognitive and neuropsychiatric symptoms in Parkinson disease and dementia with Lewy bodies, 1314–1332 (cognition, pp. 1315–1318; depression and anxiety, pp. 1318–1320; psychosis, ICDs, apathy, pp. 1320–1321); Rawls AE. Surgical therapies for Parkinson disease, 1301–1313 (pp. 1302–1305); Chahine LM. Prodromal α-synucleinopathies, 1268–1280 (p. 1271).

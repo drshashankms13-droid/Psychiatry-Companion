@@ -3,15 +3,17 @@ title: Behavioural and psychological symptoms of dementia (BPSD) — evaluation 
 covers:
   - p3-5f99c337
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only two sources:
+> **Source discipline:** this answer uses three sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, "Behavioural and psychological symptoms", pp. 549–551, and "Management", pp. 591–595 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Management of behavioural and psychological symptoms of dementia (BPSD)", pp. 667–675 (Table 6.6), and sexual disinhibition, p. 681 [2].
 >
-> **Gaps:** the IPS clinical practice guideline on BPSD, Indian service models, and the DICE or other structured approaches are not in these sources.
+> 3. *Continuum* 2024; 30(6, Dementia): Marshall GA, "Neuropsychiatric Symptoms in Dementia", pp. 1744–1760 (Table 7-1, p. 1754), and Geldmacher DS, "Treatment of Alzheimer Disease" (IPA agitation algorithm, Figures 11-2 and 11-3, pp. 1836–1837) [3].
+>
+> **Gaps:** the IPS clinical practice guideline on BPSD, Indian service models and the DICE approach are not in these sources. (The **IPA "Investigate, Plan, Act"** approach from [3] is included.)
 
 ## Exam answer
 
@@ -124,6 +126,80 @@ reviewer:
 - residential care when needed;
 - address carer stress (a quarter of carers have significant stress).
 
+### Update from Continuum 2024 [3]
+**Course and prognosis:**
+- **New late-life neuropsychiatric symptoms** usually signal an emerging neurodegenerative disease.
+- **Mild behavioural impairment (MBI)**: a prodrome like MCI, assessed with the **MBI Checklist** across 5 domains:
+  1. apathy;
+  2. mood and anxiety;
+  3. agitation and irritability;
+  4. disinhibition and loss of empathy;
+  5. delusions and hallucinations.
+  - MBI predicts cognitive decline and dementia and is linked to AD biomarkers. **Mainly a research construct.**
+- **Depression, apathy, anxiety and agitation** predict progression from normal cognition to MCI and from MCI to dementia. Symptom burden predicts **ADL loss, carer depression and burden, and institutional placement**.
+
+**Profiles by dementia type:**
+
+| Dementia | Early | Later |
+| --- | --- | --- |
+| AD | Depression, anxiety, apathy, irritability | Agitation, sleep disturbance, delusions; then hallucinations, disinhibition, aberrant motor behaviour |
+| Vascular | Irritability, depression, sleep disturbance | Anxiety, apathy |
+| Lewy body | **Well-formed colourful visual hallucinations**, apathy, depression, anxiety, **RBD**, daytime sleepiness | Delusions, agitation |
+| bvFTD | Apathy, **loss of empathy, disinhibition**, aberrant motor behaviour, **sweet/carbohydrate craving**; often **misdiagnosed as primary psychiatric illness** (e.g., "late-onset bipolar", Case 7-1) | Agitation, depression, anxiety |
+| PPA variants | Semantic: disinhibition, compulsions; logopenic: anxiety, depression, apathy; non-fluent: anxiety, depression, then disinhibition | — |
+
+**Assessment tools:**
+- **Neuropsychiatric Inventory** (12 items, rated for frequency, severity and carer distress; informant-based) or the **NPI-Q** brief form as a first screen;
+- depression: GDS, BDI, PHQ-9; **Cornell Scale (CSDD)** in advanced dementia;
+- anxiety: GAI, BAI, GAD-7, **RAID**;
+- apathy: AES, Apathy Inventory, LARS;
+- agitation: **Cohen-Mansfield Agitation Inventory**.
+
+**Neurobiology:**
+- frontal–subcortical networks;
+- apathy is linked to **anterior cingulate** atrophy;
+- hallucinations are linked to **Lewy body pathology**; depression and agitation to **AD tau pathology**.
+
+**IPA "Investigate, Plan, Act" agitation algorithm (2023)** [3]:
+- **Investigate** the behaviour (timing, precipitants, harm potential), **plan** with the carer, **act** through a multidisciplinary plan. Repeat until the behaviour is acceptable.
+- **Psychosocial care first and throughout.** Curtail drugs that may cause agitation; optimise AChE-Is in AD and DLB.
+- **Drug panels by type of agitation:**
+  1. **nocturnal or circadian (sundowning)**: **trazodone**, then a **dual orexin receptor antagonist**;
+  2. **mild to moderate, or with mood features**: **citalopram**;
+  3. **moderate to severe**: **antipsychotics**, then **carbamazepine or gabapentin**, then **prazosin, dextromethorphan/quinidine or nabilone**, then combinations;
+  4. **danger of harm**: **IM antipsychotics**, **ECT**.
+
+**Drug notes** (Table 7-1; start low, go slow):
+- **First check the response to AChE-Is and/or memantine**, which reduce overall NPS. **Rivastigmine** is approved for PD dementia.
+- **SSRIs** (escitalopram 5–20 mg, **citalopram 20–30 mg**, sertraline 25–200 mg):
+  - for depression, anxiety, irritability;
+  - **citalopram and escitalopram reduce agitation**, and are **preferred over antipsychotics for non-psychotic agitation**;
+  - avoid paroxetine;
+  - **SSRIs can worsen apathy**.
+- **Bupropion** for depression with apathy.
+- **Mirtazapine** 7.5–15 mg for sleep, 30–45 mg for depression.
+- **Trazodone** from 50 mg at night for insomnia; sometimes for agitation (works within 30–60 minutes).
+- **Apathy:** **methylphenidate** (ADMET 2 trial: improved apathy and global function; Case 7-2), amphetamine.
+- **Mood stabilisers** for lability, agitation or mania: **lamotrigine** (best tolerated; slow titration), valproate (fast-acting but more side effects), gabapentin.
+- **Anxiolytics:**
+  - **buspirone** for GAD;
+  - if a benzodiazepine is needed, short-term **lorazepam or clonazepam** (less dependence than diazepam or alprazolam); risk of delirium and paradoxical agitation.
+- **Antipsychotics:**
+  - quetiapine (sedating), **risperidone** (low dose; EPS at higher doses), olanzapine, aripiprazole;
+  - **brexpiprazole: FDA 2023 for AD agitation** (not psychosis); boxed warning;
+  - **pimavanserin: FDA 2016 for PD psychosis only**;
+  - **avoid in Lewy body disease** if possible;
+  - **boxed warning** (cerebrovascular events, mortality); **taper after stability**;
+  - discuss risk vs quality of life with the family.
+- **Dextromethorphan/quinidine:** FDA 2010 for **pseudobulbar affect**.
+- **Severe risk:** inpatient **geriatric psychiatry** admission.
+- **Education alone** can be enough, e.g., non-distressing DLB hallucinations need no drug.
+
+⚠️ **Discrepancies, not reconciled:**
+- **Citalopram dose:** Continuum lists 20–30 mg/day; Maudsley caps it at **20 mg in the elderly** (QT).
+- **Mirtazapine:** Maudsley reports no benefit for agitation or sleep (possible higher mortality); Continuum uses it for insomnia and depression.
+- **Pimavanserin:** Maudsley cites one RCT in AD psychosis; Continuum notes FDA approval only for PD psychosis.
+
 **Conclusion.** BPSD affect over 90% of people with dementia and drive carer burden and institutionalisation. Evaluation is:
 - precise description;
 - **exclusion of pain, infection, constipation, drugs and delirium**;
@@ -143,10 +219,11 @@ Management is **person-centred non-drug intervention first**. Drugs are targeted
 
 ### Not covered by the sources (deliberately left blank)
 - IPS clinical practice guideline on BPSD and Indian care models.
-- Structured frameworks (e.g., DICE: Describe, Investigate, Create, Evaluate) and Newcastle model detail.
-- NPI scoring details; legal frameworks for covert medication in India.
+- The DICE framework (Describe, Investigate, Create, Evaluate) and Newcastle model detail.
+- Legal frameworks for covert medication in India.
 
 ## References
 
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, pp. 549–551 (BPSD; Table 9.1), 571–573 (DLB neuroleptic sensitivity), 591–595 (assessment; management).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 6, "Management of behavioural and psychological symptoms of dementia (BPSD)", pp. 667–675 (Table 6.6); sexual disinhibition, p. 681.
+3. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): Marshall GA. Neuropsychiatric symptoms in dementia, 1744–1760 (MBI and profiles, p. 1746; assessment, pp. 1748–1749; treatment, pp. 1750–1757; Table 7-1, p. 1754); Geldmacher DS. Treatment of Alzheimer disease, 1823–1844 (IPA approach and algorithm, Figures 11-2 and 11-3, pp. 1836–1837).
