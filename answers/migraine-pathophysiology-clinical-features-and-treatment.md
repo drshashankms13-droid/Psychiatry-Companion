@@ -4,19 +4,21 @@ covers:
   - p3-4ef4e313
   - p3-f1a45779
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Migraine" (Box 8.7), pp. 499–512, and Chapter 6, migraine vs epilepsy, p. 360 [1]; plus one interaction note from *The Maudsley Prescribing Guidelines*, 15th ed. [2].
+> **Source discipline:** this answer uses three sources:
+> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Migraine" (Box 8.7), pp. 499–512, and Chapter 6, migraine vs epilepsy, p. 360 [1].
+> 2. One interaction note from *The Maudsley Prescribing Guidelines*, 15th ed. [2].
+> 3. *Continuum* vol. 24, no. 4, **Headache** (2018): acute treatment (Vargas), preventive therapy (Schwedt), the premonitory phase (Karsan et al.), aura (Charles) and postdrome (Bose et al.) [3]. The **"Update from Continuum 2018"** section below draws on these.
 >
-> ⚠️ **Major gap: treatment is dated and brief in the source (2009).** **Not in the source:**
-> - **ICHD-3 (2018)** criteria; doses of triptans, NSAIDs and prophylactics; the **medication-overuse headache** threshold rules;
-> - **anti-CGRP monoclonal antibodies** (erenumab, fremanezumab, galcanezumab, eptinezumab), **gepants** (ubrogepant, rimegepant, atogepant) and **lasmiditan**;
-> - **topiramate**, **candesartan**, **onabotulinumtoxinA** for chronic migraine;
-> - neuromodulation devices; menstrual migraine and pregnancy-specific regimens.
+> ⚠️ **Remaining gaps** (not in any held source):
+> - full **ICHD-3** criteria text (Lishman gives IHS 2004);
+> - **CGRP antibodies and gepants approved after mid-2018** (galcanezumab, fremanezumab, eptinezumab, ubrogepant, rimegepant, atogepant) and lasmiditan's approval;
+> - menstrual migraine regimens.
 >
-> Lishman mentions only that CGRP antagonists "may be effective" (one 2004 trial) and occipital nerve stimulation. Please upload a current headache source (e.g., the BASH 2019 guideline or ICHD-3) if you want these.
+> ⚠️ **Discrepancy:** Maudsley 15e lists **SSRI plus triptan** as a serotonin-syndrome interaction [2]. Continuum 2018 cites an AHS position paper concluding the data are **inadequate to support added risk** (Level U) [3]. **Not reconciled; flagged for the reviewer.**
 
 ## Exam answer
 
@@ -121,20 +123,78 @@ reviewer:
 - address **over-medication** and depression;
 - **occipital nerve stimulation** may help.
 
+### Update from Continuum 2018 [3]
+**Phases of the attack:**
+- **Premonitory phase** (fatigue, **yawning**, neck discomfort, poor concentration, thirst, urinary frequency; seen even in children as young as 18 months):
+  - imaging shows **hypothalamic, substantia nigra, dorsal pontine and limbic** activation **before pain**, with altered hypothalamic–brainstem connectivity;
+  - ask about it routinely, since it allows early treatment.
+- **Aura:**
+  - begins and spreads **gradually**; **visual, sensory, language, motor or brainstem**; highly variable between attacks;
+  - propagates **linearly along a gyrus or sulcus**;
+  - **cortical spreading depression is a valid animal model but has never been definitively shown in humans**, and aura does not appear to trigger the headache;
+  - **"migraine with brainstem aura" replaces "basilar migraine" (ICHD-3)**;
+  - the only genes identified so far are those of **familial hemiplegic migraine**;
+  - linked to **patent foramen ovale and stroke**;
+  - **no evidence that triptans are contraindicated in aura**.
+- **Postdrome:**
+  - **81–94%** of patients (tiredness, poor concentration, neck stiffness); widespread reduced cerebral blood flow;
+  - triptans do not switch off the underlying diencephalic and brainstem activity;
+  - **not influenced by anxiety or depression**.
+
+**Acute treatment:**
+- **Stratified care** (the patient matches the drug to attack severity) gives better satisfaction and lower cost than step care.
+- **Highest evidence:** all **triptans** (2-hour pain relief **42–76%** vs 27% placebo), **acetaminophen 1000 mg**, **aspirin 500–1000 mg**, **ibuprofen 200–400 mg**, **naproxen 500–550 mg**, **diclofenac 50–100 mg**, **sumatriptan/naproxen 85/500 mg**, **intranasal dihydroergotamine**.
+  - **Aspirin plus metoclopramide 10 mg** is useful when nausea is prominent.
+- **Triptan contraindications** (2018 list): stroke, MI, coronary artery disease, **hemiplegic migraine**, uncontrolled hypertension, **migraine with brainstem aura**, peripheral vascular disease. Avoid rizatriptan, zolmitriptan and sumatriptan **within 14 days of an MAOI**.
+- **Avoid routinely:** opioids and butalbital compounds.
+- **Non-oral options** when there is vomiting or rapid peak: nasal or injectable triptans; parenteral **metoclopramide, prochlorperazine**, sumatriptan in the emergency department.
+- **Troubleshooting:** under-dosing, late treatment, no repeat dose, wrong route. Use the **mTOQ-4** to assess response; poor efficacy predicts chronic migraine.
+
+**Prevention:**
+- **Indications:**
+  - **3 or more disabling headache days a month** not consistently responsive to acute treatment, or **6–8 or more headache days a month**;
+  - contraindicated acute drugs; brainstem aura or hemiplegic migraine;
+  - risk of medication-overuse headache.
+- **Options:**
+
+| Drug | Daily dose | AAN level / CHS recommendation |
+| --- | --- | --- |
+| Propranolol | 80–240 mg | A / strong |
+| Metoprolol | 100–200 mg | A / strong |
+| Topiramate | 50–200 mg | A / strong |
+| Amitriptyline | 10–200 mg | B / strong |
+| Divalproex/valproate | 500–2000 mg | A / **weak** (teratogenic, hepatotoxic) |
+| Venlafaxine | 75–225 mg | B / weak |
+| Candesartan | 16–32 mg | C / strong |
+| OnabotulinumtoxinA | 155 U every 12 weeks (**chronic migraine only**) | A |
+| **Erenumab** (CGRP-receptor antibody, FDA May 2018) | 70 or 140 mg monthly | — |
+| Magnesium citrate / riboflavin / coenzyme Q10 | 400–600 / 400 / 300 mg | B / B / C |
+
+- **Topiramate** is contraindicated with kidney stones. **Amitriptyline** is relatively contraindicated in obesity (weight gain).
+- **Benefit takes 2–3 months at target dose.** Adherence is poor.
+- **Behavioural therapies** (relaxation, biofeedback, **CBT**: AAN grade A); **CBT plus propranolol** works better than either alone.
+- **Lifestyle:** regular routine, **150 minutes a week of aerobic exercise**, headache diary, **2–3 months off caffeine**, treat sleep disorders and obesity.
+
+**Chronic migraine and medication overuse:**
+- **Chronic migraine:** **15 or more headache days a month, with 8 or more migraine days**.
+- **Medication overuse:**
+  - **15 or more days a month** for simple analgesics;
+  - **10 or more days a month** for triptans, ergots, combination analgesics, opioids or mixed classes;
+  - treat with prevention, education, and a switch to a different acute class limited to **2–3 days a week**.
+
 **Conclusion.** Migraine is a common (12% per year), female-predominant, familial disorder of recurrent unilateral, pulsating, disabling headache with nausea and photo- or phonophobia (IHS criteria). A third have a visual or sensory aura. The modern model is:
 - neuronal hyperexcitability (ion-channel mutations in familial hemiplegic migraine);
 - **cortical spreading depression** for the aura;
 - **trigeminovascular activation with CGRP-mediated neurogenic inflammation** for the pain;
 - a **dorsolateral pontine generator**.
 
-Acute treatment is with **triptans** (avoid in IHD, uncontrolled hypertension, pregnancy), aspirin plus metoclopramide, or ergotamine. **Prophylaxis** (2 or more attacks a month) is propranolol first, then timolol, valproate or amitriptyline, with lifestyle regularisation, treatment of comorbid anxiety and depression, and relaxation or behavioural therapy. **Modern CGRP-targeted and other newer therapies are not covered by the source.**
+Acute treatment is with **triptans** (avoid in IHD, uncontrolled hypertension, pregnancy), aspirin plus metoclopramide, or ergotamine. **Prophylaxis** (2 or more attacks a month) is propranolol first, then timolol, valproate or amitriptyline, with lifestyle regularisation, treatment of comorbid anxiety and depression, and relaxation or behavioural therapy. Continuum 2018 adds stratified care, current dose ranges, prevention thresholds (3 or more disabling or 6–8 or more headache days a month), medication-overuse limits (10 or 15 days a month), candesartan, onabotulinumtoxinA for chronic migraine and the first anti-CGRP antibody (erenumab). **CGRP-pathway drugs approved after 2018 are not covered.**
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- ICHD-3 criteria; medication-overuse headache definitions (10 or 15 days a month by drug class).
-- Doses: sumatriptan, NSAIDs, propranolol, amitriptyline, topiramate, candesartan.
-- Anti-CGRP monoclonal antibodies, gepants, ditans; onabotulinumtoxinA (PREEMPT); neuromodulation.
+- Full ICHD-3 criteria text.
+- CGRP-pathway drugs approved after mid-2018; lasmiditan approval; long-term CGRP antibody safety.
 - Valproate in women of childbearing potential (current MHRA restrictions).
 
 ## References
@@ -143,3 +203,4 @@ Acute treatment is with **triptans** (avoid in IHD, uncontrolled hypertension, p
    - Chapter 6: p. 360 (migraine vs epilepsy);
    - Chapter 8, "Migraine": pp. 499–500 (definition; Box 8.7; epidemiology), 500–502 (clinical features; variants; course), 502–503 (stroke and epilepsy associations), 503–504 (pathophysiology), 510–511 (chronic migraine; differential diagnosis), 511–512 (treatment).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: antidepressant drug interactions (SSRIs with triptans and serotonin syndrome), p. 402.
+3. *Continuum (Minneap Minn)* 2018; 24(4, Headache): Karsan N, Bose P, Goadsby PJ. The migraine premonitory phase, 996–1008; Charles A. The migraine aura, 1009–1022; Bose P, Karsan N, Goadsby PJ. The migraine postdrome, 1023–1031; Vargas BB. Acute treatment of migraine, 1032–1051; Schwedt TJ. Preventive therapy of migraine, 1052–1065.

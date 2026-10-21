@@ -3,7 +3,7 @@ title: Psychiatric co-morbidity in migraine and its management
 covers:
   - p3-690c43a1
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -11,7 +11,13 @@ reviewer:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Migraine — psychiatric aspects" (Table 8.1), pp. 504–512 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., pharmacodynamic interactions (SSRI plus triptan → serotonin syndrome), p. 402 [2].
 >
-> **Gaps:** specific evidence for **which antidepressant to choose** in comorbid migraine–depression (amitriptyline and venlafaxine dual benefit, SSRI ineffectiveness for prophylaxis), **topiramate/valproate** in bipolar–migraine comorbidity, **CBT trial data** for migraine, and migraine with **bipolar disorder** (beyond Merikangas's bipolar-spectrum finding) are **not in the sources** in any detail.
+> **Gaps:** specific evidence for **which antidepressant to choose** in comorbid migraine–depression (dual-benefit evidence in comorbid depression specifically), **topiramate/valproate** in bipolar–migraine comorbidity, **CBT trial data** for migraine, and migraine with **bipolar disorder** (beyond Merikangas's bipolar-spectrum finding) are **not in the sources** in any detail.
+
+> **Added source:** *Continuum* 2018; 24(4, Headache): acute treatment (Vargas, pp. 1032–1051) and preventive therapy (Schwedt, pp. 1052–1065) [3].
+> - **Psychiatric disease** is a risk factor for **transition to more frequent (chronic) migraine** [3].
+> - **Amitriptyline** (10–200 mg/day; AAN level B, CHS strong) and **venlafaxine** (75–225 mg/day; AAN level B, CHS weak) are evidence-based migraine preventives [3].
+> - **Behavioural therapies** (relaxation, biofeedback, CBT) carry AAN grade A, especially when stress or behaviour drives attacks; **CBT plus propranolol** beats either alone [3].
+> - ⚠️ **SSRI/SNRI plus triptan:** Continuum (AHS position paper) finds the data **inadequate to support added serotonin-syndrome risk** (Level U; only 10 of 27 FDA-alert cases met criteria), which contradicts the Maudsley warning used below [2]. **Not reconciled; flagged for the reviewer.**
 
 ## Exam answer
 
@@ -114,3 +120,4 @@ reviewer:
 
 1. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 8, "Migraine": pp. 504–506 (anxiety and depression; Table 8.1), 506–507 (personality), 507–508 (psychological precipitants), 508–510 (psychiatric features of attacks; cognitive impairment), 510–511 (chronic migraine; differential diagnosis), 511–512 (treatment).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: pharmacodynamic interactions (fluoxetine with a triptan and serotonin syndrome), p. 402.
+3. Vargas BB. Acute treatment of migraine, pp. 1032–1051; Schwedt TJ. Preventive therapy of migraine, pp. 1052–1065. *Continuum (Minneap Minn)* 2018; 24(4, Headache).
