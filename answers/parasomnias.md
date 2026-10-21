@@ -2,6 +2,7 @@
 title: Parasomnias
 covers:
   - p3-a64c38f9
+  - p1-a64c38f9
 status: draft
 updated: 2026-10-21
 reviewer:
