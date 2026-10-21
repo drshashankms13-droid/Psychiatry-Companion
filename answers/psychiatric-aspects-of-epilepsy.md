@@ -3,8 +3,6 @@ title: Psychiatric aspects of epilepsy — peri-ictal and interictal disorders, 
 covers:
   - p3-23c3f077
   - p3-8e39965f
-  - p3-1b1ca9db
-  - p3-2e114bb0
 status: draft
 updated: 2026-10-21
 reviewer:
@@ -21,8 +19,9 @@ reviewer:
 >    - Sharma et al. 2020;
 >    - Maudsley 14th ed.
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., Chapter 10 "Epilepsy", pp. 811–817 [2].
+> 3. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 6, Epilepsy, pp. 333–349 and 377–380, added in the In-depth section [3].
 >
-> Where the two sources give different figures, both are shown. Nothing else has been added.
+> Where the sources give different figures, all are shown. Nothing else has been added. **The psychosis questions (p3-1b1ca9db, p3-2e114bb0) now have their own answer, `epilepsy-and-psychosis`.**
 
 ## Exam answer
 
@@ -89,7 +88,7 @@ reviewer:
 | Situational or cued attacks | No | Yes |
 | EEG | Helps diagnosis | May exclude epilepsy |
 
-**Automatisms (ILAE 2017):** more or less coordinated activity during impaired cognition, usually followed by amnesia. 80% last under 5 minutes; 12% over 15 minutes. Types:
+**Automatisms (ILAE 2017):** more or less coordinated activity during impaired cognition, usually followed by amnesia. 80% last under 5 minutes and a further 12% under 15 minutes [3]. Types:
 - oro-alimentary: chewing, lip smacking;
 - mimicry: laughter, fear;
 - gestural: fiddling, undressing;
@@ -298,7 +297,54 @@ Management principles:
   - mimic **psychosis** (illusions and hallucinations).
 - **NCSE** can present as fluctuating delirium; **EEG** is essential.
 
+### Lishman (2009): additional evidence [3]
+- **How common is psychiatric disorder?**
+  - **General practice:** 29% (Pond & Bidwell) and 48% (Edeh & Toone) had psychiatric morbidity, mostly minor affective.
+  - **Isle of Wight children:** 29% with uncomplicated epilepsy and **58% with additional brain lesions**, vs 6.8% of other children; vs under 12% of children with asthma, diabetes or heart disease. The excess points to brain dysfunction plus family factors.
+  - **Seizure-free patients are not at excess risk.** Depression 4% (seizure-free) vs 10% (under 1 seizure/month) vs 21% (more frequent seizures) (Jacoby).
+  - **Pre-surgical patients:** one-third have a current and another third a past psychiatric diagnosis.
+- **Fenton's classification:**
+  1. disorders due to the underlying brain disease;
+  2. peri-ictal (pre-ictal, ictal, postictal);
+  3. interictal (affective, schizophrenia-like, personality, dementia);
+  4. dissociative seizures.
+- **Depression:**
+  - major depression 17–21% in clinics; lifetime 24–35% in pre-surgical series;
+  - **bipolar disorder not over-represented** (under 1%);
+  - TLE- and laterality-specific links not substantiated;
+  - ASM causes (levetiracetam, tiagabine, topiramate, vigabatrin); **folate depletion**;
+  - **after temporal lobectomy, about one-third have transient de novo depression with anxiety and lability within weeks** (suicide risk; resolves within about 6 months);
+  - **depression is the strongest predictor of poor quality of life** with ongoing seizures.
+- **Anxiety:**
+  - as common as depression: agoraphobia, GAD, social phobia;
+  - OCD not over-represented;
+  - **"seizure phobia"** (agoraphobic avoidance and safety behaviours, rescue-benzodiazepine misuse) responds to **CBT**.
+- **Suicide:**
+  - SMR **3.5** (Nilsson 1997); earlier reviews 5× (up to 25× in selected samples);
+  - **psychiatric history ninefold**;
+  - **epilepsy onset before 18 gives RR 16** vs onset after 29;
+  - no link with epilepsy type or laterality.
+- **Personality:**
+  - Geschwind/Bear–Fedio traits are **not specific to TLE**; the BFI largely reflects general psychopathology;
+  - hypergraphia and viscosity are of continuing interest;
+  - **JME: borderline PD in 11/170**;
+  - pre-surgical personality disorder 18–22% (dependent and avoidant), linked to having auras.
+- **Sexual dysfunction:**
+  - erectile dysfunction up to 57% of men;
+  - **enzyme-inducing ASMs raise SHBG and lower free testosterone**; lamotrigine spares this.
+- **Psychotropics in epilepsy:**
+  - the risk is **overstated** except for **clozapine** (2–3% at 300–600 mg);
+  - other antidepressants and antipsychotics carry under 1% risk at therapeutic doses;
+  - **SSRIs, mirtazapine, venlafaxine, moclobemide, trazodone and others** are recommended;
+  - **TCAs are second line but not contraindicated**;
+  - interactions: **fluoxetine/sertraline raise phenytoin; sertraline raises lamotrigine**;
+  - **ECT is safe and effective** without reducing ASMs;
+  - lithium does not alter seizure control at therapeutic doses.
+- **Service model:** multidisciplinary epilepsy team, nurse specialists, psychotherapists familiar with epilepsy (driving, work, safety).
+
 ### Critical appraisal (from the sources)
+- ⚠️ **Postictal psychosis treatment:** Lishman says antipsychotics are **usually not indicated** (sedate with benzodiazepines; withdraw any antipsychotic promptly). The slides and Maudsley allow 1–3-month courses [1, 2, 3].
+- ⚠️ **PIP lucid interval:** "up to 24 hours" [3] vs "2.5–48 hours" [1].
 - **Prevalence figures:**
   - psychosis is 5% [2] vs 12% [1];
   - suicide risk is 3× [2] vs more than 5× [1];
@@ -312,7 +358,7 @@ Management principles:
 - Psychotherapy protocols for PNES.
 - Neuropsychological testing in pre-surgical evaluation.
 
-These belong to separate questions (PNES p3-3b32fd65/p3-99b8c774; MTLE p3-34dad4a9) for which sources are still needed.
+PNES and MTLE now have separate answers sourced from Lishman.
 
 ## References
 
@@ -326,3 +372,4 @@ These belong to separate questions (PNES p3-3b32fd65/p3-99b8c774; MTLE p3-34dad4
    - Sharma S, et al. *J Adv Res Psychol Psychother* 2020;
    - Maudsley 14th ed.
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025; Chapter 10, "Epilepsy", pp. 811–817 (Tables 10.3, 10.4, 10.5).
+3. Mellers JDC. Epilepsy. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 6, pp. 333–349 (psychiatric disability; classification; depression; anxiety; suicide; personality; sexual dysfunction), 377–379 (treatment).
