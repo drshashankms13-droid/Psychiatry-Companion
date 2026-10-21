@@ -19,6 +19,40 @@ Paper 3 has 144 distinct questions, grouped here into 66 families. A family is a
 
 ✅ = already answered. ⚠️ = answered, but not from a source.
 
+## Progress after upload batch 1 (21 Oct 2026)
+
+**Answered from batch 1 sources (all `status: draft`):**
+
+| Family | Answer file | Sources used |
+| --- | --- | --- |
+| 40 Thyroid (6 Qs) | `neuropsychiatric-aspects-of-thyroid-dysfunction` | IPS endocrine CPG 2022; endocrine slides |
+| 41 Diabetes (4 Qs) | `neuropsychiatric-aspects-of-diabetes-and-depression` | IPS CPG; slides; DM–Dep notes; Maudsley |
+| 42 B12 | `neuropsychiatric-manifestations-of-vitamin-b12-deficiency` | Nature Primer 2017 |
+| 53 CFS (+ P1 duplicate) | `chronic-fatigue-syndrome` | IOM/JAMA 2015; Henningsen 2018; DSM-5-TR. **Thin, needs NICE NG206** |
+| 10 Acute confusional state (+ P1 delirium in ER) | `delirium-acute-confusional-state-approach-and-management` | Grover slides; Maudsley |
+| 27 Psychiatric aspects of epilepsy (4 Qs) | `psychiatric-aspects-of-epilepsy` | Epilepsy seminar slides; Maudsley |
+| 32 FND clinical features / motor FND assessment | `functional-neurological-disorder-clinical-features-and-assessment` | UpToDate FMD; FND notes; dissociation notes; Sahota 2022 |
+| 33 FMD / psychogenic movement disorders | `functional-psychogenic-movement-disorders-management` | UpToDate FMD; FND notes; Sahota 2022 |
+| 57 CHD & depression; psychotropics and antidepressants in CVD | `depression-coronary-heart-disease-and-psychotropics-in-cardiac-disease` | Yekehtaz 2013; Maudsley |
+| 59 (part) Hyponatraemia in geriatric depression | `hyponatraemia-in-geriatric-depression` | Gheysens 2024; Maudsley |
+| 26 Neuroleptics & movement disorders | `neuroleptic-induced-movement-disorders` | IMHANS-K slides; Maudsley |
+| 24 (part) Hyperkinetic disorders; dystonia approach | `hyperkinetic-movement-disorders-and-approach-to-dystonia` | Abdo 2010; UpToDate FMD. **Dystonia treatment not covered** |
+| 25 Tics (2 Qs) | `tics-approach-and-management-of-chronic-tic-disorders` | Abdo 2010; DSM-5-TR; Maudsley; UpToDate FMD |
+| 65 (part) Cerebellum | `cerebellum-in-mood-and-cognition` | NIMHANS cerebellum slides |
+| 65 (part) TMS | added to the existing `rtms-transcranial-magnetic-stimulation` answer | IPS TMS CPG |
+| (Paper 1) Anti-inflammatory agents | `anti-inflammatory-agents-in-psychiatry` | Your notes; Maudsley |
+
+**Batch 1 files not used, with no matching question:**
+- *Consultation models in CLP* (Grover & Naskar notes): no exam question in the index asks about C-L models.
+- *Dissociation theories*: used only as background in the FND answer.
+
+**Still needed, from families partly covered by batch 1:**
+- **Tremor investigation and management (p3-8c97688a):** a source covering treatment.
+- **Parkinsonism differential diagnosis (p3-040a0268):** Abdo covers mimics only.
+- **Dystonia treatment.**
+- **PNES / NEAD (families 31, 34):** the FMD topic does not cover functional seizures.
+- **COVID delirium (p3-4f1a6fce):** not in the delirium slides.
+
 ---
 
 ## 1. Dementia and neurocognitive disorders (24)
