@@ -8,135 +8,140 @@ updated: 2026-10-20
 reviewer:
 ---
 
+> **Source discipline:** this answer uses only three sources:
+> 1. Reddy, Simpson & Stein, ICD-11 OCRD article, 2018 [1].
+> 2. DSM-5-TR [2].
+> 3. The user's notes *OCRD treatment* [3].
+>
+> Management content comes from [3], a summary without primary references, so a reviewer should verify it. Nothing has been added from memory. Gaps are listed under "Not covered by the sources".
+
 ## Exam answer
 
-**Definition.** Olfactory reference disorder (ORD; ICD-11 **6B22**, in the obsessive-compulsive or related disorders grouping; DSM-5-TR: "other specified OCRD" — olfactory reference syndrome, and the cultural concept *jikoshu-kyofu*) is a **persistent preoccupation with the belief that one emits a foul or offensive body odour or breath** that is **unnoticeable or only slightly noticeable to others**. It comes with:
-- excessive **self-consciousness** and **ideas of reference** (others are noticing, judging or talking about the smell);
-- **repetitive behaviours**: checking for odour, smelling oneself, excessive showering and teeth-brushing, changing clothes, deodorant or perfume use, reassurance seeking, masking, avoidance of social situations.
+**Definition.** Olfactory reference disorder (ORD) is a **persistent preoccupation with the belief that one emits a foul or offensive body odour or breath** (halitosis). The odour is either **unnoticeable or only slightly noticeable to others** [1, 2].
 
-Insight specifier: fair to good, or poor to absent (delusional conviction does not exclude the diagnosis) [1,2].
+In response, the person [2]:
+- **checks** repeatedly for body odour;
+- **showers** excessively;
+- **seeks reassurance**;
+- tries excessively to **camouflage** the perceived odour.
 
-### Mechanism
-- **Cognitive-behavioural model:** an intrusive thought or perception ("I smell") → threat appraisal of social rejection → selective attention to body odour and to others' behaviour (sniffing, opening windows, touching nose interpreted as reference) → checking, washing and masking (safety behaviours) → short-term relief, long-term maintenance and increased conviction.
-- **Shame and social-evaluative fear** (overlap with social anxiety and BDD).
-- **CSTC dysfunction,** as in OCD; possible olfactory-limbic involvement (case reports of temporal lobe lesions); serotonergic and dopaminergic factors (response to SRIs; antipsychotics in delusional cases) [2].
+There must be clinically significant distress or impairment [2].
 
-### Clinical features
-- Onset in adolescence or early adulthood (mean mid-20s); slight male predominance in clinical series; chronic course.
-- Odour themes: sweat, faeces/flatus, urine, bad breath, genital odour, "rotten" smell.
-- **Referential thinking:** 75% or more; often delusional (about 50%).
-- **Behaviours:** checking (sniffing armpits, clothes), excessive washing, mouthwash, changing clothes several times a day, camouflage, avoidance of crowds, public transport, work and relationships.
-- **Complications:** **social isolation, unemployment, depression, high suicidality** (about 2/3 have suicidal ideation; 1/3 attempt), repeated consultations with dermatologists, dentists, ENT and GI specialists; unnecessary procedures (tonsillectomy, sweat gland surgery).
-- **Comorbidity:** major depression, social anxiety disorder, OCD, BDD, substance use.
+### Nosology [1, 2]
+- **ICD-10:** no category. Cases without insight would most likely have been diagnosed as **delusional disorder**.
+- **DSM-IV:** referred to only implicitly, through *taijin kyofusho* under social phobia.
+- **DSM-5 and DSM-5-TR:** no separate diagnosis. It appears as an example of **"other specified obsessive-compulsive and related disorder"** [2].
+- **ICD-11:** a **separate category within the OCRDs**. This reflects:
+  - its greater recognition and prevalence in **non-Western societies**;
+  - its important overlaps with **BDD and OCD**.
+- **Insight qualifier in ICD-11:** "fair to good" or "poor to absent". People with absent insight **still receive ORD, not delusional disorder** [1].
 
-### Differential diagnosis
+### Cultural concept [1, 2]
+- **Taijin kyofusho** (Japanese, "interpersonal fear disorder") is anxiety about, and avoidance of, interpersonal situations. It stems from the conviction that one's appearance or actions offend others.
+- **Jiko-shu-kyofu** is the variant concerned with **emitting an offensive body odour**. It corresponds to ORD, which is also seen in cultures outside Japan [2].
+- **Shubo-kyofu** (fear of a deformed body) corresponds to BDD [1, 2].
+- **Possible risk factor:** an interdependent self-construal, which defines the self through social roles [2].
+
+### Clinical features [1, 2, 3]
+- **Core belief** of emitting a foul odour, with **shame, avoidance and ideas of reference** [3].
+- **Repetitive behaviours:** checking, excessive showering and washing, deodorant use, reassurance seeking, camouflage [2, 3].
+- **Social anxiety and avoidance** are common, secondary to the odour belief [1].
+- **Insight is often poor**, and may be absent [1, 3].
+- **Essential features and qualifiers** in ICD-11 are similar to those of BDD [1].
+
+### Differential diagnosis [1, 2]
 
 | Condition | Distinguishing feature |
 | --- | --- |
-| Genuine body odour (trimethylaminuria, hyperhidrosis, halitosis, dental or ENT disease) | Odour detectable by others; examination and tests |
-| Olfactory hallucinations (temporal lobe epilepsy, migraine, psychosis, brain tumour) | Smell perceived as coming from outside or as an aura; neurological signs |
-| Schizophrenia / delusional disorder, somatic type | Other psychotic symptoms or bizarre delusions; ORD can be delusional, but the preoccupation and repetitive behaviours are core |
-| Social anxiety disorder | Fear of negative evaluation without the odour belief |
-| BDD | Preoccupation with appearance rather than smell |
-| OCD | Contamination obsessions about others or objects, not one's own odour causing offence |
-| Major depression with guilt delusions | Pervasive low mood, nihilism |
-| Taijin kyofusho (*jikoshu-kyofu*) | Japanese cultural variant: fear of offending others |
+| **Social anxiety disorder** | Anxiety is about negative evaluation of social performance, not about emitting an odour. Insight is usually well preserved; in ORD it is usually poorer [1] |
+| **Body dysmorphic disorder** | Preoccupation with appearance. DSM-5-TR says BDD should not be diagnosed when the concern is body odour [2] |
+| **Delusional disorder** | ICD-11: absent insight still means ORD [1]. DSM-5-TR: consider delusional disorder when concerns respond poorly to reassurance or counterexample (in the taijin kyofusho context) [2] |
+| **OCD** | ORD overlaps with OCD [1]. Differentiate by obsessional content |
 
-### Assessment
-Detailed history of the belief, conviction (BABS), behaviours, avoidance, suicidality. Physical and ENT/dental examination to exclude real odour; collateral (family confirms no smell). Rule out olfactory hallucinations (EEG/MRI if indicated). Scales: Y-BOCS adapted for ORS, BABS, PHQ-9, LSAS.
+### Assessment [3]
+- **Avoid unnecessary ENT, gastroenterological and gynaecological work-ups** [3].
+- **Assess insight** using the ICD-11 qualifier [1].
+- **Screen for comorbid social anxiety and depression** [3].
 
-### Management
-1. **Engagement:** avoid arguing about the smell. Focus on distress and impairment ("whatever the smell, the worry is ruining your life"). Coordinate with other specialists to stop unnecessary procedures.
-2. **CBT** (adapted from BDD/social anxiety protocols): psychoeducation; cognitive restructuring of referential interpretations; **exposure and response prevention** (reduce checking, washing, masking; enter avoided social situations without safety behaviours); behavioural experiments (test predictions about others' reactions); attention retraining; imagery rescripting for shame-related memories.
-3. **Pharmacotherapy:** **SSRIs** at OCD doses (fluoxetine 60–80 mg, sertraline up to 200 mg, fluvoxamine, escitalopram) or clomipramine. For delusional or poor-insight cases or partial response, **antipsychotic augmentation** (risperidone, aripiprazole, pimozide in older reports, olanzapine). Antipsychotic monotherapy is generally less effective than SRIs [3].
-4. **Treat comorbid depression and manage suicide risk.**
-5. **Duration:** continue for at least 12 months after response; relapse is common on discontinuation (as in OCD) [3].
+### Management [3]
+1. **Psychotherapy — first line: CBT adapted for ORS.**
+   - Cognitive restructuring of misinterpretations of others' reactions.
+   - **Exposure** to social situations.
+   - **Reducing safety behaviours:** excessive washing, deodorant use.
+   - Addressing the **attentional bias** towards odour cues.
+   - **Motivational interviewing**, because insight is often poor.
+2. **Pharmacotherapy.**
+   - **SSRIs** are the first choice; **high doses** are often needed.
+   - **Antipsychotics** for delusional intensity or poor insight.
+   - **SSRI + antipsychotic** in severe cases.
+3. **Treat comorbidity:** social anxiety, depression.
+4. **Don't rely on reassurance.** It is ineffective and **reinforces the symptoms**.
 
-### Key evidence
-- **Phillips & Menard 2011** (n=20, US clinical sample): two-thirds had suicidal ideation, about one-third attempted; 85% referential thinking; high comorbidity.
-- **Begum & McKenna 2011** (systematic review, 84 cases): SSRIs and antipsychotics both reported helpful; about one-third of treated cases improved.
-- **Pryse-Phillips 1971** (first systematic description, 137 cases): "olfactory reference syndrome".
-- Case series of CBT (Martin-Pichora & Antony 2011) show benefit.
-
-**Conclusion.** ORD is a disabling OCRD centred on a false belief of emitting body odour, with referential thinking, repetitive checking and masking, avoidance, and high suicide risk. It is often seen first by non-psychiatrists. Management combines non-confrontational engagement, CBT with ERP and behavioural experiments, and SSRIs at OCD doses, with antipsychotic augmentation for delusional cases.
+**Conclusion.** ORD is a preoccupation with emitting a foul odour that others cannot detect, with checking, washing, camouflage and avoidance.
+- **Classification:** a distinct OCRD in ICD-11, with an insight qualifier; an "other specified OCRD" in DSM-5-TR [1, 2].
+- **Culture:** it corresponds to *jiko-shu-kyofu* [1, 2].
+- **Treatment:** CBT with exposure and response prevention of safety behaviours, plus high-dose SSRIs, with antipsychotics added for poor insight [3].
 
 ## In depth
 
-### Background
-Potts (1891) described patients complaining of odour. Pryse-Phillips (1971) coined "olfactory reference syndrome". Japanese psychiatry described *jikoshu-kyofu* as a form of taijin kyofusho. It was historically classified under delusional disorder (somatic), hypochondriasis or "monosymptomatic hypochondriacal psychosis" (Munro). DSM-5 (2013) placed it under "other specified OCRD" and in the cultural concepts glossary. **ICD-11 (2018)** gave it a separate code, 6B22, in the OCRD grouping [1].
+### Background [1]
+- ORD would previously have been diagnosed as delusional disorder when insight was absent.
+- **ICD-11** gave it its own category because:
+  - it is better recognised in non-Western societies;
+  - it overlaps with BDD and OCD.
+- **The wider OCRD grouping** rests on:
+  - phenomenological overlap and comorbidity;
+  - frontostriatal and reward circuitry;
+  - familial overlap;
+  - partial overlap in treatment response.
 
 ### Epidemiology
-Prevalence is uncertain. Estimates are about 0.5–2% in student surveys (with significant odour concerns), and more in dermatology, dental and ENT clinics. Onset in teens to mid-20s; chronic course; males slightly more common in some series [3].
+**Not covered by the sources.** The sources give no prevalence figures. ORD is described as more recognised and prevalent in non-Western societies [1].
 
-### Classification and criteria (ICD-11 6B22)
-1. Persistent preoccupation with the belief of emitting a perceived foul or offensive odour that is unnoticeable or slightly noticeable to others.
-2. Excessive self-consciousness, often with ideas of reference.
-3. Repetitive and excessive behaviours (checking, reassurance seeking, masking, altering) or marked avoidance.
-4. Significant distress or impairment.
+### Classification and criteria
 
-Insight: fair to good, or poor to absent [1,2].
+| | ICD-10 | ICD-11 | DSM-5-TR |
+| --- | --- | --- | --- |
+| **Status** | Not described; likely delusional disorder | OCRD category, close to BDD | Other specified OCRD |
+| **Insight** | — | Fair to good / poor to absent; absent insight is still ORD | — |
+| **Cultural link** | — | — | Jiko-shu-kyofu (taijin kyofusho) |
+
+[1, 2]
 
 ### Mechanism in detail
-- **Shared OCRD features:** repetitive behaviours and CSTC involvement; response to SRIs (DSM-5 rationale) [2].
-- **Social cognition:** fear of rejection; shame; disgust sensitivity; attentional bias to cues of others' disgust.
-- **Biological hypotheses:** olfactory cortex and limbic dysfunction; case reports with temporal lobe lesions.
-- **Cultural:** emphasis on not offending others (Japan, East Asia, India — purity and cleanliness norms).
+- **Source [1]:** OCRDs share frontostriatal and reward circuitry and familial relationships.
+- **Source [3]:** describes an attentional bias towards odour cues and misinterpretation of others' reactions.
+- **Not covered by the sources:** a specific ORD model.
 
 ### Clinical features in detail
-Typical narrative: "When I enter the class, students cover their noses and open windows; they are talking about my smell." The patient bathes 4–5 times a day, uses strong perfumes, avoids buses and eventually stops going to college. They consult a dentist and gastroenterologist repeatedly. Depression and suicidal thoughts follow. Insight varies over time.
+- **Social anxiety** is secondary to the odour belief, which distinguishes ORD from social anxiety disorder [1].
+- **Insight:** jiko-shu-kyofu shows poorer insight than social anxiety disorder [1].
 
-### Assessment in detail
-
-| Tool | Purpose |
-| --- | --- |
-| BABS | Conviction/insight |
-| Y-BOCS (modified for ORS) | Severity of preoccupation and behaviours |
-| Social Phobia Inventory / LSAS | Social anxiety |
-| C-SSRS | Suicide |
-| Halimeter / organoleptic test (dental) | Objective breath odour |
-| Urine trimethylamine test | Trimethylaminuria |
-
-### Differential diagnosis
-See the table in the exam answer. Additional: **trimethylaminuria** ("fish odour syndrome", which is real and detectable), **bromhidrosis**, **dhat syndrome** (Indian culture-bound concern about semen loss and odour in some cases), **eating disorder** (body-related shame).
-
-### Management details
-- **CBT structure:** formulation; psychoeducation; reduce safety behaviours (deodorant, avoidance); exposure to feared situations without masking; behavioural experiments (ask a trusted person to rate odour; survey technique); attention shifting; addressing shame and self-concept. 12–20 sessions [3].
-- **Pharmacology:** high-dose SSRIs for 12 weeks or more; augmentation with risperidone 1–2 mg or aripiprazole 5–10 mg in delusional cases. Clomipramine if SSRIs fail [3].
-- **Liaison:** educate dermatologists, dentists and ENT colleagues to avoid procedures and refer.
-- **Family involvement:** reduce accommodation (repeated reassurance, smelling checks).
+### Management details [3]
+- **Reassurance and accommodation:** reassurance alone does not help and maintains symptoms.
+- **Insight:** poor insight calls for motivational interviewing and possibly antipsychotic augmentation.
+- **Procedures:** stop unnecessary specialist investigations.
 
 ### Evidence table
-
-| Study | Design | n | Finding |
-| --- | --- | --- | --- |
-| Pryse-Phillips, 1971 | Case series | 137 | Original description |
-| Begum & McKenna, 2011 | Systematic review | 84 cases | SSRIs and antipsychotics both helpful in some; poor outcomes common |
-| Phillips & Menard, 2011 | Clinical series | 20 | High suicidality, comorbidity, referential thinking |
-| Martin-Pichora & Antony, 2011 | CBT case | 1 | Successful ERP |
-| Feusner et al., 2010 | Review for DSM-5 | — | Supports OCRD placement |
+**Not covered by the sources.** No trial or case-series data are given.
 
 ### Critical appraisal
-- The evidence base is limited to case reports, case series and expert opinion; there are no RCTs.
-- Nosological boundaries (delusional disorder vs OCRD vs social anxiety) are debated. ICD-11 favours the OCRD placement with insight specifiers [1].
-- Under-recognition: patients rarely present to psychiatrists.
-- **Note on the user's source notes:** the notes say ICD-11 placed BDD under "body image disorders" and hoarding under impulse control. In the published ICD-11, OCD, BDD, ORD, hypochondriasis, hoarding and BFRBs are all in the OCRD grouping (6B20–6B25). Verify against ICD-11 CDDR.
+- **Nosological disagreement:** ICD-11 gives ORD its own category, while DSM-5-TR keeps it under "other specified OCRD" [1, 2].
+- **Delusional cases:** ICD-11 says diagnose ORD, not delusional disorder [1]. DSM-5-TR's taijin kyofusho text still says to consider delusional disorder [2].
+- **Weak evidence base:** treatment recommendations come from summary notes without trial data [3].
+- **Earlier notes need correcting:** the user's *Nosological evolution* notes state that ICD-11 placed BDD under "body image disorders" and hoarding under impulse control. The ICD-11 working group's article contradicts this: **OCD, BDD, ORD, hypochondriasis, hoarding and the BFRDs are all in the ICD-11 OCRD grouping** [1].
 
-### Indian context
-- Cultural emphasis on bodily purity, religious ritual and cleanliness may shape the presentation; overlap with dhat syndrome and taijin-kyofusho-like concerns.
-- Patients may consult ayurvedic practitioners or faith healers, or use excessive home remedies.
-- NIMHANS OCD clinic has reported ORD cases within the OCRD spectrum.
-- Community and dental education and liaison psychiatry referral pathways are needed.
+### Indian context [1]
+- Apart from OCD, OCRDs get little clinical attention in India.
+- Clustering them with OCD may help clinicians identify them early.
+- **Suchi-bai syndrome** (washing and cleaning in Bengali women) was once called a "cultural neurosis". Systematic Indian studies show that OCD manifests similarly worldwide: content varies with culture, but form is universal.
 
 ### Recent advances
-- **Established:** ICD-11 recognition as a distinct OCRD (6B22) [1].
-- **Emerging:** CBT protocols adapted from BDD; internet-delivered CBT for OCRDs.
-- **Investigational:** neuroimaging of olfactory and social-evaluative circuits.
+- **Established:** ORD as a distinct ICD-11 OCRD with an insight qualifier [1].
+- **Not covered by the sources:** further advances.
 
 ## References
 
-1. World Health Organization. *ICD-11 Clinical Descriptions and Diagnostic Requirements for Mental, Behavioural or Neurodevelopmental Disorders* (CDDR), 2024: 6B22 Olfactory reference disorder; Stein DJ, et al. The classification of obsessive-compulsive and related disorders in the ICD-11. *J Affect Disord* 2016; 190:663–674.
-2. User's notes: The nosological evolution of OCD and OCRDs (DSM-5 OCRD rationale: phenomenology, CSTC, SRI response).
-3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025; Chapter 3 (Anxiety spectrum disorders: OCD and BDD treatment, doses and duration).
-4. Begum M, McKenna PJ. Olfactory reference syndrome: a systematic review of the world literature. *Psychol Med* 2011; 41:453–461.
-5. Phillips KA, Menard W. Olfactory reference syndrome: demographic and clinical features of imagined body odor. *Gen Hosp Psychiatry* 2011; 33:398–406.
-6. Pryse-Phillips W. An olfactory reference syndrome. *Acta Psychiatr Scand* 1971; 47:484–509.
+1. Reddy YCJ, Simpson HB, Stein DJ. Obsessive-compulsive and related disorders in International Classification of Diseases-11 and its relation to ICD-10 and DSM-5. *Indian J Soc Psychiatry* 2018; 34:S34–S43.
+2. American Psychiatric Association. *DSM-5-TR*. 2022: Other specified obsessive-compulsive and related disorder (olfactory reference disorder); Body dysmorphic disorder, differential diagnosis; Culture and Psychiatric Diagnosis, "Taijin kyofusho", pp. 880–881.
+3. User's notes, *OCRD treatment*: olfactory reference syndrome, management.

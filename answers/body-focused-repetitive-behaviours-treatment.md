@@ -1,5 +1,5 @@
 ---
-title: Treatment of body-focused repetitive behaviours (trichotillomania, excoriation disorder)
+title: Treatment of body-focused repetitive behaviours (trichotillomania and skin-picking disorder)
 covers:
   - p1-043a0e03
 status: draft
@@ -7,157 +7,170 @@ updated: 2026-10-20
 reviewer:
 ---
 
+> **Source discipline:** this answer uses only three sources:
+> 1. Reddy, Simpson & Stein, ICD-11 OCRD article, 2018 [1].
+> 2. DSM-5-TR [2].
+> 3. The user's notes *OCRD treatment* [3].
+>
+> The treatment content comes from source [3], which is a summary without primary references (except Grant 2009). A reviewer should verify it against a primary treatment source. Nothing has been added from memory.
+
 ## Exam answer
 
-**Definition.** Body-focused repetitive behaviour disorders (BFRBDs; ICD-11 **6B25**, in the OCRD grouping) are recurrent, habitual actions directed at the integument, with unsuccessful attempts to reduce or stop them, causing significant distress or impairment:
-- **trichotillomania** (6B25.0; hair-pulling disorder) with hair loss;
-- **excoriation disorder** (6B25.1; skin-picking) with skin lesions;
-- **other specified BFRBDs**: nail-biting (onychophagia), lip or cheek biting, nail-picking.
+**Definition.** Body-focused repetitive behaviour disorders (BFRDs) are recurrent, habitual actions directed at the integument [1, 2]:
+- **trichotillomania** (hair-pulling disorder);
+- **excoriation** (skin-picking disorder).
 
-Unlike OCD compulsions, BFRBs are **not driven by obsessions**. They are triggered by tension, boredom, sensory urges or "imperfections" (rough skin, coarse hair), and are often accompanied by **pleasure, gratification or relief**. They may be **automatic** (outside awareness) or **focused** (deliberate, emotion-regulating) [1,2].
+The core criteria are the same for both [2]:
+1. Recurrent pulling or picking that results in hair loss or skin lesions.
+2. **Repeated attempts to decrease or stop.**
+3. Clinically significant distress or impairment.
+4. Not attributable to a medical condition, a substance (e.g. cocaine for picking), or another mental disorder (BDD, psychosis, stereotypies, NSSI).
 
-### Mechanism
-Affect dysregulation (boredom, stress, anxiety) + sensory/tactile cues → urge → pulling or picking → relief or gratification (**negative and positive reinforcement**) → habit formation in **sensorimotor CSTC loops** (habit vs goal-directed control; reduced motor inhibition) → shame, concealment, avoidance → more distress → cycle. Neurobiology implicates grooming circuits (animal models: Hoxb8, Sapap3 knockouts), glutamatergic dysfunction (rationale for N-acetylcysteine), and dopaminergic reward [1,2].
+### Nosology [1]
+- **ICD-10:** trichotillomania was a habit and impulse disorder; skin picking was not a diagnosis.
+- **DSM-5 and ICD-11:** both are now in the **OCRD** grouping.
+- **ICD-11** places them in a **BFRD subgroup** because of:
+  - shared phenomenology;
+  - bidirectional comorbidity;
+  - similar treatment approaches.
+- **"Motoric" vs "cognitive" OCRDs:** BFRDs are the "motoric" OCRDs. Their behaviours are **not preceded by obsessions or preoccupations, but may be preceded by sensory phenomena**.
+- **Genetics:** a large twin study found two genetically controlled latent factors. One is common to all OCRDs; the other loads only on hair pulling and skin picking.
+- **ICD-11 change:** the DSM-IV requirement of tension before pulling and relief afterwards is replaced by **repeated attempts to stop**.
+- **No insight qualifier** for BFRDs, unlike the other OCRDs.
 
-### Treatment overview
-
-| Modality | Details | Evidence |
-| --- | --- | --- |
-| **Habit reversal training (HRT)** — first line | (1) **Awareness training** (self-monitoring, identify high-risk situations, early warning signs); (2) **Competing response** (incompatible action, e.g., clenching fists or holding an object for 1 minute when the urge arises); (3) **Social support** (praise, prompts); plus motivation and relaxation | Large effect (meta-analysis ES ≈ 1.0) |
-| **Comprehensive behavioural model (ComB)** | Assesses sensory, cognitive, affective, motor and place (SCAMP) triggers; individualised stimulus control (gloves, short nails, covering mirrors, fidget toys) | Effective |
-| **Acceptance-enhanced behaviour therapy (AEBT)** / ACT + HRT | Urge acceptance, values; emotion regulation | RCT support |
-| **DBT-enhanced HRT** | Emotion regulation skills for focused pulling or picking | RCT support |
-| **N-acetylcysteine (NAC)** | 1,200–2,400 mg/day (glutamate modulation) | Grant 2009 RCT: 56% vs 16% response in adult trichotillomania; mixed in children and in skin-picking |
-| **SSRIs** | Fluoxetine, sertraline, escitalopram | Inconsistent for trichotillomania; modest benefit for skin-picking; useful for comorbid depression, anxiety or OCD [3] |
-| **Clomipramine** | 50–250 mg | Small RCT superior to desipramine in trichotillomania |
-| **Olanzapine / aripiprazole** | Low dose | Small RCTs/case series positive |
-| **Naltrexone** | 50–100 mg | Helpful with a family history of addiction or for reward-driven picking |
-| **Memantine** | 10–20 mg | Grant 2023 RCT: positive for trichotillomania and skin-picking |
-| Others | Inositol, dronabinol (cannabinoid), topiramate, lamotrigine (negative in skin-picking) | Limited |
+### Clinical features [2]
+- **Sites:**
+  - hair pulling: scalp, eyebrows, eyelids;
+  - skin picking: face, arms, hands.
+- **Styles:**
+  - **focused** (tension before, relief or gratification after);
+  - **automatic** (without full awareness);
+  - most people have a mix.
+- **Triggers:** anxiety or boredom; itch-like or tingling sensations; minor skin irregularities.
+- **Rituals:** choosing particular hairs or scabs; examining, mouthing or swallowing them. Swallowing hair (trichophagia) can cause a **trichobezoar**.
+- **Concealment:** camouflage with make-up, scarves or wigs; behaviours rarely occur in front of others.
+- **Epidemiology:**
+  - Trichotillomania: 12-month prevalence 1–2%. Female:male ratio is 10:1 in clinics but about 2:1 in the community. Onset at or after puberty.
+  - Skin picking: current prevalence 2.1%, lifetime 3.1%. Three-quarters or more are women. Often starts with acne.
+- **Course:** chronic and waxing–waning. Both disorders are more common in people with OCD and their first-degree relatives.
+- **Comorbidity:**
+  - MDD;
+  - each other;
+  - other BFRBs such as nail biting and lip chewing, which may be diagnosed as "other specified OCRD".
 
 ### Assessment
-- History of behaviour (sites, triggers, automatic vs focused, rituals with hair or skin such as trichophagia), concealment, impact, comorbidity (OCD, BDD, depression, anxiety, ADHD, tics).
-- Medical complications: alopecia, infections, scarring; **trichobezoar** with trichophagia (abdominal pain, Rapunzel syndrome).
-- Dermatology or trichoscopy to exclude alopecia areata, tinea capitis.
-- **Scales:** MGH Hair Pulling Scale; Milwaukee Inventory for Subtypes of Trichotillomania; Skin Picking Scale-Revised; NIMH-TSS.
+- **Diagnosis:** most people admit the behaviour. **Dermoscopy (trichoscopy)** or biopsy can separate trichotillomania from other alopecias [2].
+- **Complications to look for** [2]:
+  - trichobezoar: anaemia, abdominal pain, obstruction;
+  - from picking: infection, scarring, tissue damage;
+  - from hair pulling: dental damage, carpal tunnel syndrome, blepharitis.
+- **Comorbidity to screen for** [3]: OCD-spectrum problems, anxiety, depression, ADHD, body dysmorphic features.
 
-### Management principles
-Psychoeducation and normalising (common, treatable, not "self-harm") → **HRT/ComB** (8–12 sessions) ± acceptance or emotion-regulation components → stimulus control and barriers → pharmacotherapy for partial responders or comorbidity (NAC first, given good tolerability; SSRIs for comorbid mood or anxiety disorders; clomipramine, low-dose antipsychotic, naltrexone, memantine) → treat medical complications → relapse prevention (booster sessions; relapse is common) → support groups (TLC Foundation for BFRBs).
+### Management [3]
+1. **First line — behavioural therapy:**
+   - **Habit reversal training (HRT)**, the "gold standard":
+     - **awareness training** (triggers, urges, antecedents);
+     - **competing response training** (e.g. clenching fists, a stress ball);
+     - **stimulus control** (gloves, caps, covering mirrors, removing tweezers);
+     - **generalisation** across settings.
+   - HRT is well supported for both hair pulling and skin picking.
+   - **Comprehensive Behavioural Treatment (ComB):** individualised, targeting five domains:
+     - **S**ensory: fidget toys, textures;
+     - **C**ognitive: CBT techniques;
+     - **A**ffective: emotion regulation, DBT skills;
+     - **M**otoric: competing responses;
+     - **P**lace: stimulus control.
+   - **ACT:** urge acceptance, mindfulness, values-based action.
+2. **Pharmacotherapy — adjunct only; weaker evidence than behavioural therapy:**
+   - **N-acetylcysteine** 1,200–2,400 mg/day: a glutamatergic modulator. Grant et al. (2009) found benefit for hair pulling; some studies are positive for skin picking.
+   - **SSRIs:** mixed evidence, more helpful in skin picking than in trichotillomania.
+   - **Clomipramine:** some benefit in trichotillomania.
+   - **Olanzapine:** effective in a small trichotillomania RCT; consider when severe or comorbid.
+   - **Other agents, less consistent:** lamotrigine (skin picking; mixed), topiramate, naltrexone (when urge or pleasure is prominent).
+3. **Treat comorbid mood and anxiety disorders.** This can improve the BFRB.
+4. **Family interventions, especially for adolescents:** reduce criticism and shame; psychoeducation; non-punitive monitoring.
+5. **Technology:** wearable devices that detect hand movements, habit-tracking apps, fidget and sensory substitutes.
 
-### Key evidence
-- **Bloch 2007** meta-analysis (trichotillomania): HRT effect size 1.41 vs SSRIs 0.02 (no clear benefit) vs clomipramine 0.68.
-- **Grant 2009 (JAMA Psychiatry), NAC in trichotillomania:** response 56% vs 16%.
-- **Woods 2006; Keuthen 2012:** ACT- and DBT-enhanced behaviour therapy are effective.
-- **Selles 2016** meta-analysis of skin-picking: behavioural therapy (large effect) and pharmacotherapy (moderate; SSRIs, NAC).
-
-**Conclusion.** BFRBs are common, hidden and distressing OCRDs that respond best to **behavioural treatment**, especially habit reversal training with stimulus control and emotion-regulation components. Pharmacotherapy has a secondary role: NAC is the best-tolerated option, with SSRIs mainly for comorbidity and clomipramine, antipsychotics, naltrexone or memantine for selected cases.
+**Conclusion.** BFRDs are motoric OCRDs, grouped in ICD-11 by shared phenomenology, comorbidity, genetics and treatment [1].
+- **Behavioural therapy** (HRT, ComB) is first line.
+- **Medication** (NAC, SSRIs, clomipramine, olanzapine) is adjunctive [3].
+- **Comorbidity** and physical complications must be addressed [2, 3].
 
 ## In depth
 
-### Background
-Hallopeau (1889) coined "trichotillomania". Wilson (1875) described "neurotic excoriations". Azrin & Nunn (1973) developed habit reversal for habits and tics. DSM-III-R placed trichotillomania under impulse control disorders. DSM-5 (2013) moved trichotillomania and added excoriation disorder in the OCRD chapter. ICD-11 (2018) created the BFRBD category (6B25) within OCRDs, including other BFRBs such as nail-biting [1,2].
+### Background [1]
+- **Nosological history:** hair pulling was an impulse-control disorder in ICD-10, and skin picking was not recognised. Both joined the OCRDs in DSM-5 (2013) and ICD-11.
+- **Rationale for the OCRD grouping:**
+  - phenomenological overlap and comorbidity;
+  - shared frontostriatal and reward circuitry;
+  - familial overlap;
+  - partial overlap in treatment response.
+- **OCD Collaborative Genetics Study:** found familial links between OCD and the "grooming disorders".
 
-### Epidemiology
-- Trichotillomania: lifetime ~1–2%; excoriation disorder: ~1.4–5.4%. Female preponderance in adults (up to 9:1 in clinics).
-- Onset in early adolescence (trichotillomania 10–13 years); excoriation often with acne.
-- Comorbid: depression, anxiety, OCD (~10–20%), BDD (excoriation 30%), ADHD.
-- Nail-biting is common in children.
+### Epidemiology [1, 2]
+- **US data:** see the clinical features above.
+- **India:** rates of trichotillomania are relatively low even in specialised OCD clinics [1].
 
 ### Classification and criteria
 
-| ICD-11 6B25 | DSM-5-TR |
-| --- | --- |
-| 6B25.0 Trichotillomania: recurrent pulling → significant hair loss; attempts to stop; distress/impairment | Trichotillomania (hair-pulling disorder) |
-| 6B25.1 Excoriation disorder: recurrent picking → lesions; attempts to stop | Excoriation (skin-picking) disorder |
-| 6B25.Y Other specified BFRBDs (nail-biting, lip-biting, cheek-chewing) | Other specified OCRD: BFRB disorder |
+| | ICD-10 | ICD-11 | DSM-5 / DSM-5-TR |
+| --- | --- | --- | --- |
+| **Trichotillomania** | Habit and impulse disorder; tension then relief | OCRD → BFRD subgroup | OCRD (F63.3) |
+| **Skin picking** | Not a disorder | OCRD → BFRD subgroup | OCRD (F42.4) |
+| **Key criterion** | Tension and relief | Repeated attempts to stop | Repeated attempts to stop |
+| **Insight qualifier** | — | None | None |
 
-The user's notes describe a separate ICD-11 "BFRB category". In ICD-11, BFRBDs sit **within** the OCRD grouping, not as a parallel chapter. Please verify against ICD-11 CDDR [1,2].
+[1, 2]
 
 ### Mechanism in detail
-- **Neural:** sensorimotor striatum and habit circuits; reduced response inhibition (stop-signal task); cerebellar and frontal changes on imaging; reduced cognitive flexibility is less marked than in OCD.
-- **Genetics:** familial aggregation; SLITRK1 and HOXB8 (animal model of excessive grooming).
-- **Emotion regulation model:** BFRBs regulate under- and over-stimulation (boredom vs tension).
-- **Reward:** gratification on pulling ("just right" root sensation); opioid involvement supports naltrexone.
+- **Sensory, not cognitive:** behaviours are preceded by sensory phenomena, not obsessions [1].
+- **Affect regulation:** pulling or picking relieves tension, anxiety or boredom and may gratify, which reinforces it [2].
+- **Genetic factor** specific to BFRDs [1].
+- **Aggravating factors:** stimulants (pulling) and cocaine (picking) [2].
 
-### Clinical features in detail
-- **Trichotillomania:** scalp, eyebrows, eyelashes, pubic hair; patchy hair loss with broken hairs of different lengths. Rituals (examining roots, biting, trichophagia). Concealment (wigs, make-up). Shame and avoidance of intimacy, swimming, haircuts.
-- **Excoriation:** face, arms, hands; picking at acne or scabs; tools (tweezers, needles); infections, scarring; hours a day; often with BDD.
-- **Automatic** (while reading, watching TV) vs **focused** (in response to emotion or urge).
-
-### Assessment in detail
-
-| Tool | Purpose |
-| --- | --- |
-| MGH-HPS | Severity of hair pulling |
-| MIST-A | Automatic vs focused pulling |
-| NIMH Trichotillomania Severity Scale | Clinician-rated |
-| Skin Picking Scale-Revised | Severity |
-| Skin Picking Impact Scale | Impact |
-| Self-monitoring record | Baseline for HRT |
-
-### Differential diagnosis
+### Differential diagnosis [2]
 
 | Condition | Distinguishing feature |
 | --- | --- |
-| OCD | Picking or pulling driven by obsessions (contamination, symmetry) |
-| BDD | Picking to improve a perceived appearance defect |
-| Psychosis (delusional parasitosis) | Picking at "parasites" with delusional conviction |
-| Stereotypic movement disorder / autism | Non-functional, rhythmic, early onset |
-| Dermatological: alopecia areata, tinea capitis, scabies, eczema, prurigo | Examination, trichoscopy |
-| Substance-induced (stimulant formication) | Drug history |
-| Non-suicidal self-injury | Intent to harm; different function |
-| Factitious dermatitis | Deliberate production for sick role |
+| Normal grooming or hair twisting; hair biting | Not trichotillomania |
+| OCD (symmetry rituals; washing causing lesions) | Behaviour serves an obsession |
+| BDD | Removing hair or picking to fix a perceived flaw |
+| Stereotypic movement disorder (ID, ASD, Prader–Willi) | Early developmental onset; stereotyped |
+| Psychosis (parasitosis, formication) | Driven by delusion or hallucination |
+| Dermatological alopecia (alopecia areata, scarring alopecias) or scabies | Medical cause; dermoscopy or biopsy |
+| Dermatitis artefacta, factitious disorder, malingering | Deception; denial of a role in the lesions |
+| NSSI | Intent to harm oneself |
+| Tourette's | Tic-like behaviour |
 
-### Management details
-- **HRT steps:**
-  - Self-monitoring diary.
-  - Awareness training (describe the behaviour, detect early warning signs).
-  - Competing response practice (1 minute, physically incompatible, socially inconspicuous).
-  - Social support.
-  - Generalisation training.
-- **Stimulus control:** gloves at night, short nails, bandages on fingers, covering mirrors, dim lights, fidget toys, hats.
-- **Children:** parent-involved HRT; very young children's habits are often self-limiting.
-- **NAC:** generally well tolerated (GI upset); evidence weaker in children.
-- **SSRIs:** use mainly for comorbidity, as they are inconsistent for core trichotillomania [3].
-- **Dermatology:** wound care; treat acne; hair regrowth counselling.
-- **Trichobezoar:** surgical referral.
+### Management details [3]
+- **HRT sequence:**
+  1. Self-monitoring of when, where and how.
+  2. Competing response for about a minute when the urge arises.
+  3. Barriers to the behaviour.
+  4. Practising across settings.
+- **ComB:** a functional assessment across the SCAMP domains, with a tailored strategy for each.
+- **Medication:** for severe cases or significant comorbidity. Give NAC an adequate trial at 1,200–2,400 mg/day.
+- **Adolescents:** families should avoid punitive monitoring.
 
 ### Evidence table
-
-| Study | Design | n | Result |
-| --- | --- | --- | --- |
-| Azrin & Nunn, 1973 | Original HRT | — | Large reductions |
-| Bloch et al., 2007 | Meta-analysis trichotillomania | 7 RCTs | HRT superior to medications |
-| Grant et al., 2009 | RCT NAC | 50 | 56% vs 16% response |
-| Woods et al., 2006 | RCT ACT + HRT | 25 | Improved |
-| Keuthen et al., 2012 | RCT DBT-enhanced CBT | 38 | Effective, durable |
-| Van Ameringen et al., 2010 | RCT olanzapine (trichotillomania) | 25 | 85% vs 17% response |
-| Grant et al., 2023 | RCT memantine (TTM + SPD) | 100 | 60.5% vs 8.3% "much improved" |
-| Selles et al., 2016 | Meta-analysis skin-picking | 15 trials | Behavioural large effect; pharmacotherapy moderate |
+The sources contain no trial-level data apart from the reference to **Grant et al. 2009** (NAC in hair pulling, positive) [3]. *Not covered by the sources:* effect sizes, meta-analyses.
 
 ### Critical appraisal
-- Most RCTs are small and single-site; long-term outcomes are unclear; relapse is common after behavioural treatment ends.
-- SSRI evidence for trichotillomania is weak despite the OCRD grouping, so these are not "OCD-lite" conditions [1].
-- Access to trained HRT therapists is limited worldwide.
-- Child and adult data differ (NAC was negative in a paediatric trichotillomania trial).
+- **Weak source base:** the treatment evidence comes from summary notes [3]. Their grading ("gold standard", "mixed") needs checking against primary sources such as trials and meta-analyses.
+- **Pharmacotherapy is adjunctive;** no medication is established as first line [3].
+- **Classification note:** the user's earlier notes (*Nosological evolution of OCD and OCRDs*) state that ICD-11 kept OCD under anxiety disorders, put BDD under "body image disorders" and hoarding under impulse control. The ICD-11 working group's own article contradicts this: **all of them, BFRDs included, are in the ICD-11 OCRD grouping** [1]. Follow source [1].
 
-### Indian context
-- Often presents first to dermatologists ("hair fall", "pimples"). Psychodermatology liaison is needed.
-- Stigma and concealment are common, especially among young women (hair as cosmetic and cultural value; marriage concerns).
-- Scarcity of behaviour therapists; psychiatrists can deliver brief HRT in OPD (simple, teachable). Online resources in English and regional languages are limited.
-- NAC is cheap and available; SSRIs are cheap.
+### Indian context [1]
+- Trichotillomania is relatively uncommon even in specialised Indian OCD clinics.
+- Grouping the BFRDs under OCRD may increase clinical attention to these neglected conditions in India.
 
 ### Recent advances
-- **Established:** HRT and ComB as first line [1].
-- **Emerging:** **memantine** (positive RCT 2023); digital HRT apps and wearables that detect hand-to-head movements (e.g., HabitAware Keen bracelet); internet-delivered behaviour therapy.
-- **Investigational:** dronabinol; ecopipam; neuromodulation (none established).
+- ICD-11 BFRD subgrouping [1].
+- Wearable habit-detection devices [3].
+- *Not covered by the sources:* newer pharmacological trials.
 
 ## References
 
-1. User's notes: The nosological evolution of OCD and OCRDs (DSM-5 OCRDs; BFRB grouping; habit-reversal for BFRBs).
-2. World Health Organization. *ICD-11 CDDR*, 2024: 6B25 Body-focused repetitive behaviour disorders; American Psychiatric Association. *DSM-5-TR*, 2022.
-3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025; Chapter 3 (Anxiety spectrum disorders: SSRI dosing in OCRDs); Chapter 5 (OCD/BDD in children, N-acetylcysteine, memantine).
-4. Bloch MH, Landeros-Weisenberger A, Dombrowski P, et al. Systematic review: pharmacological and behavioral treatment for trichotillomania. *Biol Psychiatry* 2007; 62:839–846.
-5. Grant JE, Odlaug BL, Kim SW. N-acetylcysteine, a glutamate modulator, in the treatment of trichotillomania: a double-blind, placebo-controlled study. *Arch Gen Psychiatry* 2009; 66:756–763.
-6. Grant JE, Chesivoir E, Valle S, et al. Double-blind, placebo-controlled study of memantine in trichotillomania and skin-picking disorder. *Am J Psychiatry* 2023; 180:348–356.
-7. Selles RR, McGuire JF, Small BJ, et al. A systematic review and meta-analysis of psychiatric treatments for excoriation (skin-picking) disorder. *Gen Hosp Psychiatry* 2016; 41:29–37.
+1. Reddy YCJ, Simpson HB, Stein DJ. Obsessive-compulsive and related disorders in International Classification of Diseases-11 and its relation to ICD-10 and DSM-5. *Indian J Soc Psychiatry* 2018; 34:S34–S43.
+2. American Psychiatric Association. *DSM-5-TR*. 2022; Trichotillomania (hair-pulling disorder) F63.3 and Excoriation (skin-picking) disorder F42.4, pp. 282–288.
+3. User's notes, *OCRD treatment*: treatment of BFRBs, hoarding, BDD, ORS and hypochondriasis.
