@@ -2,27 +2,29 @@
 title: Classification and management of headache
 covers:
   - p3-5258be1b
+  - p3-c36c1b85
 status: draft
 updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this essay uses four sources:
+> **Source discipline:** this essay uses five sources:
 > 1. *Continuum* vol. 24, no. 4, **Headache** (2018) [1–10], articles cited below. The secondary-headache groups and the SNOOP red flags are from Chou's Table 11-1; primary-headache content is from the migraine, TAC, neuralgia and unusual-headache articles.
 > 2. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, migraine and psychiatric aspects of headache [11].
 > 3. Henningsen et al. *Psychother Psychosom* 2018, Table 1 (evidence for **tension-type headache / chronic neck pain** treatments) [12].
 > 4. The existing migraine, migraine-comorbidity, post-concussional and functional-disorder answers in this repo.
+> 5. Levenson JL, ed. *Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*, 3rd ed. (2019): Chapter 30, "Neurology and Neurosurgery" (Headache section) [13] and Chapter 34, "Pain" (migraine, chronic daily headache, antidepressants) [14]. These supply the **adult TTH description and management** added in section C.
 >
 > ⚠️ **Major gaps:**
 > - **Tension-type headache (TTH): the Continuum issue has no adult TTH article.** Missing:
 >   - **ICHD-3 TTH criteria** (infrequent, frequent or chronic episodic subtypes; pericranial tenderness);
 >   - TTH pathophysiology;
 >   - first-line drug doses for chronic TTH.
->   The TTH content below is limited to scattered statements and a systematic-review evidence table.
+>   Levenson 2019 now supplies an adult clinical description (band-like, pressing, mild to moderate; chronic TTH = more than 15 days a month) and antidepressant/CBT evidence, so the TTH essay (p3-c36c1b85) is answerable **in part**. The formal criteria and pathophysiology are still missing.
 > - **The full ICHD-3 numbered classification** is not printed in the source. The structure below is assembled from the articles' statements.
 > - **Headache epidemiology** (global burden, Indian prevalence) is not in the source.
 >
-> Please upload ICHD-3 (or its summary) and a TTH review to complete the TTH questions (p3-c36c1b85 and the case p3-0d1341ba, which remain unanswered).
+> Please upload ICHD-3 (or its summary) and a TTH review to complete the TTH material. The case (p3-0d1341ba) is answered separately in `chronic-tension-type-headache-case`.
 
 ## Exam answer
 
@@ -124,6 +126,32 @@ reviewer:
 - Paediatric TTH: no RCTs to guide treatment [9].
 - Watch for **medication overuse**, and consider **CSF-pressure disorders**, which can mimic TTH [3].
 
+**C (continued). Adult TTH from Levenson 2019** [13, 14]:
+- **Clinical picture** [13]: a **global** headache, usually **mild to moderate**, sometimes **band-like or pressing**. It often **worsens as the day goes on or after stress**, with **few associated symptoms**.
+- **Chronic TTH** = **more than 15 headache days a month**. It is one type of **chronic daily headache (CDH)** [13].
+- **CDH** (about **5%** of the population) includes:
+  - transformed (chronic) migraine;
+  - medication-overuse headache;
+  - chronic TTH;
+  - new daily persistent headache;
+  - hemicrania continua [14].
+- **Most CDH patients have underlying migraine**, often worsened by **analgesic overuse**. **Any analgesic** (not only opioids) can cause it. Withdrawal usually helps, with **careful explanation** to the patient. So the key task is to **apportion migraine vs TTH vs analgesic overuse** [13].
+- **Psychiatric comorbidity:**
+  - CDH has a close, **probably bidirectional** link with **depression and anxiety**, which predict **poorer outcomes**;
+  - **antidepressants and CBT** for comorbid mood disorder help [13];
+  - CDH patients are more likely to overuse analgesics, to have depression or anxiety, to be disabled, and to have stress-related exacerbations [14].
+- **Drug management** [14]:
+  - **TCAs and SNRIs** are effective for TTH, among other pain syndromes. **TCAs** are effective for headache syndromes;
+  - **SSRIs are less effective than TCAs for TTH** (Cochrane);
+  - **mirtazapine reduced the duration and intensity of chronic TTH** in controlled trials;
+  - for **CDH**, placebo-controlled evidence is sparse but supports **amitriptyline**, gabapentin, tizanidine, mirtazapine, topiramate, memantine and onabotulinumtoxinA;
+  - **medication plus CBT beats either alone**.
+- ⚠️ **Discrepancy:**
+  - Henningsen's Table 1 [12] grades TCAs only "+ / o" and SSRI/SNRI (venlafaxine) "o" for **TTH with chronic neck pain**;
+  - Levenson [14] states that TCAs and SNRIs are effective for TTH;
+  - the two sources rate different evidence bases and are **not reconciled here**.
+- **No adult doses** for TTH prophylaxis are given in these sources.
+
 **D. Trigeminal autonomic cephalalgias** [5]:
 - **Cluster headache:**
   - **men 3:1**, onset 20–40 years; excruciating, clockwork, restless patient; **alcohol triggers** in a bout;
@@ -181,13 +209,23 @@ The first clinical task is to exclude dangerous secondary causes using **SNOOP**
 - neuralgias: carbamazepine, then surgery;
 - secondary headaches: treat the cause.
 
-All of this sits on a base of lifestyle measures, limits on acute medication (to prevent medication-overuse headache), treatment of sleep and psychiatric comorbidity, and behavioural therapy. **Tension-type headache management is only thinly covered by the held sources.**
+All of this sits on a base of lifestyle measures, limits on acute medication (to prevent medication-overuse headache), treatment of sleep and psychiatric comorbidity, and behavioural therapy.
+
+For **tension-type headache**, the held sources support:
+- simple analgesics (low-level evidence) for attacks;
+- **identifying and withdrawing analgesic overuse**;
+- **amitriptyline or another TCA** (or mirtazapine) for chronic TTH, rather than an SSRI;
+- exercise, manual and multimodal therapy;
+- **CBT combined with medication**;
+- treatment of comorbid depression and anxiety.
+
+The formal ICHD-3 TTH criteria are still missing.
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
 - ICHD-3 TTH criteria (infrequent episodic, frequent episodic, chronic; pericranial tenderness) and TTH pathophysiology.
-- Adult chronic TTH treatment (amitriptyline dosing, mirtazapine, EMG biofeedback).
+- Adult chronic TTH drug doses (e.g., amitriptyline titration) and EMG biofeedback; acute-treatment trials specific to adult TTH.
 - Headache epidemiology and burden (GBD); Indian prevalence.
 - Full ICHD-3 numbered list (e.g., 1.1–14.2).
 
@@ -205,3 +243,5 @@ All of this sits on a base of lifestyle measures, limits on acute medication (to
 10. Starling AJ. Unusual headache disorders. *Continuum (Minneap Minn)* 2018; 24(4, Headache): 1192–1208.
 11. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 8, "Migraine — psychiatric aspects", pp. 504–512.
 12. Henningsen P, Zipfel S, Sattel H, Creed F. Management of functional somatic syndromes and bodily distress. *Psychother Psychosom* 2018; 87:12–31: Table 1 (tension headache/chronic neck pain row), p. 20.
+13. Carson AJ, Zeman A, Stone J. Neurology and neurosurgery. In: Levenson JL, ed. *The American Psychiatric Association Publishing Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. APA Publishing, 2019: Chapter 30 (Headache — Acute Headache; Chronic Headache).
+14. Hobelmann JG, Clark MR. Pain. In: Levenson JL, ed. *Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. 2019: Chapter 34 (Migraine and Chronic Daily Headache; Antidepressants — TCAs, SSRIs, novel antidepressants).
