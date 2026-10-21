@@ -3,7 +3,7 @@ title: Tauopathies
 covers:
   - p3-6bf723cc
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -13,7 +13,9 @@ reviewer:
 >    - Chapter 12: PSP and CBD, pp. 776–779.
 > 2. DSM-5-TR, frontotemporal NCD, pp. 697–699 [2].
 >
-> **Gaps:** chronic traumatic encephalopathy criteria, argyrophilic grain disease, primary age-related tauopathy (PART), globular glial tauopathy, and tau PET or anti-tau therapy detail are not in these sources.
+> 3. *Continuum* 2024; 30(6, Dementia): Ramanan and Graff-Radford (PART); Clark (FTD: MAPT); Risacher (tau PET); and *The Maudsley Prescribing Guidelines*, 15th ed., pp. 646–647 (anti-tau antibodies) [3].
+>
+> **Gaps:** chronic traumatic encephalopathy criteria, argyrophilic grain disease and globular glial tauopathy detail are not in these sources.
 
 ## Exam answer
 
@@ -74,6 +76,22 @@ reviewer:
   - **GSK-3 inhibitors** to break the amyloid–tau link in AD;
   - **tau-aggregation inhibitors** potentially useful across tauopathies [1].
 
+### Update from Continuum 2024 and Maudsley 2025 [3]
+- **PART (primary age-related tauopathy):**
+  - **medial temporal AD-type neurofibrillary tangles without Aβ plaques**;
+  - tangles are **almost universal over age 90–100**;
+  - normal cognition or a **mild amnestic** syndrome, depending on tangle severity and distribution;
+  - definite diagnosis only at **post-mortem**; **tau PET** (newer tracers) is an emerging biomarker when amyloid is absent.
+- **MAPT variants** (familial FTD): **earliest onset** (mean 49.5 years), **disinhibition** and OCD-like behaviour, temporal atrophy. MAPT pathology is found in about **45%** of FTLD.
+- **Tau PET:**
+  - used for staging in the 2024 AD criteria (T2);
+  - in donanemab trials, **high tau burden predicted less benefit**;
+  - **limited utility in FTD**.
+- **Anti-tau therapy:**
+  - **gosuranemab, tilavonemab, zagotenemab**: development stopped;
+  - **semorinemab**: cognitive signal without functional benefit;
+  - anti-tau vaccines in trials.
+
 **Conclusion.** Tauopathies are disorders in which abnormal, hyperphosphorylated tau aggregates disrupt microtubule-dependent axonal transport. They include:
 - **AD** (3R + 4R tangles, with amyloid);
 - **Pick's disease** (3R);
@@ -87,8 +105,7 @@ The concept groups clinically diverse syndromes (dementia, aphasia, parkinsonism
 
 ### Not covered by the sources (deliberately left blank)
 - **Chronic traumatic encephalopathy** (current criteria; the source has only dementia pugilistica).
-- Argyrophilic grain disease, PART, globular glial tauopathy, ageing-related tau astrogliopathy.
-- Tau PET ligands; anti-tau antibody trials.
+- Argyrophilic grain disease, globular glial tauopathy, ageing-related tau astrogliopathy.
 - Cryo-EM tau filament classification.
 
 ## References
@@ -97,3 +114,4 @@ The concept groups clinically diverse syndromes (dementia, aphasia, parkinsonism
    - Chapter 9 (Lovestone S): pp. 543–544 (classification), 556–559 (tangles; tau), 562 (dementia pugilistica), 575–576 (FTD pathology), 588 (GSS);
    - Chapter 12 (Henderson M, Mellers JDC): pp. 755 (postencephalitic parkinsonism), 776–779 (PSP; CBD).
 2. American Psychiatric Association. *DSM-5-TR*. 2022: "Major or Mild Frontotemporal Neurocognitive Disorder", pp. 697–699.
+3. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): Ramanan VK, Graff-Radford J. LATE, hippocampal sclerosis, and primary age-related tauopathy, 1726–1743 (pp. 1737–1738); Clark DG. Frontotemporal dementia, 1642–1672 (pp. 1660–1661); Risacher SL. Neuroimaging in dementia, 1761–1789. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: pp. 646–647.

@@ -4,13 +4,13 @@ covers:
   - p3-280748ec
   - p3-67bd712c
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9: "Prion diseases", pp. 584–588; "Assessment and differential diagnosis", pp. 588–593; "Dementia with Lewy bodies", pp. 571–573 [1].
+> **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9: "Prion diseases", pp. 584–588; "Assessment and differential diagnosis", pp. 588–593; "Dementia with Lewy bodies", pp. 571–573 [1]; and Quinn and Gray, "Fluid biomarkers in dementia diagnosis", *Continuum* 2024 (CJD biomarkers only) [2].
 >
-> ⚠️ **Major gap:** Lishman has **no dedicated section on rapidly progressive dementia (RPD)**. This answer assembles what the chapter says about short-duration, fluctuating or atypical dementias. Key modern content (autoimmune/paraneoplastic encephalitis with antibody panels, the **VITAMINS** mnemonic, Geschwind's RPD framework, RT-QuIC) is **not in the source**. Please upload a review (e.g., Geschwind, *Continuum* 2016, or UpToDate "Rapidly progressive dementia").
+> ⚠️ **Major gap:** Lishman has **no dedicated section on rapidly progressive dementia (RPD)**. This answer assembles what the chapter says about short-duration, fluctuating or atypical dementias. Key modern content (autoimmune/paraneoplastic encephalitis with antibody panels, the **VITAMINS** mnemonic, Geschwind's RPD framework) is **not in the sources**. RT-QuIC is now covered by Continuum 2024 (see the update section). Please upload a review (e.g., Geschwind, *Continuum* 2016, or UpToDate "Rapidly progressive dementia").
 
 ## Exam answer
 
@@ -93,6 +93,13 @@ reviewer:
 - **CJD and other prion disease:** supportive dementia care; prevent iatrogenic transmission; surveillance notification (see the CJD answer).
 - **All patients:** general dementia management (information, carer support, legal planning, nursing care); **regular review and readiness to re-investigate** when diagnosis is uncertain or the course unusual.
 
+### Update from Continuum 2024: biomarkers for rapidly progressive dementia [2]
+- **CJD** must be separated from **treatable encephalopathies**.
+- **CSF 14-3-3** is a **non-specific** marker of neuronal injury (like tau), so interpret it cautiously.
+- **Prion RT-QuIC** (seeded amplification of aggregated prion protein) has **excellent sensitivity and specificity** and is now a **mainstay of CJD diagnosis**.
+- The same amplification principle applied to **α-synuclein** detects **Lewy body disease and MSA** (relevant when DLB presents rapidly). LBD may progress faster than AD.
+- **Neurofilament light chain and GFAP** are emerging markers of neuronal injury.
+
 **Conclusion.** A short history or rapid course in dementia should prompt a broad search for **secondary and treatable causes** (structural, infective, inflammatory, metabolic, toxic, neoplastic) and for **prion disease** (myoclonus, ataxia, periodic EEG, DWI-MRI, CSF 14-3-3). Delirium must be distinguished, and depression excluded. Management targets the cause; for prion and rapidly progressive degenerative disease, it is supportive.
 
 ## In depth
@@ -100,9 +107,10 @@ reviewer:
 ### Not covered by the sources (deliberately left blank)
 - **Autoimmune and paraneoplastic encephalitis** (anti-LGI1, NMDAR, CASPR2, Hashimoto's encephalopathy/SREAT), antibody panels, and immunotherapy trials.
 - The **VITAMINS** mnemonic and formal RPD definitions and proportions.
-- **RT-QuIC**; primary CNS lymphoma; CNS vasculitis work-up (angiography, biopsy).
+- Primary CNS lymphoma; CNS vasculitis work-up (angiography, biopsy).
 - Prognosis data for treatable RPD.
 
 ## References
 
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, pp. 571–573 (DLB), 584–588 (prion diseases), 588–593 (assessment and differential diagnosis; investigations), 593–595 (management).
+2. Quinn JF, Gray NE. Fluid biomarkers in dementia diagnosis. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): 1790–1800 (CJD, 14-3-3 and RT-QuIC, pp. 1790–1791; α-synuclein seed amplification, pp. 1791–1792).

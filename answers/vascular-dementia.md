@@ -3,16 +3,18 @@ title: Vascular dementia — pathophysiology, clinical features, diagnosis and m
 covers:
   - p3-deca9158
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only three sources:
+> **Source discipline:** this answer uses four sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, "Vascular dementia and vascular cognitive impairment", pp. 566–571, and "Management", p. 594 [1].
 > 2. DSM-5-TR, "Major or mild vascular neurocognitive disorder", pp. 703–705 [2].
 > 3. *The Maudsley Prescribing Guidelines*, 15th ed., "Vascular dementia", pp. 647–649 [3].
 >
-> **Gaps:** VASCOG/VICCCS (2014–2018) criteria, the STRIVE imaging standards and secondary-prevention target values are not in these sources.
+> 4. *Continuum* 2024; 30(6, Dementia): Silbert LC, "Vascular Cognitive Impairment", pp. 1699–1725 [4]. This includes the **VICCCS** criteria; see the "Update from Continuum 2024" section.
+>
+> **Gaps:** VASCOG criteria text and STRIVE terminology are not in these sources.
 
 ## Exam answer
 
@@ -120,6 +122,59 @@ reviewer:
 6. **Psychosocial and care:** as for dementia generally (information, carers, legal planning, residential care).
 7. **CADASIL:** family identification and **presymptomatic counselling and testing** [1].
 
+### Update from Continuum 2024 [4]
+**Concepts and criteria:**
+- **NINDS-AIREN (1993)** captured post-stroke dementia but missed slowly progressive forms.
+- **VCI** now covers mild impairment, vascular dementia and **mixed dementia**.
+- **Mixed pathology is the rule** in older people; **AD plus cerebrovascular disease** is the commonest combination. Vascular disease **lowers the threshold** for other pathologies to cause symptoms.
+- **VICCCS (Delphi consensus):**
+  - **mild VCI**: impairment in at least 1 domain with mild or no functional decline;
+  - **major VCI (vascular dementia)**: at least 1 domain with **severe disruption of IADL/ADL**, independent of motor or sensory stroke deficits;
+  - **subtypes:**
+    1. **post-stroke dementia** (within 6 months);
+    2. **subcortical ischaemic VaD**;
+    3. **multi-infarct (cortical)**;
+    4. **mixed**;
+  - **probable VCI requires neuroimaging evidence**, with **MRI preferred**.
+
+**Post-stroke cognitive impairment:**
+- **up to 60%** of survivors in the first year, mostly within 6 months; some recovery is possible in that period;
+- **stroke doubles dementia risk** (haemorrhagic more than ischaemic);
+- **strategic infarcts**: **left frontotemporal, left thalamus, right parietal**.
+
+**Small vessel disease on MRI:**
+- **lacunes** (in up to 23% of older people; basal ganglia and thalamic lacunes matter most);
+- **white matter hyperintensities** (linked mainly to **executive dysfunction**; raise stroke, dementia and mortality risk);
+- **microinfarcts** (raise dementia risk independently of AD);
+- **microbleeds**;
+- **perivascular spaces**: basal ganglia spaces point to vascular disease, centrum semiovale spaces to AD/CAA.
+
+**CAA and genetics:**
+- **CAA** (Aβ40 in vessel walls; **Boston criteria 2.0**): haemorrhage, **transient focal episodes**, gradual dementia, **CAA-related inflammation**.
+- **CADASIL** (*NOTCH3*):
+  - migraine, subcortical strokes, young-onset VCI; **anterior temporal pole** white-matter change;
+  - treatment: valproate for migraine prophylaxis (**avoid β-blockers**), aspirin after ischaemic stroke, trials of memantine or donepezil.
+
+**Work-up:**
+- MRI (T1, FLAIR, T2\*/SWI);
+- carotid ultrasound, echocardiography, ECG;
+- thyroid, **B12**, vitamin D;
+- rare causes if white matter disease is greater than expected.
+
+**Prevention and treatment:**
+- **Blood pressure:**
+  - Syst-Eur and PROGRESS: lowering BP reduced cognitive decline;
+  - **SPRINT**: **systolic under 120 vs under 140 mmHg** reduced cardiovascular events and mortality;
+  - **SPRINT-MIND**: intensive control reduced **MCI** and MCI-plus-dementia, and **increased** cerebral blood flow.
+- **Multidomain lifestyle:** **FINGER** positive; MAPT and PreDIVA negative.
+- **AHA "Life's Simple 7" / "Life's Essential 8":** diet, weight, activity, no nicotine, glucose, lipids, BP, sleep.
+- **Secondary stroke prevention** (AHA/ASA 2021) after stroke or TIA.
+- **Drugs:**
+  - **memantine**: one RCT showed cognitive benefit in small-vessel VCI;
+  - **donepezil**: some evidence in VaD.
+- **Cardiac disease** (AF, heart failure, coronary disease) raises VCI risk.
+- **Equity:** disparities in vascular risk management drive excess dementia in some groups.
+
 **Conclusion.** Vascular dementia (VCI) is the second commonest dementia and is usually mixed with AD. It arises from:
 - multi-infarct disease;
 - small-vessel (subcortical) disease;
@@ -138,8 +193,8 @@ The classical picture is abrupt, stepwise and fluctuating, with focal signs, pre
 - **Deep** white-matter lesions are more linked to diabetes, depression and motor deficits.
 
 ### Not covered by the sources (deliberately left blank)
-- VASCOG and VICCCS diagnostic criteria; STRIVE neuroimaging terminology.
-- Specific BP, lipid and HbA1c targets for prevention.
+- VASCOG criteria text; STRIVE neuroimaging terminology.
+- Specific lipid and HbA1c targets.
 - Cilostazol, nimodipine and other agents (only cerebrolysin is mentioned in Maudsley, with weak evidence).
 
 ## References
@@ -147,3 +202,4 @@ The classical picture is abrupt, stepwise and fluctuating, with focal signs, pre
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, pp. 566–571 (Boxes 9.2, 9.3; Hachinski index), 594 (management).
 2. American Psychiatric Association. *DSM-5-TR*. 2022: "Major or Mild Vascular Neurocognitive Disorder", pp. 703–705.
 3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Vascular dementia", pp. 647–648; Box 6.2; Table 6.3.
+4. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): Silbert LC. Vascular cognitive impairment, 1699–1725 (terminology and VICCCS, p. 1700; post-stroke impairment and small vessel disease, pp. 1701–1705; CAA and CADASIL, pp. 1705–1715; prevention and treatment, pp. 1716–1719).

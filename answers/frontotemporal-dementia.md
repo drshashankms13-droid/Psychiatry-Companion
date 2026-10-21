@@ -7,16 +7,18 @@ covers:
   - p3-fca34b0e
   - p3-9ce8bbb8
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only three sources:
+> **Source discipline:** this answer uses four sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, "Frontotemporal dementia", pp. 573–576 [1].
 > 2. DSM-5-TR, "Major or mild frontotemporal neurocognitive disorder", pp. 695–699 [2].
 > 3. *The Maudsley Prescribing Guidelines*, 15th ed., "Dementia" (other dementias; NICE Box 6.2; BAP Table 6.3), pp. 641–649 [3].
 >
-> **Note on genetics:** Lishman (2009) predates the discovery of *C9orf72*, so the gene list comes from **DSM-5-TR (2022)**. Neither source gives **mutation frequencies** or **Rascovsky (2011) bvFTD criteria**; these are listed as gaps.
+> 4. *Continuum* 2024; 30(6, Dementia): Clark DG, "Frontotemporal Dementia", pp. 1642–1672 (Rascovsky criteria, Table 3-1, pp. 1644–1646; PPA criteria, Tables 3-2 and 3-3, pp. 1647–1648; genetics, pp. 1660–1661; treatment, pp. 1665–1667); Marshall GA, "Neuropsychiatric Symptoms in Dementia" (Case 7-1) [4].
+>
+> **Note on genetics:** Lishman (2009) predates *C9orf72*. Genes are from DSM-5-TR (2022) and Continuum (2024).
 
 ## Exam answer
 
@@ -178,6 +180,73 @@ Lishman's cases: a 42-year-old woman with counting rituals; a 40-year-old accoun
 
 The distinction is **easiest early**; later, differences blur. Some AD presents frontally (anterior hypoperfusion) [1].
 
+### Update from Continuum 2024 [4]
+**Epidemiology and spectrum:**
+- FTD is the **second commonest degenerative dementia under 65**.
+- **Three core syndromes:**
+  - **behavioural variant (bvFTD)**, the commonest;
+  - **non-fluent variant PPA**;
+  - **semantic variant PPA**.
+- **CBS and PSP** are part of the FTD spectrum.
+- **About 15% of bvFTD have ALS; 30% of ALS have FTD.** Nearly all FTD-ALS is TDP-43.
+
+**Rascovsky (2011) international bvFTD criteria (Table 3-1):**
+- **I.** Progressive deterioration of behaviour or cognition (informant).
+- **II. Possible bvFTD:** **3 of 6** persistent or recurrent features:
+  - **A** early **disinhibition** (socially inappropriate behaviour, loss of manners, impulsive acts);
+  - **B** early **apathy or inertia**;
+  - **C** early **loss of sympathy or empathy**;
+  - **D** early **perseverative, stereotyped or compulsive/ritualistic** behaviour (simple repetitive movements, complex rituals, stereotyped speech);
+  - **E** **hyperorality and dietary change** (altered food preference, binge eating or more alcohol or cigarettes, eating inedible objects);
+  - **F** neuropsychology: **executive deficits with relative sparing of memory and visuospatial skills**.
+- **III. Probable bvFTD:** possible bvFTD **plus significant functional decline plus imaging** (frontal or anterior temporal atrophy on MRI/CT, or hypoperfusion or hypometabolism on PET/SPECT).
+- **IV. Definite:** histopathology or a **known pathogenic mutation**.
+- **Exclusions:**
+  - better explained by another non-degenerative or medical disorder;
+  - **better explained by a psychiatric diagnosis**;
+  - biomarkers strongly indicating AD (this last excludes probable but not possible bvFTD).
+
+**Gorno-Tempini (2011) PPA criteria:**
+- **Non-fluent/agrammatic PPA:**
+  - at least 1 core feature: **agrammatism** or **effortful halting speech with speech-sound errors** (apraxia of speech);
+  - plus 2 of: impaired comprehension of **complex syntax**, **spared single-word comprehension**, **spared object knowledge**;
+  - imaging: **left posterior fronto-insular** atrophy or hypometabolism.
+- **Semantic PPA:**
+  - both core features: **impaired confrontation naming** and **impaired single-word comprehension**;
+  - plus 3 of: impaired object knowledge (e.g., **prosopagnosia**), **surface dyslexia/dysgraphia** (e.g., misreading "yacht"), spared repetition, spared grammar and motor speech;
+  - imaging: **anterior temporal** atrophy;
+  - **more than 80% are TDP-43 type C**.
+- Key PPA taxonomy features: **agrammatism, word comprehension, repetition**.
+
+**Psychiatric differential (key for psychiatrists):**
+- bvFTD is **often misdiagnosed as a primary psychiatric illness** (e.g., "new bipolar disorder" in a 54-year-old with apathy, loss of empathy, reckless spending and sweet craving; Case 7-1) [4].
+- **Mid-life bipolar disorder or personality disorder** can mimic bvFTD.
+- **FTD phenocopy syndrome:** bvFTD-like but **non-progressive**, usually psychiatric, usually without neurodegeneration at autopsy (rare very slow FTLD exists).
+- **Other mimics:** **CADASIL** or frontal/basal ganglia strokes; **spontaneous intracranial hypotension** ("**frontotemporal brain sagging**", with headache; potentially reversible); AD presenting behaviourally.
+
+**Genetics:**
+- **10–20%** of FTD carry a causative variant; familial cases start slightly younger (53.0 vs 57.8 years). Offer **genetic counselling**.
+- ***C9orf72*** **GGGGCC hexanucleotide repeat:**
+  - the **commonest** genetic cause of bvFTD and ALS (TDP-43 types A/B);
+  - **more psychotic features** (persecutory or somatic delusions); late parkinsonism; **frontal** atrophy.
+- ***GRN*** **(progranulin):**
+  - TDP-43 type A; bvFTD, then nfvPPA, sometimes logopenic or posterior cortical presentations;
+  - **striking asymmetric atrophy**; **apathy**; no MND.
+- ***MAPT*:**
+  - **youngest onset** (mean 49.5 vs 58.2 for GRN and 61.3 for C9orf72);
+  - **disinhibition**, OCD-like behaviour; temporal atrophy; semantic impairment.
+- **Plasma or CSF neurofilament light chain** marks severity of neuroaxonal loss.
+
+**Management:**
+- **Non-drug:** the **DICE** model (Describe, Investigate, Create, Evaluate) for behaviours; carer support (carers of FTD patients have more stress and depression than AD carers); **speech therapy and script training** for nfvPPA; tDCS (possible).
+- **Drugs** (none FDA-approved):
+  - **SSRIs** (sertraline, paroxetine, fluoxetine, citalopram) for disinhibition, irritability, compulsions, depression;
+  - **trazodone** for irritability, agitation, depression, eating;
+  - **dopaminergic agents** (amphetamines, selegiline, amantadine) for apathy;
+  - **atypical antipsychotics** at the lowest dose, briefly (**EPS sensitivity**);
+  - **carbamazepine** (sexual behaviour), **lamotrigine** (violence), **topiramate** (hyperorality), from case reports;
+  - **AChE-Is are not recommended** (may worsen cognition or behaviour); **memantine** is well tolerated but **not beneficial**.
+
 **Conclusion.** FTD is an important early-onset dementia:
 - **behavioural variant**: disinhibition, apathy, loss of empathy, compulsions, hyperorality, executive failure with preserved memory;
 - **language variants**: semantic and non-fluent aphasia.
@@ -187,16 +256,12 @@ It arises from frontotemporal lobar degeneration (tau, TDP-43 or FUS pathologies
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- **Rascovsky (2011) international bvFTD criteria** (possible, probable, definite) and **Gorno-Tempini (2011) PPA criteria**.
-- **Relative frequencies** of *MAPT*, *GRN* and *C9orf72* mutations; *C9orf72* hexanucleotide-repeat details; psychosis in *C9orf72* carriers.
-- FTLD-TDP subtypes (A–E) and FTLD-FUS.
-- Specific non-drug behavioural interventions and SLT for PPA.
+- FTLD-TDP subtypes D–E and FTLD-FUS in detail.
 - Indian data on FTD.
-
-Upload a recent FTD review (e.g., UpToDate "Frontotemporal dementia: clinical features and diagnosis" or the Rascovsky criteria paper) to fill these.
 
 ## References
 
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, "Frontotemporal dementia", pp. 573–576.
 2. American Psychiatric Association. *DSM-5-TR*. 2022: "Major or Mild Frontotemporal Neurocognitive Disorder", pp. 695–699.
 3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Dementia", pp. 641–649 (Box 6.2; other dementias; Table 6.3).
+4. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): Clark DG. Frontotemporal dementia, 1642–1672 (Table 3-1 Rascovsky criteria, pp. 1644–1646; differential diagnosis, p. 1646; Tables 3-2 and 3-3 PPA criteria, pp. 1647–1648; genetics, pp. 1660–1661; treatment, pp. 1665–1667); Marshall GA. Neuropsychiatric symptoms in dementia, 1744–1760 (Case 7-1, p. 1747).

@@ -3,7 +3,7 @@ title: Dementia — aetiopathogenesis and classification
 covers:
   - p3-0752903c
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -12,7 +12,9 @@ reviewer:
 > 2. DSM-5-TR, "Major and mild neurocognitive disorders" and etiological subtypes, pp. 679–699 [2].
 > 3. *The Maudsley Prescribing Guidelines*, 15th ed., "Dementia", p. 630 [3].
 >
-> **Gaps:** ICD-11 coding, NIA-AA biological (ATN) framework, and Indian prevalence data (apart from Lishman's single comment on reversible causes in India) are not in these sources.
+> 4. *Continuum* 2024; 30(6, Dementia) [4]: Day (Diagnosing AD), Galvin (Lewy Body Dementia), Silbert (VCI), Ramanan and Graff-Radford (LATE, Hippocampal Sclerosis and PART), Risacher (Neuroimaging), Quinn and Gray (Fluid Biomarkers). See the "Update from Continuum 2024" section.
+>
+> **Gaps:** ICD-11 coding and Indian prevalence data (apart from Lishman's single comment on reversible causes in India) are not in these sources.
 
 ## Exam answer
 
@@ -112,6 +114,44 @@ reviewer:
    - **protective**: NSAIDs (epidemiological only), activity.
 7. **Cognitive reserve:** one-third of non-demented elderly people have similar pathology to demented ones (MRC-CFAS). Reserve and synaptic dysfunction may matter more than lesion counts [1].
 
+### Update from Continuum 2024 [4]
+**Biological (biomarker) classification:**
+- The **2024 revised criteria** update **A/T/N**:
+  - **core** amyloid (A) and tau (T1/T2) **define AD**; anyone **amyloid-positive has AD**;
+  - **N** (neurodegeneration), **I** (inflammation), **V** (vascular) and **S** (synuclein) mark severity and co-pathology.
+- **Biological definitions** are being developed for **synucleinopathies** ("neuronal α-synuclein disease", controversial) and small vessel disease.
+
+**Mixed pathology is the norm in old age:**
+- **AD plus cerebrovascular disease** is the commonest combination.
+- **Up to 50%** of Lewy body disorders have enough AD pathology for a second diagnosis.
+- **15–20% of clinically diagnosed "probable AD" lack AD biomarkers**, so think of mimics.
+
+**Newly recognised entities:**
+- **LATE (limbic-predominant age-related TDP-43 encephalopathy):**
+  - slowly progressive **amnestic** dementia, especially **over 75**;
+  - TDP-43 mainly in the limbic system; the commonest cause of **hippocampal sclerosis** in older people;
+  - **longer, milder course** than AD, without neocortical signs;
+  - **disproportionate amygdala and hippocampal atrophy** and **medial temporal hypometabolism** (inferior-to-medial temporal FDG ratio);
+  - **no in-life biomarker yet**;
+  - with AD, it **speeds decline**.
+- **PART (primary age-related tauopathy):**
+  - medial temporal AD-type tangles **without amyloid**;
+  - cognitively normal or mildly amnestic;
+  - definite diagnosis only post-mortem; tau PET is emerging.
+
+**Dementia with Lewy bodies (2017 fourth consensus):**
+- **Core features:** **fluctuating cognition**, **recurrent well-formed visual hallucinations**, **parkinsonism** (bilateral, axial), **RBD** (may precede dementia by more than 10 years).
+- **Indicative biomarkers:** **reduced striatal DAT uptake** (FDA-approved for PD, PDD and DLB), **REM sleep without atonia on PSG**, **reduced cardiac MIBG** uptake.
+- **Supportive features:** severe **neuroleptic sensitivity**, falls, syncope, hypersomnia, hyposmia, autonomic dysfunction, anxiety, apathy, depression.
+- **Probable DLB** = dementia plus **2 core features**, or **1 core feature plus 1 indicative biomarker**. **Possible DLB** = 1 core feature, or only biomarkers.
+- **Accuracy:** sensitivity 83%, specificity 95%. Pure DLB is only 10–20%; **about 80% are mixed DLB/AD**.
+- **PDD vs DLB (1-year rule):** in DLB dementia is early; in PDD it appears **at least 1 year after motor onset**. PDD point prevalence is about 30%; about **75%** develop dementia after **10 or more years of PD**.
+- **CSF α-synuclein seed amplification assay** (commercial since 2022): high sensitivity and specificity for PD, DLB, MSA and **prodromal RBD**.
+
+**Vascular (VICCCS):** mild vs major VCI; subtypes post-stroke, subcortical ischaemic, multi-infarct, mixed (see the vascular dementia answer).
+
+**Risk factors:** at least **a third of dementia worldwide** is attributable to modifiable risk factors.
+
 **Conclusion.** Dementia (major NCD) is an acquired, progressive decline in cognition causing loss of independence. It is classified:
 - **clinically/aetiologically**: AD > vascular > DLB > FTD, plus secondary causes;
 - **anatomically**: cortical vs subcortical;
@@ -124,12 +164,11 @@ Mechanisms converge on protein aggregation, neurotransmitter loss, vascular inju
 
 ### Not covered by the sources (deliberately left blank)
 - ICD-11 classification of dementia.
-- NIA-AA 2011/2018 research framework (A/T/N biomarkers).
-- LATE (limbic-predominant age-related TDP-43 encephalopathy). DSM-5-TR mentions TDP-43 in the elderly only briefly.
-- Lancet Commission modifiable risk factors (2020/2024).
+- The individual Lancet Commission risk factors (Continuum gives only the "one-third" figure).
 
 ## References
 
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, pp. 543–545 (classification), 545 (epidemiology), 555–565 (pathogenesis; genetics; risk factors), 588–593 (assessment; reversible causes).
 2. American Psychiatric Association. *DSM-5-TR*. 2022: "Major and mild neurocognitive disorders", pp. 679–699 (criteria; AD and frontotemporal subtypes).
 3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Dementia", p. 630.
+4. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): Day GS. Diagnosing Alzheimer disease, 1584–1613; Galvin JE. Lewy body dementia, 1673–1698 (epidemiology and 2017 criteria, pp. 1674–1677); Silbert LC. Vascular cognitive impairment, 1699–1725; Ramanan VK, Graff-Radford J. LATE, hippocampal sclerosis, and primary age-related tauopathy, 1726–1743; Risacher SL. Neuroimaging in dementia, 1761–1789 (2024 criteria, pp. 1762–1764); Quinn JF, Gray NE. Fluid biomarkers in dementia diagnosis, 1790–1800.

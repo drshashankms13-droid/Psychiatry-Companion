@@ -4,7 +4,7 @@ covers:
   - p3-a86f6eef
   - p3-9d744f64
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -13,7 +13,9 @@ reviewer:
 > 2. DSM-5-TR, "Mild neurocognitive disorder", pp. 680–681 [2].
 > 3. *The Maudsley Prescribing Guidelines*, 15th ed., "Mild cognitive impairment", p. 648, and anti-amyloid trials, pp. 646–647 [3].
 >
-> **Gaps:** Petersen's 2018 AAN practice guideline (exercise, cognitive training) and the NIA-AA "MCI due to AD" biomarker criteria are not in these sources.
+> 4. *Continuum* 2024; 30(6, Dementia) [4]: Day (Diagnosing AD), Geldmacher (Treatment of AD), Marshall (Neuropsychiatric Symptoms), Risacher (Neuroimaging), Quinn and Gray (Fluid Biomarkers). See the "Update from Continuum 2024" section.
+>
+> **Gaps:** Petersen's 2018 AAN practice guideline (exercise, cognitive training) is not in these sources.
 
 ## Exam answer
 
@@ -105,6 +107,22 @@ reviewer:
   - lecanemab is FDA-approved [3].
 - **Legal and future planning** while capacity is intact; driving review if relevant [1].
 
+### Update from Continuum 2024 [4]
+- **The AD continuum:** preclinical (amyloid and tangles without symptoms), then a **transitional phase** (subjective cognitive decline and/or **mild behavioural impairment**), then **MCI due to AD** (cognitive deficits affecting **instrumental but not basic ADLs**), then mild dementia (basic ADLs affected). The process spans **decades**.
+- **Subjective cognitive decline:** memory concerns without objective deficit or functional loss.
+- **Mild behavioural impairment:** new neuropsychiatric symptoms **at age 50 or over**, in 5 MBI Checklist domains; predicts decline and is linked to AD biomarkers.
+- **Neuroimaging:** MCI shows AD-like but **milder** atrophy, hypometabolism and amyloid and tau deposition. MCI is a transition stage.
+- **Biomarkers:**
+  - **amyloid PET or CSF** (amyloid–tau index, pTau181) confirm AD pathology;
+  - **plasma pTau217** and Aβ42/40 are the most promising blood tests, though confounded by comorbidity;
+  - **α-synuclein seed amplification** detects prodromal Lewy body disease.
+- **Treatment:**
+  - **AChE-Is have not shown consistent benefit in MCI**, though many use them off-label for more severe deficits;
+  - **memantine has no efficacy in MCI**;
+  - **in MCI due to AD with confirmed amyloid, anti-amyloid antibodies (lecanemab, donanemab) are an option**, after APOE testing and MRI screening (see the AD answer);
+  - **amyloid-positive but cognitively normal people are not eligible**;
+  - apathy in MCI is linked to IADL impairment.
+
 **Conclusion.** MCI (mild NCD) describes objective cognitive decline with preserved independence. It is heterogeneous: some patients stay stable and others convert to dementia (about 7.5% per year in the community, 15% in clinics). The approach is:
 - careful history with an informant, focused on function;
 - exclusion of depression, delirium and drugs;
@@ -120,8 +138,6 @@ Cholinesterase inhibitors are not recommended; anti-amyloid antibodies are an em
 
 ### Not covered by the sources (deliberately left blank)
 - **AAN 2018 MCI guideline** (exercise twice weekly; cognitive training; no drug).
-- **NIA-AA (2011) "MCI due to AD"** biomarker-based likelihood levels; subjective cognitive decline.
-- Blood biomarkers (plasma p-tau217) for MCI triage.
 - Specific MoCA cut-offs.
 
 ## References
@@ -129,3 +145,4 @@ Cholinesterase inhibitors are not recommended; anti-amyloid antibodies are an em
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, pp. 551 (AD vs ageing), 564 (activity), 565–566 (MCI; pseudodementia), 588–593 (assessment).
 2. American Psychiatric Association. *DSM-5-TR*. 2022: "Mild Neurocognitive Disorder", pp. 680–681.
 3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Mild cognitive impairment", p. 648; "Novel treatments", pp. 646–647; Table 6.3; "Adverse effects of drugs" (galantamine in MCI), p. 636.
+4. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): Day GS. Diagnosing Alzheimer disease, 1584–1613 (transitional phase and MCI, p. 1588); Marshall GA. Neuropsychiatric symptoms in dementia, 1744–1760; Risacher SL. Neuroimaging in dementia, 1761–1789; Quinn JF, Gray NE. Fluid biomarkers in dementia diagnosis, 1790–1800; Geldmacher DS. Treatment of Alzheimer disease, 1823–1844 (pp. 1827, 1835–1836).
