@@ -4,14 +4,19 @@ covers:
   - p3-173b2d9a
   - p3-760d8b63
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only three sources:
+> **Source discipline:** this answer uses four sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, pp. 544–565 and 588–595 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Dementia", pp. 630–649 (Tables 6.1–6.3; Box 6.2) [2].
 > 3. DSM-5-TR, "NCD due to Alzheimer's disease", pp. 690–695 [3].
+> 4. *Continuum* vol. 30, no. 6, **Dementia** (2024) [4]:
+>    - Day, "Diagnosing Alzheimer Disease";
+>    - Risacher, "Neuroimaging in Dementia";
+>    - Quinn and Gray, "Fluid Biomarkers";
+>    - Geldmacher, "Treatment of Alzheimer Disease".
 >
 > Lishman (2009) explicitly tells readers to consult current guidelines for drug treatment, so **pharmacotherapy is taken from Maudsley (2025)**. Nothing else has been added.
 
@@ -140,6 +145,28 @@ BPSD are the **main determinant of carer burden and institutionalisation**.
 **Course:** progressive; death in about **2–8 years** (longer in some).
 - **Faster decline with:** worse baseline cognition, aphasia or apraxia, psychosis, EPS, early onset.
 
+### Biological diagnosis: 2024 update [4]
+- **Revised 2024 criteria** update the 2016 **A/T/N** scheme:
+  - **core biomarkers** (amyloid **A**; tau **T1/T2**) **define** the disease;
+  - **N, I (inflammation), V (vascular) and S (synuclein)** capture non-specific change or co-pathology;
+  - fluid and PET markers are reported separately;
+  - **anyone amyloid-positive is classed as having AD**;
+  - tau PET and MRI neurodegeneration are used for **staging**.
+- **Order of change:** amyloid, then tau, then functional change, then **atrophy** (hippocampus about **4.7% a year**, cortex about 2% a year), then dementia, over **decades**.
+- **FDG-PET** shows **temporoparietal hypometabolism**. It is used to separate AD from FTLD (improves diagnostic certainty by about 50–60%).
+- **Fluid biomarkers:**
+  - CSF **amyloid–tau index and pTau181** outperform Aβ or total tau alone;
+  - collect CSF in **polypropylene** tubes;
+  - plasma **Aβ42/40** (mass spectrometry) and **pTau217** (the best plasma pTau species, though confounded by comorbidity and differing across ethnic groups);
+  - **NfL and GFAP** are emerging;
+  - **RT-QuIC** for CJD.
+- **Clinical:**
+  - **anosognosia** is common;
+  - illustrate each cognitive concern with **examples**;
+  - the examination is **normal early**;
+  - stage the disease; **assess driving**;
+  - **a third or more of dementia worldwide is attributable to modifiable risk factors**.
+
 ### Management [1, 2]
 
 **1. Diagnosis and information:**
@@ -175,10 +202,43 @@ BPSD are the **main determinant of carer burden and institutionalisation**.
 - **Switching:** if one AChE-I isn't tolerated, up to 50% tolerate another (switch after side-effects resolve).
 - **Stopping:** taper; monitor for 1–3 months; restart if decline.
 - **Not recommended:** statins, NSAIDs, vitamin E, Ginkgo (evidence inconsistent), omega-3, trazodone for cognition.
-- **Anti-amyloid antibodies:**
-  - **lecanemab**: 27% slowing on CDR-SB over 18 months; **ARIA in 21%**; FDA-approved;
-  - **donanemab**: about 35% slowing; ARIA-E 24%;
-  - require amyloid confirmation (PET/CSF) in MCI or mild AD;
+- **Continuum 2024 on symptomatic drugs** [4]:
+  - **no clinically relevant differences** between AChE-Is; **donepezil** is the best-tolerated oral agent (5 mg, then 10 mg after 1 month, in the morning); **transdermal rivastigmine** (from 4.6 mg/day) causes no more GI upset than placebo;
+  - **typical response**: about **20%** show clear improvement; most show **stabilisation, with decline delayed by 9–12 months**;
+  - AChE-Is **delay the emergence of BPSD**, reduce caregiving time and delay nursing-home placement;
+  - stopping may cause **noticeable worsening within weeks**, so consider restarting;
+  - **AChE-Is lack consistent benefit in MCI**;
+  - the **23-mg donepezil** dose adds little over 10 mg;
+  - **memantine: no benefit in mild AD**; benefits **fade by 12 months** as monotherapy; best **added to donepezil**; 10–28 mg (ER) daily;
+  - in **severe AD**, benefits are minimal, with a "**growing consensus to deprescribe**" in advanced AD.
+  - ⚠️ This conflicts with Maudsley/NICE ("do not stop for severity alone") above. **Not reconciled; flagged for the reviewer.**
+- **Anti-amyloid monoclonal antibodies** [2, 4]:
+  - **Eligibility:** **MCI due to AD or mild AD dementia** with **amyloid confirmed by amyloid PET or CSF** (blood biomarkers may soon replace these). **Amyloid-positive cognitively normal people are not eligible.**
+  - **Before treatment:**
+    - **APOE genotyping** (ARIA risk);
+    - **MRI within 12 months**. Lecanemab exclusions include **more than 4 microhaemorrhages**, any macrohaemorrhage, **superficial siderosis**, vasogenic oedema, **2 or more lacunes** or a major-territory stroke, **Fazekas grade 3** white matter disease, Aβ-related angiitis or CAA-related inflammation.
+  - **Agents:**
+
+| | **Lecanemab** | **Donanemab** |
+| --- | --- | --- |
+| FDA | Accelerated Jan 2023; full July 2023 | July 2024 |
+| Dosing | 10 mg/kg IV **every 2 weeks** | IV **monthly** |
+| CDR-SB slowing (18 months) | **27%** (0.45 points) | **29%** (0.67 points); less benefit with **high tau** |
+| Amyloid negative at 18 months | 68% | 76% |
+| ARIA-E net (raw by APOE ε3/ε3, ε3/ε4, ε4/ε4) | 11% (5%, 11%, **33%**) | 22% (15%, 21%, **36%**) |
+| ARIA-H net (raw by APOE) | 8% (12%, 14%, **40%**) | 12% (19%, 32%, **50%**) |
+| Other | **Infusion reactions 26%** (pre-treat with NSAID, antihistamine or steroid) | Higher ARIA |
+
+  - **ARIA:**
+    - **ARIA-E** (vasogenic oedema or sulcal effusion on FLAIR) and **ARIA-H** (microhaemorrhage or superficial siderosis on T2\*/SWI);
+    - usually **asymptomatic**; may cause headache, confusion, vomiting, gait disturbance, rarely severe;
+    - **early in treatment or after dose increases**; highest with **APOE ε4 homozygosity**, cerebrovascular disease or CAA;
+    - most resolve **within 4 months** of suspension.
+  - **Monitoring MRI (lecanemab):** before the **5th, 7th and 14th infusions and at about 1 year**, and with any symptoms.
+  - **Aducanumab:** accelerated approval 2021, controversial; **discontinued by the manufacturer (not available after 2024)**.
+  - **No additional disease-modifying drugs** are expected before 2026. About 80% of 141 agents in trials are disease-modifying.
+  - **Equity:** costly biomarker work-up limits access.
+  - ⚠️ ARIA figures in Maudsley (lecanemab ARIA 21%; donanemab ARIA-H 31.4%) differ from the Continuum figures (ARIA-E 12.6%, ARIA-H 17.3% for lecanemab; ARIA-H 19.7% for donanemab), reflecting different reporting (raw vs net). **Flagged, not reconciled.**
   - Maudsley notes no disease-modifying agent recommended by NICE at the time of writing [2].
 
 **4. BPSD:**
@@ -259,12 +319,13 @@ BPSD are the **main determinant of carer burden and institutionalisation**.
 - **AD:** **primary** loss of episodic memory, language and spatial cognition, following pathology from the limbic system to association cortex.
 
 ### Not covered by the sources (deliberately left blank)
-- NIA-AA (2011/2018/2024) criteria and blood biomarkers (p-tau217) in practice.
-- Indian availability and cost of anti-amyloid therapies; NICE's final decisions on lecanemab and donanemab (pending in Maudsley).
-- Detailed ARIA monitoring protocols (MRI schedules, APOE ε4 testing before anti-amyloid treatment).
+- Indian availability and cost of anti-amyloid therapies; NICE's final decisions on lecanemab and donanemab.
+- Donanemab MRI monitoring schedule and dose titration (Continuum defers to the prescribing information).
+- Lancet Commission list of individual modifiable risk factors (Continuum gives only the "one-third" figure).
 
 ## References
 
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, pp. 544–565 (clinical features; BPSD Table 9.1; investigations; NINCDS-ADRDA Box 9.1; pathology; genetics; risk factors), 588–595 (assessment; management).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Dementia", pp. 630–649 (Tables 6.1–6.3; Box 6.2; Figure 6.1; novel treatments).
 3. American Psychiatric Association. *DSM-5-TR*. 2022: "Major or Mild Neurocognitive Disorder Due to Alzheimer's Disease", pp. 690–695.
+4. *Continuum (Minneap Minn)* 2024; 30(6, Dementia): Day GS. Diagnosing Alzheimer disease, 1584–1613; Risacher SL. Neuroimaging in dementia, 1761–1789 (2024 criteria, pp. 1762–1764; eligibility and ARIA monitoring, pp. 1768–1771); Quinn JF, Gray NE. Fluid biomarkers in dementia diagnosis, 1790–1800; Geldmacher DS. Treatment of Alzheimer disease, 1823–1844 (anti-amyloid antibodies, pp. 1832–1834; practical advice, pp. 1835–1837; Table 11-2, p. 1838).

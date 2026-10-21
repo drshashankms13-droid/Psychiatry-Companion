@@ -3,15 +3,16 @@ title: Neurological and psychiatric manifestations of multiple sclerosis
 covers:
   - p3-10c3e111
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
-> **Source discipline:** this answer uses only two sources:
+> **Source discipline:** this answer uses three sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 14, "Multiple sclerosis", pp. 845–854 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Multiple sclerosis" (depression Table 10.12, anxiety, pseudobulbar affect, bipolar disorder, psychosis, cognitive impairment, fatigue), pp. 835–838 [2].
+> 3. *Continuum* vol. 22, no. 3, **Multiple Sclerosis and Other Demyelinating Diseases** (June 2016) [3]. See the "Update from Continuum 2016" section.
 >
-> ⚠️ **Dated content, flagged:** Lishman's disease-modifying therapy section (2009: interferon-β, glatiramer, natalizumab, mitoxantrone) and diagnostic criteria (McDonald 2001 / Polman 2005) are **out of date**. The **2017 McDonald criteria**, newer DMTs (ocrelizumab, fingolimod, siponimod, cladribine, alemtuzumab, etc.) and the 2016 MS clinical-course descriptors are **not in the sources**.
+> ⚠️ **Dated content, flagged:** Lishman's disease-modifying therapy section (2009: interferon-β, glatiramer, natalizumab, mitoxantrone) and diagnostic criteria (McDonald 2001 / Polman 2005) are **out of date**. Continuum 2016 [3] partly updates this (oral DMTs, alemtuzumab, NEDA, course descriptors, RIS, NMOSD). Still **not in the sources**: the **2017 McDonald criteria** and DMTs approved after 2016 (e.g., siponimod, cladribine tablets, ofatumumab).
 >
 > **Discrepancy:** bipolar disorder in MS is "twice as common as in the general population" (Lishman) vs "lifetime prevalence just under 10%" (Maudsley). These are not necessarily contradictory; both are reported.
 
@@ -151,6 +152,74 @@ reviewer:
 
 **C. Rehabilitation:** cognitive impairment strongly influences rehabilitation outcome [1]. Neurology–psychiatry collaboration [2].
 
+### Update from Continuum 2016 [3]
+**Diagnosis and course:**
+- MS can be **diagnosed at the first attack** if MRI shows **dissemination in space and time**, which a **single scan** can show (chronic plus enhancing lesions).
+- **Radiologically isolated syndrome (RIS, 2009):** typical MS-like MRI lesions in a person **without symptoms**, at risk of future events.
+  - Subtle **cognitive change** and **depression (especially anxious depression) in about 50%** of an RIS population show that mood disturbance can **precede** clinical MS.
+- **Course descriptors:**
+  - relapsing vs progressive, each qualified as **active or not** and **progressing or not**, since activity and progression can coexist;
+  - a "**topographical model**" unifies the course.
+- **Relapse:** new or worsening symptoms lasting **more than 24 hours**, without fever or infection, after **30 days of stability**. **About 40% of relapses leave chronic disability.**
+- **Pathology:** demyelination **plus axonal transection**; **cortical (grey matter) lesions**; a degenerative component throughout, more prominent later.
+
+**Disease-modifying therapy (2016):**
+- **Aim:** reduce relapses and new MRI lesions to slow disability. Many aim for "**no evidence of disease activity" (NEDA)**: no relapses, no new MRI lesions, no EDSS progression.
+- **Treat early:** the **window of opportunity** opens after a clinically isolated syndrome and closes with progression. Treating CIS delays conversion. **Routine MRI** detects subclinical activity.
+- **Injectables:** interferon-β (remote follow-up showed lower mortality), glatiramer acetate.
+- **Orals:**
+  - **fingolimod**: first-dose bradyarrhythmia, macular oedema, LFTs; varicella immunity first;
+  - **teriflunomide**: **pregnancy category X**; men need contraception too;
+  - **dimethyl fumarate**: flushing, GI upset, lymphopenia.
+- **IV (efficacy over safety):**
+  - **natalizumab** (PML about **4/1000**, stratified by duration, prior immunosuppression and **JC virus antibodies**);
+  - **alemtuzumab** (infusion reactions, **about 30% secondary autoimmunity, mostly thyroid**, possible malignancy);
+  - mitoxantrone (cardiotoxicity, leukaemia; rarely used).
+- **PML is no longer confined to natalizumab**: stay vigilant across therapies.
+- **Aggressive MS:** induction (cyclophosphamide), **rituximab or ocrelizumab** (anti-CD20; ocrelizumab positive in relapsing and **primary progressive** MS), **autologous haematopoietic stem cell transplantation** in expert centres.
+- **Poor adherence** is a common cause of breakthrough disease. **Assess compliance at every visit.**
+
+**Relapse treatment:**
+- **IV methylprednisolone 1 g/day for 3–5 days** (high-dose oral methylprednisolone is an alternative); ACTH if steroids fail or are not tolerated.
+- **Psychiatric relevance:** a case of **steroid-induced psychotic reaction with strong suicidal ideation** after IV methylprednisolone [3, Case 6-1].
+
+**Psychiatric and cognitive symptoms (symptom management article):**
+- **Major depressive disorder 36–54%** (vs **16.2%** of controls); **suicide at least twice as common**; **anxiety disorder 35.7%** (vs 28.8%).
+- **Causes of depression:**
+  - reactive;
+  - **structural injury** in specific brain regions;
+  - **immune and endocrine change with HPA-axis disruption**;
+  - **drug side effects**;
+  - comorbid **alcohol** use;
+  - **pain** clusters with depression.
+  - Depression may present as **hypersomnia** (Case 7-2).
+- **Screening** with patient-reported outcome tools: **Beck Depression Inventory**, **two-question screen**, **HADS**, **GAD-7**, and the **Center for Neurologic Study–Lability Scale** for **pseudobulbar affect**.
+- **Pseudobulbar affect about 10%** in progressive MS; cognitive dysfunction 60–70%; fatigue 80%.
+- **Treatment of depression and anxiety:** drugs, psychotherapy, web-based programmes, exercise, and **ECT, DBS or TMS**. After a failed SSRI, switch class (e.g., an SNRI), and add couples counselling where relevant (Case 7-2).
+- **Cognition:**
+  - deficits in **40–70%** over time (processing speed, working, verbal and visual memory, executive function); **up to 20% reach mild dementia**; most notable in secondary progressive MS but detectable even in RIS;
+  - linked to **cortical plaques and grey matter loss**, not white-matter lesion load; **cognitive reserve** protects;
+  - cognitive complaints are **subjective about 50% of the time** (depression, anxiety, poor sleep);
+  - screen with **SDMT/PASAT**; full neuropsychology is the gold standard;
+  - **treatment:** remove sedating or anticholinergic drugs, treat mood, sleep, pain and fatigue, **cognitive rehabilitation**, exercise or yoga, an enriched lifestyle. Stimulants, AChE-Is and memantine are used, but a **Cochrane review found no convincing evidence** for any drug. **Effective DMT is preventive.**
+- **Fatigue:**
+  - primary fatigue is **worse with heat** and in the **early afternoon**; constant in 30%;
+  - **amantadine 100 mg twice daily**, **modafinil 200–400 mg/day**, armodafinil, stimulants, cooling, exercise, CBT or mindfulness.
+- **Pain:**
+  - chronic central neuropathic pain in **30–40%**: TCAs, **duloxetine**, AEDs, cannabinoids, TENS, mindfulness;
+  - **trigeminal neuralgia**: **carbamazepine** (Level A).
+- **Wellness:**
+  - exercise; **stop smoking** (smoking drives progression, cognitive impairment and mortality);
+  - treat obesity; vitamin D; limit salt;
+  - sleep; mental activity (better cognition, less atrophy).
+
+**Differential diagnosis: NMOSD:**
+- severe or **bilateral optic neuritis**, **longitudinally extensive myelitis (3 or more segments)**, **area postrema syndrome** (intractable hiccups or vomiting), diencephalic or cerebral syndromes;
+- **serum aquaporin-4 IgG** (cell-based assay);
+- oligoclonal bands in only about 25% (vs up to 90% in MS);
+- treat attacks with IV methylprednisolone and plasma exchange;
+- **urgent prevention**: rituximab often preferred, azathioprine (check TPMT), mycophenolate (teratogenic).
+
 **Conclusion.** MS is an immune-mediated demyelinating disease of young adults with a relapsing–remitting then progressive course, optic neuritis, INO, long-tract and cerebellar signs, periventricular MRI lesions, CSF oligoclonal bands and delayed VEPs. Psychiatric morbidity is core:
 - **cognitive impairment** (40–65%; slowed processing, memory, executive; may be the sole presentation);
 - **depression** (lifetime up to 50%; suicide 2–7.5×);
@@ -162,11 +231,12 @@ Management combines disease-modifying treatment and steroids for relapses with c
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- McDonald 2017 criteria; radiologically isolated syndrome; 2013/2016 course phenotypes.
-- Modern DMTs and their psychiatric adverse effects (e.g., interferon-related depression).
-- Indian MS epidemiology; NMOSD and MOGAD differential diagnosis.
+- McDonald 2017 criteria; DMTs approved after 2016.
+- Psychiatric adverse effects of specific DMTs (e.g., interferon-related depression). Not stated in the held sources.
+- Indian MS epidemiology; MOGAD.
 
 ## References
 
 1. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 14, "Multiple sclerosis": pp. 845–846 (aetiology), 846–847 (clinical features; CSF; evoked potentials), 847–848 (neuroimaging; pathology), 848–849 (treatment), 849 (psychiatric aspects; Surridge), 850–852 (cognitive impairment; dementia presentations), 852 (mood; euphoria; emotional expression), 852–853 (psychoses; psychiatric presentations), 853–854 (emotions and relapse).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Multiple sclerosis", pp. 835–838 (Table 10.12).
+3. *Continuum (Minneap Minn)* 2016; 22(3, Multiple Sclerosis and Other Demyelinating Diseases): Krieger SC. New approaches, 723–729; Okuda DT. Incidental lesions suggesting MS, 730–743; Jones DE. Early relapsing MS, 744–760; Freedman MS, Rush CA. Severe, highly active, or aggressive MS, 761–784; Willis MA, Fox RJ. Progressive MS, 785–798 (Table 5-5, p. 795); Berkovich RR. Acute MS relapse, 799–814 (Case 6-1, p. 809); Coyle PK. Symptom management and lifestyle modifications in MS, 815–836 (pp. 816–822); Katz Sand I. Neuromyelitis optica spectrum disorders, 864–896.
