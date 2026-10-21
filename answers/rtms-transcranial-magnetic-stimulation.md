@@ -3,6 +3,7 @@ title: rTMS — what it is and its role in psychiatry
 covers:
   - p1-87119a2b
   - p1-3ea44b90
+  - p3-b065d926
 status: draft
 updated: 2026-10-20
 reviewer:
