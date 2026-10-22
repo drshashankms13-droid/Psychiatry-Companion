@@ -188,6 +188,38 @@ Source: [1].
 | DC-LD | Adapted ICD-10-based criteria for adults with ID (RCPsych 2001) [1] |
 | VSMS-based disability calculation | 2024 Indian gazette [2] |
 
+### IPS Clinical Practice Guideline (Kishore, Udipi, Seshadri 2019): key points [5]
+- **Definition:** significant limitations in **intellectual functioning and adaptive behaviour** during the developmental period. About **2.5%** of the global population has low intellectual functioning commensurate with ID. Indian point prevalence varies widely depending on whether intellectual, adaptive or both deficits are counted.
+- **IQ cut-offs:**
+  - **DSM-5:** IQ cut-off of 65–75 (70 ± 5 standard error); severity defined by **adaptive functioning** (conceptual, social, practical).
+  - **ICD-10:** IQ 70 cut-off; mild 50–69, moderate 35–49, severe 20–34, profound below 20.
+- **Adaptive behaviour:** the **Vineland Social Maturity Scale** is "the only standardised measure available in India". If it cannot be used, ask socioculturally relevant questions.
+  - **Where IQ and SQ indicate different severity levels, decide in favour of SQ.** SQ reflects real-world functioning.
+- **Clinical diagnosis vs disability assessment:** these are different processes. Certification follows the separate RPwD guidelines strictly.
+- **Six clinical questions:**
+  1. Are there significant limitations in intellectual and adaptive functioning?
+  2. Comorbidities?
+  3. Treatable aetiological conditions?
+  4. Areas for intervention?
+  5. Where and how to intervene?
+  6. Where does the person stand in the life span?
+- **Comorbidity:**
+  - **epilepsy in 15–30%**, rising to about **50%** in severe ID;
+  - **psychiatric disorders** with a cumulative prevalence of about **40%**;
+  - **problem behaviours in 20–80%**.
+- **Behavioural phenotypes:** hyperactivity in fragile X; self-hugging and trichotillomania in Smith–Magenis; schizophrenia-like illness in 22q11 deletion.
+- **Aetiology:** genetic diagnosis matters for recurrence-risk counselling, prenatal diagnosis and management. **Over 80 potentially treatable causes** exist (for example, inborn errors of metabolism), so early identification is essential.
+- **Rating scales for psychopathology:** Reiss Screen, Developmental Behavior Checklist, PIMRA. They are adjuncts to clinical diagnosis.
+- **Problem behaviours:**
+  - prioritise behaviours that cause **social exclusion or stigma**, or interfere with **learning**;
+  - **functional analysis** (antecedents, consequences);
+  - three-level plan: restructure the environment; **differential reinforcement** of adaptive behaviour; consequence management.
+- **Pharmacotherapy:** psychosocial interventions first if a psychiatric diagnosis cannot be established. **Risperidone** is the most studied for aggression and stereotypies (the CPG refers to Maudsley for dosing).
+- **Non-pharmacological, life-span approach:**
+  - functional academics, then prevocational and vocational training, then independent living;
+  - health and safety skills throughout;
+  - aids and appliances for additional disabilities.
+
 ### Critical appraisal
 - **IQ tests:** cultural bias; outdated Indian norms (MISIC 1969); verbal loading; floor effects in severe ID.
 - **Adaptive measures:** depend on informants; the VSMS is old.
@@ -216,3 +248,4 @@ Source: [1].
 2. Ministry of Social Justice and Empowerment. *Guidelines for assessing the extent of specified disability under the RPwD Act, 2016*. Gazette of India, 12/14 March 2024 (intellectual disability: VSMS-based disability %, IQ tools, Medical Board, certificate validity; SLD IQ threshold). (User's PDF.)
 3. User's seminar slides: Nayak P. *National Mental Health Survey of India 2015–16* (treatment gap for intellectual disability 70.5%).
 4. Miller DT, Adam MP, Aradhya S, et al. Consensus statement: chromosomal microarray is a first-tier clinical diagnostic test for individuals with developmental disabilities or congenital anomalies. *Am J Hum Genet* 2010; 86:749–764.
+5. Kishore MT, Udipi GA, Seshadri SP. Clinical practice guidelines for assessment and management of intellectual disability. *Indian J Psychiatry* 2019; 61(Suppl 2):S194–S210. (User's PDF.)

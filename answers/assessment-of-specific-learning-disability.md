@@ -200,6 +200,39 @@ A typical cascade: dyslexia → poor grades → punishment at home and school �
 | Panicker et al. 2006 | Comparison of MISIC and WISC-III (n=300) | Indian children score lower on UK norms, so they risk being misclassified as below average [2] |
 | Panicker et al. 2015 | Validation | NIMHANS Index valid for ages 5–12 [2] |
 
+### IPS Clinical Practice Guideline (Shah, Sagar, Somaiya, Nagpal 2019): key points [7]
+- **Prevalence:** **2–10%** (Sahoo 2015).
+- **Comorbidity (CPG Table 2):**
+  - behavioural and emotional disorders about 30%;
+  - **ADHD 10–60%**; inattention 20–40%;
+  - conduct disorder 6%;
+  - depression about 33%;
+  - anxiety 20–30%;
+  - language disorders common (30–40% of SLD have a reading disorder).
+- **DSM-5 severity:**
+  - **mild:** compensates with accommodations;
+  - **moderate:** unlikely to become proficient without intensive teaching;
+  - **severe:** needs intensive individualised teaching for most school years.
+- **IQ testing:** MISIC, Binet–Kamat, WISC-IV.
+  - In SLD, **performance IQ is often higher than verbal IQ**.
+  - The **ACID profile** (low Arithmetic, Coding, Information, Digit span) may be seen.
+- **Achievement testing:**
+  - **NIMHANS Index for SLD:** Level I (5–7 years: pre-academic skills) and Level II (8–12 years);
+  - WRAT; TOWL;
+  - **GLAD** (NIEPID; from 6 years, grades I–IV).
+- **Exclusions before diagnosis include:**
+  - ID; sensory impairment; neurological disorders;
+  - psychiatric disorders;
+  - **discrepancy between mother tongue and medium of schooling**;
+  - inadequate schooling; **first-generation learners** with poor support.
+- **Management tiers:**
+  1. **Accommodations:** grippers, tactile paper, spell-checkers, audio books, extra time, not reading aloud.
+  2. **Modifications:** dropping a language, lower-level mathematics.
+  3. **Remedial education:** usually **2–3 times a week for 3–4 years**; focus shifts with grade from basic skills to critical thinking.
+- **Multidisciplinary team:** psychologist, special educator, occupational therapist, speech therapist, paediatrician. The psychiatrist is often the first contact who suspects and screens for SLD and treats comorbidity.
+- **Response to Intervention (RTI)** model: start help before failure. This could be integrated with Sarva Shiksha Abhiyan.
+- **Rights:** SLD is a **benchmark disability under RPwD Act 2016**, with duties on government and local authorities.
+
 ### Critical appraisal
 - **Construct debate:** SLD is "one of the least understood and most debated disabling conditions" (Lyon 1996). There is **no natural cut-point**, because academic skills are continuously distributed [2].
 - **Discrepancy vs response-to-intervention:** IQ discrepancy has poor validity, and verbal IQ is depressed by the language deficit itself [2].
@@ -245,3 +278,4 @@ A typical cascade: dyslexia → poor grades → punishment at home and school �
 4. World Health Organization. *ICD-11 Clinical Descriptions and Diagnostic Requirements*. 2024; Developmental learning disorder (6A03).
 5. Government of India. *The Rights of Persons with Disabilities Act, 2016*; Guidelines for assessment and certification of specified disabilities (Gazette notification, 2018; amended 2020).
 6. Ministry of Social Justice and Empowerment (DEPwD). *Guidelines for assessing the extent of specified disability under the RPwD Act, 2016*. Gazette of India, Extraordinary, 12/14 March 2024 (supersedes 2018). Section on specific learning disabilities. (User's PDF.)
+7. Shah HR, Sagar JKV, Somaiya MP, Nagpal JK. Clinical practice guidelines on assessment and management of specific learning disorders. *Indian J Psychiatry* 2019; 61(Suppl 2):S211–S225. (User's PDF.)
