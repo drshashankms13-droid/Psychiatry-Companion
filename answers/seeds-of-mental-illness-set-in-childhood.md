@@ -5,7 +5,7 @@ covers:
   - p2-11032b3b
   - p2-21536faa
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -99,6 +99,26 @@ So **around half of disorders begin after 18**. This is the strongest quantitati
 
 Source: [1].
 
+### Dunedin 4-decade follow-up: the strongest single dataset for the statement [7]
+- **Sample:** 1,037 New Zealanders born in 1972–73, assessed 9 times from age 11 to 45.
+- **Past-year disorder prevalence:**
+  - 35% at ages 11–15;
+  - about 50% at 18–21;
+  - 44% at 45.
+- **Onset by adolescence in 59%** of the cohort. **86% met criteria for a disorder by midlife.** **85% of those affected accumulated comorbid diagnoses.**
+- **Adolescent onset** predicted:
+  - more assessments with a disorder (r = 0.71);
+  - more diverse disorders (r = 0.64).
+- Disorders **shifted among internalising, externalising and thought-disorder families**. A general **p-factor** summarised life histories.
+- High p-factor was:
+  - **preceded by poorer neurocognitive function at age 3**;
+  - accompanied by **cognitive decline** from childhood to adulthood;
+  - associated with **older brain age at 45**.
+- **Implications:**
+  - **supports** the essay's thesis (early onset, early neurodevelopmental markers);
+  - **qualifies** it: what is "seeded" is a **transdiagnostic liability**, not a specific diagnosis;
+  - it also cautions against **diagnosis-specific** research and clinics.
+
 ### Assessment in detail
 - Developmental history: pregnancy and birth complications, milestones, temperament, school performance, peer relationships.
 - **ACE / CTQ / ACE-IQ** for adversity; protective factors (a caring adult, PCEs).
@@ -170,3 +190,4 @@ Source: [1].
 4. Kim-Cohen J, Caspi A, Moffitt TE, et al. Prior juvenile diagnoses in adults with mental disorder: developmental follow-back of a prospective-longitudinal cohort. *Arch Gen Psychiatry* 2003; 60:709–717.
 5. Solmi M, Radua J, Olivola M, et al. Age at onset of mental disorders worldwide: large-scale meta-analysis of 192 epidemiological studies. *Mol Psychiatry* 2022; 27:281–295.
 6. Felitti VJ, Anda RF, Nordenberg D, et al. Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: the Adverse Childhood Experiences (ACE) Study. *Am J Prev Med* 1998; 14:245–258.
+7. Caspi A, Houts RM, Ambler A, et al. Longitudinal assessment of mental health disorders and comorbidities across 4 decades among participants in the Dunedin Birth Cohort Study. *JAMA Netw Open* 2020; 3:e203221. (User's PDF, batch 3.)

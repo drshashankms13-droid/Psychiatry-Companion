@@ -3,8 +3,9 @@ title: Wernicke's encephalopathy and the Wernicke–Korsakoff syndrome
 covers:
   - p3-98e1c7de
   - p1-bda86872
+  - p2-103b5aae
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -184,6 +185,33 @@ reviewer:
 
 ## In depth
 
+### Applying this to the Paper 2 case (p2-103b5aae)
+*A 55-year-old man is found collapsed on the pavement. He is confused, disoriented to time and place, admits to drinking a bottle of whisky a day, and cannot stand or walk without support.*
+
+- **Working diagnosis:** **Wernicke's encephalopathy** (confusion + ataxia in a heavy drinker). Caine criteria need only 2 of 4: dietary deficiency, eye signs, cerebellar dysfunction, altered mental state or memory. **Eye signs may be absent** (full triad in only 16%) [1, 3].
+- **Treat before investigating:** **IV thiamine 500 mg three times a day for 2–3 days** (RCP regimen), then 250 mg daily for 3–5 days if there is a response, **before any glucose** [3]. Pabrinex is preferred because of co-existing vitamin deficiencies [1].
+- **Rule out the dangerous differentials of "collapsed and confused":**
+  - **hypoglycaemia** (check glucose immediately; give glucose *after* or with thiamine);
+  - **head injury, subdural haematoma** (CT; falls are common);
+  - alcohol intoxication vs **withdrawal delirium** (time since last drink; tremor, autonomic features);
+  - **hepatic encephalopathy** (asterixis, LFT, ammonia);
+  - post-ictal state (withdrawal seizures);
+  - **hyponatraemia** (beer potomania);
+  - sepsis or pneumonia (aspiration);
+  - hypothermia;
+  - other intoxicants.
+- **Examination:** GCS, eye movements (nystagmus, sixth-nerve palsy), gait and truncal ataxia, peripheral neuropathy, stigmata of liver disease, injuries, temperature and BP (hypothermia and hypotension point to WE).
+- **Investigations:** glucose, electrolytes (Na, K, **Mg**, phosphate), LFT, INR, ammonia, CBC (MCV), CK, blood alcohol, ECG, CT head, then MRI (medial thalamic, mamillary and periaqueductal T2/FLAIR signal). Take a blood sample for thiamine before giving it, if possible.
+- **Alcohol withdrawal:** start a symptom-triggered **benzodiazepine** regimen (CIWA-Ar). Use **lorazepam or oxazepam** if liver disease is present. Correct magnesium, because thiamine needs magnesium as a cofactor.
+- **After recovery:**
+  - screen for **Korsakoff's syndrome** (MoCA, memory testing);
+  - **relapse prevention:** **naltrexone** (if LFT allows), acamprosate, disulfiram (avoid if cognition is impaired), baclofen (in liver disease);
+  - psychosocial treatment;
+  - continue oral thiamine 100 mg three times a day.
+  - In **COMBINE (n = 1,383)**, naltrexone with medical management reduced heavy drinking (HR 0.72); acamprosate added nothing [4].
+- **Capacity and safety:** assess decision-making capacity (MHCA 2017). Arrange a social and housing assessment if he lives alone.
+
+
 ### Treatment regimens compared
 | Source | Prophylaxis | Established or suspected WE |
 | --- | --- | --- |
@@ -285,3 +313,4 @@ These identify WE with high sensitivity and specificity, alone or with KS. The e
    - Chapter 11: pp. 699–704 (Wernicke's encephalopathy: aetiology, clinical features, investigations, course, pathology, subclinical WE, treatment), 704–706 (Korsakoff's syndrome: imaging, neurotoxicity, continuity, diagnosis, treatment), 706–707 (neuropathy; cerebellar degeneration).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 4, "Wernicke's encephalopathy", "Prophylactic thiamine", "Parenteral thiamine", pp. 487–489.
 3. Sechi G, Serra A. Wernicke's encephalopathy: new clinical settings and recent advances in diagnosis and management. *Lancet Neurol* 2007; 6:442–455. (User's PDF.) Cites Thomson AD, et al. The Royal College of Physicians report on alcohol: guidelines for managing Wernicke's encephalopathy in the accident and emergency department. *Alcohol Alcohol* 2002; 37:513–521; Caine D, et al. *J Neurol Neurosurg Psychiatry* 1997; 62:51–60.
+4. Anton RF, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA* 2006; 295:2003–2017. (User's abstract, batch 3.)

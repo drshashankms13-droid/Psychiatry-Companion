@@ -118,6 +118,35 @@ The question asks whether adult ADHD is **under-recognised** (a "missed diagnosi
   - Mostly remitted by 38, but **continued to have life difficulties**.
   - Showed expected comorbidity (conduct disorder 59%, anxiety 54%, depression 28%), polygenic risk and early neurocognitive deficits [2].
 
+### Girls and women: the clearest "missed diagnosis" group [6]
+- **Sex ratio:**
+  - clinic referrals run from **3:1 to 16:1 (boys:girls)**;
+  - community samples are about **3:1**;
+  - adult samples show little or no sex difference.
+
+  This points to **under-recognition and referral bias in girls**, not true absence.
+- **Why girls are missed:**
+  - more **inattentive and internalised** presentations;
+  - **compensatory strategies and masking** (over-preparation, perfectionism);
+  - gender stereotypes of ADHD as a "behavioural" (disruptive boy) disorder;
+  - symptoms overshadowed by **comorbid anxiety, depression, eating disorders or self-harm**;
+  - misdiagnosis as **borderline personality disorder** or bipolar disorder.
+- **Lifespan and hormonal transitions:**
+  - symptoms may fluctuate across the **menstrual cycle** (luteal worsening);
+  - also during **pregnancy, postpartum and menopause**, when declining oestrogen can unmask or worsen ADHD.
+- **Higher risks:**
+  - risky sexual behaviour, **early and unplanned pregnancy**;
+  - victimisation;
+  - self-harm.
+- **Consensus recommendations:**
+  - move away from the "behavioural disorder" lens;
+  - use a **lifespan model** with attention to transitions;
+  - ask about internalised symptoms and impairment;
+  - take collateral history from school reports;
+  - treat with medication plus psychological interventions;
+  - plan around contraception and pregnancy;
+  - use multi-agency liaison (school, primary care, social care).
+
 ### Assessment in detail
 | Tool | Purpose |
 | --- | --- |
@@ -195,3 +224,4 @@ The question asks whether adult ADHD is **under-recognised** (a "missed diagnosi
 3. Faraone SV, Biederman J, Mick E. The age-dependent decline of attention deficit hyperactivity disorder: a meta-analysis of follow-up studies. *Psychol Med* 2006; 36:159–165.
 4. Cortese S, Adamo N, Del Giovane C, et al. Comparative efficacy and tolerability of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis. *Lancet Psychiatry* 2018; 5:727–738.
 5. Agnew-Blais JC, Polanczyk GV, Danese A, et al. Evaluation of the persistence, remission, and emergence of attention-deficit/hyperactivity disorder in young adulthood. *JAMA Psychiatry* 2016; 73:713–720.
+6. Young S, Adamo N, Ásgeirsdóttir BB, et al. Females with ADHD: an expert consensus statement taking a lifespan approach providing guidance for the identification and treatment of attention-deficit/hyperactivity disorder in girls and women. *BMC Psychiatry* 2020; 20:404. (User's PDF, batch 3.)

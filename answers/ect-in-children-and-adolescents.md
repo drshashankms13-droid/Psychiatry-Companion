@@ -121,6 +121,16 @@ Evidence comes from **case series and reviews only; there are no RCTs** [1]:
 
 Response figures from these studies are not in the user's sources; verify the exact percentages before quoting them.
 
+### Systematic review evidence (Lima 2013) [5]
+- **PRISMA review:** 39 of 212 articles included.
+- **Conclusion:** ECT in adolescents is **highly efficient**, with **high remission rates** and **few, relatively benign adverse effects**. Risks are minimised by correct technique and are small relative to the benefit.
+- **Context:**
+  - about 8% of adolescents have major depression;
+  - 40% have recurrences;
+  - a third make at least one suicide attempt;
+  - adolescents are more often refractory to medication.
+- **Limitation:** the review rests mainly on case series and retrospective studies. **No RCTs exist.**
+
 ### Critical appraisal
 - **The evidence is weak:** no RCTs; retrospective series; selection and publication bias.
 - **Ethics:** children cannot consent. Stigma and history (Bender) make strong safeguards reasonable.
@@ -143,3 +153,4 @@ Response figures from these studies are not in the user's sources; verify the ex
 2. Math SB, Basavaraju V, Harihara SN, et al. Mental Healthcare Act 2017 – Aspiration to action. *Indian J Psychiatry* 2019; 61(Suppl 4):S660–S666.
 3. Ghaziuddin N, Kutcher SP, Knapp P, et al. Practice parameter for use of electroconvulsive therapy with adolescents. *J Am Acad Child Adolesc Psychiatry* 2004; 43:1521–1539.
 4. Rey JM, Walter G. Half a century of ECT use in young people. *Am J Psychiatry* 1997; 154:595–602.
+5. Lima NNR, Nascimento VB, Peixoto JAC, et al. Electroconvulsive therapy use in adolescents: a systematic review. *Ann Gen Psychiatry* 2013; 12:17. (User's PDF, batch 3.)
