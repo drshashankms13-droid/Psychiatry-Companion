@@ -11,7 +11,7 @@ reviewer:
 >
 > ⚠️ **Thin source:** the guideline treats delirium in a few lines and one table row. **Not in the source:**
 > - delirium incidence in COVID;
-> - specific mechanisms (hypoxia, inflammation, sedation practices);
+> - mechanisms of delirium specific to COVID-19;
 > - drug **doses**;
 > - ABCDEF bundle and ICU sedation guidance;
 > - outcome data.

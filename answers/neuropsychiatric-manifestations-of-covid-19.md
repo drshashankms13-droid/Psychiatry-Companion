@@ -11,8 +11,8 @@ reviewer:
 > **Source discipline:** this answer uses only Grover S, Sahoo S, Mehra A, Avasthi A. Management of mental health issues in persons with acute COVID-19 infection and during the post-COVID phase. *Indian J Psychiatry* 2022; 64(Suppl 2): S499–S507 (IPS Clinical Practice Guideline) [1].
 >
 > ⚠️ **Major gaps:** the guideline is about **mental health assessment and management**. It does **not** describe:
-> - the **mechanisms** (direct neuroinvasion, cytokine storm, hypoxia, hypercoagulability);
-> - **neurological** syndromes (encephalitis, encephalopathy, Guillain–Barré, stroke rates, anosmia mechanism);
+> - the **mechanisms** of neuropsychiatric involvement;
+> - **neurological** syndromes and their frequencies (the guideline mentions stroke/TIA and loss of smell only in passing);
 > - **prevalence figures** for individual syndromes, apart from the few given below;
 > - "COVID-associated neuropsychiatric syndromes" as a named classification.
 >
@@ -142,8 +142,8 @@ reviewer:
 - Speak slowly and calmly; avoid speculation.
 
 ### Not covered by the sources (deliberately left blank)
-- Pathophysiology of COVID neuropsychiatric effects (neurotropism via ACE2, cytokines, hypoxia, microthrombi).
-- Neurological syndromes and their frequencies (encephalitis, ADEM, GBS, stroke, seizures, anosmia).
+- Pathophysiology of COVID neuropsychiatric effects.
+- Neurological syndromes and their frequencies.
 - Paediatric multisystem inflammatory syndrome; vaccine-related neuropsychiatric events.
 - Large-cohort incidence data beyond the 34%/46% figure.
 

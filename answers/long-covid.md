@@ -10,11 +10,11 @@ reviewer:
 > **Source discipline:** this answer uses only the IPS Clinical Practice Guideline by Grover S, Sahoo S, Mehra A, Avasthi A, *Indian J Psychiatry* 2022; 64(Suppl 2): S499–S507 [1].
 >
 > ⚠️ **Major gaps:** the source **does not define long COVID**. Not in the source:
-> - **WHO** "post-COVID-19 condition" (2021) or **NICE** timeframes (4–12 weeks, more than 12 weeks);
+> - a formal definition or duration threshold (e.g., WHO or NICE definitions);
 > - prevalence;
 > - risk factors;
 > - pathophysiology;
-> - non-psychiatric management such as **pacing** for fatigue or rehabilitation.
+> - non-psychiatric management (fatigue management, rehabilitation).
 >
 > The answer covers the **mental-health aspects** as listed by the IPS guideline. Please upload a long-COVID definition or review if the general medical content is needed.
 
@@ -84,8 +84,8 @@ The IPS guideline recommends **routine, repeated screening in post-COVID clinics
 
 ### Not covered by the sources (deliberately left blank)
 - Definitions (WHO post-COVID-19 condition; NICE ongoing symptomatic vs post-COVID syndrome) and duration thresholds.
-- Prevalence, risk factors (female sex, severity, vaccination status) and pathophysiology (persistent inflammation, viral persistence, autonomic dysfunction/POTS).
-- Fatigue management (pacing, graded approaches) and rehabilitation services.
+- Prevalence, risk factors and pathophysiology of long COVID.
+- Fatigue management and rehabilitation services.
 - Paediatric long COVID.
 
 ## References

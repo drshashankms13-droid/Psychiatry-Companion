@@ -10,7 +10,7 @@ reviewer:
 > **Source discipline:** this answer uses only Rao TSS, Banerjee D, Tandon A, Sawant NS, Jha A, Manohar S, Rao SS. Psychosexual health and sexual medicine in consultation–liaison psychiatry (IPS Clinical Practice Guideline). *Indian J Psychiatry* 2022; 64(Suppl 2), section "Gender dysphoria and gender-affirming/confirming surgery", Figure 9 and Table 15, pp. S444–S446 [1].
 >
 > ⚠️ **Major gaps:**
-> - The guideline follows **WPATH SOC version 7**. **SOC-8 (2022)**, which changed several requirements, is **not in the source**.
+> - The guideline follows **WPATH SOC version 7**. The later **SOC version 8** is **not in the source**, so any changes it made are not reflected here.
 > - **Not in the source:**
 >   - prevalence of psychiatric comorbidity in transgender people;
 >   - **post-surgical outcomes** (quality of life, suicidality, **regret** rates);
@@ -18,7 +18,7 @@ reviewer:
 >   - hormone regimens;
 >   - minority-stress models;
 >   - ICD-11 "gender incongruence";
->   - the details of the Transgender Persons Act procedure (certificate from the District Magistrate, etc.).
+>   - the procedural details of the Transgender Persons Act 2019.
 >
 > Please upload WPATH SOC-8 or a review of post-surgical psychiatric outcomes to complete this answer.
 
@@ -103,12 +103,12 @@ India's 2019 Act permits these surgeries. The source does not give post-operativ
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- WPATH SOC-8 (2022) changes (e.g., removal of mandatory real-life experience, single-letter options, adolescent criteria).
+- WPATH SOC version 8 and how it differs from version 7.
 - Rates of depression, anxiety and suicidality before and after surgery; regret and detransition data.
-- Specific surgical procedures (vaginoplasty, phalloplasty, mastectomy) and their psychiatric complications.
+- Specific surgical procedures and their psychiatric complications.
 - Hormone regimens and their psychiatric effects.
 - Minority stress theory; family rejection; Indian hijra/kinnar community context.
-- Procedural details of the Transgender Persons Act 2019 and Rules 2020.
+- Procedural details of the Transgender Persons Act 2019 and its Rules.
 
 ## References
 
