@@ -4,8 +4,9 @@ covers:
   - p1-79004221
   - p1-9c113dab
   - p1-445a7a09
+  - p2-5649019b
 status: draft
-updated: 2026-10-20
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -154,6 +155,17 @@ Two adequate antidepressant trials fail → optimise or augment (lithium, aripip
 
 **Verdict:** "Much promise" is justified for depression and reasonable for OCD. For other disorders it is premature. The field's priority is replication with active sham, longer follow-up and cost-effectiveness data from low- and middle-income settings.
 
+**Applying this to the statement "newer modes of brain stimulation are more effective and convenient than ECT"** (p2-5649019b):
+- **Effectiveness: false, as a general claim.**
+  - Head-to-head meta-analysis (Ren 2014; 9 RCTs, n=425): **ECT response 64% vs high-frequency rTMS 49%** (RR 1.41).
+  - ECT remains the most effective treatment for severe, psychotic, catatonic or suicidal depression (response 60–90%; older age and psychotic or catatonic features predict response).
+  - tDCS was inferior to escitalopram (ELECT-TDCS).
+  - DBS failed pivotal RCTs [11].
+- **Convenience: partly true.** rTMS and tDCS need no anaesthesia, have no cognitive adverse effects, and allow outpatient or home delivery. But rTMS needs daily visits for 4–6 weeks, and response is slower [11].
+- **Cognition is the real trade-off.** ECT's cognitive effects increase with bilateral placement, sine-wave stimulation, high dose and frequent sessions. They are minimised with ultrabrief right unilateral ECT, at the cost of a longer time to remission (Sackeim 2008; Galletly 2014) [11].
+- **Continuation:** after ECT, relapse prevention by continuation ECT is comparable to lithium + nortriptyline (CORE). In PRIDE, ECT plus medication beat medication alone in elderly people [11].
+- **Verdict:** newer modes are **more convenient and cognitively safer**, but they are **less effective** than ECT for severe depression. They complement ECT; they do not replace it. Previous ECT response predicts rTMS response, and ECT non-response predicts poor rTMS response [11].
+
 ### Indian context
 - **MHCA 2017, Section 95:** prohibits ECT without muscle relaxant and anaesthesia (unmodified ECT). ECT in minors needs guardian consent and Mental Health Review Board permission. Advance directives may refuse ECT.
 - IPS clinical practice guidelines exist for rTMS (2023) and ECT, and NIMHANS has a large neuromodulation programme (rTMS, tDCS, ECT research) [1].
@@ -178,3 +190,4 @@ Two adequate antidepressant trials fail → optimise or augment (lithium, aripip
 8. Kellner CH, et al. Continuation electroconvulsive therapy vs pharmacotherapy for relapse prevention in major depression (CORE). *Arch Gen Psychiatry* 2006; 63:1337–1344.
 9. Cole EJ, et al. Stanford Neuromodulation Therapy (SNT): a double-blind randomized controlled trial. *Am J Psychiatry* 2022; 179:132–141.
 10. Government of India. *The Mental Healthcare Act, 2017*; Section 95.
+11. User's seminar slides: Arumugham SS. *Neuromodulation in psychiatry — an overview*. NIMHANS. Cites Ren J, et al. Repetitive transcranial magnetic stimulation versus electroconvulsive therapy for major depression: a systematic review and meta-analysis. *Prog Neuropsychopharmacol Biol Psychiatry* 2014; 51:181–189; Kellner CH, et al. (PRIDE) *Am J Psychiatry* 2016; Sackeim HA, et al. 2008; Galletly C, et al. 2014; Andrade C, et al. *Psychiatr Clin North Am* 2016.
