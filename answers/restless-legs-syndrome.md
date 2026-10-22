@@ -3,7 +3,7 @@ title: Restless legs syndrome
 covers:
   - p3-c57ed50d
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -13,13 +13,15 @@ reviewer:
 >
 > ⚠️ **Major gap:** Lishman's treatment advice is a single sentence ("some patients obtain benefit from the use of dopaminergic drugs"). **Not in the sources:**
 > - IRLSSG diagnostic criteria (2014);
-> - **iron studies, ferritin thresholds and iron replacement**;
+> - **iron replacement** (Levenson [3] gives only the ferritin ≤75 μg/L test point);
 > - specific dopamine agonists (pramipexole, ropinirole, rotigotine) and **augmentation**;
-> - the place of **α2δ ligands**;
+> - **α2δ-ligand doses** (Levenson [3] names gabapentin as preferred, without a dose);
 > - low-dose opioids for refractory RLS;
 > - antidepressant-induced RLS.
 >
 > Please upload a neurology or sleep source (e.g., AASM 2024 guideline) to complete management.
+>
+> **Added 2026-10-22:** Levenson's CLP textbook (2019), Chapter 14 (Krahn), "Restless Legs Syndrome and Periodic Limb Movements" (Table 14-8) [3].
 
 ## Exam answer
 
@@ -80,17 +82,76 @@ reviewer:
 6. **CKD / haemodialysis:** **gabapentin** has been used for restless legs; dosing adjusted to renal function [2].
 7. **Akathisia vs RLS** in psychiatric patients: recognise akathisia (reduce or switch the antipsychotic) rather than misattributing it [2].
 
-**Conclusion.** RLS is a common, often familial, sensorimotor disorder: an evening urge to move the legs with deep dysaesthesia, relieved by movement, causing sleep-onset insomnia. It is strongly linked to periodic limb movements. Secondary causes (anaemia/deficiency, uraemia, neuropathy, pregnancy) and aggravators (caffeine, alcohol, antidepressants) must be sought. In psychiatric practice it must be distinguished from neuroleptic akathisia. Management is the cause, sleep hygiene, physical measures, and dopaminergic drugs (gabapentin in renal failure). **The modern treatment hierarchy (iron, α2δ ligands, augmentation) is not covered by the sources.**
+### Update from Levenson 2019: epidemiology, investigation and treatment [3]
+**Clinical characteristics (Table 14-8):**
+1. an urge to move the limbs because of subjective discomfort;
+2. motor restlessness;
+3. symptoms worse with, or confined to, **sedentary activity** (e.g., long flights);
+4. at least partial **relief by activity**;
+5. **worse in the evening or night**.
+
+**Epidemiology (community survey):**
+- prevalence **3% at 18–29 years**, **10% at 30–79**, **19% at 80 and over**;
+- **risk factors:** older age, **high BMI**, **nicotine dependence**, **diabetes**, **lack of exercise**.
+
+**Secondary associations:**
+- **anaemia and iron deficiency**;
+- **third trimester of pregnancy** (probably functional anaemia);
+- worsening after **blood donation** (case reports);
+- diabetes; peripheral neuropathy;
+- **uraemia**: **20–30% of patients with renal failure**.
+
+**Genetics:**
+- **autosomal dominant** families;
+- mapped to **chromosome 12q** in a French-Canadian kindred;
+- familial cases may start in **childhood**.
+
+**Periodic limb movements:**
+- about **90% of RLS patients** have PLMs, but many people with PLMs have no symptoms;
+- PLMs **without** restlessness are of uncertain significance;
+- distinguish them from **nocturnal leg cramps** (painful, sustained calf contractions; not periodic; at most a few a night).
+
+**Differential diagnosis:** neuropathic pain, arthritis, restless insomnia, **drug-induced akathisia**.
+
+**Complications:**
+- irritability, **depressed mood**, cognitive problems;
+- morning headache;
+- social isolation; reduced libido.
+
+**Pathophysiology:**
+- **reduced dopamine function**: PET shows lower dopaminergic activity in the **caudate and putamen**;
+- **CNS iron deficiency** is thought to reduce dopaminergic activity.
+
+**Diagnosis:**
+- the **history**, aided by the **International RLS Study Group rating scale**;
+- **PSG is not essential**. Use it if OSA may coexist or treatment fails;
+- the most useful tests are a **full blood count** and **ferritin**, especially when ferritin is **75 μg/L or less**.
+
+**Treatment:**
+- **Gabapentin** is now the **preferred agent** (effective and well tolerated).
+- **Dopamine agonists** (**pramipexole, ropinirole**): start with caution because of **augmentation** and **impulse-control behaviours such as compulsive gambling**.
+- **Clonazepam** and **opioids** (codeine, methadone) have been used, but they cause **physical dependence** and are not preferred.
+- **Exercise:** lower-body resistance training plus treadmill walking; physiotherapy.
+
+⚠️ **Discrepancies (not resolved):**
+- **Drug of choice:** Lishman [1] mentions only **dopaminergic drugs**. Levenson [3] prefers **gabapentin** and warns about agonists. Levenson is also internally inconsistent: it says treatment "primarily involves dopaminergic medications" and then names gabapentin as preferred.
+- **PLMs:** Lishman calls PLMS about **3 times commoner** than RLS. Levenson says about **90% of RLS patients** have PLMs. These describe different things and are not reconciled in the sources.
+- **Onset:** Lishman gives onset usually in the **second decade**. Levenson shows prevalence **rising with age**, with childhood onset in familial cases.
+- **Mechanism:** Lishman notes **raised CSF hypocretin**. Levenson emphasises **dopamine and iron**.
+- **Not in Levenson:** gabapentin and agonist **doses**, **iron replacement**, and how to manage augmentation.
+
+**Conclusion.** RLS is a common, often familial, sensorimotor disorder: an evening urge to move the legs with deep dysaesthesia, relieved by movement, causing sleep-onset insomnia. It is strongly linked to periodic limb movements. Secondary causes (anaemia/deficiency, uraemia, neuropathy, pregnancy) and aggravators (caffeine, alcohol, antidepressants) must be sought. In psychiatric practice it must be distinguished from neuroleptic akathisia. Management is the cause, sleep hygiene, physical measures, and dopaminergic drugs (gabapentin in renal failure). Levenson 2019 [3] adds **ferritin screening (75 μg/L or less)**, **gabapentin as the preferred agent**, and caution with dopamine agonists (augmentation, compulsive gambling). **Iron replacement and drug doses are still not in the sources.**
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
 - IRLSSG 2014 criteria and severity scale.
-- Iron studies and IV iron.
-- Comparative drug treatment; augmentation recognition and management.
+- Iron replacement (oral or IV).
+- Comparative drug trials and doses; management of augmentation.
 - Drug-induced RLS and antidepressant choice in RLS.
 
 ## References
 
 1. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 13, pp. 822 (causes of sleep-maintenance insomnia), 834–835 (restless legs syndrome and periodic limb movement syndrome).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Akathisia" (overlap with restless legs syndrome), p. 131; "Prescribing in hepatic and renal impairment" (gabapentin; restless legs in haemodialysis), pp. 776–777.
+3. Krahn LE. Sleep disorders. In: Levenson JL, ed. *The American Psychiatric Association Publishing Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. APA Publishing, 2019: Chapter 14, "Sleep Disorders" (Restless Legs Syndrome and Periodic Limb Movements: Prevalence, Clinical Features, Table 14-8, Complications, Pathophysiological Mechanism, Diagnostic Testing, Treatment).

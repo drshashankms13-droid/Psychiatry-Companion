@@ -21,9 +21,11 @@ reviewer:
 > ⚠️ **Remaining gaps:**
 > - **ICSD-3 diagnostic criteria** (text);
 > - **doses** of melatonin and clonazepam;
-> - **RBD screening questionnaires**.
+> - **RBD questionnaire items** (Levenson [3] names the Mayo Sleep Questionnaire but its content is not in the extracted text).
 >
 > Not filled from memory.
+>
+> **Added 2026-10-22:** Levenson's CLP textbook (2019), Chapter 14 (Krahn), "REM Sleep Behavior Disorder" and the Mayo Sleep Questionnaire [3].
 
 ## Exam answer
 
@@ -99,12 +101,39 @@ RBD pointers: **older age at onset**, associated **degenerative neurological dis
   - offer **research participation**;
   - **no treatment yet prevents conversion**; prodromal criteria and biomarkers are **research tools, not yet clinical**.
 
+### Update from Levenson 2019 [3]
+- **Core feature:** the patient "acts out dreams" (yelling, gesturing, hitting, kicking) because the **normal REM atonia is lost**.
+- **Prevalence** is not firmly established; RBD is probably commoner than once thought.
+- **Risk factors:** **male sex (90% of reported patients)** and **age 50 or older** in most patients.
+- **Possible triggers:** **SSRIs and SNRIs**.
+- **Neurological associations (proportion of each disease group with RBD):**
+  - **Parkinson's disease 15–33%**;
+  - **multiple system atrophy 69–90%**;
+  - **dementia with Lewy bodies 50–80%**.
+- **Injury** to the patient and bed partner can be serious.
+- **Polysomnography:**
+  - ideally with **extra EMG leads and video**, to show increased EMG tone in REM;
+  - **REM sleep without atonia but without behaviours** does **not yet count as RBD**, though progression is expected;
+  - PSG also detects **OSA** (important if a benzodiazepine is planned);
+  - **exclude nocturnal seizures**.
+- **Collateral history:** the **Mayo Sleep Questionnaire** is validated for family members' reports of possible RBD. A video or audio recording also helps.
+- **Treatment:**
+  - make the bedroom safe; bed partners often sleep separately;
+  - **clonazepam is the drug of choice** (it reduces REM movement and injury);
+  - **there are no RCTs** of any RBD treatment.
+- **Nightmares** with sweating and tachycardia also occur in **Parkinson's disease** (see the parasomnias answer).
+
+⚠️ **Discrepancies (not resolved):**
+- **Triggers:** Lishman [1] names **stimulants and tricyclics** (in narcolepsy) and drug or alcohol withdrawal. Levenson [3] names **SSRIs and SNRIs**.
+- **Associations:** Lishman found a **CNS disorder in one-third** of RBD cases. Levenson gives the reverse direction: the proportion of **PD, MSA and DLB patients** who have RBD.
+- **Drug choice:** Continuum [2] lists **melatonin** with clonazepam. Levenson names **clonazepam only** and stresses that no treatment has RCT evidence.
+
 **Conclusion.** RBD is a REM parasomnia in which loss of REM atonia lets patients act out vivid, often violent dreams. It typically affects older men in the later part of the night, causes frequent injury, and is associated with Parkinson's disease, dementia, MSA and narcolepsy. **Polysomnography** confirms **REM sleep without atonia** and excludes epilepsy and OSA. **Clonazepam** or **melatonin** (Continuum 2022; Lishman also lists desipramine, carbidopa and clonidine) plus safety measures. Isolated RBD is a strong **prodrome of PD, DLB or MSA** (50–80% convert, about 6% a year to PD), so counselling, review of serotonergic antidepressants and neurological follow-up are essential.
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- ICSD-3 criteria text; RBD questionnaires (RBDSQ).
+- ICSD-3 criteria text; RBD questionnaire items (RBDSQ; Mayo Sleep Questionnaire content, which is a figure not in the extracted text).
 - Melatonin and clonazepam doses; clonazepam cautions in the elderly.
 
 ## References
@@ -114,3 +143,4 @@ RBD pointers: **older age at onset**, associated **degenerative neurological dis
    - Chapter 12: p. 779 (sleep disorders in MSA);
    - Chapter 13: pp. 818–820 (sleep architecture; Fig. 13.3), 823 (alcohol and REM atonia), 826 (narcolepsy), 839–840 (REM sleep behaviour disorder; Fig. 13.4).
 2. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): Chahine LM. Prodromal α-synucleinopathies, 1268–1280 (RBD, p. 1271; epidemiology and phenoconversion, pp. 1273–1274; Case 1-1 and preventive measures, pp. 1276–1278); Thaler A, Alcalay RN. Diagnosis and medical management of Parkinson disease, 1281–1300 (pp. 1286, 1295); Claassen DO. Multiple system atrophy, 1350–1363 (p. 1358).
+3. Krahn LE. Sleep disorders. In: Levenson JL, ed. *The American Psychiatric Association Publishing Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. APA Publishing, 2019: Chapter 14, "Sleep Disorders" (Evaluation of Sleep: bed-partner interview and Mayo Sleep Questionnaire, Figure 14-2; Parasomnias: REM Sleep Behavior Disorder).

@@ -3,7 +3,7 @@ title: Parasomnias
 covers:
   - p3-a64c38f9
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -13,7 +13,9 @@ reviewer:
 >    - Chapter 6: parasomnias vs epilepsy, pp. 360–361.
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., z-drug/benzodiazepine-associated somnambulism, automatism and "sleep driving", pp. 471 and 922 [2].
 >
-> **Gaps:** the full ICSD-3 classification of parasomnias and its individual disorders, and **nightmare-disorder treatment**, are **not in the sources**.
+> **Gaps:** the full ICSD-3 classification of parasomnias and its individual disorders is **not in the sources**.
+>
+> **Added 2026-10-22:** Levenson's CLP textbook (2019), Chapter 14 (Krahn), "Parasomnias" (NREM sleep arousal disorder, nightmare disorder, nocturnal panic) and z-drug sleep behaviours [3].
 
 ## Exam answer
 
@@ -98,6 +100,53 @@ Other differentials:
    - **RBD: clonazepam** (desipramine, carbidopa, clonidine as alternatives).
 6. **Medicolegal assessment** when violence is alleged (Fenwick's criteria).
 
+### Update from Levenson 2019: NREM arousal, nightmare disorder and night-time differentials [3]
+**NREM sleep arousal disorder (DSM-5):**
+- **commoner in children and adolescents** than adults (unlike RBD);
+- the patient acts unusually, walks or eats while not fully alert;
+- **PSG is not always needed**: episodes are intermittent and hard to capture in one night;
+- **precipitants:** **sleep deprivation**, nocturnal arousals, **shifting bedtimes**, **alcohol**. Sleep deprivation has been used to provoke sleepwalking in research;
+- **treatment:**
+  - a safe sleeping environment;
+  - a **consistent sleep schedule**;
+  - fewer nocturnal awakenings;
+  - **hypnotics** to prevent arousal, if warranted.
+
+**Drug-induced complex sleep behaviours:**
+- **sleepwalking and sleep eating** with z-drugs, **especially zolpidem**;
+- more likely at **supratherapeutic doses** or **with alcohol** or other sedatives;
+- prevalence unknown.
+
+**REM sleep behaviour disorder:** see the RBD answer (Levenson update).
+
+**Nightmare disorder (DSM-5 parasomnia):**
+- repeated, prolonged, **highly distressing dreams**;
+- **duration specifiers:** **acute** (under 1 month), **subacute** (1–6 months), **persistent** (over 6 months);
+- may come with **sweating, tachycardia and tachypnoea**;
+- **contexts:** severe situational stress, **PTSD**, **Parkinson's disease**, **congestive heart failure**, and drugs, notably **β-blockers**;
+- **treatment:**
+  - **behavioural:** exposure, relaxation, and **imagery rescripting** (the upsetting content is reframed);
+  - **drugs:** **tricyclics** (suppress REM); **benzodiazepines** (fewer arousals, so less dream recall);
+  - **prazosin** in nightmare disorder **without PTSD**: results unclear.
+
+**Night-time panic and other differentials:**
+- panic attacks **only in sleep** are **rare**; day-and-night panic is not uncommon;
+- when panic occurs only at night (usually in **NREM**), consider:
+  - breathing-related sleep disorder;
+  - nightmares;
+  - medical triggers (**arrhythmia, angina, reflux**);
+- **always consider epilepsy** for unusual night-time behaviour. **Frontal-lobe seizures** can cause stereotyped but bizarre events **in slow-wave sleep**;
+- nocturnal panic is treated **mainly with medication**, since behavioural measures are hard to apply during sleep.
+
+**Assessment aids:**
+- a **bed-partner interview**; the **Mayo Sleep Questionnaire** for family members;
+- **video or audio recordings**;
+- a former bed partner's confirmation of the problem **raises the likelihood** of a true disorder.
+
+⚠️ **Discrepancies (not resolved):**
+- **Sleep stage of nocturnal seizures:** Lishman [1] places them in **stage 2**, within about 30 minutes of sleep onset. Levenson [3] describes frontal-lobe seizure events **during slow-wave sleep**.
+- **Classification:** Lishman's grouping (NREM arousal disorders, REM parasomnias, sleep–wake transition phenomena) predates DSM-5. Levenson uses the DSM-5 labels **NREM sleep arousal disorder** and **nightmare disorder**.
+
 **Conclusion.** Parasomnias are classified by their sleep-stage origin:
 - **NREM arousal disorders** (sleep-walking, night terrors): early night, deep sleep, amnesia, common in children and usually outgrown; in adults associated with psychopathology; provoked by sleep deprivation, alcohol, stress and sedatives such as zolpidem;
 - **REM parasomnias** (RBD with dream enactment; nightmares);
@@ -109,7 +158,7 @@ Diagnosis relies on the bed-partner history and polysomnography, distinguishing 
 
 ### Not covered by the sources (deliberately left blank)
 - The ICSD-3 parasomnia list and its individual disorders.
-- Nightmare disorder treatments; PTSD-related nightmares.
+- PTSD-specific nightmare treatment (Levenson [3] mentions prazosin only for nightmare disorder without PTSD).
 - Behavioural treatments for childhood parasomnias; CBT for parasomnias.
 
 ## References
@@ -118,3 +167,4 @@ Diagnosis relies on the bed-partner history and polysomnography, distinguishing 
    - Chapter 6: pp. 360–361 (sleep disorders vs epilepsy);
    - Chapter 13: pp. 820–821 (classification), 822 (nightmare arousals), 823 (alcohol and REM), 826 (sleep paralysis; hypnagogic hallucinations; nightmares in narcolepsy), 837–839 (somnambulism; violence; R v Burgess; treatment; night terrors), 839–840 (REM sleep behaviour disorder).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: benzodiazepine disinhibition (zolpidem and somnambulism, automatism), p. 471; psychotropics and driving (zolpidem "sleep driving"), p. 922.
+3. Krahn LE. Sleep disorders. In: Levenson JL, ed. *The American Psychiatric Association Publishing Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. APA Publishing, 2019: Chapter 14, "Sleep Disorders" (Evaluation of Sleep; Parasomnias: REM Sleep Behavior Disorder, NREM Sleep Arousal Disorder, Nightmare Disorder; Insomnia Disorder: hypnotic adverse effects).
