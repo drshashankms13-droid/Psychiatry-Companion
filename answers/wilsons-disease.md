@@ -5,13 +5,15 @@ covers:
   - p3-2f8050c6
   - p3-0b62b688
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
 > **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Hepatolenticular degeneration (Wilson's disease)", pp. 772–776 [1].
 >
 > **Caution (2009 source):** drug details may be out of date. For example, tetrathiomolybdate is "yet to be licensed", and current EASL/AASLD dosing, the Leipzig score and genetic-testing algorithms are not given. These are listed as gaps.
+>
+> **Added 2026-10-22:** *Continuum* 2022 (chorea, dystonia and paediatric movement disorder articles) [2], in the section "Update from Continuum 2022".
 
 ## Exam answer
 
@@ -130,6 +132,28 @@ Reasons for referral: declining school or work performance, behavioural outburst
 - A few deteriorate despite treatment.
 - Untreated: progressive crippling, liver failure, death (children formerly survived less than 4 years).
 
+### Update from Continuum 2022 [2]
+- **Genetics:** **autosomal recessive**; ***ATP7B*** on **chromosome 13q14.3** [2].
+- **Age pattern:**
+  - **isolated hepatic disease at about 8–12 years**;
+  - **neurological symptoms are typically absent before 7–10 years**.
+- **Neurological picture:**
+  - **generalised rigidity**; **faciolinguopharyngeal rigidity**;
+  - gross postural or intention tremor;
+  - behavioural and cognitive change;
+  - chorea and dystonia.
+- **MRI:** the **"face of the giant panda"** on T2.
+- **Diagnosis:** **low caeruloplasmin and serum copper**, **excess urinary copper**, **K–F rings**, ***ATP7B* mutation**.
+- **When to test:**
+  - Continuum's dystonia work-up includes **copper, caeruloplasmin and 24-hour urinary copper** to exclude Wilson's;
+  - Wilson's is the main **treatable exception** among genetic choreas and should be screened early whenever suspected.
+- **Treatment:**
+  - **chelation or substrate reduction:** **D-penicillamine, trientine, zinc**;
+  - **avoid hepatotoxic agents**;
+  - the disease **can remain stable with chelation or be cured by liver transplantation**.
+
+⚠️ **Still missing:** Continuum gives **no doses**, monitoring targets or the Leipzig score.
+
 **Conclusion.** Wilson's disease:
 - is an autosomal recessive *ATP7B* copper-transport defect causing hepatic cirrhosis and lenticular degeneration;
 - often presents to psychiatrists with personality change, disinhibited or reckless behaviour, depression or school decline. Psychosis is rare.
@@ -157,3 +181,4 @@ Diagnosis rests on **low caeruloplasmin, high urinary copper, K–F rings**, MRI
 ## References
 
 1. Henderson M, Mellers JDC. Movement disorders. In: David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, "Hepatolenticular degeneration (Wilson's disease)", pp. 772–776; also pp. 757 (differential diagnosis) and 780 (dystonia: exclude Wilson's under 50).
+2. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): Furr Stimming E, Bega D. Chorea, 1379–1408 (Table 8-3 and management, pp. 1395–1400); Stephen CD. The dystonias, 1435–1475 (work-up and Table 10-7, pp. 1462–1464); O'Malley JA. Diagnosing common movement disorders in children, 1476–1519 (Table 11-10, pp. 1510–1512).

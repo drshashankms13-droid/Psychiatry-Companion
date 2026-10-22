@@ -4,7 +4,7 @@ covers:
   - p3-0e868548
   - p3-980df8ac
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -13,6 +13,8 @@ reviewer:
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed. (2025), "Huntington's disease", pp. 830–834 (Box 10.3; Tables 10.9–10.11) [2].
 >
 > Lishman supplies the clinical picture and Maudsley the drug treatment. Nothing else has been added.
+>
+> **Added 2026-10-22:** Furr Stimming E, Bega D. Chorea. *Continuum* 2022 [3], in the section "Update from Continuum 2022". It supplies the CAG categories, phenocopies, UHDRS and VMAT2 evidence.
 
 ## Exam answer
 
@@ -154,6 +156,71 @@ Wellbeing generally improves after testing, but some who receive **"good news" d
 - forensic and sexual-behaviour issues;
 - long-term care (survival **15–20 years**).
 
+### Update from Continuum 2022 [3]
+**Genetics:**
+- HD is the **commonest cause of adult-onset hereditary chorea**, affecting about **5–12 per 100,000**.
+- **Autosomal dominant CAG expansion** in ***HTT*** on **chromosome 4p16.3**. Mutant huntingtin forms nuclear aggregates, with loss of striatal **medium spiny neurons**.
+- **About 5%** are **de novo** or arise from expansion of a mutable intermediate allele, so a negative family history does not exclude HD.
+
+**CAG repeat categories (Table 8-1):**
+
+| CAG repeats | Classification | Disease status | Risk to offspring |
+| --- | --- | --- | --- |
+| 26 or under | Normal | Not affected | None |
+| 27–35 | **Intermediate** | Not affected (rare symptomatic reports) | **Increased** (paternal **anticipation**) |
+| 36–39 | **Reduced penetrance** | May or may not be affected | 50% |
+| 40 or more | **Full penetrance** | Will be affected | 50% |
+
+- Repeat length explains only **50–70%** of the variation in **age at motor onset** (inverse correlation).
+- **DNA-repair modifier genes** (GeM-HD) act through somatic expansion. The **uninterrupted** CAG length matters more than polyglutamine length.
+
+**Course and phenotype:**
+- **Mean onset** in the **third or fourth decade**; survival **15–20 years** after onset.
+- **Prodromal HD:** subtle signs for about **10 years** before clinical diagnosis.
+- **Diagnostic criteria:** historically motor-based. **Revised criteria** (Reilmann; MDS task force) add cognitive features.
+- **Juvenile (Westphal) HD:** onset **before 20**, CAG usually **over 55**, with akinesia, parkinsonism and **seizures** rather than chorea.
+- **Motor clues:** **forehead or upper-face chorea** (less common in tardive syndromes); **delayed saccade initiation and slowed saccades**; also ataxia, dystonia, parkinsonism, tics, dysarthria, dysphagia.
+- **Cognition:** decline in **all**, mainly executive (planning, working memory, attention).
+- **Psychiatric:**
+  - depression, **irritability**, anxiety and impulsivity are commonest, contributing to the **high suicide rate**;
+  - OCD symptoms; **apathy, which uniquely worsens over time**;
+  - psychosis is rare;
+  - **anosognosia** for chorea is common.
+- **Assessment:** **UHDRS** total maximal chorea score (seven body regions); AIMS.
+
+**Genetic testing:** **genetic counselling must come before testing.**
+
+**HD phenocopies** (1–7% of HTT-negative genetic choreas; most stay undiagnosed):
+- **C9orf72 expansion** is the commonest phenocopy to test next (1.95%; may include ALS or FTD);
+- **HDL2** (Huntington disease–like 2); **DRPLA** (*ATN1*; dentate, red nucleus and pallidal MRI change);
+- **SCA17**;
+- **chorea-acanthocytosis** (*VPS13A*: orobuccolingual and feeding dystonia, acanthocytes) and **McLeod syndrome** (X-linked);
+- brain mineral disorders: **NBIA** (iron), **Fahr** (calcium), **Wilson's** (copper; "face of the giant panda" on MRI; treatable).
+
+**Treatment of chorea:**
+- **Treat only troublesome chorea.** Judge its impact with the care partner, because of anosognosia.
+- **VMAT2 inhibitors** are the **only FDA-approved class** for HD chorea:
+  - **tetrabenazine:** TETRA-HD, Class I. Adverse effects: **depression and suicidal ideation**, sedation, parkinsonism;
+  - **deutetrabenazine:** FIRST-HD. A **deuterated** form with a longer half-life, less frequent dosing, steadier levels and probably fewer mood and sedation effects, but still monitor mood, suicidality and parkinsonism;
+  - **valbenazine** (once daily) is approved for TD and was under study for HD.
+- **Antipsychotics (off-label):**
+  - stronger D2 blockers (typicals, **risperidone, olanzapine**) suppress chorea better than quetiapine or clozapine;
+  - also useful for behaviour, weight and sleep;
+  - watch for metabolic effects, sedation, parkinsonism and TD.
+- **Amantadine** has limited evidence in HD. **Antiseizure drugs** are used in juvenile HD with seizures. **Botulinum toxin** helps focal dystonia.
+
+**Drugs that can induce chorea (Table 8-2):**
+- **SSRIs** (fluoxetine, fluvoxamine, paroxetine) and **TCAs**;
+- antiseizure drugs (carbamazepine, lamotrigine, phenytoin, valproate);
+- antihistamines;
+- levodopa, dopamine agonists, anticholinergics;
+- calcium-channel blockers; **dopamine antagonists**; psychostimulants; **lithium**; methadone; oral contraceptives; steroids.
+
+⚠️ **Discrepancy (not resolved):**
+- Lishman (above) gives "**≤36 normal**". Continuum gives **26 or under** as normal, with 27–35 intermediate and 36–39 reduced penetrance.
+- Continuum's table prints "<26" while its text says "26 or lower".
+- **Onset:** Lishman gives a mean in the **mid-40s**; Continuum gives the **third or fourth decade**.
+
 **Conclusion.** HD is an autosomal dominant CAG-repeat disorder in which:
 - **psychiatric symptoms** (depression, irritability, apathy, personality change, paranoid psychosis) often **precede chorea**;
 - **subcortical dementia** and high **suicide** risk follow;
@@ -174,12 +241,12 @@ Management is symptomatic and multidisciplinary:
 - Insight is preserved, which explains early depression and suicide.
 
 ### Not covered by the sources (deliberately left blank)
-- Full diagnostic categories by CAG repeat length (intermediate and reduced-penetrance ranges). Lishman gives only ≤36 normal and ≥40 pathogenic.
-- UHDRS, Shoulson–Fahn staging.
-- Investigational disease-modifying therapies.
+- Shoulson–Fahn staging and UHDRS item content (Continuum names the UHDRS chorea score only).
+- Investigational disease-modifying therapies (Continuum names none for HD).
 - Indian epidemiology and genetic services.
 
 ## References
 
 1. Lovestone S. Alzheimer's disease and other dementias. In: David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 9, "Huntington's disease", pp. 576–584.
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 10, "Huntington's disease", pp. 830–834 (Box 10.3; Tables 10.9–10.11).
+3. Furr Stimming E, Bega D. Chorea. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): 1379–1408 (facial chorea and evaluation, pp. 1381–1382; Huntington disease and Table 8-1, pp. 1383–1385; phenocopies, pp. 1385–1393; management and Table 8-2, pp. 1393–1401).

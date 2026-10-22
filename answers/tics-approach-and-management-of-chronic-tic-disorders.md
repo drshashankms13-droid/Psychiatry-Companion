@@ -4,7 +4,7 @@ covers:
   - p3-c75210f7
   - p3-fd56ca26
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -16,6 +16,8 @@ reviewer:
 > 5. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Gilles de la Tourette's syndrome", pp. 786–793, for comorbidity, aetiology, course and the older drug/surgical evidence [5].
 >
 > Nothing else has been added. Lishman's drug evidence predates Maudsley's; where they differ, Maudsley is the more current.
+>
+> **Added 2026-10-22:** O'Malley JA. Diagnosing common movement disorders in children. *Continuum* 2022 [6], in the section "Update from Continuum 2022": tic features, the treatment ladder and functional tic-like behaviours.
 
 ## Exam answer
 
@@ -138,6 +140,37 @@ Effect sizes are similar to antipsychotics [3].
 - **Evidence problems:** variable and fluctuating severity, small trials, comorbidity confounding, and widespread complementary therapy use [3].
 - **In practice:** it is "extremely rare" to need treatments beyond antipsychotics [3].
 
+### Update from Continuum 2022 [6]
+**Diagnosis and features:**
+- Tics and stereotypies are the **commonest benign movement disorders of childhood**.
+- **Urge and suppressibility** are the key features of tics.
+- **Tourette syndrome** (as stated by Continuum):
+  - onset **before 18**;
+  - **at least one vocal and one motor tic** (not necessarily together) over **1 year or more**;
+  - tics **nearly daily**, with **tic-free periods under 3 months**.
+- **Course:** tics typically **pause during voluntary movement and speech**, wax and wane (worse at the start of the school year, better at weekends and in summer), and are absent in sleep but may increase at bedtime.
+- **Provoking factors:** **stimulants**, caffeine, emotional or physical stress.
+- **Comorbidities:** anxiety, depression, **OCD, ADHD**.
+- **Tips:** ask about earlier "habits". Ask children what happens if they try to stop, or ask them to draw the urge.
+
+**Treatment ladder:**
+1. **Education.** Many children never need medication. Treat tics that are **painful, embarrassing or interfere with learning**.
+2. **First line:** **CBIT** (in person or online), for motivated patients aware of their tics, **with or without α2-agonists (guanfacine, clonidine)**.
+3. **Second line:** **non-dopamine-blockers**: **topiramate** (appetite suppression), **SSRIs/SNRIs** (mood change), **baclofen** (fatigue).
+4. **Third line:** **dopamine blockers** (typical and atypical antipsychotics) for severe or refractory tics, with closer monitoring.
+5. **DBS:** typically reserved for **adults** with severe, refractory, highly disabling Tourette syndrome.
+
+**Treat the key driver:** for example, in an anxious child, **treating anxiety can reduce tics dramatically**.
+
+**Functional tic-like behaviours:**
+- These have increased since COVID-19, often linked to **social media**.
+- Typical presentation: **girls and young women in their teens and twenties**, with **no prior tics**, **sudden explosive onset**, and **coprolalia and self-injury** (rare in Tourette syndrome).
+- Mass sociogenic outbreaks have been reported.
+
+⚠️ **Discrepancies (not resolved):**
+- **Tic-free interval:** Continuum includes **"tic-free periods of less than 3 months"**, which is **not among the DSM-5-TR criteria** quoted above.
+- **Drug sequence:** Maudsley (above) moves from α2-agonists to antipsychotics (aripiprazole, risperidone). Continuum inserts a **second line of non-dopamine-blockers** (topiramate, SSRIs/SNRIs, baclofen) before antipsychotics.
+
 **Conclusion.** In a person with tics:
 1. **Confirm the phenomenology:** stereotyped, suppressible, with an urge and relief.
 2. **Classify by DSM-5-TR:** type, duration over 1 year, onset before 18.
@@ -213,8 +246,8 @@ Anxiety during examination suppresses tics. Partners or parents often notice the
 
 ### Not covered by the sources (deliberately left blank)
 - Rating scales (e.g., YGTSS).
-- Current DBS targets and selection criteria for refractory Tourette's syndrome (Lishman 2009 mentions thalamic stimulation only).
-- CBIT/habit-reversal protocol details.
+- Current DBS targets for refractory Tourette's syndrome (Continuum says only that DBS is reserved for severe, refractory adult cases).
+- CBIT/habit-reversal protocol details (Continuum names CBIT only).
 - Adult-specific pharmacological evidence (Maudsley's section is child and adolescent focused).
 
 ## References
@@ -224,3 +257,4 @@ Anxiety during examination suppresses tics. Partners or parents often notice the
 3. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025; Chapter 5, "Tics and Tourette's syndrome in children and adolescents", pp. 614–617 (Figure 5.2).
 4. Lidstone SC. Functional movement disorders. In: UpToDate, 2025 (section on functional tics; Table 4).
 5. Henderson M, Mellers JDC. Movement disorders. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, "Gilles de la Tourette's syndrome", pp. 786–793.
+6. O'Malley JA. Diagnosing common movement disorders in children. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): 1476–1519 (Table 11-1, pp. 1484–1485; tics and Tourette syndrome, pp. 1487–1489; functional tic disorders, pp. 1508–1509).

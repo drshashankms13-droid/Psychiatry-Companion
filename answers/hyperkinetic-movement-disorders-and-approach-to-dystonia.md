@@ -4,7 +4,7 @@ covers:
   - p3-ddc28742
   - p3-1622e257
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -14,7 +14,9 @@ reviewer:
 > 3. Antipsychotic-induced movement disorder seminar slides (IMHANS-K) and Maudsley 15e, for drug-induced dystonia [3].
 > 4. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "The dystonias", pp. 780–786: causes, psychiatric aspects and **treatment** [4].
 >
-> **Gap:** Lishman (2009) gives drug classes and botulinum toxin but **no doses**, and no current DBS selection criteria.
+> **Gap:** Lishman (2009) gives drug classes but no doses; doses and DBS selection are now added from Continuum 2022 (see the update section).
+>
+> **Added 2026-10-22:** Stephen CD. The dystonias. *Continuum* 2022 [5], in the section "Update from Continuum 2022". It supplies the 2013 classification, new gene nomenclature, investigations, doses and DBS selection.
 
 ## Exam answer
 
@@ -150,6 +152,113 @@ reviewer:
   - **DYT1:** major depression **four times** more common, even in non-manifesting carriers, so part of the phenotype.
 - **Management:** treat comorbid depression and anxiety; support adjustment (patient and family); supportive psychotherapy; patient societies.
 
+### Update from Continuum 2022: the dystonias [5]
+**Definition and clinical features:**
+- Dystonia is the **third commonest movement disorder** after essential tremor and PD. Prevalence may be up to **1 in 1000** (underdiagnosed).
+- **Mechanism:** sustained or intermittent **agonist–antagonist co-contraction**, giving twisting, **repetitive, patterned** movements and postures.
+- **Pathophysiology:** a **network disorder** involving the basal ganglia, cerebellum, thalamus and sensorimotor cortex.
+- **Core features:**
+  - triggered by voluntary action;
+  - **overflow** dystonia; **mirror** dystonia;
+  - dystonic tremor (jerky, patterned, not strictly rhythmic);
+  - a **"null point"**;
+  - **sensory tricks (geste antagoniste)**: simple, natural, "elegant", **never forceful**;
+  - worse with **stress, anxiety and fatigue**; better with relaxation; **gone in sleep**.
+- **Functional dystonia** is suggested by bizarre "tricks" or dramatic suppression by examiner manoeuvres (e.g., a tuning fork on the head) (Table 10-1).
+- **Tests:** imaging and laboratory tests are **usually normal**; genetics is the only definitive test in genetic forms.
+- **Common misdiagnoses:** PD, essential tremor, myoclonus, tics, functional dystonia, headache, scoliosis.
+  - **Dystonia in PD:** 30% have off-state dystonia; 10–15% have leg dystonia.
+  - **Hallmarks of dystonia vs PD:** task- or position-specific tremor, head or voice tremor, **normal DaT-SPECT**, and no dopaminergic benefit (except dopa-responsive dystonia).
+
+**2013 consensus classification (two axes):**
+- **Axis I (clinical):**
+  - **age at onset**;
+  - **body distribution:** focal, **segmental** (2 or more contiguous parts), multifocal, **generalised** (trunk plus 2 other sites), **hemidystonia**;
+  - **temporal pattern:** persistent, **task-specific**, **paroxysmal**, **diurnal** (dopa-responsive dystonia);
+  - **associated features:** **isolated** (only dystonia, with or without tremor) vs **combined** (with myoclonus, parkinsonism, ataxia or chorea).
+- **Axis II (aetiology):** nervous-system pathology on imaging and testing; **inherited, acquired or idiopathic**.
+
+**Focal examples (Table 10-2):**
+- **blepharospasm**;
+- **oromandibular** dystonia (including task-specific embouchure dystonia);
+- **spasmodic dysphonia**: adductor (strained, strangled) vs abductor (breathy);
+- **cervical** dystonia: torticollis, laterocollis, retrocollis, anterocollis;
+- **writer's and musician's cramp**;
+- foot, runner's or cycling dystonia;
+- **truncal**: camptocormia, opisthotonus, **Pisa syndrome**.
+- **Segmental:** e.g., **Meige syndrome**.
+
+**New genetic nomenclature (2022 update):**
+- "DYT-" plus the gene name for **isolated** dystonias, e.g., **DYT-TOR1A** (formerly DYT1);
+- a double prefix for **combined** forms, e.g., **DYT/PARK-TAF1** (formerly DYT3, X-linked dystonia-parkinsonism, Filipino);
+- **PxMD** for paroxysmal forms.
+
+| Gene (old name) | Key points |
+| --- | --- |
+| **DYT-TOR1A (DYT1)** | Commonest genetic dystonia; AD with reduced penetrance; childhood; focal **leg** onset then generalises; cranial involvement rare; Ashkenazi; **DBS highly effective** |
+| DYT-THAP1 (DYT6) | Prominent **cranial**, laryngeal and cervical involvement |
+| DYT-ANO3, DYT-GNAL | Adult cervical onset; tremor resembling ET |
+| **DYT/PARK-GCH1 (DYT5a)** | **Dopa-responsive**; **diurnal variation**; may mimic cerebral palsy |
+| DYT/PARK-TH, SPR | Dopa-responsive; oculogyric crises; developmental delay (SPR) |
+| DYT/PARK-ATP1A3 (DYT12) | Rapid-onset dystonia-parkinsonism after fever or stress; **DBS ineffective** |
+
+**Investigations:**
+- **Idiopathic late-onset focal dystonia:** no work-up needed.
+- **Otherwise:**
+  - **copper, caeruloplasmin and 24-hour urinary copper** (Wilson's);
+  - **MRI** for hemidystonia, generalised, rapidly progressive, combined or young-onset dystonia;
+  - EEG if paroxysmal; CSF for metabolic or neurotransmitter disorders;
+  - **gene panels** (with **genetic counselling**) for young-onset, combined or complex cases; exome or genome sequencing if suspicion stays high.
+
+**Treatment:**
+- **Pathogenesis-directed (Table 10-7):**
+  - **Wilson's:** penicillamine, trientine, zinc;
+  - **dopa-responsive dystonia:** low-dose levodopa. **Give every young-onset case (and atypical adult cases) a levodopa trial**;
+  - **paroxysmal kinesigenic dyskinesia** (*PRRT2*): low-dose carbamazepine 50–200 mg/day or oxcarbazepine;
+  - **paroxysmal non-kinesigenic:** low-dose clonazepam or diazepam;
+  - **exercise-induced** (*SLC2A1*/GLUT1): ketogenic diet, triheptanoin;
+  - metabolic diets; trigger avoidance.
+- **Supportive measures:** encourage **sensory tricks**; physio, OT and speech therapy (splinting, stretching, sensorimotor retraining).
+- **Botulinum toxin** is the **cornerstone for focal dystonia**:
+  - serotypes **A** (ona-, abo-, incobotulinumtoxinA) and **B** (rimabotulinumtoxinB); **units are not interchangeable**;
+  - effect lasts **12–24 weeks** (mean **15.5** in cervical dystonia); re-inject about **every 12 weeks**;
+  - **EMG or ultrasound guidance**;
+  - **neutralising antibodies are rare** (frontalis test);
+  - daxibotulinumtoxinA (longer-acting) is in trials.
+- **Oral drugs** (generalised or severe dystonia; better tolerated by the young):
+  - **trihexyphenidyl** from 1 mg/day up to 2 mg three times daily or more: the **most effective oral drug (71% response, waning)**. Adverse effects: dry mouth, constipation, blurred vision, **cognitive change, hallucinations, anticholinergic delirium**, so avoid in the elderly;
+  - **baclofen** 5 mg/day up to **30–120 mg/day**; intrathecal baclofen for spastic dystonia;
+  - **clonazepam** (second or third line; myoclonus-dystonia). **Benzodiazepine misuse in 11%** of one cervical dystonia cohort;
+  - levodopa 200–400 mg/day (dopa-responsive dystonia and some combined forms);
+  - **VMAT2 inhibitors** (HD and **tardive** dystonia), **contraindicated with untreated depression or suicidality**;
+  - **antipsychotics should be avoided** (sedation, EPS);
+  - zolpidem 5–20 mg (blepharospasm); sodium oxybate (alcohol-responsive dystonia); zonisamide (myoclonus-dystonia).
+- **Tardive dystonia:** stop the culprit and anticholinergics; VMAT2 inhibitors (valbenazine, deutetrabenazine, tetrabenazine); botulinum toxin if focal; **zolpidem for tardive akathisia**; amantadine for mild cases; DBS if refractory.
+- **Surgery:**
+  - **DBS**:
+    - **GPi** is the main target; STN is similar; the **thalamus suits dystonic tremor**;
+    - Class 1 evidence in refractory generalised or segmental dystonia, and in cervical dystonia;
+    - about **20% non-responders**; slow benefit;
+    - **better outcome:** isolated generalised dystonia (especially **DYT-TOR1A**), young age, short duration, mobile dystonia, normal MRI;
+    - **worse outcome:** **functional dystonia**, fixed contractures, **psychiatric or cognitive comorbidity**, older age.
+  - **Focused ultrasound:** unilateral only; may recur.
+  - Peripheral denervation is **not recommended**.
+- **rTMS and tDCS:** investigational.
+- **Status dystonicus** (fatal in **10%**):
+  - triggers: infection, medication change, **DBS hardware failure**;
+  - differentials: **NMS**, serotonin syndrome, malignant hyperthermia;
+  - **management:** treat triggers; oral tetrabenazine and trihexyphenidyl; then ICU with **IV midazolam**, then propofol; **rescue bilateral GPi DBS** (successful in 33.7%).
+
+**Psychiatric relevance:**
+- dystonia is frequently associated with **neuropsychiatric symptoms**, which should be treated;
+- cognitive decline occurs only in **degenerative** dystonias.
+
+⚠️ **Discrepancies with Lishman (above), not resolved:**
+- **Antipsychotics:** Lishman lists **neuroleptics** (pimozide, haloperidol) among generalised-dystonia drugs; Continuum says antidopaminergics **should be avoided**.
+- **Anticholinergic response:** Lishman says they help "about half"; Continuum says **71%**.
+- **Botulinum toxin antibodies:** Lishman gives about **7.5%** secondary non-response; Continuum says neutralising antibodies are **rare**. Duration: Lishman gives 2–4 months; Continuum gives 12–24 weeks.
+- **Gene names:** Lishman's DYT1/DYT5/DYT11 labels are now superseded by the gene-based names.
+
 **Conclusion.** Hyperkinetic disorders are best recognised by keywords:
 - myoclonus: "shock-like";
 - chorea: "randomly flowing jerks";
@@ -188,12 +297,10 @@ The approach to dystonia has six steps:
 - **Parkinsonism mimics (Box 2):** depression, obsessive slowness and **catatonia** [1].
 
 ### Not covered by the sources (deliberately left blank)
-- **Doses** of botulinum toxin, anticholinergics and other drugs; current DBS selection criteria (Lishman 2009 gives drug classes only).
-- The 2013 consensus classification of dystonia and its terminology.
-- Investigations: genetic panels and MRI patterns.
-- Specific treatments for chorea, myoclonus and tremor. **Tremor** (p3-8c97688a, "investigation and management of tremors") remains **unsourced**: Lishman covers only essential tremor as a PD differential and thalamic surgery for tremor.
+- Botulinum toxin **unit doses** per muscle (Continuum gives intervals and formulations, not unit doses).
+- MRI patterns of specific secondary dystonias.
+- Specific treatment of myoclonus. (Chorea is covered in the Huntington's answer and tremor in the separate tremor answer, both from Continuum 2022.)
 
-Please upload a tremor source (e.g., UpToDate "Overview of tremor" / "Essential tremor: treatment").
 
 ## References
 
@@ -201,3 +308,4 @@ Please upload a tremor source (e.g., UpToDate "Overview of tremor" / "Essential 
 2. Lidstone SC. Functional movement disorders. In: UpToDate, 2025 (Functional dystonia).
 3. Mujtaba M. *Antipsychotic induced movement disorders with management*: PG seminar slides, IMHANS-K; and Taylor DM, et al. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed., 2025, Table 1.28.
 4. Henderson M, Mellers JDC. Movement disorders. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, "The dystonias", pp. 780–786.
+5. Stephen CD. The dystonias. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): 1435–1475 (phenomenology and classification, pp. 1435–1437; Table 10-1, pp. 1438–1439; Table 10-2, p. 1440; Table 10-3, pp. 1442–1443; management, pp. 1462–1472; Tables 10-7 to 10-9).

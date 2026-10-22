@@ -3,7 +3,7 @@ title: Idiopathic Parkinson's disease — diagnosis, management and non-motor fe
 covers:
   - p3-feb5eb96
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -11,7 +11,9 @@ reviewer:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Parkinson's disease and the parkinsonian syndrome", pp. 752–772 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., pp. 840–842, for psychiatric non-motor treatment only [2].
 >
-> **Caution:** Lishman 2009 is a neuropsychiatry text, not a neurology guideline. **Current diagnostic criteria (MDS 2015 / UK Brain Bank)**, staging details and post-2009 drugs (safinamide, opicapone, newer levodopa formulations) are **not in the sources** and are listed at the end.
+> **Caution:** Lishman 2009 is a neuropsychiatry text, not a neurology guideline. The MDS 2015 criteria, staging and post-2009 drugs are now added from Continuum 2022 (see the update section).
+>
+> **Added 2026-10-22:** Thaler A, Alcalay RN. Diagnosis and medical management of Parkinson disease. *Continuum* 2022 [3], in the section "Update from Continuum 2022". It supplies the MDS 2015 criteria, Hoehn and Yahr staging, and post-2009 drugs.
 
 ## Exam answer
 
@@ -157,6 +159,111 @@ reviewer:
 - Life expectancy near-normal when well treated (mortality ratio about 1.6; mean about 14 years from diagnosis).
 - **Worse prognosis:** age, **dementia, depression**, poor levodopa response.
 
+### Update from Continuum 2022 [3]
+**Epidemiology and genetics:**
+- **Age** is the single most important risk factor. Juvenile PD (onset **under 21**) is very rare, and only **5–10%** are diagnosed before 50. **Mean onset is about 60**. Men are affected more than women.
+- **Environment:**
+  - **pesticide exposure** is the most consistent environmental risk; dairy, rural living and TBI are also linked;
+  - **coffee, smoking, physical activity and NSAIDs** are associated with **lower** risk;
+  - **MPTP** causes an irreversible parkinsonian syndrome.
+- **Seven genes** (about **10–15%** of PD):
+  - **dominant:** **SNCA**, **LRRK2**, **VPS35**;
+  - **recessive:** **PRKN**, **PINK1**, **PARK7/DJ-1**;
+  - **risk factor:** **GBA**, the commonest, with faster motor and **cognitive** progression.
+  - Clinical genetic testing is rarely offered but increasing.
+
+**Pathology:** loss of nigral dopaminergic neurons, **up to 60% lost by symptom onset**, plus **α-synuclein** in Lewy bodies and neurites. Mixed AD and vascular pathology is common in older patients.
+
+**MDS clinical diagnostic criteria (2015)** (replacing the Queen Square Brain Bank criteria):
+- **Core:** **bradykinesia plus rest tremor (4–6 Hz) or rigidity, or both**, assessed by the **MDS-UPDRS**.
+- **Postural instability is not a criterion** (it appears late).
+- **Supportive:** response to dopaminergic therapy; levodopa-induced dyskinesia; **hyposmia**; cardiac sympathetic denervation on **MIBG**.
+- **Against PD:**
+  - supranuclear gaze palsy (PSP); cerebellar signs (MSA or PSP);
+  - parkinsonism confined to the legs for more than 3 years (vascular);
+  - probable FTD; recent dopamine blocker or depleter;
+  - **no response to levodopa over 600 mg/day**;
+  - cortical sensory loss; **normal presynaptic dopaminergic imaging**.
+- **Red flags:**
+  - wheelchair within 5 years;
+  - **no progression for 5 years** (essential tremor);
+  - early bulbar dysfunction; inspiratory stridor;
+  - severe autonomic failure within 5 years (MSA or DLB);
+  - falls more than once a year within 3 years (PSP);
+  - disproportionate anterocollis (MSA);
+  - no non-motor symptoms;
+  - unexplained pyramidal signs;
+  - symmetric onset.
+- **Dementia is not an exclusion.** DLB can optionally be labelled "PD (DLB subtype)".
+- **Accuracy:** **up to 15%** of clinical PD diagnoses are wrong at post-mortem.
+
+**Hoehn and Yahr (Table 2-2):**
+
+| Stage | Description |
+| --- | --- |
+| 1 | Unilateral only |
+| 2 | Bilateral, balance intact |
+| 3 | Mild to moderate bilateral disease, some postural instability, physically independent |
+| 4 | Severe disability, still able to walk or stand unassisted |
+| 5 | Wheelchair or bed-bound unless assisted |
+
+- In untreated patients, **40% reached stage 3 after 7 years**.
+- **Subtypes:** tremor-dominant (slower progression, less cognitive decline) vs **postural instability–gait difficulty**.
+
+**Investigations:**
+- **MRI** is usually normal; it detects secondary causes (infarcts, NPH, iron, tumours).
+- **DaT-SPECT** separates degenerative parkinsonism from ET, psychogenic, vascular or drug-induced causes. It **cannot separate PD from MSA or PSP**, and plateaus after about 4 years.
+- **α-synuclein seed amplification** (RT-QuIC/PMCA) on CSF or tissue has excellent accuracy and is emerging clinically.
+
+**Management:**
+- **Non-drug:** exercise for all, physiotherapy, occupational and speech therapy, **tai chi** (balance), a multidisciplinary team; **screen all for depression**.
+- **When to start:** no drug is disease-modifying. There is **no benefit in delaying** treatment once symptoms impair function.
+- **Levodopa:**
+  - the **mainstay and best tolerated**; it gives the most mobility benefit compared with dopamine agonists and MAO-B inhibitors;
+  - **early use is not harmful**: motor complications reflect disease progression, not levodopa duration;
+  - **dyskinesia in up to 40% by 4 years**, more in the young and at high doses;
+  - protein meals and constipation worsen "off" periods.
+- **Dopamine agonists:**
+  - pramipexole, ropinirole, rotigotine patch, apomorphine;
+  - ergot agonists cause **valvulopathy**;
+  - adverse effects: nausea, oedema, orthostatic hypotension, **sleep attacks, impulse control disorders**;
+  - if ICDs occur, taper (risk of **dopamine agonist withdrawal syndrome**).
+- **MAO-B inhibitors (rasagiline, selegiline):** smaller effect. The serotonin syndrome risk with SSRIs is **extremely rare**. ADAGIO's disease-modification signal was not confirmed.
+- **Amantadine** (NMDA antagonist): the ER form treats dyskinesia. It can cause confusion, hallucinations, oedema and **livedo reticularis**.
+- **Anticholinergics:** tremor; **cognitive harm and dementia risk**, so only for the young.
+- **Motor fluctuations:**
+  - shorter dose intervals; ER levodopa;
+  - **COMT inhibitors (entacapone, opicapone)**;
+  - **safinamide**; zonisamide (not FDA-approved); **istradefylline** (A2A antagonist);
+  - **rescue** with SC or sublingual **apomorphine** or **inhaled levodopa**.
+- **Device-aided therapy:**
+  - **DBS** has the greatest benefit and most adverse effects; **cognitive impairment raises DBS risk**;
+  - **MR-guided focused ultrasound**;
+  - **apomorphine pump**;
+  - **levodopa–carbidopa intestinal gel** (16 hours a day; risk of **B-vitamin-deficiency neuropathy**).
+
+**Non-motor treatment (MDS task force, Table 2-3):**
+- **Depression:** venlafaxine and paroxetine; other SSRIs and SNRIs possibly useful; **pramipexole**; nortriptyline and desipramine "likely efficacious"; **ECT** for refractory cases.
+- **Anxiety:** SSRIs; benzodiazepines sparingly (falls, cognition).
+- **Psychosis:** **pimavanserin** (the only FDA-approved drug); **clozapine** (effective, needs monitoring); **quetiapine** (widely used but **not better than placebo** in trials). Avoid other antipsychotics.
+- **Dementia:** cholinesterase inhibitors (not for PD-MCI). Up to half have substantial cognitive impairment within 10 years. **Screen yearly.**
+- **Apathy:** rivastigmine or rotigotine.
+- **ICDs:** slowly taper the dopamine agonist. Risk is higher in the young and those with past addiction.
+- **RBD:** a safe sleep environment; review SSRIs, SNRIs and TCAs; **clonazepam or melatonin** (no firm evidence).
+- **Orthostatic hypotension** (a fall of **20 systolic or 10 diastolic** on standing):
+  - fluids, slow transitions, leg exercises;
+  - **droxidopa or midodrine** 20 minutes before upright activity (not before lying down);
+  - fludrocortisone.
+- **Urinary:** solifenacin (antimuscarinic burden), **mirabegron**.
+- **Constipation:** fluids, fibre, **probiotics, lubiprostone**.
+- **Pain:** identify the mechanism; safinamide; cannabis has been studied.
+- **Other:** excessive sleepiness, **modafinil**; fatigue, **rasagiline**.
+
+⚠️ **Discrepancies (not resolved):**
+- **Onset:** Lishman gives a mean of **about 55**; Continuum gives **about 60**.
+- **Postural instability:** Lishman lists it as a cardinal parkinsonian feature; it is **not an MDS-PD diagnostic criterion** (Continuum).
+- **Quetiapine:** Maudsley and common practice use it for PD psychosis, but **Continuum notes no superiority to placebo** in trials.
+
 **Conclusion.** Idiopathic PD:
 - is a clinical diagnosis: rest tremor, rigidity, bradykinesia, postural instability, plus levodopa response;
 - is supported by DAT imaging, after excluding drug-induced, vascular, Wilson's and atypical parkinsonism.
@@ -173,15 +280,15 @@ Treatment is levodopa-based, with agonists, MAO-B or COMT inhibitors and amantad
 See the separate answer on psychiatric aspects of PD.
 
 ### Not covered by the sources (deliberately left blank)
-- **MDS 2015 clinical diagnostic criteria** and **UK Brain Bank criteria**.
-- **Hoehn & Yahr staging** details (named in Lishman but not described) and MDS-UPDRS.
-- Post-2009 drugs: safinamide, opicapone, istradefylline, levodopa–carbidopa intestinal gel, subcutaneous foslevodopa.
+- The full **MDS 2015** supportive/exclusion item lists and the **UK Brain Bank criteria** text (Continuum summarises the MDS criteria; see the update).
+- MDS-UPDRS item content (Hoehn and Yahr is now covered).
+- Subcutaneous foslevodopa and other drugs licensed after 2022; drug doses.
 - NICE NG71 (2017) recommendations on first-line drug choice.
-- Treatment of autonomic features and of RBD.
 
-Upload UpToDate "Clinical manifestations of PD" and "Initial pharmacologic treatment of PD", or NICE NG71, if you want these covered.
+Upload NICE NG71 if you want UK guideline recommendations.
 
 ## References
 
 1. Henderson M, Mellers JDC. Movement disorders. In: David AS, et al., eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 12, pp. 752–772 (Table 12.1; Fig. 12.2).
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: "Parkinson's disease", pp. 840–842.
+3. Thaler A, Alcalay RN. Diagnosis and medical management of Parkinson disease. *Continuum (Minneap Minn)* 2022; 28(5, Movement Disorders): 1281–1300 (risk factors and Table 2-1, pp. 1282–1283; MDS-PD criteria and red flags, pp. 1284–1285; Table 2-2, p. 1284; Table 2-3, p. 1286; ancillary tests, pp. 1287–1289; management, pp. 1289–1295).
