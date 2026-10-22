@@ -10,9 +10,9 @@ reviewer:
 > **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 13, "Sleep disorders": sleep physiology and staging, pp. 817–820 (Figs 13.1–13.3); insomnia, pp. 821–823; narcolepsy, pp. 826–827 (Box 13.1); sleep apnoea, pp. 831–832; somnambulism and RBD, pp. 837–840 (Fig. 13.4) [1].
 >
 > ⚠️ **Gap:** Lishman describes PSG only **in passing**. **Not in the source:**
-> - the full montage (airflow thermistor/pressure cannula, thoracoabdominal belts, ECG, leg EMG, body position, video, SpO₂ channel specifics);
-> - **AASM scoring rules** (N1–N3/R terminology, 30-second epochs, AHI and RDI definitions and severity cut-offs);
-> - **MSLT/MWT protocols** (mean sleep latency ≤8 minutes, two or more SOREMPs);
+> - the full PSG montage and channel specifications;
+> - **AASM scoring rules** (staging terminology, epoch length, AHI and RDI definitions and severity cut-offs);
+> - **MSLT/MWT protocols** and diagnostic cut-offs;
 > - home sleep apnoea testing, actigraphy;
 > - PSG findings in depression (beyond OCD "as in depression") and schizophrenia.
 >

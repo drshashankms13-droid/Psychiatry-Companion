@@ -19,7 +19,7 @@ reviewer:
 >
 > ⚠️ **Major gap:** the sources give **risk, diagnosis and drug-safety data but no dedicated acute-management protocol**. **Not in the sources:**
 > - **mother–baby unit admission** criteria;
-> - **organic work-up list** (thyroid, infection, eclampsia, Sheehan's, encephalitis, drug toxicity);
+> - an **organic work-up list** (now supplied by IPS Table 3; see the update);
 > - **prophylactic lithium or antipsychotic started immediately after delivery** (timing and evidence);
 > - **"newer advances"** (e.g., the Bergink treatment algorithm, sleep protection, genetics, autoimmune encephalitis screening, brexanolone/zuranolone, India's MHCA 2017 provisions for mother–baby admission).
 >

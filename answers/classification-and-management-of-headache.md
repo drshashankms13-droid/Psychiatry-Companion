@@ -17,7 +17,7 @@ reviewer:
 >
 > ⚠️ **Major gaps:**
 > - **Tension-type headache (TTH): the Continuum issue has no adult TTH article.** Missing:
->   - **ICHD-3 TTH criteria** (infrequent, frequent or chronic episodic subtypes; pericranial tenderness);
+>   - **ICHD-3 TTH criteria** and subtypes;
 >   - TTH pathophysiology;
 >   - first-line drug doses for chronic TTH.
 >   Levenson 2019 now supplies an adult clinical description (band-like, pressing, mild to moderate; chronic TTH = more than 15 days a month) and antidepressant/CBT evidence, so the TTH essay (p3-c36c1b85) is answerable **in part**. The formal criteria and pathophysiology are still missing.

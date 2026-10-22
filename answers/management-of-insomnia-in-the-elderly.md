@@ -14,8 +14,8 @@ reviewer:
 >    - "Management of sleep disturbances in dementia", pp. 674–675 [2].
 >
 > ⚠️ **Major gap:** neither source has a dedicated geriatric insomnia guideline. **Not in the sources:**
-> - **CBT-I components** (stimulus control, sleep restriction, cognitive therapy) in detail;
-> - **Beers criteria**; doses for older adults (e.g., zopiclone 3.75 mg);
+> - **CBT-I components** in detail;
+> - **Beers criteria**; doses for older adults;
 > - prolonged-release melatonin licensing for those over 55;
 > - low-dose doxepin;
 > - Indian geriatric guidance.

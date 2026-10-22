@@ -19,7 +19,7 @@ reviewer:
 >
 > ⚠️ **Gaps:**
 > - **epidemiology** (prevalence, Indian figures);
-> - **clinical features** in detail (somatic presentation, anxiety, executive dysfunction syndrome);
+> - **clinical features** in detail;
 > - **psychotherapies** (problem-solving therapy, IPT, behavioural activation) and their evidence;
 > - **ECT in the elderly** (efficacy, cognitive effects);
 > - **starting doses** (Maudsley's p. 700 dose table not used);

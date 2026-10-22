@@ -13,9 +13,9 @@ reviewer:
 >
 > ⚠️ **Major gap:** Lishman's treatment advice is a single sentence ("some patients obtain benefit from the use of dopaminergic drugs"). **Not in the sources:**
 > - IRLSSG diagnostic criteria (2014);
-> - **iron studies (ferritin under 75 µg/L) and iron replacement**;
+> - **iron studies, ferritin thresholds and iron replacement**;
 > - specific dopamine agonists (pramipexole, ropinirole, rotigotine) and **augmentation**;
-> - **α2δ ligands (gabapentin enacarbil, pregabalin) as first line**;
+> - the place of **α2δ ligands**;
 > - low-dose opioids for refractory RLS;
 > - antidepressant-induced RLS.
 >

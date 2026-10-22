@@ -4,7 +4,7 @@ covers:
   - p3-1af68017
   - p3-2d65051b
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -18,15 +18,14 @@ reviewer:
 > 2. *DSM-5-TR*: panic disorder (comorbidity); generalized anxiety disorder (associated features); somatic symptom disorder (differential diagnosis); psychological factors affecting other medical conditions [2].
 > 3. User-provided notes, "Bodily distress / somatic symptom disorder management" (PHQ-15, Whiteley index; general principles; CBT) [3].
 >
-> ⚠️ **Major gap: the sources treat IBS as one functional somatic syndrome; there is no IBS-specific chapter.** **Not in the sources:**
-> - **Rome IV criteria** and subtypes in detail (only IBS-C/IBS-D appear);
-> - **epidemiology** (prevalence, sex ratio, Indian data);
-> - **pathophysiology** (gut–brain axis, visceral hypersensitivity, microbiome, post-infectious IBS);
-> - **red flags and organic work-up** (age over 50, bleeding, weight loss, anaemia; coeliac serology, calprotectin, colonoscopy);
-> - **psychiatric comorbidity rates** in IBS specifically;
-> - **gut-directed hypnotherapy protocols**; low-FODMAP diet specifics; drug doses (amitriptyline 10–30 mg, etc.).
+> ⚠️ **Gap largely filled:** Levenson 2019's GI chapter now supplies the IBS-specific content (see the update section). **Still not in the sources:**
+> - the full Rome IV criteria text;
+> - a detailed organic work-up for IBS;
+> - Indian epidemiology;
+> - hypnotherapy and low-FODMAP protocol content;
+> - drug doses.
 >
-> Please upload a gastroenterology or consultation-liaison source (e.g., Rome IV or a psychogastroenterology review) if the short note "Irritable bowel syndrome" (p3-2d65051b) needs the GI content.
+> **Added 2026-10-22:** Crone CC, Lackamp JM, Alkis AR. Gastrointestinal disorders. In: Levenson, *Textbook of Psychosomatic Medicine and C-L Psychiatry*, 3rd ed., 2019 [4], in the section "Update from Levenson 2019". It supplies the Rome IV summary, epidemiology, pathophysiology and treatment evidence.
 
 ## Exam answer
 
@@ -118,6 +117,81 @@ reviewer:
 - **psychological and activating therapies** (CBT, hypnotherapy, mindfulness, yoga) show **low to moderate** efficacy;
 - across FSS, **active, patient-involving, centrally acting** treatments do better than **passive, peripheral** ones [1].
 
+### Update from Levenson 2019: Rome IV, pathophysiology and treatment evidence [4]
+**Rome IV criteria (as summarised by Levenson):**
+- **recurrent abdominal pain related to defecation**, with a **change in stool form or frequency**;
+- pain **at least once a week** during the **last 3 months**, with onset **at least 6 months** before diagnosis;
+- **no alarm features** (fever, weight loss, rectal bleeding).
+
+**Subtypes:** **IBS-D**, **IBS-C**, mixed.
+
+**Associated symptoms:** bloating, distension, urgency, straining, incomplete evacuation, mucus.
+
+**Comorbidity:** GERD, functional dyspepsia, pelvic pain, **CFS**, **fibromyalgia**, TMJ, interstitial cystitis, headache, anxiety, depression, sleep disturbance.
+
+**Epidemiology:**
+- Global prevalence is **10–15%**: highest in South America (21%), **lowest in South Asia (7%)**.
+- **Women are affected 1.5–3 times more**, **except in South Asia**, South America and Africa.
+- Commoner **under 50**.
+- Only **30% seek care** (80% of these have IBS-D).
+- It is the **commonest gastroenterology outpatient diagnosis**. Quality of life is as poor as in asthma, migraine and IBD (even diabetes or ESRD), and patients miss 3–4 extra work days a year.
+
+**Pathophysiology** (no single abnormality is specific to all IBS):
+- **Brain–gut axis** (bidirectional CNS–enteric nervous system).
+- Altered **motility**; **visceral hypersensitivity** (symptom severity rises with balloon-distension sensitivity, **independent of anxiety and depression**).
+- Intestinal permeability; **altered microbiota**; inflammation.
+- **Serotonin:** high plasma 5-HT in IBS-D, low in IBS-C.
+- Autonomic dysfunction; genetics.
+- **Diet:** **FODMAPs** (fermentable, osmotic, H2 and methane), so a **low-FODMAP diet** reduces symptoms in RCTs (long-term safety unknown).
+- **Psychological:**
+  - **trauma** history in **26–44%** of referred FGID patients;
+  - **depression and anxiety each double the risk** of developing IBS;
+  - illness behaviour, sleep problems and somatic symptoms predict onset;
+  - **life events and hypochondriasis predict post-infectious IBS**;
+  - fMRI shows defective visceral pain processing and fear of pain.
+
+**Psychiatric comorbidity:**
+- About **50%** have clinically relevant psychiatric symptoms; lifetime psychiatric disorder **38–100%** (**over 90%** in studies not excluding them).
+- **By disorder:**
+  - **depression 6–70%** (commonest);
+  - **anxiety 5–50%**;
+  - DSM-IV somatisation 15–47%;
+  - **panic 0–41%**;
+  - trauma-related 8–36%.
+- Increased **bipolar disorder** (meta-analysis).
+- **Bidirectional:** IBS in **17–47% with panic**, 17–37% with GAD, 17–59% with depression.
+- Psychiatric disorders **often predate** IBS. They predict **more severe symptoms, impairment and worse prognosis**.
+- **Catastrophising and neuroticism** are raised. Psychological factors correlate with severity better than somatic ones.
+
+**Psychological treatment:**
+- **CBT** is **first line**, with strong evidence: **NNT 3**. Components: psychoeducation on stress and gut symptoms, insight into cognitive and behavioural responses and fear of symptoms, and distress-reduction skills. Benefits persist; PET suggests **reduced visceral hypervigilance**.
+- **Gut-directed hypnotherapy** (North Carolina protocol or **Manchester** approach): **NNT 4**, with long-term benefit **equal to a low-FODMAP diet**.
+- **Psychodynamic therapy:** **NNT 3.5**; equal to antidepressants and better than usual care; useful with **trauma history**.
+- Mindfulness, relaxation and stress management have also been trialled.
+
+**Antidepressants:**
+- **Rationale:** comorbidity, **central pain modulation**, and effects on visceral sensitivity and motility. It is not established whether mood improvement explains the response.
+- **TCAs** (low-dose imipramine, amitriptyline, desipramine, doxepin, trimipramine):
+  - **NNT 4**; over 740 patients pooled;
+  - **NNH 9** (drowsiness, dry mouth); high dropout.
+- **SSRIs:** NNT 4 in one meta-analysis but heterogeneous; another found **no benefit**; a third found **insufficient evidence without psychiatric comorbidity**.
+  - **Paroxetine:** improved well-being but not pain.
+  - **Fluoxetine 20 mg:** one positive RCT in **IBS-C**, one negative.
+  - **Citalopram:** mixed.
+  - SSRIs are **better tolerated**, so use them if other treatment fails.
+- **Subtype logic:** **TCAs for IBS-D** (constipating) and **SSRIs for IBS-C**, though this is theoretical with few data.
+- **SNRIs:** small open-label studies only.
+
+**Related Rome IV category:** **centrally mediated abdominal pain syndrome (CAPS)**:
+- near-continuous pain **unrelated to food, defecation or menses**;
+- prevalence 0.5–2%; women affected about twice as often;
+- comorbid fibromyalgia or CFS; history of loss or abuse;
+- treat with education, collaboration and psychological therapy.
+
+⚠️ **Discrepancies (not resolved):**
+- **Antidepressants:** Henningsen [1] grades antidepressants and TCAs as **low (+)** and **SSRIs +/o**. Levenson [4] reports **NNT 4** for TCAs and SSRIs but conflicting SSRI meta-analyses.
+- **CBT:** Henningsen grades **CBT +** (low); Levenson calls the evidence **strong**, with NNT 3. **Hypnosis:** Henningsen gives ++; Levenson gives NNT 4.
+
 **Conclusion.** IBS is a functional somatic syndrome with frequent but not universal anxiety (especially panic disorder and GAD), depression and, in severe cases, personality disorder. When accompanied by multiple symptoms and health anxiety, it shades into somatic symptom/bodily distress disorder. Psychiatric evaluation:
 - the whole symptom pattern (PHQ-15), mood and anxiety, health anxiety (Whiteley index), beliefs, function and maintaining stressors;
 - avoiding unnecessary repeat investigation (only 0.5% are later reclassified as organic).
@@ -132,14 +206,14 @@ Management is stepped and biopsychosocial:
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Rome IV criteria; IBS subtypes; prevalence and sex ratio.
-- Pathophysiology of IBS.
+- The full Rome IV criteria text (Levenson gives a summary).
 - Red flags and organic exclusion tests.
-- Low-FODMAP diet; gut-directed hypnotherapy protocols; IBS-specific CBT trials.
-- Drug doses for IBS.
+- Low-FODMAP diet protocol; hypnotherapy protocol content.
+- TCA doses for IBS (Levenson says "low dosages" only).
 
 ## References
 
 1. Henningsen P, Zipfel S, Sattel H, Creed F. Management of functional somatic syndromes and bodily distress. *Psychother Psychosom* 2018; 87:12–31: pp. 13–15 (clinical problem; terminology and classification), 15–16 (aetiology; Fig. 1), 17–18 (general treatment recommendations; differential stepped care; initial steps for psychotherapy), 19 (evidence for single FSS: IBS), 20 (Table 1).
 2. American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*, 5th ed., text revision (DSM-5-TR). 2022: panic disorder (comorbidity); generalized anxiety disorder (associated features); somatic symptom disorder (differential diagnosis); psychological factors affecting other medical conditions.
 3. User-provided notes: "Bodily distress disorder / somatic symptom disorder — management" (goals; PHQ-15 and Whiteley index; general measures; pharmacotherapy; CBT).
+4. Crone CC, Lackamp JM, Alkis AR. Gastrointestinal disorders. In: Levenson JL, ed. *The American Psychiatric Association Publishing Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. APA Publishing, 2019: Chapter 19 (Functional Gastrointestinal Disorders; Irritable Bowel Syndrome: epidemiology, pathophysiology, quality of life, psychiatric comorbidity, psychological and psychopharmacological interventions; Centrally Mediated Gastrointestinal Disorders).

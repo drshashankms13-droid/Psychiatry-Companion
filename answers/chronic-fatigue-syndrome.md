@@ -4,7 +4,7 @@ covers:
   - p3-5bdcce83
   - p1-5bdcce83
 status: draft
-updated: 2026-10-21
+updated: 2026-10-22
 reviewer:
 ---
 
@@ -14,7 +14,9 @@ reviewer:
 > 3. DSM-5-TR [3].
 > 4. The departmental CLP presentation on endocrine disorders [4].
 >
-> **Major gap:** none of these sources covers aetiology, pathophysiology, detailed clinical features, investigations or a management protocol for CFS. This answer is therefore short. To complete it, please upload **NICE NG206 (ME/CFS, 2021)** or the UpToDate topic on ME/CFS.
+> **Gap now largely filled:** aetiology, investigations, management and prognosis are added from Levenson 2019 (see the update section). Guidance issued after 2019 (e.g., NICE NG206) is still not in the sources.
+>
+> **Added 2026-10-22:** Sharpe MC, O'Malley PG. Chronic fatigue and fibromyalgia syndromes. In: Levenson, *Textbook of Psychosomatic Medicine and C-L Psychiatry*, 3rd ed., 2019 [5], in the section "Update from Levenson 2019". It fills the aetiology, epidemiology, investigation, management and prognosis gaps.
 
 ## Exam answer
 
@@ -79,8 +81,118 @@ reviewer:
 - Funding has been limited.
 - The cause, course modifiers and effective therapies remain unknown. Identifying subsets may improve diagnosis and treatment.
 
-**Conclusion.** ME/CFS (SEID) is a disabling multisystem disorder defined by IOM 2015 criteria. Its hallmark is **post-exertional malaise**, together with more than 6 months of substantially reduced function, unrefreshing sleep, and cognitive impairment or orthostatic intolerance. It is under-diagnosed, and the wrong interventions can worsen it. Evidence for CBT and exercise therapy is low to moderate.
+### Update from Levenson 2019: aetiology, assessment and management [5]
+**Concepts:**
+- CFS is a **symptom-defined functional somatic syndrome**. Its core is **severe chronic disabling fatigue, worse with exertion**, not explained by another condition.
+- It overlaps with **fibromyalgia (FMS)**: "**CFS is fatigue with pain, and FMS is pain with fatigue**". A patient diagnosed with one often meets criteria for the other.
+- **History:** neurasthenia (still in ICD-10); "CFS" defined in 1988 (Holmes); **Fukuda 1994** (operationalised 2003) is the most used definition; IOM 2015 proposed **SEID**.
+- **Neither "organic" nor "psychogenic":** the extreme organic view leads to endless searching for pathology; the extreme psychological view dismisses the patient. Use an **integrated biopsychosocial** view. Sometimes **both a medical and a psychiatric diagnosis** are appropriate.
 
+**Fukuda criteria (Table 25-1):**
+- **Inclusion:**
+  - medically unexplained fatigue of **6 months or more**: new onset, not from ongoing exertion, **not relieved by rest**, with substantially reduced activity;
+  - **plus 4 or more of 8:** subjective memory impairment, sore throat, tender nodes, muscle pain, joint pain, headache, **unrefreshing sleep**, **post-exertional malaise over 24 hours**.
+- **Exclusions:**
+  - active medical disease;
+  - **psychotic, melancholic or bipolar depression** (but **not uncomplicated major depression**); psychotic disorders;
+  - dementia; anorexia or bulimia; substance misuse; severe obesity.
+
+**Clinical features:**
+- persistent physical and mental fatigue worsened by exertion;
+- **unrefreshing, broken sleep** (almost universal);
+- widespread pain; marked fluctuation;
+- a neglected minority are **bed-bound**.
+
+**Psychiatric comorbidity:**
+- **Depression:** **67%** of CFS cases in the WHO primary-care study had a depressive syndrome; **over 25% current MDD**; **50–75% lifetime MDD**.
+- **Anxiety:** GAD in up to half (if hierarchy rules are suspended); **panic disorder 13%**; PTSD increased.
+- **Somatic symptom disorder:** DSM-5 SSD applies **only if Criterion B** (excessive thoughts, feelings or behaviours) is met, so it fits fewer patients than DSM-IV somatoform disorder did.
+
+**Epidemiology:**
+- CFS prevalence is about **3% by self-report** but **0.8% by clinical assessment**.
+- **More common in women**; onset at **30–50**; also seen in children.
+- **Lower socioeconomic status:** 50% more common in unskilled workers.
+- Diagnosed almost only in **Western nations**.
+- **Up to 50% unemployed** among US specialist-clinic patients.
+
+**Aetiology (Table 25-3: predisposing, precipitating and perpetuating factors):**
+
+| | Predisposing | Precipitating | Perpetuating |
+| --- | --- | --- | --- |
+| **Biological** | Genetics: twin concordance **55% MZ vs 20% DZ** | **Infection**: EBV, Q fever, viral meningitis, hepatitis, parvovirus (CFS follows in **10–40%**); injury (neck; more for FMS) | **Deconditioning**; sleep abnormalities (alpha-delta sleep, inconsistent); **low cortisol** (unlike depression; rises with CBT, and low baseline predicts poorer CBT response); orthostatic intolerance or POTS (non-specific); grey-matter reduction (partly reversed by CBT); central sensitisation (FMS) |
+| **Psychological** | Possibly over-active lifestyle before illness; **childhood and adult trauma** | Perceived stress; **"dilemma" life events** (one-third of CFS vs no controls) | Depression; **unhelpful illness beliefs** (strong physical attribution predicts poor outcome; **catastrophising**; **low self-efficacy**); **fear-avoidance**; **symptom vigilance** |
+| **Social** | Low SES and education | Life events | **Illness-reinforcing information** (advocacy groups linked with poorer outcomes); lack of perceived legitimacy; occupational and financial factors (**compensation contingent on disability**) |
+
+- **Chronic EBV** as a cause has been **rejected**. Immune abnormalities are only suggestive. **No muscle pathology** exists beyond deconditioning.
+
+**Assessment:**
+- **Medical differential (Table 25-4):**
+  - thyroid disease; **statins**; **sleep apnoea**; anaemia;
+  - chronic infection (HIV, hepatitis C, endocarditis); cancer;
+  - lung disease; inflammatory bowel disease;
+  - myositis, **myasthenia gravis, MS**; **narcolepsy**; hyperparathyroidism.
+- **Natural course of fatigue:** **75%** of primary-care fatigue or pain **settles in 2–4 weeks**.
+- **Screening tests after 4–6 weeks:** **TSH, ESR (or similar), FBC, basic chemistry**, and **withdraw culprit drugs** (statins take 4–6 weeks to clear).
+- **Special tests** only if indicated. Immunological and virological tests are **generally unhelpful**. Sleep studies are useful if apnoea, narcolepsy, PLMs or RLS are suspected.
+- **Beyond 3 months and unexplained:** avoid excessive testing, give regular follow-up, **screen for depression and anxiety**, and focus on symptom management.
+- **Psychiatric differential:** depression and anxiety; **panic with agoraphobia** (episodic fatigue); somatic symptom disorder; hypochondriasis (reassurance-seeking perpetuates fear).
+- **Illness assessment:** establish a collaborative relationship. Ask "**What do you think is wrong? What is the cause?**". Build a **3P formulation**.
+
+**Management:**
+1. **Engagement:**
+   - assess physical symptoms **first**, then introduce psychological factors;
+   - explain that antidepressants and CBT **do not imply "all in the head"**: they help normalise brain and body function;
+   - give a **positive diagnosis** with an explanation of **potential reversibility** (a disorder of brain function, not structure).
+2. **General measures:**
+   - self-management;
+   - **stabilise activity** (cut the boom-and-bust swings between rest and over-activity), then make very gradual increases;
+   - problem-solve work and benefits, aiming for a **graded return to work**.
+3. **Drugs** (limited role; none generally effective):
+   - **antidepressants** for depression or anxiety, and for **pain and sleep (not fatigue)**;
+   - **TCAs beat SSRIs for pain and sleep** (amitriptyline **25–50 mg**); SSRIs are better tolerated, but **fluoxetine equalled placebo in CFS**; SNRIs are modest (FMS); **mirtazapine** has some evidence in CFS;
+   - **no evidence for NSAIDs**;
+   - opioids, benzodiazepines and stimulants risk dependence (stimulant evidence is very limited);
+   - gabapentin and pregabalin help a minority.
+4. **Rehabilitation (preferred):**
+   - **Graded exercise therapy (GET):**
+     - conservative baseline; walking **5 days a week**, starting at **5–15 minutes** and adding **1–2 minutes a week** up to 30;
+     - then increase intensity;
+     - **overexertion can cause relapse**;
+     - benefit shown in systematic reviews (CFS and FMS).
+   - **CBT:**
+     - elicit the patient's illness model, consider alternatives, and run **behavioural experiments**;
+     - **14 sessions over 5 months** (the first 90 minutes, the rest 50; weekly then fortnightly);
+     - **moderately effective and safe** in over 1,000 CFS patients.
+5. **Non-responders:**
+   - maximise function and quality of life; avoid iatrogenic harm;
+   - balance more treatment against acceptance;
+   - **regular supportive follow-up from a single physician**.
+
+**Prognosis:**
+- chronic but fluctuating; about **half partly or fully remit within 2–3 years** (community studies);
+- **poor outcome:** longer duration, severe symptoms, older age, depression, poor support, and **strong belief in a physical cause**;
+- severely disabled patients do worst;
+- **modestly increased suicide risk**, but no other excess mortality.
+
+⚠️ **Discrepancies between the sources (not resolved):**
+- **Exertion:** the IOM report [1] stresses that exertion of any kind can worsen patients and that **wrong interventions can make symptoms worse**. Levenson [5] recommends **graded exercise and CBT** as the preferred treatments, with warnings against overexertion.
+- **Evidence:** Henningsen [2] rates CBT and exercise evidence as **low to moderate**; Levenson calls CBT **moderately effective**.
+- **Definition:** IOM's **SEID** requires post-exertional malaise. **Fukuda** lists it as only one of 8 optional symptoms.
+- **Burden:** IOM gives US numbers (836,000–2.5 million) and up to a quarter homebound; Levenson gives a prevalence of 0.8% by clinical assessment and says few patients are too disabled to attend clinic.
+- **Date:** Levenson is 2019. Any later guideline change on GET is **not in the held sources**.
+
+**Conclusion.** ME/CFS is a disabling functional somatic syndrome of unexplained, exertion-worsened fatigue lasting 6 months or more. It is defined by the Fukuda (1994) or IOM/SEID (2015) criteria and overlaps heavily with fibromyalgia, depression and anxiety. Its cause is multifactorial:
+- **predisposing:** genetics, trauma;
+- **precipitating:** infection, stress;
+- **perpetuating:** deconditioning, sleep disturbance, illness beliefs, fear-avoidance, social reinforcement.
+
+Management:
+- exclude medical and psychiatric mimics with a **limited screen**;
+- give a positive diagnosis and a 3P formulation;
+- stabilise activity, then offer **graded exercise or CBT** (moderate evidence);
+- use antidepressants for mood, pain and sleep, not fatigue.
+
+About half improve within 2–3 years. ⚠️ The sources disagree on how much exertion-based therapy helps (see the update section).
 ## In depth
 
 ### Critical appraisal (from the sources)
@@ -89,14 +201,11 @@ reviewer:
 - **Thin evidence base:** reviews of treatment are scarce, and evidence for CBT and exercise therapy is only low to moderate [2].
 
 ### Not covered by the sources (deliberately left blank)
-- Aetiology and pathophysiology.
-- Epidemiology outside the USA, including India.
-- Investigations to exclude other causes.
-- A detailed management plan: activity and energy management, sleep, pain, orthostatic intolerance, pharmacotherapy.
-- The controversy over graded exercise therapy, and current NICE recommendations.
-- Prognosis.
+- Indian epidemiology (Levenson notes the diagnosis is almost entirely Western).
+- Specific management of orthostatic intolerance in CFS.
+- Guideline recommendations issued after 2019 (e.g., NICE NG206), including any change in the status of GET.
 
-Please upload NICE NG206 or an UpToDate topic to fill these sections.
+Upload NICE NG206 if you want the post-2019 guideline position.
 
 ## References
 
@@ -104,3 +213,4 @@ Please upload NICE NG206 or an UpToDate topic to fill these sections.
 2. Henningsen P, Zipfel S, Sattel H, Creed F. Management of functional somatic syndromes and bodily distress. *Psychother Psychosom* 2018; 87:12–31 (Introduction; Treatment of single functional somatic syndromes).
 3. American Psychiatric Association. *DSM-5-TR*. 2022 (Hypersomnolence disorder: differential diagnosis; Glossary of cultural concepts of distress: *shenjing shuairuo*).
 4. "Neuropsychiatric aspects of endocrinal disorders": CLP departmental presentation (slide 30, adrenocortical insufficiency).
+5. Sharpe MC, O'Malley PG. Chronic fatigue and fibromyalgia syndromes. In: Levenson JL, ed. *The American Psychiatric Association Publishing Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. APA Publishing, 2019: Chapter 25 (General Issues; The Syndromes, Table 25-1; Association With Psychiatric Disorders; Epidemiology; Prognosis; Etiology, Table 25-3; Models; Diagnostic Evaluation, Table 25-4; Management).

@@ -17,11 +17,11 @@ reviewer:
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., catatonia (autoimmune encephalitis as a cause; ECT in limbic encephalitis), pp. 154–156 [2].
 >
 > ⚠️ **Major gap: the source is out of date for this topic.** Lishman (2009) predates almost all of modern autoimmune encephalitis. It has a single paragraph on anti-NMDAR encephalitis (Dalmau 2007, 12 women). **Not in the sources:**
-> - **Graus 2016 criteria** (possible / probable / definite AE; probable anti-NMDAR criteria);
+> - **Graus 2016 criteria** and their certainty levels;
 > - **Pollak 2020 criteria for autoimmune psychosis**;
 > - the full antibody panel (LGI1, CASPR2, GABA-B, AMPA, GAD65, DPPX, etc.) and cell-surface vs intracellular distinction;
-> - first-line (steroids, IVIG, plasma exchange) vs **second-line (rituximab, cyclophosphamide)** immunotherapy;
-> - the typical anti-NMDAR stages (prodrome → psychiatric → movement disorder/dysautonomia/hypoventilation);
+> - first-line vs **second-line** immunotherapy;
+> - the clinical stages of anti-NMDAR encephalitis;
 > - antipsychotic intolerance, outcome data, post-HSV autoimmune encephalitis.
 >
 > **Please upload** Dalmau & Graus (*NEJM* 2018 or *Lancet Neurol* 2016), Pollak 2020 (*Lancet Psychiatry*) or an Indian review, and I will fill this.

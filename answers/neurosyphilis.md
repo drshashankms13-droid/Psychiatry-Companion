@@ -10,7 +10,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 7, "Syphilis of the CNS", pp. 421–431 (Box 7.4) [1].
 >
-> **Gaps:** post-2009 guidance (e.g., CDC 2021 and BASHH regimens, the role of CSF FTA-ABS/TPPA, RPR response criteria, ocular and otosyphilis guidance), Indian prevalence data, and imaging findings (MRI mesial temporal changes) are **not in the source**. The treatment regimen below is Lishman's (CDC 2006).
+> **Gaps:** post-2009 guidance (e.g., CDC 2021 and BASHH regimens, the role of CSF FTA-ABS/TPPA, RPR response criteria, ocular and otosyphilis guidance), Indian prevalence data, and MRI findings are **not in the source**. The treatment regimen below is Lishman's (CDC 2006).
 
 ## Exam answer
 

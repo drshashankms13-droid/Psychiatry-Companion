@@ -36,7 +36,7 @@ reviewer:
 >    - Stephen, "The Dystonias", pp. 1435–1475.
 >
 > ⚠️ **Remaining gaps** (the neurological side is now well covered by [7]; the psychiatric side is still thin). **Not in the sources:**
-> - **OCD DBS evidence** (ALIC/VC-VS, STN; FDA humanitarian device exemption; response rates);
+> - **OCD DBS evidence**: targets, response rates and regulatory status;
 > - **Tourette syndrome** DBS;
 > - **mechanism of action**;
 > - **ethics and consent** for psychiatric DBS;

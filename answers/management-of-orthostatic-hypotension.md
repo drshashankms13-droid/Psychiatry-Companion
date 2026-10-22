@@ -27,7 +27,7 @@ reviewer:
 >    - Weintraub and Irwin, "Cognitive and Neuropsychiatric Symptoms in PD and DLB", p. 1318.
 >
 > ⚠️ **Remaining gaps:**
-> - **non-psychotropic culprits** in detail (nitrates, PDE-5 inhibitors, α-blockers for BPH, levodopa);
+> - **non-psychotropic culprit drugs** in detail;
 > - **geriatric falls guidelines**;
 > - **physical counter-manoeuvres**.
 >

@@ -16,12 +16,12 @@ reviewer:
 > - rehabilitation, pp. 489–491.
 >
 > ⚠️ **Major gap: this is a psychiatry textbook, and acute stroke treatment is outlined only.** **Not in the source:**
-> - the **4.5-hour** alteplase window (Lishman says "within about 3 hours");
-> - **alteplase dose (0.9 mg/kg)** and **tenecteplase**;
-> - inclusion and exclusion criteria (BP threshold, glucose, anticoagulation, recent surgery);
+> - the current alteplase time window (Lishman says "within about 3 hours");
+> - **alteplase dosing** and **tenecteplase**;
+> - thrombolysis inclusion and exclusion criteria;
 > - **NIHSS**; door-to-needle targets;
-> - **mechanical thrombectomy** (up to 6–24 hours with perfusion imaging);
-> - BP management in ICH; aspirin timing (300 mg for 2 weeks); DVT prophylaxis; dysphagia screening protocols; statins;
+> - **mechanical thrombectomy** and its time windows;
+> - BP management in ICH; antiplatelet timing and dose; DVT prophylaxis; dysphagia screening protocols; statins;
 > - the AHA/ASA 2019, NICE NG128 and Indian Stroke Association guidelines.
 >
 > I have **not** filled these from memory. Please upload a stroke guideline if you want a complete answer, especially for the thrombolysis question.

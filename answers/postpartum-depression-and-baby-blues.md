@@ -15,12 +15,12 @@ reviewer:
 >
 > ⚠️ **Gaps:**
 > - the **Edinburgh Postnatal Depression Scale** (cut-offs, items) and **screening schedules**;
-> - **risk factors** beyond prior depression and bipolar disorder (e.g., social support, intimate partner violence, unplanned pregnancy);
+> - **risk factors** beyond prior depression and bipolar disorder (IPS now adds domestic violence, trauma and social support; see the update);
 > - **IPT** evidence;
 > - **zuranolone**;
 > - **Indian prevalence** figures;
 > - **effects on the infant and mother–infant bonding** in detail;
-> - **timing of blues onset** (day 3–5 peak).
+> - **timing of blues onset**.
 >
 > Not filled from memory. DSM-5-TR says only that blues improve "within a week".
 >
