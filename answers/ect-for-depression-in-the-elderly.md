@@ -172,7 +172,7 @@ All of these make a **rapid, reliable** treatment essential [1].
 
 ### Indian context
 - **MHCA 2017 Section 95:** **ECT without anaesthesia and muscle relaxant is prohibited.**
-- **MHCA 2017 Section 94(3):** ECT may **not** be used as emergency treatment without consent [Likely; check wording].
+- **MHCA 2017 Section 94(3):** "Nothing in this section shall allow any medical officer or psychiatrist to use electro-convulsive therapy as a form of treatment": **ECT cannot be given as emergency treatment**. Emergency treatment itself is limited to **72 hours** (7 days in a declared disaster) under Section 94(4) [verified against the Act text, batch 4].
 - Consent is via the patient, or a nominated representative with Mental Health Review Board oversight if the patient lacks capacity [general knowledge; see `mhca-2017-admission-procedures`].
 - **Practice issues:**
   - modified ECT is available in most medical colleges;
