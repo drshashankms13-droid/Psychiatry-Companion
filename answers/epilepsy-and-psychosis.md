@@ -161,7 +161,7 @@ reviewer:
 ### Not covered by the sources (deliberately left blank)
 - ILAE (2018/2019) classification of psychoses of epilepsy and formal criteria for PIP (e.g., Logsdail & Toone criteria are named but not listed).
 - Kindling evidence beyond the seminar summary.
-- Newer ASM-specific psychosis rates (brivaracetam, cenobamate).
+- Psychosis rates with newer ASMs.
 
 ## References
 

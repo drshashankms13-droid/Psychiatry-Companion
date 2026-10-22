@@ -87,8 +87,8 @@ reviewer:
 ### Not covered by the sources (deliberately left blank)
 - IRLSSG 2014 criteria and severity scale.
 - Iron studies and IV iron.
-- α2δ ligands vs dopamine agonists; augmentation recognition and management; opioids.
-- Antidepressant- and antihistamine-induced RLS (mirtazapine, SSRIs); bupropion as an option.
+- Comparative drug treatment; augmentation recognition and management.
+- Drug-induced RLS and antidepressant choice in RLS.
 
 ## References
 

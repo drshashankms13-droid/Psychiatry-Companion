@@ -195,7 +195,7 @@ Correcting thyroid status is the core treatment, with propranolol for adrenergic
 ### Not covered by the sources (deliberately left blank)
 - Detailed management of myxoedema psychosis (e.g., antipsychotic choice and doses).
 - Formal neuroimaging studies, beyond the Hashimoto MRI findings above.
-- Hashimoto encephalopathy (steroid-responsive encephalopathy) criteria and treatment.
+- Hashimoto encephalopathy criteria and treatment.
 - Thyroid issues in specific populations (children/cretinism) beyond the table entry.
 
 Upload a source if you want these covered.

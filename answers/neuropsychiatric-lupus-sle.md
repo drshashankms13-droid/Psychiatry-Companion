@@ -128,10 +128,10 @@ Mechanisms are small-vessel vasculopathy, antiphospholipid and brain-reactive (a
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- ACR 1999 nomenclature (19 NPSLE syndromes: 12 central, 7 peripheral); attribution algorithms.
+- ACR 1999 NPSLE nomenclature; attribution algorithms.
 - EULAR 2010 recommendations; anticoagulation targets in APS.
-- Hydroxychloroquine (including its neuropsychiatric effects), belimumab, anifrolumab.
-- Management of corticosteroid-induced psychosis (dose thresholds, antipsychotic/lithium prophylaxis).
+- Hydroxychloroquine and newer biologics.
+- Management of corticosteroid-induced psychosis.
 
 ## References
 

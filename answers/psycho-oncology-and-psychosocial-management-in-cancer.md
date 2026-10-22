@@ -254,7 +254,7 @@ reviewer:
 - The motive is mainly **loss of autonomy and dignity, not pain**.
 
 ### Not covered by the sources (deliberately left blank)
-- A formal definition and history of psycho-oncology (Holland; IPOS); the "sixth vital sign" concept; NCCN Distress Thermometer problem list.
+- A formal definition and history of psycho-oncology; NCCN Distress Thermometer problem list.
 - Communication skills / SPIKES (see separate answer).
 - Paediatric oncology; caregiver and bereavement interventions in detail; palliative care chapter content.
 - Indian psycho-oncology services or data.

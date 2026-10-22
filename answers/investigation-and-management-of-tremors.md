@@ -148,7 +148,7 @@ Management:
 
 ### Not covered by the sources (deliberately left blank)
 - Tremor frequency ranges by type; orthostatic, palatal and rubral tremor details.
-- A formal laboratory panel (TSH, glucose, calcium, liver, ceruloplasmin and 24-hour urinary copper, B12).
+- A formal laboratory panel for tremor.
 - Doses of topiramate, gabapentin and benzodiazepines in ET.
 - Cerebellar tremor management.
 

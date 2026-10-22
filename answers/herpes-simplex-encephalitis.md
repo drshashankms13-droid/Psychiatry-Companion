@@ -95,7 +95,7 @@ reviewer:
 ### Not covered by the sources (deliberately left blank)
 - Acyclovir dose and duration; repeat PCR when the early PCR is negative; valacyclovir follow-on.
 - Post-HSV autoimmune (anti-NMDAR) encephalitis presenting as relapse.
-- Current MRI sequences (DWI/FLAIR) and their sensitivity; neonatal HSV-2 encephalitis.
+- Current MRI sequences and their sensitivity; neonatal HSV encephalitis.
 
 ## References
 

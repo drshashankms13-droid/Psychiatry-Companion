@@ -151,7 +151,7 @@ reviewer:
 - **Database pitfalls** [2]: reporting bias, confounding by indication (low-risk drugs given to high-risk patients) and co-prescription. An FDA database study found mirtazapine most associated, and a French one duloxetine, in contrast to the meta-analysis.
 
 ### Not covered by the sources (deliberately left blank)
-- A detailed hyponatraemia work-up (serum and urine osmolality, urine sodium, volume status) and SIADH diagnostic criteria.
+- A detailed hyponatraemia work-up and SIADH diagnostic criteria.
 - Rates of sodium correction and osmotic demyelination.
 - Specific geriatric depression guidelines (e.g., IPS geriatric CPG). Upload if needed.
 

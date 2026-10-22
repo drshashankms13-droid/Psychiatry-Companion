@@ -115,7 +115,7 @@ reviewer:
 - **The paradox:** the same drug carries recognised reversible and irreversible neurotoxicity.
 
 ### Not covered by the sources (deliberately left blank)
-- The full clinical picture and diagnostic criteria of **SILENT** (persistent cerebellar dysfunction, extrapyramidal signs, dementia) and its prognosis.
+- The full clinical picture and diagnostic criteria of **SILENT**, and its prognosis.
 - Acute vs acute-on-chronic vs chronic toxicity patterns.
 - EEG changes (e.g., triphasic waves) and MRI findings.
 - Lithium in pregnancy and in children (Maudsley Chapter 7 not used here).

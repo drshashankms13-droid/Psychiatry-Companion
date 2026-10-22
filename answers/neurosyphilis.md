@@ -151,8 +151,8 @@ Psychiatrists should keep a low threshold for serology and **CSF examination** i
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Current CDC/BASHH/WHO regimens (e.g., penicillin 18–24 MU/day as 3–4 MU 4-hourly; probenecid combination), follow-up intervals by RPR.
-- MRI findings in GPI (mesial temporal T2 hyperintensity, atrophy).
+- Current CDC/BASHH/WHO treatment regimens and follow-up intervals.
+- MRI findings in GPI.
 - Ocular syphilis and otosyphilis management; HIV-specific CSF thresholds.
 - Indian data on neurosyphilis in psychiatric populations.
 

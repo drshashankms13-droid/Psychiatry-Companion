@@ -140,8 +140,8 @@ Cardiac syncope (no warning, exertional, cardiac history) must never be missed. 
 ### Not covered by the sources (deliberately left blank)
 - Validated syncope scores (e.g., Calgary/Sheldon criteria, EGSYS) and ESC 2018 guideline algorithms.
 - Lactate, creatine kinase or other post-ictal biomarkers.
-- Paediatric mimics (breath-holding spells, reflex anoxic seizures).
-- The colour change in epileptic seizures (cyanosis). The source contrasts only the pallor of syncope.
+- Paediatric seizure mimics.
+- Skin colour change during epileptic seizures (the source describes only the pallor of syncope).
 
 ## References
 

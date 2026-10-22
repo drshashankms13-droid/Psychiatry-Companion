@@ -173,11 +173,11 @@ Treatment is levodopa-based, with agonists, MAO-B or COMT inhibitors and amantad
 See the separate answer on psychiatric aspects of PD.
 
 ### Not covered by the sources (deliberately left blank)
-- **MDS 2015 clinical diagnostic criteria** (supportive criteria, absolute exclusions, red flags) and **UK Brain Bank criteria**.
+- **MDS 2015 clinical diagnostic criteria** and **UK Brain Bank criteria**.
 - **Hoehn & Yahr staging** details (named in Lishman but not described) and MDS-UPDRS.
 - Post-2009 drugs: safinamide, opicapone, istradefylline, levodopa–carbidopa intestinal gel, subcutaneous foslevodopa.
-- NICE NG71 (2017) first-line choice by symptom impact.
-- Treatment of autonomic features (orthostatic hypotension, constipation, bladder) and of RBD.
+- NICE NG71 (2017) recommendations on first-line drug choice.
+- Treatment of autonomic features and of RBD.
 
 Upload UpToDate "Clinical manifestations of PD" and "Initial pharmacologic treatment of PD", or NICE NG71, if you want these covered.
 

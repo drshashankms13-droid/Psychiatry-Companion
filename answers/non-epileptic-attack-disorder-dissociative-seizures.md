@@ -217,8 +217,8 @@ Management hinges on **clear, non-judgemental communication of the diagnosis**, 
 - **The "over 5 minutes" sign:** DSM-5-TR uses duration over 5 minutes [2]. Lishman uses over 2 minutes for motor attacks, and over 5 minutes for motionless unresponsiveness [1].
 
 ### Not covered by the sources (deliberately left blank)
-- ILAE (LaFrance 2013) diagnostic levels (possible, probable, clinically established, documented).
-- RCT evidence after 2009 (CODES CBT trial; sertraline pilot).
+- ILAE (LaFrance 2013) diagnostic certainty levels.
+- RCT evidence after 2009 (e.g., the CODES trial).
 - Paediatric functional seizures.
 - Indian epidemiology beyond the slides' 2.9/1,000.
 

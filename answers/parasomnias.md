@@ -13,7 +13,7 @@ reviewer:
 >    - Chapter 6: parasomnias vs epilepsy, pp. 360–361.
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., z-drug/benzodiazepine-associated somnambulism, automatism and "sleep driving", pp. 471 and 922 [2].
 >
-> **Gaps:** ICSD-3 classification of parasomnias (NREM arousal disorders, REM parasomnias including nightmare disorder and recurrent isolated sleep paralysis, "other": sleep-related eating disorder, exploding head syndrome, sleep enuresis, sleep talking), **confusional arousals and sexsomnia** detail, and **nightmare-disorder treatment (imagery rehearsal therapy, prazosin)** are **not in the sources**.
+> **Gaps:** the full ICSD-3 classification of parasomnias and its individual disorders, and **nightmare-disorder treatment**, are **not in the sources**.
 
 ## Exam answer
 
@@ -108,9 +108,9 @@ Diagnosis relies on the bed-partner history and polysomnography, distinguishing 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- ICSD-3 parasomnia list; confusional arousals; sexsomnia; sleep-related eating disorder; exploding head syndrome; sleep enuresis.
-- Nightmare disorder treatments (imagery rehearsal therapy, prazosin); PTSD-related nightmares.
-- Scheduled awakenings for childhood sleep-walking; CBT for parasomnias.
+- The ICSD-3 parasomnia list and its individual disorders.
+- Nightmare disorder treatments; PTSD-related nightmares.
+- Behavioural treatments for childhood parasomnias; CBT for parasomnias.
 
 ## References
 

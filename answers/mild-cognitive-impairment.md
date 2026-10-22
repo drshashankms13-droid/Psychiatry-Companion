@@ -137,7 +137,7 @@ Cholinesterase inhibitors are not recommended; anti-amyloid antibodies are an em
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- **AAN 2018 MCI guideline** (exercise twice weekly; cognitive training; no drug).
+- **AAN 2018 MCI guideline** recommendations.
 - Specific MoCA cut-offs.
 
 ## References

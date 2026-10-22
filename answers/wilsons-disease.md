@@ -148,8 +148,8 @@ Diagnosis rests on **low caeruloplasmin, high urinary copper, K–F rings**, MRI
 - Antipsychotic-induced EPS that is atypical or out of proportion.
 
 ### Not covered by the sources (deliberately left blank)
-- **Leipzig diagnostic score**; current EASL (2012/2025) and AASLD (2022) algorithms; genetic testing for *ATP7B* as a first-line test.
-- **Drug doses** (penicillamine, trientine, zinc) and monitoring targets (24-hour urinary copper on treatment, non-caeruloplasmin-bound copper).
+- **Leipzig diagnostic score**; current EASL and AASLD algorithms; the role of genetic testing.
+- **Drug doses** and on-treatment monitoring targets.
 - **Paradoxical neurological worsening** on chelation: rates and mitigation (only penicillamine worsening is described).
 - Treatment of Wilson's in pregnancy.
 - Specific psychotropic choices in Wilson's disease.

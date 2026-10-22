@@ -132,11 +132,11 @@ Management is stepped and biopsychosocial:
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Rome IV criteria; IBS subtypes (C, D, M, U); prevalence; female preponderance.
-- Gut–brain axis, visceral hypersensitivity, microbiome, post-infectious IBS.
+- Rome IV criteria; IBS subtypes; prevalence and sex ratio.
+- Pathophysiology of IBS.
 - Red flags and organic exclusion tests.
 - Low-FODMAP diet; gut-directed hypnotherapy protocols; IBS-specific CBT trials.
-- Drug doses (TCAs at low dose for pain; SSRIs).
+- Drug doses for IBS.
 
 ## References
 

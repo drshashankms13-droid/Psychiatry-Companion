@@ -111,7 +111,7 @@ Catatonic signs do not distinguish organic from functional causes, so neurologic
 - BAP 2023 guideline details (beyond the Maudsley summary) and the Bush–Francis rating and screening instrument.
 - Proportions of catatonia attributable to specific medical causes; paediatric catatonia.
 - Specific autoimmune antibody panels and immunotherapy for catatonia due to autoimmune encephalitis.
-- Pathophysiology models (GABA-A hypofunction, NMDA, dopamine) beyond the Maudsley mention of GABA/BDNF.
+- Pathophysiology models beyond the Maudsley mention of GABA/BDNF.
 
 ## References
 

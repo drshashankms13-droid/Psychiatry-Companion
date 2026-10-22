@@ -131,9 +131,9 @@ A **subcortical dementia**: cognitive, motor and behavioural.
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Frascati 2007 criteria (ANI/MND/HAD definitions with SD cut-offs) and their critiques.
+- Frascati 2007 criteria and their critiques.
 - CPE score; CSF viral escape; dolutegravir neuropsychiatric effects.
-- International HIV Dementia Scale; current prevalence in the ART era; Indian data (HIV clade C).
+- International HIV Dementia Scale; current prevalence in the ART era; Indian data.
 
 ## References
 

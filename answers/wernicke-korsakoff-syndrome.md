@@ -184,7 +184,7 @@ reviewer:
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- RCP/BAP treatment regimen (e.g., 500 mg IV three times daily) and Caine criteria for WE in alcoholics.
+- Guideline thiamine regimen and the Caine criteria.
 - DSM-5-TR "alcohol-induced major neurocognitive disorder, amnestic-confabulatory type" criteria.
 - Specific memory-rehabilitation trials in KS; long-term care models.
 - Paediatric or bariatric-surgery WE.

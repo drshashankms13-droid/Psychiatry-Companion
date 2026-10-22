@@ -114,7 +114,7 @@ reviewer:
 - Comparative antidepressant evidence (venlafaxine, SSRIs) in migraine prophylaxis.
 - Topiramate's cognitive and mood effects; valproate restrictions in women.
 - CBT and biofeedback trial effect sizes; mindfulness.
-- Migraine in bipolar disorder (prevalence and lamotrigine/valproate choice).
+- Migraine in bipolar disorder (prevalence and drug choice).
 
 ## References
 

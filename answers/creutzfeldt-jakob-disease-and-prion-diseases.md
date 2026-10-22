@@ -130,8 +130,8 @@ Lishman's case: a 38-year-old with alcohol use and "depression", labelled hyster
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- **RT-QuIC** (real-time quaking-induced conversion) on CSF or nasal brushings; current CDC/European diagnostic criteria (2017/2018).
-- **sCJD molecular subtypes** (MM1, VV2, etc.) beyond the codon 129 notes above.
+- **RT-QuIC** sample types and performance; current CDC/European diagnostic criteria.
+- **sCJD molecular subtypes** beyond the codon 129 notes above.
 - Updated vCJD case totals after 2007; variably protease-sensitive prionopathy.
 - Symptomatic and palliative treatment (myoclonus, agitation); genetic counselling for familial prion disease.
 - Instrument decontamination protocols; the proportion of sporadic vs other forms; PRNP chromosomal location.

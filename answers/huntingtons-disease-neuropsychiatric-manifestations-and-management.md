@@ -174,9 +174,9 @@ Management is symptomatic and multidisciplinary:
 - Insight is preserved, which explains early depression and suicide.
 
 ### Not covered by the sources (deliberately left blank)
-- Diagnostic categories by CAG repeat length (intermediate 27–35; reduced penetrance 36–39). Lishman gives only ≤36 normal and ≥40 pathogenic.
+- Full diagnostic categories by CAG repeat length (intermediate and reduced-penetrance ranges). Lishman gives only ≤36 normal and ≥40 pathogenic.
 - UHDRS, Shoulson–Fahn staging.
-- Investigational therapies (antisense oligonucleotides, e.g., tominersen).
+- Investigational disease-modifying therapies.
 - Indian epidemiology and genetic services.
 
 ## References

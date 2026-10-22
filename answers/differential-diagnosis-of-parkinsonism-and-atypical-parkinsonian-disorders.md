@@ -131,9 +131,9 @@ The distinction matters: prognosis, levodopa response and **neuroleptic sensitiv
 - The cortical/subcortical dichotomy is now seen as a **spectrum**.
 
 ### Not covered by the sources (deliberately left blank)
-- MDS-PSP (2017) criteria and phenotypes; Armstrong CBD criteria and CBS vs CBD distinction; Gilman/MDS MSA criteria; McKeith 2017 DLB core and indicative biomarkers (MIBG, PSG-confirmed RBD).
+- MDS-PSP (2017) criteria and phenotypes; Armstrong CBD criteria and CBS vs CBD distinction; Gilman/MDS MSA criteria; McKeith 2017 DLB criteria.
 - MRI signs: hummingbird/penguin, morning-glory, hot-cross-bun, putaminal rim.
-- Drug-induced parkinsonism from non-antipsychotic drugs (valproate, calcium-channel blockers, metoclopramide).
+- Drug-induced parkinsonism from non-antipsychotic drugs.
 - Normal-pressure hydrocephalus as a cause of gait apraxia/parkinsonism. Lishman mentions it only as a subcortical dementia.
 
 ## References

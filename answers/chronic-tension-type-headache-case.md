@@ -83,7 +83,7 @@ A 33-year-old woman has had **bilateral, pressing (non-pulsating), mild** headac
 
 ### Not covered by the sources (deliberately left blank)
 - ICHD-3 criteria for infrequent, frequent episodic and chronic TTH, including the rule on mild nausea in chronic TTH and **pericranial tenderness** on palpation.
-- TTH pathophysiology (peripheral and central sensitisation).
+- TTH pathophysiology.
 - Amitriptyline dose and titration for TTH; duration of prophylaxis.
 - Prevalence and sex ratio of chronic TTH.
 

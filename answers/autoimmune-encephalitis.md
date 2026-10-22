@@ -111,9 +111,9 @@ Investigation is EEG, MRI-FLAIR, CSF, antibodies and a tumour search. Treatment 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Graus 2016 and Pollak 2020 criteria; antibody classification (cell-surface vs intracellular); LGI1 (faciobrachial dystonic seizures, hyponatraemia), CASPR2, GABA-B, AMPA, GAD65.
-- Anti-NMDAR clinical stages, orofacial dyskinesia, dysautonomia, central hypoventilation; outcome (about 80% good recovery).
-- Second-line immunotherapy (rituximab, cyclophosphamide), relapse rates, long-term immunosuppression.
+- Graus 2016 and Pollak 2020 criteria; antibody classification (cell-surface vs intracellular); individual antibody syndromes (LGI1, CASPR2, GABA-B, AMPA, GAD65).
+- Anti-NMDAR encephalitis clinical stages and outcome data.
+- Second-line immunotherapy, relapse rates, long-term immunosuppression.
 - Neuroleptic intolerance and the NMS-like picture.
 - Post-HSV anti-NMDAR encephalitis; paediatric presentations; Indian case series.
 

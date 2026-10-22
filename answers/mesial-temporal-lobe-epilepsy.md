@@ -154,7 +154,7 @@ It is often drug-resistant but **highly responsive to surgery** (about 64% seizu
 - **Mesial TLE:** epigastric, olfactory and gustatory auras, fear, déjà vu.
 
 ### Not covered by the sources (deliberately left blank)
-- ILAE 2013 classification of hippocampal sclerosis (types 1–3).
+- ILAE 2013 classification of hippocampal sclerosis.
 - Laser interstitial thermal therapy and responsive neurostimulation.
 - Newer ASMs (lacosamide, eslicarbazepine, cenobamate, brivaracetam).
 

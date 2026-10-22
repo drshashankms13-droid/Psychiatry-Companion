@@ -224,10 +224,10 @@ The formal ICHD-3 TTH criteria are still missing.
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- ICHD-3 TTH criteria (infrequent episodic, frequent episodic, chronic; pericranial tenderness) and TTH pathophysiology.
+- ICHD-3 TTH subtypes and criteria, and TTH pathophysiology.
 - Adult chronic TTH drug doses (e.g., amitriptyline titration) and EMG biofeedback; acute-treatment trials specific to adult TTH.
 - Headache epidemiology and burden (GBD); Indian prevalence.
-- Full ICHD-3 numbered list (e.g., 1.1–14.2).
+- Full ICHD-3 numbered list.
 
 ## References
 

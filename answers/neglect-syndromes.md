@@ -92,7 +92,7 @@ reviewer:
 
 ### Not covered by the sources (deliberately left blank)
 - Prism adaptation, limb activation, visual scanning training, vestibular/optokinetic stimulation, rTMS, and their Cochrane evidence.
-- Attention-network models (Heilman's arousal/intention model, Kinsbourne's interhemispheric rivalry, Corbetta's dorsal/ventral networks).
+- Attention-network models of neglect (e.g., Heilman, Kinsbourne, Corbetta).
 - Egocentric vs allocentric neglect; motor (intentional) neglect.
 - Catherine Bergego Scale; anosognosia rating scales.
 

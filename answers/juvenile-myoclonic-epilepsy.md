@@ -17,7 +17,7 @@ reviewer:
 >    - treatment, pp. 366–369.
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., for valproate in women [2].
 >
-> **Gaps:** the source gives no ILAE 2022 JME diagnostic criteria, specific genes (e.g., *EFHC1*, *GABRA1*) or recent valproate regulatory detail beyond Maudsley. These are listed at the end.
+> **Gaps:** the source gives no ILAE 2022 JME diagnostic criteria, specific genes or recent valproate regulatory detail beyond Maudsley. These are listed at the end.
 
 ## Exam answer
 
@@ -99,9 +99,9 @@ It responds excellently to **valproate** (but consider teratogenicity in women; 
 
 ### Not covered by the sources (deliberately left blank)
 - ILAE 2022 diagnostic criteria for JME.
-- Specific genes (*EFHC1*, *GABRA1*, *CACNB4*) and the 6p21 locus.
-- Prognosis studies of long-term remission (some patients do remit).
-- Detailed neuropsychology (frontal dysfunction) and psychiatric prevalence studies in JME.
+- Specific genes and loci.
+- Prognosis studies of long-term remission.
+- Detailed neuropsychology and psychiatric prevalence studies in JME.
 - Current MHRA/EMA valproate pregnancy-prevention programme detail.
 
 ## References

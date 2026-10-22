@@ -89,7 +89,7 @@ reviewer:
 - **Thin evidence base:** reviews of treatment are scarce, and evidence for CBT and exercise therapy is only low to moderate [2].
 
 ### Not covered by the sources (deliberately left blank)
-- Aetiology and pathophysiology (post-infective, immune and autonomic hypotheses).
+- Aetiology and pathophysiology.
 - Epidemiology outside the USA, including India.
 - Investigations to exclude other causes.
 - A detailed management plan: activity and energy management, sleep, pain, orthostatic intolerance, pharmacotherapy.

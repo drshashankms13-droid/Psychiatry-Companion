@@ -79,10 +79,10 @@ reviewer:
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- AASM 2007/2023 scoring manual (N1/N2/N3/R; 30-second epochs; arousal and respiratory event definitions; AHI severity bands).
+- AASM scoring manual (staging, arousal and respiratory event rules, AHI severity bands).
 - MSLT and MWT protocols and cut-offs.
 - Home sleep apnoea testing; actigraphy standards; video-PSG with extended EEG montage for parasomnia/epilepsy.
-- PSG markers in depression (REM latency, density) beyond Lishman's brief note.
+- PSG markers in depression beyond Lishman's brief note.
 
 ## References
 

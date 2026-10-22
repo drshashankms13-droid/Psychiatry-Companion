@@ -189,7 +189,7 @@ The approach to dystonia has six steps:
 
 ### Not covered by the sources (deliberately left blank)
 - **Doses** of botulinum toxin, anticholinergics and other drugs; current DBS selection criteria (Lishman 2009 gives drug classes only).
-- The 2013 consensus classification (Axis I clinical / Axis II aetiology); "isolated" vs "combined" dystonia terminology.
+- The 2013 consensus classification of dystonia and its terminology.
 - Investigations: genetic panels and MRI patterns.
 - Specific treatments for chorea, myoclonus and tremor. **Tremor** (p3-8c97688a, "investigation and management of tremors") remains **unsourced**: Lishman covers only essential tremor as a PD differential and thalamic surgery for tremor.
 

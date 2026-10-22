@@ -168,7 +168,7 @@ reviewer:
 ### Not covered by the sources (deliberately left blank)
 - EPDS item content and cut-offs (IPS names EPDS, Whooley and PHQ-9 but gives no cut-offs).
 - Psychosocial risk factors; IPT; peer support; home visiting.
-- Zuranolone (oral neurosteroid).
+- Zuranolone.
 - India-specific prevalence studies (IPS gives 15–20% without stating the population).
 
 ## References

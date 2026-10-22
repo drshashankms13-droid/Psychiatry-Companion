@@ -114,7 +114,7 @@ Management is careful dose reduction, then clozapine or pimavanserin for persist
 - Bromocriptine: caution in peripheral vascular disease; contraindicated in ischaemic heart disease; postural hypotension and nausea (domperidone helps).
 
 ### Not covered by the sources (deliberately left blank)
-- DOMINION study figures and other risk factors (male sex, novelty seeking).
+- DOMINION study figures and other risk factors.
 - Amantadine as a treatment for ICDs.
 
 ## References

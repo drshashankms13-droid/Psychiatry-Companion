@@ -153,9 +153,9 @@ reviewer:
 
 ### Not covered by the sources (deliberately left blank)
 - Suicide risk after STN DBS (not stated in the held sources).
-- OCD DBS (ALIC/VC-VS, STN, BNST): response rates; FDA humanitarian device exemption.
-- Tourette syndrome DBS (centromedian thalamus, GPi).
-- Anorexia nervosa, addiction, Alzheimer's (fornix) DBS trials.
+- OCD DBS: targets, response rates and regulatory status.
+- Tourette syndrome DBS targets and evidence.
+- DBS trials in anorexia nervosa, addiction and Alzheimer's disease.
 - Mechanisms; consent and ethics in psychiatric DBS.
 - Indian status (MHCA 2017 and psychosurgery).
 

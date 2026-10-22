@@ -105,9 +105,9 @@ reviewer:
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- **Autoimmune and paraneoplastic encephalitis** (anti-LGI1, NMDAR, CASPR2, Hashimoto's encephalopathy/SREAT), antibody panels, and immunotherapy trials.
+- **Autoimmune and paraneoplastic encephalitis**, antibody panels, and immunotherapy trials.
 - The **VITAMINS** mnemonic and formal RPD definitions and proportions.
-- Primary CNS lymphoma; CNS vasculitis work-up (angiography, biopsy).
+- Primary CNS lymphoma; CNS vasculitis work-up.
 - Prognosis data for treatable RPD.
 
 ## References

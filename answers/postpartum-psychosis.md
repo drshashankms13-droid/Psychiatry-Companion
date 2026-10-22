@@ -163,7 +163,7 @@ reviewer:
 ### Not covered by the sources (deliberately left blank)
 - Outcome evidence for joint (mother–baby) admission; numbers of Indian MBUs (IPS gives the MBU definition and MHCA Section 21 only).
 - A stepwise organic-screening algorithm (IPS Table 3 lists the investigations but not an order).
-- The Bergink stepwise algorithm (benzodiazepine → antipsychotic → lithium → ECT); immediate postpartum lithium prophylaxis.
+- The Bergink stepwise treatment algorithm; postpartum lithium prophylaxis.
 - Genetics, sleep-loss hypothesis, immune hypotheses.
 - Neurosteroid treatments beyond brexanolone in depression.
 
