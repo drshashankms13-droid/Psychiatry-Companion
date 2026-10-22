@@ -4,7 +4,7 @@ covers:
   - p3-b503bf77
   - p3-97dca17e
 status: draft
-updated: 2026-10-21
+updated: 2026-10-23
 reviewer:
 ---
 
@@ -17,7 +17,7 @@ reviewer:
 > - **Prophylaxis.** Lishman: evidence does **not justify routine** prophylaxis. Maudsley: pooled data suggest a prophylactic effect, but **routine prophylaxis is still not recommended**; fluoxetine's risks may outweigh the benefit.
 > - **Prevalence.** Lishman: about **one-third** (pooled). Maudsley: **at least 30–40%**.
 >
-> **Gaps:** DSM-5-TR "depressive disorder due to another medical condition" criteria, specific screening tools (PHQ-9, HADS cut-offs, aphasia-friendly scales), the AHA 2017 scientific statement, and rTMS/ECT data for PSD are **not in these sources**.
+> **Gaps:** DSM-5-TR/ICD-11 criteria, screening tools and aphasia-friendly scales, the AHA 2017 statement, the fluoxetine trials, and rTMS/ECT/stimulant data are **not in these sources**. They are summarised in the In-depth section, tagged **[general knowledge]**.
 
 ## Exam answer
 
@@ -145,13 +145,203 @@ Lishman and Maudsley differ on how effective antidepressants are (see the flag).
 
 ## In depth
 
-### Not covered by the sources (deliberately left blank)
-- DSM-5-TR/ICD-11 criteria for depressive disorder due to another medical condition.
-- Validated PSD screening tools and aphasia-friendly scales (e.g., SADQ-10, ADRS).
-- ECT and rTMS in PSD; stimulants (methylphenidate trials are referenced in Maudsley but not summarised in the text read).
-- FOCUS/AFFINITY/EFFECTS fluoxetine trial details (summarised only in general terms by Maudsley).
+### Background
+- **Ullman (1962)** described the subjective impact: the patient is "abruptly in the grip of something novel, frightening and ill understood". Even slight communication barriers intensify isolation, threat and loss [1].
+- **Folstein (1977)** and **Robinson and Szetela (1981)** found more depression after stroke than after orthopaedic injury or TBI with equivalent disability. This raised the idea that PSD is partly **biological** [1].
+- **Robinson's lesion-location hypothesis (1982–84):** left anterior (frontal or basal ganglia) lesions produce more depression, and depression severity correlates with proximity of the lesion to the frontal pole [1].
+- **Lipsey (1984):** first RCT of antidepressants in PSD (nortriptyline) [1].
+- The **Cochrane reviews (Hackett 2004–2008)** questioned remission effects. Later trials (FOCUS, AFFINITY, EFFECTS) tested fluoxetine for motor recovery and incidentally for mood [1; general knowledge for the trials].
+
+### Epidemiology [1, 2]
+- **About one-third** of stroke survivors have significant depressive symptoms in pooled estimates, whether in the **community, hospital or rehabilitation** setting (Hackett and Anderson 2005) [1]. Maudsley: at least **30–40%** [2].
+- **Cumulative incidence** over 5 years is about 39–52% [general knowledge].
+- **Time course:**
+  - the cross-sectional rate is fairly **constant**;
+  - early depression often **remits within a year**, but **new cases emerge months later**;
+  - some longitudinal studies show a decline over 1–2 years [1].
+- **Suicidal thoughts** in about **10%**; stroke **probably doubles suicide risk** [1].
+- **Carers:** about **40% depressed** [1].
+- **Depression is a risk factor for stroke** [1, 2].
+
+### Classification
+- **DSM-5-TR:** **Depressive disorder due to another medical condition** (stroke), with specifiers: with depressive features; **with major depressive-like episode**; with mixed features [general knowledge].
+- **ICD-11:** **6E62 secondary mood syndrome**, with depressive symptoms (coded with the stroke) [general knowledge].
+- Subtypes in research:
+  - **major PSD** vs **minor PSD** (subsyndromal);
+  - **early (<3 months)** vs **late** onset, which has a different aetiological balance [1].
+- **Related syndromes to separate:** emotionalism (PBA), **apathy/abulia**, **fatigue**, anxiety, catastrophic reaction, adjustment disorder, demoralisation [1].
+
+### Mechanism in detail
+**Biopsychosocial model (RCP 2005, Box 8.5) [1]:**
+1. **Emotional response** to sudden disability.
+2. **Direct brain injury** altering neurochemistry.
+3. **Pre-existing vulnerability** (past depression).
+
+**Biological hypotheses:**
+- **Lesion location:**
+  - early studies: left anterior lesions;
+  - a meta-analysis (Carson 2000): **no laterality effect**;
+  - Bhogal 2004: left-sided lesions predict depression **early and in hospital samples**;
+  - later studies negative.
+  - **Conclusion:** biological factors matter **in the early weeks**; social and interpersonal factors **dominate later** [1].
+- **Monoamine pathway disruption** [general knowledge]:
+  - lesions interrupt ascending **serotonergic and noradrenergic projections** from brainstem nuclei to the frontal cortex, a widespread effect from a focal lesion (Robinson);
+  - **reduced 5-HT2 binding** in uninjured left-sided cortex.
+- **Inflammation** [general knowledge]: raised IL-6, TNF-α, IL-1β after stroke, and **tryptophan shunting to kynurenine** (IDO activation) reducing serotonin synthesis.
+- **HPA-axis dysregulation** (non-suppression on DST) [general knowledge].
+- **Vascular depression hypothesis** (Alexopoulos, Krishnan) [general knowledge]:
+  - small-vessel disease, white-matter hyperintensities and fronto-striatal disconnection produce executive dysfunction and apathy-predominant, less treatment-responsive depression;
+  - silent infarcts and leucoaraiosis also raise the risk of **post-stroke dementia** [1].
+- **Genetic:** **5-HTTLPR short allele** and BDNF Val66Met polymorphisms associated with PSD (Kohen 2008; Kim 2012) [general knowledge].
+
+**Psychosocial:**
+- **stroke severity** (physical disability and cognitive impairment) is **the best predictor** [1];
+- **social isolation**, adverse social factors [1];
+- **neuroticism** (NEO-FFI at 1 month) [1];
+- **premorbid personality**: striving, self-sufficient people react more adversely [1];
+- loss of job, role, independence, finances [1];
+- **religiosity is protective** (Giaquinto 2007) [1].
+
+**Risk factors summary [1; general knowledge for additions]:**
+- severity and disability; cognitive impairment; aphasia;
+- **past personal or family history of depression**;
+- social isolation; neuroticism;
+- female sex (inconsistent);
+- **early post-stroke anxiety**; fatigue;
+- poor social support; living alone.
+
+### Clinical features in detail
+- **Compared with primary depression:** **more somatic symptoms, less melancholia** (Beblo and Driessen 2002) [1].
+- **Somatic symptoms are not simply confounders.** Depressed stroke patients endorse fatigue and sleep disturbance far more than non-depressed stroke patients (Williams 2005) [1].
+- **Masked presentations:** stoicism, absorption into routine, poor rehabilitation engagement, food refusal, "giving up" [1].
+- **Aphasic patients:** depression may be missed. Observe behaviour: tearfulness, withdrawal, refusal, sleep and appetite change, agitation [1].
+- **Catastrophic reaction:** acute anxiety, crying or anger when confronted with tasks beyond capacity; associated with left-hemisphere, aphasic lesions (Goldstein) [1; general knowledge for laterality].
+- **Realistic resignation:** in severely disabled, frail patients, a wish "not to bother" may be realistically based and must be respected after careful assessment [1].
+
+### Assessment
+**Screening tools** [general knowledge unless cited]:
+| Tool | Notes |
+| --- | --- |
+| **PHQ-9 / PHQ-2** | Validated in stroke; the AHA recommends routine screening |
+| **HADS** | Fewer somatic items; anxiety plus depression |
+| **HAM-D / MADRS** | Clinician-rated; used in trials (HAM-D cut-offs in the Rasmussen trial [1]) |
+| **GDS-15** | Older patients |
+| **SADQ-10** (Stroke Aphasic Depression Questionnaire) | Observer-rated, for aphasia |
+| **ADRS** (Aphasic Depression Rating Scale) | Observer-rated |
+| **Visual Analogue Mood Scales (VAMS)**; "Signs of Depression Scale" | Communication-impaired patients |
+| **Centre for Epidemiologic Studies Depression Scale (CES-D)** | Research |
+
+**Clinical assessment:**
+- interview the patient (using communication aids) **and a carer**;
+- assess **suicide risk** (about 10% have suicidal thoughts [1]);
+- separate depression from **apathy, emotionalism, fatigue, delirium, hypoactive cognitive impairment** [1];
+- review **drugs**: beta-blockers, levetiracetam, baclofen, benzodiazepines, steroids;
+- check **TSH, B12, sodium**, sleep apnoea (common after stroke) [general knowledge];
+- assess **cognition** (MoCA), which affects treatment choice and prognosis.
+
+**Timing:**
+- screen within the **first month**, at discharge, at **3 and 6 months**, and at any functional plateau or setback [general knowledge; AHA/NICE stroke guidance].
+
+### Differential diagnosis
+| Condition | Distinguishing points |
+| --- | --- |
+| **Emotionalism / PBA** | Sudden, uncontrollable crying (rarely laughing), little warning, out of proportion; usually **sad or sentimental triggers**; mood between episodes may be normal; 21% at 6 months, 11% at 12 months (House 1989) [1] |
+| **Apathy / abulia** | Lack of motivation **without sadness**; frontal or subcortical (thalamic, caudate) lesions. **Extreme abulia** after left frontal infarcts improves in hospital and relapses at home (Förstl and Sahakian) [1] |
+| **Post-stroke fatigue** | Present in 30–70%; physical and mental exhaustion; may coexist with depression [general knowledge] |
+| **Delirium** | Acute; fluctuating attention; early after stroke |
+| **Aprosodia** (right hemisphere) | Flat speech and facial expression **mimic** depressed affect (Box 8.5) [1] |
+| **Post-stroke dementia / vascular cognitive impairment** | Prominent cognitive deficits; 6–32% [1] |
+| **Hypoactive hypothyroidism, drugs, OSA** | Investigations |
+| **Adjustment disorder; demoralisation** | Proportionate distress; hope restored with progress |
+
+### Management details
+**Pharmacological [1, 2]:**
+- **SSRIs are first choice** (Box 3.3): **citalopram/escitalopram, fluoxetine, sertraline**.
+  - **Bleeding risk:** caution after **haemorrhagic stroke**. With warfarin or DOACs, prefer **citalopram or escitalopram** at the lowest effective dose. Add a **PPI** with aspirin or anticoagulants [2].
+  - **Hyponatraemia, falls, fractures, seizures** [2].
+  - **QTc** with citalopram (maximum 20 mg in those over 65) [general knowledge].
+- **Mirtazapine:** effective; **ranked first** in a 2020 NMA (Chinese trials). A cohort study linked it, and venlafaxine, with **higher new-stroke risk** [2].
+- **Nortriptyline:** effective (Lipsey; Robinson) and **does not affect platelets**. Anticholinergic and cardiac caution [1, 2].
+- **Agomelatine:** better tolerated; no effect on clotting [2].
+- **Vortioxetine:** cognitive benefit; no interaction with warfarin or aspirin; a single pilot study [2].
+- **Paroxetine:** ranked well in two NMAs, but a 4-trial meta-analysis showed no benefit [2].
+- **Mianserin ineffective** [2].
+- **Duration:** continue at least **6 months after remission** (as in primary depression) [general knowledge].
+- **Central post-stroke pain:** amitriptyline or duloxetine [2].
+
+**Prophylaxis:**
+- **not routine** [1, 2];
+- Cochrane: possible benefit, poor evidence [2];
+- **fluoxetine RCTs** (FOCUS n = 3,127; AFFINITY; EFFECTS) found **fewer new depression diagnoses** but **more fractures (and hyponatraemia or seizures)**, and **no improvement in functional outcome** [2; general knowledge for trial names and sizes];
+- consider in **high-risk individuals** (past depression; severe stroke) [1, 2].
+
+**Psychological and rehabilitative [1]:**
+- **CBT by CPN (Lincoln and Flannaghan 2003):** **no effect** on depression [1].
+- **Care management (Williams 2007, "Activate–Initiate–Monitor"):** lower depression at 12 weeks, mainly through **better antidepressant adherence** [1].
+- **Motivational interviewing** (4 weekly sessions): improved mood at 3 months; no effect on disability (Watkins 2007) [1].
+- **Exercise programme:** 14% vs 35% depressed at 3 months, not sustained at 9 months (Lai 2006) [1].
+- **Problem-solving therapy** for carers: less carer depression, no change in burden [1].
+- **Behavioural activation**, adapted **CBT for aphasia**, peer support, stroke clubs [general knowledge].
+- Prescribe **within a clear management plan** (RCP 2005 guidance on antidepressants after acquired brain injury) [1].
+
+**Neuromodulation and ECT** [general knowledge]:
+- **rTMS (left DLPFC):** meta-analyses show moderate benefit in PSD. Seizure risk with cortical lesions is low but should be considered.
+- **ECT:** effective in severe, psychotic or refractory PSD. **Wait about 3 months after an ischaemic stroke** (a traditional, not absolute, caution). Check for haemorrhage and raised ICP. Manage BP peaks.
+- **tDCS:** emerging evidence.
+
+**Stimulants** [general knowledge]:
+- **Methylphenidate**, alone or with SSRIs, gave faster mood and motor improvement in small RCTs (Delbari 2011; Lazarus 1994). It is useful for apathy-predominant presentations.
+
+### Prognosis and consequences [1, 2]
+- **PSD predicts:**
+  - worse **functional recovery** and slower rehabilitation [1, 2];
+  - **cognitive decline**;
+  - more health-care use;
+  - **higher mortality over subsequent years** (Morris 1993; House 2001; Williams 2004) [1];
+  - **carer depression** [1].
+- Antidepressants may improve global cognition, **motor recovery** and possibly **mortality** [2]. Lishman (2009) thought it **too early** to accept these claims [1].
+
+### Evidence table
+| Study | Finding |
+| --- | --- |
+| Hackett and Anderson 2005 [1] | Pooled prevalence about one-third; stroke severity the best predictor |
+| Carson 2000 [1] | No laterality effect (meta-analysis) |
+| House 1989 [1] | Emotionalism 21% at 6 months, 11% at 12 months |
+| Rasmussen 2003 [1] | Sertraline prophylaxis: fewer cases at 1 year (50% dropout) |
+| Almeida 2006 [1] | Sertraline for 24 weeks: no reduction |
+| Niedermaier 2004 [1] | Mirtazapine for 1 year: fewer cases (unblinded) |
+| Hackett 2004 Cochrane [1] | Antidepressants improve scores but not proven to increase remission |
+| Lincoln and Flannaghan 2003 [1] | CBT not effective |
+| Williams 2007 [1] | Care management effective (adherence) |
+| Robinson 2008 (*JAMA*) [general knowledge] | Escitalopram and problem-solving therapy both prevented PSD vs placebo over 12 months |
+| FOCUS 2019 (*Lancet*) [general knowledge] | Fluoxetine 20 mg for 6 months: no functional benefit; fewer depression diagnoses; more fractures |
+| 2020 NMA (51 trials) [2] | Mirtazapine, venlafaxine and escitalopram ranked highest (Chinese trials) |
+
+### Critical appraisal
+- **Definitions vary** (scales vs DSM). Somatic overlap; **aphasic patients excluded** from most studies, biasing samples [1].
+- The **laterality debate** reflects timing, setting and selection differences [1].
+- **Prophylaxis trials** had high dropout, short duration or open designs [1].
+- **The Lishman–Maudsley disagreement** on efficacy reflects evidence published after 2009 (larger RCTs and NMAs). Even so, the effect size is smaller than in primary depression [1, 2].
+- **Chinese-trial dominance** in recent NMAs limits generalisability [2].
+
+### Indian context [general knowledge]
+- The **stroke burden is rising** (incidence about 105–152 per 100,000 per year), with younger age at onset than in the West.
+- **Indian PSD studies** (PGIMER, NIMHANS, AIIMS) report prevalence of about **30–50%**, often undiagnosed in neurology wards.
+- **Limited stroke units** and rehabilitation capacity; family carers provide most care, so carer psychoeducation is central.
+- **Affordable options:** generic escitalopram, sertraline and mirtazapine. **Tele-rehabilitation and Tele-MANAS** for follow-up.
+- **The National Programme for Prevention and Control of NCDs (NP-NCD)** includes stroke but not routine mood screening.
+
+### Recent advances [general knowledge]
+- **AHA/ASA Scientific Statement (2017)** on post-stroke depression: routine screening; multidisciplinary care.
+- **FOCUS/AFFINITY/EFFECTS (2019–2020):** fluoxetine is not for routine motor recovery.
+- **Network meta-analyses** of pharmacological and non-pharmacological PSD treatments.
+- **rTMS and tDCS** trials.
+- **Digital and telehealth CBT** for stroke survivors.
+- **Inflammatory and kynurenine biomarkers** of PSD risk.
 
 ## References
 
-1. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 8, pp. 482 (prognosis), 484 (carers), 484–486 (depression; Box 8.5), 486 (emotionalism), 486–487 (prevention and treatment), 488 (abulia), 491 (motivation).
-2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 3, "Post-stroke depression", pp. 393–395 (Box 3.3); pseudobulbar affect (multiple sclerosis section), p. 836.
+1. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 8, pp. 482 (prognosis), 484 (carers), 484–486 (depression; Box 8.5), 486 (emotionalism), 486–487 (prevention and treatment), 487–488 (other mood disorders; abulia), 491 (motivation). (User's PDF.)
+2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 3, "Post-stroke depression", pp. 393–395 (Box 3.3); pseudobulbar affect (multiple sclerosis section), p. 836. (User's PDF.)
+3. Towfighi A, et al. Poststroke depression: a scientific statement for healthcare professionals from the American Heart Association/American Stroke Association. *Stroke* 2017; 48:e30–e43 (general knowledge).
+4. FOCUS Trial Collaboration. Effects of fluoxetine on functional outcomes after acute stroke (FOCUS): a pragmatic, double-blind, randomised, controlled trial. *Lancet* 2019; 393:265–274 (general knowledge).

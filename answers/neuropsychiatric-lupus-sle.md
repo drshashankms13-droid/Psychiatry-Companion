@@ -4,7 +4,7 @@ covers:
   - p3-67f661bf
   - p3-33338c36
 status: draft
-updated: 2026-10-21
+updated: 2026-10-23
 reviewer:
 ---
 
@@ -12,7 +12,7 @@ reviewer:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Systemic lupus erythematosus" (Tables 8.2, 8.3), pp. 513–522 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., catatonia (SLE and antiphospholipid syndrome as causes; treat the underlying condition), pp. 154–156 [2].
 >
-> **Gaps:** the **ACR 1999 case definitions of the 19 NPSLE syndromes**, EULAR 2010 NPSLE recommendations, attribution models (e.g., Hanly/Bortoluzzi), the SLICC/2019 EULAR-ACR classification criteria, hydroxychloroquine, belimumab/anifrolumab, and **steroid-induced psychosis management specifics** are **not in the sources**. Lishman refers to "six studies" and to Hanly 2007 but does not list the ACR syndromes.
+> **Gaps:** the ACR 1999 NPSLE case definitions, EULAR 2010 recommendations, attribution models, 2019 EULAR/ACR criteria, newer biologics and steroid-induced psychosis specifics are **not in the sources**. They are summarised in the In-depth section, tagged **[general knowledge]**.
 
 ## Exam answer
 
@@ -109,7 +109,7 @@ Active SLE accounted for **under a quarter** of 36 episodes of cerebral disturba
 **Neuropsychiatric:**
 1. **Identify the cause:** active lupus vs infection, steroids, hypertension, metabolic disturbance; use EEG and MRI (helpful, not definitive).
 2. **Delirium or confusion in a relapse:** **steroids help**. But **some psychoses improve on reducing the steroid dose**: judge each case.
-3. **Thrombotic (antiphospholipid) events:** stroke management and anticoagulation. *(Anticoagulation specifics are not in the source.)*
+3. **Thrombotic (antiphospholipid) events:** stroke management and anticoagulation. *(Anticoagulation targets: see In depth [general knowledge].)*
 4. **Seizures:** anticonvulsants (some anticonvulsants may induce autoantibodies).
 5. **Psychosis:** antipsychotics as required. **Catatonia:** benzodiazepines or ECT and **treat the underlying lupus** [2].
 6. **Depression and anxiety:** standard treatment; they often fluctuate with disease activity.
@@ -127,13 +127,229 @@ Mechanisms are small-vessel vasculopathy, antiphospholipid and brain-reactive (a
 
 ## In depth
 
-### Not covered by the sources (deliberately left blank)
-- ACR 1999 nomenclature (19 NPSLE syndromes: 12 central, 7 peripheral); attribution algorithms.
-- EULAR 2010 recommendations; anticoagulation targets in APS.
-- Hydroxychloroquine (including its neuropsychiatric effects), belimumab, anifrolumab.
-- Management of corticosteroid-induced psychosis (dose thresholds, antipsychotic/lithium prophylaxis).
+### Background
+- **"Lupus"** (wolf) refers to the cutaneous erosions. **Kaposi (1872)** described systemic disease. **Osler** recognised visceral involvement.
+- **Hargraves (1948)** discovered the **LE cell**, which made SLE diagnosable in life. CNS involvement was recognised as a cause of death in early series [1; general knowledge for history].
+- Older series reported "**lupus psychosis**" (acute confusional states) in about **30%**. With earlier diagnosis and steroids, acute confusional states now appear in only **3%** [1].
+- **Graham Hughes (1983)** described the **antiphospholipid (Hughes) syndrome**. He predicted that CNS lupus might overtake renal disease as the main clinical problem [1].
+- **The ACR (1999)** standardised **19 NPSLE syndromes**, bringing order to a literature with prevalence estimates from 14% to 75% [general knowledge].
+
+### Epidemiology [1; general knowledge for India]
+- **Female:male about 9:1**; mean onset about **30 years** [1].
+- Prevalence: **<10 per 100,000 in white Americans**; **>100 per 100,000 in Afro-Caribbean** people [1].
+- **India:** prevalence about **3 per 100,000** (Malaviya 1993, rural north India). Women of reproductive age; more renal and haematological disease than in Western series [general knowledge].
+- **NPSLE in up to 60%** with comprehensive assessment and follow-up [1].
+- Meta-analysis (Unterman 2011): **NPSLE about 56%** in prospective studies [general knowledge].
+- **Onset:** neuropsychiatric features may **precede** systemic diagnosis, and often appear in the first year [1; general knowledge].
+- **Mortality:** CNS disease, renal failure and accelerated atherosclerosis are leading causes of death [1].
+
+### Classification: ACR 1999 nomenclature [general knowledge]
+| Central nervous system (12) | Peripheral nervous system (7) |
+| --- | --- |
+| **Diffuse/psychiatric:** acute confusional state; anxiety disorder; cognitive dysfunction; mood disorder; psychosis | Acute inflammatory demyelinating polyradiculoneuropathy (GBS) |
+| **Focal/neurological:** aseptic meningitis; cerebrovascular disease; demyelinating syndrome; headache (including migraine and benign intracranial hypertension); movement disorder (chorea); myelopathy; seizure disorders | Autonomic disorder; mononeuropathy (single or multiplex); myasthenia gravis; cranial neuropathy; plexopathy; polyneuropathy |
+
+**Two broad pathogenic phenotypes** [1; general knowledge]:
+- **Focal/ischaemic:** stroke, TIA, seizures, chorea, myelopathy. **Antiphospholipid-mediated** thrombosis; responds to **anticoagulation and antiplatelets**.
+- **Diffuse/inflammatory:** confusion, psychosis, mood disorder, cognitive dysfunction, aseptic meningitis. **Autoantibody and cytokine-mediated**; responds to **immunosuppression**.
+
+**Attribution models** [1; general knowledge]:
+- Only **about a quarter** of cerebral episodes in SLE were due to active lupus (Wong) [1].
+- **Hanly (SLICC, 2007):** seizures, cerebrovascular disease, neuropathy and acute confusional states are most clearly attributable [1].
+- **Bortoluzzi (Italian attribution model, 2015)** scores:
+  - **timing** relative to SLE onset;
+  - **"minor" or common** NP events (mild cognitive dysfunction, headache, anxiety, mild depression, polyneuropathy without electrophysiology);
+  - **confounding** factors;
+  - **favouring** factors (generalised SLE activity, abnormal imaging, CSF, antibodies).
+
+### Mechanism in detail
+**1. Vascular [1]:**
+- **Small-vessel non-inflammatory proliferative vasculopathy**: intimal proliferation, fibrinoid degeneration, hyalinisation with necrosis, perivascular microglia, **microhaemorrhages**; especially in the **cortex and brainstem** [1].
+- **"Beading"** (alternating stenosis and dilatation) on angiography [1].
+- **True vasculitis in only about 10%** (Belmont 1996) [1].
+- SLE is therefore a "**diffuse but patchy microvascular disorder**". This explains patchy SPECT hypoperfusion, normal-appearing white matter with reduced NAA, and evanescent cognitive symptoms [1].
+- **Accelerated atherosclerosis** (traditional risk factors plus inflammation plus steroids) adds large-vessel disease [1].
+- **Libman–Sacks endocarditis** is a source of cardioembolism [general knowledge].
+
+**2. Antiphospholipid antibodies [1]:**
+- anticardiolipin, lupus anticoagulant, anti-β2-glycoprotein I;
+- produce **thrombosis** (arterial and venous); large-vessel stroke; small-vessel occlusion;
+- **may act directly on neurones and glia**: seizures, chorea, cognitive dysfunction;
+- **MTI changes relate to IgM anticardiolipin** [1].
+
+**3. Brain-reactive autoantibodies [1; general knowledge]:**
+- **anti-NMDAR (NR2A/B) antibodies**, a subset of anti-dsDNA:
+  - **high titres associated with depression** [1];
+  - in mice, they cause **hippocampal neuronal apoptosis** and memory deficits **when the BBB is breached**;
+  - in the amygdala, they cause **fear-conditioning** abnormalities (Diamond and Volpe) [general knowledge];
+- **anti-ribosomal P:** associated with psychosis and depression in some studies, not confirmed in others [1];
+- **anti-neuronal and anti-aquaporin-4** (NMO overlap) [general knowledge].
+
+**4. Cytokines and interferon [1; general knowledge]:**
+- **IL-6** and **type I interferon** (the "interferon signature") in CSF;
+- interferon-α therapy itself causes depression, which offers a mechanistic parallel;
+- **microglial activation** (complement C1q–driven synaptic pruning in mouse models).
+
+**5. Blood–brain barrier disruption [general knowledge]:** allows antibody entry (a "**two-hit**" model: antibody plus BBB breach from infection, hypertension or stress).
+
+**6. Secondary factors [1]:** uraemia, electrolyte disturbance, **hypertension** (PRES), infection, **steroids**, other drugs.
+
+**Clinicopathological correlation is poor** [1].
+
+### Clinical features in detail
+**Cognitive dysfunction [1]:**
+- **subcortical profile**: attention, working memory, **processing speed**, then executive and visuospatial functions;
+- **fluctuating, evanescent**, rarely progressive;
+- associated with disease activity, depression, infarcts and atrophy;
+- **"lupus fog"** is a patient term for subjective cognitive complaints [general knowledge].
+
+**Mood disorders [1]:**
+- **depression** is now the commonest mental disorder;
+- **mania** is usually **steroid-related**;
+- depressive symptoms 51% vs organic syndromes 22% in one series [1].
+
+**Psychosis [1; general knowledge]:**
+- point prevalence 2–5% (lifetime up to 12%) [1];
+- persecutory delusions; **auditory and visual** hallucinations;
+- often **within a delirium** or **with active disease** [1];
+- typically **early** (first year), often with **anti-ribosomal P** and other active organ involvement;
+- **good prognosis with immunosuppression** (Pego-Reigosa 2008) [general knowledge].
+
+**Acute confusional state [1]:** from quiet confusion to florid delirium with visual and auditory hallucinations; fluctuating; hours to days.
+
+**Catatonia [2]:** SLE and APS are recognised organic causes. Treat with benzodiazepines or ECT plus immunosuppression.
+
+**Movement disorder [1]:** chorea (APS-associated; misdiagnosed as Sydenham's; may occur in pregnancy or with oestrogen-containing pills).
+
+**PRES [1]:** headache, seizures, visual disturbance, encephalopathy; posterior white-matter oedema; with hypertension, renal disease and immunosuppressants (ciclosporin, tacrolimus).
+
+**Fatigue [1]:** the commonest complaint; linked to deconditioning, depression and sleep problems more than disease activity.
+
+### Assessment
+**Systematic approach** [1; general knowledge]:
+1. **Is the SLE active?**
+   - **SLEDAI-2K**, **BILAG**, complement (↓C3/C4), **anti-dsDNA** titre;
+   - **raised ESR with normal CRP** [1] (**CRP rise suggests infection**).
+2. **Is there an alternative cause?**
+   - **infection** (immunosuppressed): blood cultures; **CSF** (opportunistic: cryptococcus, TB, listeria, JC virus/PML with rituximab or mycophenolate);
+   - **drugs**: steroids; hydroxychloroquine (rare psychosis); NSAIDs (aseptic meningitis);
+   - **metabolic**: uraemia, sodium, glucose (steroid-induced);
+   - **hypertension (PRES)**;
+   - **thrombosis (APS)**.
+3. **Characterise the NP syndrome** (ACR definitions).
+4. **Investigations [1]:**
+   - **MRI** (with DWI, FLAIR, SWI, venography): white-matter lesions, infarcts, PRES, venous thrombosis;
+   - **SPECT** (sensitive, non-specific);
+   - **EEG**;
+   - **CSF**: cells, protein, oligoclonal bands, IgG index; exclude infection;
+   - **antiphospholipid antibodies** (repeat after 12 weeks for APS criteria);
+   - **anti-ribosomal P**, anti-NMDAR (research);
+   - **neuropsychological testing** (the ACR 1-hour battery) [general knowledge].
+5. **Psychiatric:**
+   - PHQ-9, HADS, MoCA, C-SSRS;
+   - **capacity** (treatment decisions);
+   - social circumstances.
+
+### Differential diagnosis
+| Cause | Pointers |
+| --- | --- |
+| **Steroid-induced psychiatric syndrome** | Onset within days to 2 weeks of starting or increasing steroids; **dose-related** (Boston Collaborative: 1.3% at ≤40 mg/day prednisone, 4.6% at 41–80 mg, **18.4% at >80 mg**) [general knowledge]; **mania or mixed states** more than depression; resolves with dose reduction. Lishman notes similar episodes predate steroids and re-challenge often does not reproduce them [1] |
+| **NPSLE psychosis** | Active SLE; other organ involvement; anti-ribosomal P; often first year; improves with immunosuppression |
+| **CNS infection** | Fever, raised CRP, CSF pleocytosis, immunosuppression |
+| **PRES** | Hypertension, seizures, visual symptoms, posterior oedema [1] |
+| **Uraemic or metabolic encephalopathy** | Renal failure, electrolytes [1] |
+| **APS stroke or CVST** | Focal signs; antibodies; MRI [1] |
+| **Primary psychiatric disorder** | Rates of depression and anxiety similar to other rheumatological conditions; reactive to chronic illness [1] |
+| **Autoimmune encephalitis** (e.g., anti-NMDAR) | Can co-occur in autoimmune diathesis; CSF antibodies [general knowledge] |
+| **Drug-induced lupus** | **Chlorpromazine**, hydralazine, procainamide, isoniazid, **carbamazepine, lithium (rare)**, minocycline, anti-TNF; anti-histone antibodies; rarely CNS involvement; resolves on withdrawal [general knowledge] |
+
+### Management details
+**EULAR 2010 recommendations for NPSLE** [general knowledge]:
+- **Identify and treat aggravating factors** (hypertension, infection, metabolic).
+- **Inflammatory NPSLE** (acute confusional state, aseptic meningitis, myelitis, optic neuritis, psychosis, refractory seizures):
+  - **high-dose glucocorticoids** (IV methylprednisolone pulses 500–1,000 mg × 3 days, then oral);
+  - **cyclophosphamide** (or mycophenolate or azathioprine for maintenance);
+  - **rituximab** if refractory;
+  - plasma exchange or IVIg in severe cases.
+- **Thrombotic NPSLE** (APS-related stroke): **long-term warfarin** (INR 2–3, or 3–4 after recurrent arterial events); antiplatelets. **DOACs are not recommended** in high-risk APS (TRAPS trial 2018).
+- **Hydroxychloroquine for all** SLE patients: reduces flares, thrombosis and mortality. Retinopathy screening.
+- **Symptomatic treatment** alongside: antipsychotics, antidepressants, anxiolytics, antiseizure medicines.
+
+**Psychotropic considerations** [general knowledge unless cited]:
+- **Antipsychotics** for psychosis or agitation; a short course while immunosuppression works.
+  - Low-dose risperidone, olanzapine, quetiapine or haloperidol.
+  - Watch for **metabolic effects with steroids**, QTc with hydroxychloroquine, and **NMS risk in catatonia** [2].
+  - **Chlorpromazine** causes drug-induced lupus and antiphospholipid antibodies, so avoid it.
+- **Antidepressants:**
+  - SSRIs (sertraline, escitalopram);
+  - **bleeding risk with anticoagulants or thrombocytopenia**; interactions with warfarin (fluoxetine, fluvoxamine);
+  - avoid TCAs in cardiac or renal disease.
+- **Mood stabilisers:**
+  - **lithium** needs **renal** monitoring (lupus nephritis) and interacts with NSAIDs and ACE inhibitors;
+  - **valproate** may be preferred for steroid-induced mania;
+  - **carbamazepine** can induce lupus and lower other drug levels.
+- **Steroid-induced psychiatric syndromes:**
+  - **taper or reduce** steroids where possible;
+  - **antipsychotic** (olanzapine, quetiapine) or **mood stabiliser**;
+  - prophylactic **lithium or olanzapine** in those with prior steroid-induced mania who need re-treatment (case series);
+  - avoid TCAs (may worsen).
+- **ECT:** effective for catatonia and refractory depression or psychosis in SLE (case series) [2].
+- **Benzodiazepines:** first line for catatonia [2].
+
+**Non-pharmacological [1]:**
+- **Exercise programme** for fatigue (Tench RCT) [1];
+- **CBT** for depression, fatigue and pain;
+- **good doctor–patient communication** improves quality of life [1];
+- sun protection; avoid oestrogen-containing pills [1];
+- **family planning** (pregnancy outcomes; APS);
+- vocational support.
+
+### Prognosis [1; general knowledge]
+- **Most NP episodes are transient and self-limiting** [1].
+- **Focal thrombotic** events carry a higher risk of permanent damage. **Cognitive dysfunction may persist** in a subset.
+- **NPSLE increases damage scores (SLICC/ACR Damage Index) and mortality.**
+- Psychosis usually resolves with immunosuppression; relapse in about 10–20%.
+
+### Evidence table
+| Study | Finding |
+| --- | --- |
+| Lishman Table 8.2 (6 studies) [1] | Cognitive 38%, headache 28%, mood 26%, anxiety 10%, seizures 10%, cerebrovascular 12%, psychosis 4%, ACS 3% |
+| Wong [1] | Active SLE caused under a quarter of 36 cerebral episodes |
+| Hanly 2007 (SLICC inception cohort) [1] | Seizures, cerebrovascular disease, neuropathy and ACS most attributable |
+| Belmont 1996 [1] | True vasculitis in about 10% |
+| Tench RCT [1] | Exercise reduced fatigue |
+| ACR 1999 [general knowledge] | 19 NPSLE syndrome definitions |
+| Unterman 2011 meta-analysis [general knowledge] | NPSLE about 56% (prospective) |
+| Boston Collaborative Drug Surveillance 1972 [general knowledge] | Steroid psychiatric reactions dose-related (1.3% to 18.4%) |
+| Barile-Fabris 2005 RCT [general knowledge] | Cyclophosphamide better than methylprednisolone for severe NPSLE |
+| Pengo 2018 (TRAPS) [general knowledge] | Rivaroxaban inferior to warfarin in triple-positive APS |
+
+### Critical appraisal
+- **Definitions and attribution** remain the central problem. ACR 1999 includes non-specific "minor" events, which **inflates prevalence** [1; general knowledge].
+- **Cognitive dysfunction rates (3.5–80%)** depend on the tests used [1].
+- **No validated biomarker** distinguishes NPSLE from mimics [1].
+- **Steroid psychosis vs lupus psychosis** cannot be settled in the individual case; both may respond to opposite steroid strategies [1].
+- **RCT evidence for NPSLE treatment** is limited to small trials [general knowledge].
+- **Lishman (2009)** predates EULAR 2010, the 2019 EULAR/ACR classification criteria, anifrolumab and belimumab.
+
+### Indian context [general knowledge]
+- **Infections (TB, opportunistic)** are a major confounder in Indian NPSLE. Always exclude **tuberculous meningitis** and **cryptococcosis** in immunosuppressed patients.
+- **High rates of lupus nephritis** mean uraemia, hypertension and PRES are frequent mimics.
+- **Cost:** cyclophosphamide and hydroxychloroquine are affordable; rituximab, belimumab and anifrolumab are costly.
+- **Stigma, marriage and fertility concerns** for young women affect help-seeking and psychiatric morbidity.
+- **Consultation-liaison psychiatry** is available mainly in tertiary rheumatology centres (PGIMER, AIIMS, CMC Vellore).
+- **MHCA 2017:** capacity assessment for treatment decisions in delirium or psychosis. Nominated representatives.
+
+### Recent advances [general knowledge]
+- **2019 EULAR/ACR classification criteria** (ANA entry criterion; weighted domains including **neuropsychiatric: delirium 2, psychosis 3, seizure 5**).
+- **Anifrolumab** (type I interferon receptor antibody; FDA 2021) and **belimumab** (BAFF inhibitor). Neuropsychiatric outcomes are understudied.
+- **Advanced imaging:** DTI, arterial spin labelling, TSPO-PET (microglia) for cognitive dysfunction.
+- **CSF biomarkers:** IL-6, IP-10, neurofilament light.
+- **EULAR 2023 SLE recommendations** (update) [verify NP specifics].
 
 ## References
 
-1. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 8, "Systemic lupus erythematosus": pp. 513–515 (epidemiology; pathogenesis; clinical features), 515–518 (neuropsychiatric problems; Tables 8.2, 8.3; PRES), 518–520 (neuroimaging), 520–521 (aetiology and pathogenesis), 521–522 (treatment).
-2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 1, "Catatonia", pp. 154–156.
+1. David AS, Fleminger S, Kopelman MD, Lovestone S, Mellers JDC, eds. *Lishman's Organic Psychiatry*. 4th ed. Wiley-Blackwell, 2009: Chapter 8, "Systemic lupus erythematosus": pp. 513–515 (epidemiology; pathogenesis; clinical features), 515–518 (neuropsychiatric problems; Tables 8.2, 8.3; PRES), 518–520 (neuroimaging: MRI, MTI, MRS, SPECT, PET), 520–521 (aetiology and pathogenesis), 521–522 (treatment); Chapter 10, Cushing's syndrome and corticosteroids, pp. 647–648. (User's PDF.)
+2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 1, "Catatonia", pp. 154–156. (User's PDF.)
+3. ACR Ad Hoc Committee on Neuropsychiatric Lupus Nomenclature. The American College of Rheumatology nomenclature and case definitions for neuropsychiatric lupus syndromes. *Arthritis Rheum* 1999; 42:599–608 (general knowledge).
+4. Bertsias GK, et al. EULAR recommendations for the management of systemic lupus erythematosus with neuropsychiatric manifestations. *Ann Rheum Dis* 2010; 69:2074–2082 (general knowledge).
