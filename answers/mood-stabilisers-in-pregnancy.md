@@ -22,6 +22,8 @@ reviewer:
 > - **NICE CG192 full text**.
 >
 > These are not in the sources.
+>
+> **Added 2026-10-22:** the Indian Psychiatric Society Clinical Practice Guideline on perinatal psychiatry (Bharadwaj et al. 2022) [3], in the section "Update from IPS CPG 2022". Where it disagrees with the other sources, the disagreement is flagged ⚠️ and not resolved.
 
 ## Exam answer
 
@@ -100,16 +102,63 @@ reviewer:
    - **valproate**: low transfer (under 2% of maternal levels), but reversible thrombocytopenia and anaemia have been reported;
    - if starting postpartum, prefer **olanzapine or quetiapine**.
 
+### Update from IPS CPG 2022 [3]
+**Relapse:**
+- bipolar relapse is **as high as 66%** in women who **stop prophylaxis**, vs **about 25%** in those who continue (Wesseloo meta-analysis);
+- SMI overall: **60–80% without prophylaxis vs 20–30% with it**.
+
+**Hierarchy:**
+1. **SGA monotherapy is first-line** for bipolar disorder in pregnancy.
+2. **Mood stabilisers are second-line** (after SGAs). Add one only if the SGA alone fails, or she is **already well on it**.
+3. **Valproate and carbamazepine are avoided** (malformations and neurodevelopmental disorders).
+4. **Lamotrigine** at a **low dose (under 325 mg/day)** may not raise major malformations. It may be **continued in bipolar depression** after discussing risks and benefits.
+5. **Lithium** may be considered in women who **have needed it to stay well**, after discussion with the woman and caregivers.
+
+**Risks (Table 8):**
+
+| Drug | Pregnancy | Lactation |
+| --- | --- | --- |
+| Lithium | **Ebstein's anomaly 1/1000**; "may be used if benefits exceed the risks" | **Avoid breastfeeding**, or if breastfed, **monitor infant blood levels**; **RID 12–30%** |
+| Valproate | Major anomalies; **neural tube defects 6–9%**; intellectual disability; **avoided** | RID 1.5%; **compatible** |
+| Carbamazepine | Increased malformations; **avoided** | RID 1–7%; compatible |
+| Lamotrigine | No rise in major malformations; **therapeutic drug monitoring** | RID 9.2–18.3%; **safe with monitoring** |
+
+⚠️ For lithium in lactation, the source prints "do **foetal** blood level monitoring". The context is breastfeeding, so this presumably means the **infant**. Flagged, not corrected.
+
+**Pharmacokinetics (Table 6):**
+- **Lithium:**
+  - levels **fall throughout pregnancy** (higher GFR and fluid volume) and **return to pre-pregnancy levels soon after delivery**;
+  - check levels **monthly until 34 weeks, then weekly until delivery**;
+  - consider levels **before and 24 hours after delivery** if fluid balance in labour was not maintained;
+  - check **frequently in the first postpartum weeks**.
+- **Lamotrigine:**
+  - levels may **fall by about 50%** (sex steroids; UGT induction), and **folic acid may reduce its effect**;
+  - monitor levels **from preconception to 1 month postpartum**.
+
+**Other measures:**
+- **Fetal echocardiography** with lithium; anomaly scans at 10–12 and 16–18 weeks.
+- **Relapse prevention** in bipolar disorder: **avoid sleep deprivation**, manage stress, ensure adherence, avoid substances, and learn early warning signs.
+- **Bipolar depression** (Table 9):
+  - SGA monotherapy (olanzapine or another SGA);
+  - **use antidepressants with great caution** (postpartum relapse);
+  - if severe and unresponsive, **SSRI plus SGA (e.g., fluoxetine plus olanzapine)**.
+
+⚠️ **Discrepancies (not resolved):**
+- **Bipolar depression:** Maudsley (above) lists an **SSRI or lamotrigine** for more severe bipolar depression in pregnancy. IPS places SGA monotherapy first, with antidepressants "with great caution".
+- **Lithium:** IPS puts lithium **after SGA failure**, rather than equal to switching. Maudsley gives NICE's three options for women already on lithium.
+- **Valproate:** IPS's **neural tube defect rate of 6–9%** and Maudsley's **about 10% major malformations** measure different things. Both say avoid.
+
 **Conclusion.** Valproate (about 10% malformations, up to 40% developmental delay) and carbamazepine and topiramate should be avoided. Lithium carries a smaller Ebstein's and cardiac risk than once thought; it can be continued with informed consent, fetal echocardiography, monthly-then-weekly levels and a planned hospital delivery (stopping it in labour). Lamotrigine is the safest anticonvulsant but needs level monitoring. NICE prefers mood-stabilising antipsychotics. Abrupt discontinuation is dangerous because the postpartum relapse risk is very high.
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Absolute Ebstein's anomaly risk figures; meta-analytic lithium malformation rates.
-- Postpartum lithium prophylaxis timing and target levels.
-- Indian regulatory and IPS guidance on valproate in women.
+- Meta-analytic lithium malformation rates (IPS now gives Ebstein's anomaly as 1/1000).
+- Postpartum lithium prophylaxis timing and target levels (IPS gives only the monitoring schedule).
+- Indian regulatory guidance on valproate in women (IPS: avoid in pregnancy; compatible with breastfeeding).
 
 ## References
 
 1. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 7: pp. 713–715 (Box 7.1), 722–725 (bipolar illness during pregnancy and postpartum; lithium; valproate; carbamazepine; lamotrigine; topiramate; oxcarbazepine; pregabalin), 725–726 (Box 7.4), 736 (Table 7.1), 744–745 (Table 7.4, mood stabilisers in breastfeeding).
 2. American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*, 5th ed., text revision (DSM-5-TR). 2022: bipolar I disorder, gender-related diagnostic issues; "with peripartum onset" specifier, pp. 173–174.
+3. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period. *Indian J Psychiatry* 2022; 64(Suppl 2): S414–S428 (IPS Clinical Practice Guidelines): relapse figures, S415 (Table 1) and S424; Table 6 and Figure 1, S420; Table 8, S422; bipolar disorder, S424; Table 9, S425.

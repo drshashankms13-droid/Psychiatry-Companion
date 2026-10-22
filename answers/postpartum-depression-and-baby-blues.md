@@ -23,6 +23,8 @@ reviewer:
 > - **timing of blues onset** (day 3–5 peak).
 >
 > Not filled from memory. DSM-5-TR says only that blues improve "within a week".
+>
+> **Added 2026-10-22:** the Indian Psychiatric Society Clinical Practice Guideline on perinatal psychiatry (Bharadwaj et al. 2022) [4], in the section "Update from IPS CPG 2022". Where it disagrees with the other sources, the disagreement is flagged ⚠️ and not resolved.
 
 ## Exam answer
 
@@ -101,6 +103,59 @@ reviewer:
 - prior depression predicts recurrence in later pregnancies and postpartum;
 - plan **pre-conception care** and continuation of effective treatment.
 
+### Update from IPS CPG 2022 [4]
+**Prevalence and course (Table 2):**
+
+| Condition | Prevalence | Presentation | Intervention |
+| --- | --- | --- | --- |
+| **Postpartum blues** | **40–50%** | Mild, self-limiting emotional changes that may or may not progress to depression | Reassurance; adequate social support |
+| **Postpartum depression** | **15–20%** | May be **insidious** in the first months. In bipolar disorder, an **abrupt psychotic depression** may occur | Psychotherapy alone if mild; antidepressants if moderate to severe; **risk assessment for suicide and infanticide**; in-patient care if needed |
+
+- In pregnancy: **depression 15–20%**, **anxiety 10–15%** (Table 1).
+- **PPD typically begins within the first 4 weeks** after delivery, but the **risk period extends to 2 years**.
+
+**Screening:**
+- The **Marcé International Society** position paper favours a basic inquiry (Whooley's questions, PHQ-9 or EPDS) plus past and family history. Universal screening has a **false-positive rate of about 35–40%**.
+- **Whooley's two questions** (from PRIME-MD): in the past month, have you felt **down, depressed or hopeless**? Have you been bothered by **little interest or pleasure**?
+- Screening must be **backed by services and referral pathways**.
+- **Severity:** EPDS, HDRS.
+- **Bonding:** Postpartum Bonding Questionnaire (PBQ). **Maternal behaviour:** **NIMHANS Maternal Behaviour Scale (NIMBUS)**.
+
+**Management:**
+- **Mild depression:** psychotherapy (**CBT, IPT**); follow-up.
+- **Moderate to severe:** **SSRIs**.
+  - **Sertraline** is preferred in lactation.
+  - **Fluoxetine** (RID 1.6–14.6%) may need infant monitoring.
+  - **Paroxetine** is avoided in pregnancy.
+- **Psychotic depression:** add an **antipsychotic**.
+- **Rule out bipolarity** (milder highs, hypomania, strong family history) before long-term antidepressants.
+- **High suicide risk:** in-patient care.
+- **Prophylaxis:** a previous episode of PPD may justify **prophylactic antidepressants postpartum**.
+- **Deciding on prophylaxis in pregnancy:**
+  - a **single mild past episode** may be tapered after **6–12 months** well;
+  - **continue** prophylaxis with **4 or more lifetime episodes**, psychotic depression, past suicide attempt, past admission or ECT.
+- **Domestic violence and trauma raise risk**; social support protects.
+
+**Brexanolone (IPS dosing):**
+- an endogenous **progesterone metabolite**, a GABA-A positive allosteric modulator, for **moderate to severe PPD**;
+- **infusion schedule** (in-patient, closely monitored):
+  - **30 µg/kg/h for 4 hours**;
+  - then **60 µg/kg/h for 20 hours**;
+  - then **90 µg/kg/h for 28 hours**;
+  - then **60 µg/kg/h for 4 hours**;
+  - then **30 µg/kg/h for 4 hours**;
+- **adverse effects:** headache, dizziness, **syncope**;
+- **not yet launched in India**.
+
+**Suicide:**
+- the **first postpartum year** carries women's **highest lifetime suicide risk**;
+- **predictors:** younger age, middle socioeconomic status, poor support, domestic violence, depression, past suicidality;
+- **more lethal methods** are used.
+
+⚠️ **Discrepancies (not resolved):**
+- **PPD prevalence:** IPS gives **15–20%**. DSM-5-TR and Maudsley figures (above) are about **7%** in the first postnatal year, or 7–9% for peripartum depression.
+- **Onset:** IPS says PPD "typically begins within the first 4 weeks" with risk **up to 2 years**. The DSM-5-TR specifier counts onset **in pregnancy or within 4 weeks** and notes that about **half begin antenatally**.
+
 **Conclusion.** Postpartum depression is a major depressive episode with peripartum onset (in pregnancy or within 4 weeks of delivery, half beginning antenatally), affecting about 7% of women in the first postnatal year. It causes impairment, risks self-harm and child neglect, and can become psychotic. The "baby blues" are far more common, begin suddenly after delivery, consist of tearfulness, lability and sleep disturbance without depressive syndrome or impairment, are physiological, and resolve within a week without treatment. Management of PPD:
 - CBT (individual for prevention; group effective for treatment);
 - an SSRI (sertraline first if drug-naive; continue an effective pre-pregnancy antidepressant);
@@ -111,13 +166,14 @@ reviewer:
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- EPDS (10 items; cut-offs) and the PHQ-9; screening timing.
+- EPDS item content and cut-offs (IPS names EPDS, Whooley and PHQ-9 but gives no cut-offs).
 - Psychosocial risk factors; IPT; peer support; home visiting.
 - Zuranolone (oral neurosteroid).
-- Indian prevalence; effects on infant development and attachment.
+- India-specific prevalence studies (IPS gives 15–20% without stating the population).
 
 ## References
 
 1. American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*, 5th ed., text revision (DSM-5-TR). 2022: specifiers for depressive disorders, "with peripartum onset", p. 213; specifiers for bipolar and related disorders, "with peripartum onset", pp. 173–174.
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 7: pp. 719–722 (depression during pregnancy and postpartum; antidepressants; ECT; Box 7.3), 725–726 (Box 7.4, bipolar depression), 735–740 (breastfeeding principles; Tables 7.1–7.2).
 3. Arasappa R, Chithra K, Jolly AJ, eds. *Depression: A Primer for Postgraduates in Psychiatry* (CME proceedings). NIMHANS, Bengaluru: p. 19 (HPG axis; allopregnanolone), pp. 41–42 (brexanolone), p. 55 (CBT in post-partum depression).
+4. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period. *Indian J Psychiatry* 2022; 64(Suppl 2): S414–S428 (IPS Clinical Practice Guidelines): Tables 1–2, S415; Box 1 and Table 5, S416–S418; screening, S418; Table 8, S422; depressive disorders, S423; postpartum depression and brexanolone, S424; Table 9, S425; suicide, S426.

@@ -12,10 +12,12 @@ reviewer:
 > **Gaps:**
 > - **LactMed** and Hale's lactation risk categories;
 > - **milk-to-plasma ratios** (Maudsley reports RID and infant plasma levels instead);
-> - **timing feeds around doses**;
+> - **timing feeds around doses** (Maudsley is silent; IPS says it is unnecessary; see the update section);
 > - **Indian data**.
 >
 > These are not in the source.
+>
+> **Added 2026-10-22:** the Indian Psychiatric Society Clinical Practice Guideline on perinatal psychiatry (Bharadwaj et al. 2022) [2], in the section "Update from IPS CPG 2022". Where it disagrees with the other sources, the disagreement is flagged ⚠️ and not resolved.
 
 ## Exam answer
 
@@ -81,15 +83,50 @@ reviewer:
 
 **Neurodevelopment:** anticonvulsant exposure through breastfeeding (after in-utero exposure) was **not associated with adverse development or lower IQ** at 3 years [1].
 
+### Update from IPS CPG 2022 [2]
+**Lactation advice:**
+- **Minimum number of drugs**, preferably **monotherapy**.
+- **RID under 10%** is preferred and compatible with breastfeeding.
+- **No need to withhold feeds** for a few hours (or "4–6 hours") after each dose: steady-state levels are reached after a few days. **Breastfeed on demand**, exclusively.
+- **Watch the infant for:**
+  - **sedatives:** excessive sedation, floppiness, respiratory depression, cyanosis;
+  - **antidepressants:** excessive crying, irritability, diarrhoea, jitteriness, seizures;
+  - **antipsychotics:** rigidity, poor suck, poor feeding, irritability.
+- **Withhold breastfeeding and review** the medication if toxicity appears.
+- **Preterm, low-birth-weight or sick neonates:** seek **paediatric or neonatal advice**, because their drug metabolism is impaired.
+- **Suicidal mother separated from the infant:** maintain breastfeeding with **expressed breast milk** or infant visits.
+- **ECT postpartum:** feed the infant before the procedure, put the mother **first on the list**, and keep **expressed milk** ready.
+
+**Drug-specific (Table 8):**
+
+| Drug | IPS lactation advice |
+| --- | --- |
+| Antidepressants | Safe if RID under 10%. **Sertraline preferred**. **Fluoxetine** (RID 1.6–14.6%) may need infant monitoring |
+| TCAs | **Amitriptyline, nortriptyline, desipramine, clomipramine** considered safe; **avoid doxepin** |
+| MAOIs | Little or no data |
+| SGAs | Compatible (RID under 10%); **clozapine contraindicated** |
+| FGAs | Considered relatively safe |
+| Lithium | **Avoid**, or if breastfed, **monitor infant blood levels** (RID 12–30%) |
+| Valproate | RID 1.5%; **compatible** |
+| Carbamazepine | RID 1–7%; compatible |
+| Lamotrigine | RID 9.2–18.3%; **safe with monitoring** |
+| Benzodiazepines | May sedate; **short-acting preferred (lorazepam, RID 2.5–3%)** |
+
+**Development:** delays in exposed infants are **mild and reversible** and catch up after weaning. Give **sensorimotor stimulation** and an extra attachment figure where the mother is sedated.
+
+⚠️ **Points to note (not resolved):**
+- **Lithium:** the source prints "**foetal** blood level monitoring" in the lactation column, presumably meaning the infant. Maudsley simply **advises against** breastfeeding on lithium.
+- **Valproate and lamotrigine:** IPS calls valproate "compatible" and lamotrigine "safe with monitoring". Maudsley's reports of **thrombocytopenia/anaemia (valproate)** and **thrombocytosis and an apnoea case (lamotrigine)** argue for infant monitoring with both.
+
 **Conclusion.** Breastfeeding should usually continue, along with the drug the mother took in pregnancy. RID under 10% is generally regarded as safe. Sertraline (antidepressant) and olanzapine or quetiapine (antipsychotic/mood stabiliser) are preferred when starting a drug postpartum. **Lithium and clozapine** are the important exceptions: continue them, but advise formula feeding. Fluoxetine, venlafaxine and lamotrigine give relatively high infant exposure. Sedatives should be avoided or short-acting. Monitor the infant for sedation, feeding and growth, and never breastfeed in bed while on sedating medication.
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
 - LactMed/Hale categories; milk-to-plasma ratios.
-- Dose-timing strategies (feeding before doses).
 - Expressing and discarding milk; donor milk.
 
 ## References
 
 1. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 7, "Drug choice in breastfeeding": pp. 734–735 (infant exposure; RID; general principles), 736 (Table 7.1), 737–740 (Table 7.2, antidepressants), 740–743 (Table 7.3, antipsychotics), 743–745 (Table 7.4, mood stabilisers), 745–746 (Table 7.5, hypnotics), 747 (Table 7.6, stimulants).
+2. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period. *Indian J Psychiatry* 2022; 64(Suppl 2): S414–S428 (IPS Clinical Practice Guidelines): lactation advice, S419; Figure 1, S420; Table 8, S422; Box 3, S426; Box 4, S427.

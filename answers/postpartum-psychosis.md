@@ -24,6 +24,8 @@ reviewer:
 > - **"newer advances"** (e.g., the Bergink treatment algorithm, sleep protection, genetics, autoimmune encephalitis screening, brexanolone/zuranolone, India's MHCA 2017 provisions for mother–baby admission).
 >
 > **The "newer advances" question (p1-acd860b8) cannot be answered adequately from the held sources.** Please upload a postpartum psychosis review (e.g., Bergink et al.) or the IPS perinatal CPG.
+>
+> **Added 2026-10-22:** the Indian Psychiatric Society Clinical Practice Guideline on perinatal psychiatry (Bharadwaj et al. 2022) [3], in the section "Update from IPS CPG 2022". Where it disagrees with the other sources, the disagreement is flagged ⚠️ and not resolved.
 
 ## Exam answer
 
@@ -109,6 +111,47 @@ reviewer:
   - deliver in hospital; **stop lithium in labour**; check the level 12 hours after the last dose.
 - Close **postpartum monitoring**, the period of greatest risk.
 
+### Update from IPS CPG 2022 [3]
+**Definition:**
+- an SMI of **abrupt onset postpartum, usually within 4–6 weeks** of childbirth;
+- presents as **acute mania** (with psychotic symptoms), **acute and transient psychotic disorder**, **catatonia** or **psychotic depression** (Table 2).
+
+**Assessment:**
+- **Rule out medical mimics** (Table 3):
+  - infection; electrolytes; uraemia; glucose or DKA; anaemia; **thyroid function and anti-thyroid antibodies**; liver function and ammonia; urine drug screen;
+  - **CT** (avoided in pregnancy) or **MRI brain**, **EEG**, **CSF**;
+  - for **PRES, cortical venous thrombosis, Sheehan syndrome, Wernicke encephalopathy, ADEM/MS and anti-NMDA-receptor encephalitis**.
+- **Confusion, perplexity or disorientation** point to a medical or neurological cause.
+- **Infant-related psychopathology** (Table 4):
+  - delusions that the **fetus is dead**, that the infant is ill or has died with the fact hidden, or that the infant is **divine** or will be stolen;
+  - command hallucinations;
+  - these drive **infanticidal risk**.
+- **Postpartum mania** can cause **rough handling** of the infant, and verbal or physical aggression.
+
+**Management:**
+- **In-patient care** is often needed (suicide or infant-harm risk).
+- **Mainstay:** an **SGA compatible with breastfeeding**.
+  - Add an **antidepressant** for psychotic depression and a **mood stabiliser (lithium)** for mania if the SGA fails (Table 9).
+- **Catatonia** is common: **about 20%** of perinatal admissions vs about 8% of general acute admissions.
+  - **Lorazepam 3–8 mg/day** (1–2 mg three or four times daily), rising to **8–16 mg/day** if the response is inadequate at 24–48 hours.
+  - **Withhold** a dose if maternal **pulse is under 60**, **BP is under 90/60** or **fetal heart rate is under 100**.
+  - Its benefits usually exceed the risks: food refusal, dehydration and **DVT** from immobility.
+  - **ECT** if lorazepam fails.
+- **ECT postpartum:** feed the infant **before** the procedure, **schedule the mother first** on the list, and have **expressed milk** available (Box 4).
+- **Suicidal mothers** (Box 3):
+  - temporary separation from the infant in a high-intensity unit, with **expressed breast milk** or infant visits, and joint admission once the risk falls;
+  - ECT;
+  - **eyeball-to-eyeball** family monitoring;
+  - **twice-daily** risk assessment;
+  - no sharps.
+- **Bonding:** education, infant-care training, modelling, **video feedback**, and **mother–infant psychotherapy** if severe. An extra caregiver (grandmother or father) helps.
+- **MHCA 2017:**
+  - least restrictive care; **rooming-in** of mother and child (under 3 years) under **Section 21**;
+  - review any separation **every 15 days**; inform the **Mental Health Review Board** beyond **30 days**.
+- **Mother–baby units:** at least **4 beds** with rooming-in, run by a multidisciplinary team. India needs more.
+
+⚠️ **Discrepancy (not resolved):** IPS Table 2 gives PPP as **"12/1000 live births"**. DSM-5-TR gives 1 in 500 to 1 in 1000, and Maudsley gives 0.1–0.25% (about 1–2 per 1000). The IPS figure is about **ten times higher** and may be a misprint for "1–2/1000". Please verify; it is not corrected here.
+
 **Conclusion.** Postpartum psychosis (1–2 per 1000 births) is usually a manic or mixed episode with psychosis, closely tied to bipolar I disorder. Risk reaches about 50% with a previous episode, bipolar I or schizoaffective disorder, and a family history, and it recurs in 30–50% of later deliveries. Assessment must exclude delirium and medical (e.g., thyroid) causes and assess the risks of suicide and infanticide. Management is an urgent psychiatric emergency:
 - specialist perinatal care;
 - an antipsychotic (olanzapine or quetiapine if breastfeeding), with lithium as an option but no breastfeeding on lithium;
@@ -118,8 +161,8 @@ reviewer:
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Mother–baby unit admission; joint admission evidence; Indian mother–baby units (NIMHANS).
-- Organic screening protocol (TSH, anti-TPO, NMDA-receptor antibodies, MRI, EEG).
+- Outcome evidence for joint (mother–baby) admission; numbers of Indian MBUs (IPS gives the MBU definition and MHCA Section 21 only).
+- A stepwise organic-screening algorithm (IPS Table 3 lists the investigations but not an order).
 - The Bergink stepwise algorithm (benzodiazepine → antipsychotic → lithium → ECT); immediate postpartum lithium prophylaxis.
 - Genetics, sleep-loss hypothesis, immune hypotheses.
 - Neurosteroid treatments beyond brexanolone in depression.
@@ -128,3 +171,4 @@ reviewer:
 
 1. American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*, 5th ed., text revision (DSM-5-TR). 2022: brief psychotic disorder ("with peripartum onset" specifier); bipolar I disorder, gender-related diagnostic issues; specifiers for bipolar and related disorders, "with peripartum onset", pp. 173–174; specifiers for depressive disorders, p. 213.
 2. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: catatonia, p. 154; Chapter 7: pp. 713–715 (Box 7.1), 715–718 (psychosis during pregnancy and postpartum; Box 7.2), 722 (ECT), 722–726 (bipolar illness; lithium; valproate; Box 7.4), 735–736 (breastfeeding; Table 7.1), 744–745 (Table 7.4).
+3. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period. *Indian J Psychiatry* 2022; 64(Suppl 2): S414–S428 (IPS Clinical Practice Guidelines): Table 2, S415; Tables 3–4 and clinical assessment, S416–S417; postpartum psychosis and catatonia, S424–S425; Table 9, S425; Boxes 3–4, S426–S427; bonding interventions, MHCA 2017 and mother–baby units, S427.

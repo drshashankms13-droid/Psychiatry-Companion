@@ -12,11 +12,18 @@ reviewer:
 > - **Chapter 29, "Organ Transplantation"** (DiMartini AF, Shenoy A, Dew MA) [1];
 > - **Chapter 20, "Renal Disease"** (Cukor D, Levenson JL, Rosenthal-Asher D, Kimmel PL) [2].
 >
+> Indian sources (see "Update from Indian sources"):
+> - **IPS Clinical Practice Guideline:** Sarkar S, Grover S, Chadda RK. Psychiatric assessment of persons for solid-organ transplant. *Indian J Psychiatry* 2022; 64(Suppl 2): S308–S318 [3].
+> - **Two teaching presentations (secondary sources, no peer review):**
+>   - Anjith D (chair: Rajkumar RP), "Psychiatric aspects of organ transplantation" [4];
+>   - Kevin Daniel A, Dibyendu (facilitators: Tharun, Harish T), "Organ transplantation" [5].
+>   These are used only where the primary sources are silent, and are labelled [4] or [5].
+>
 > The supplied file is an ebook with **no print page numbers**, so citations give chapter, section and table.
 >
 > ⚠️ **Gaps and caveats:**
 > - Chapter 29 covers **all solid organs**. Much of its outcome data are from **liver, heart and lung** recipients and are labelled as such below. Kidney-specific findings are marked **(kidney)**.
-> - **Not in the sources:** Indian law on organ donation (**THOTA 1994**/2011 amendments, authorisation committees), **paid donation and organ trade**, and Indian outcome data.
+> - Indian law (THOTA) and Indian donor issues are now covered from the IPS guideline [3]. **Indian outcome data** are still not in the sources.
 > - All figures are **US/European** (UNOS/OPTN, USRDS, Eurotransplant).
 
 ## Exam answer
@@ -177,6 +184,103 @@ Individual psychotherapy resolved these themes and reduced depression. Perceived
 - **Kidney donor depression** matches general-population rates. Predictors: non-white race, younger age, slow recovery, **financial burden**, and **feeling morally obligated**.
 - **Non-directed (altruistic) donors** (1–2%) are evaluated with extra caution. In one study 16% of those fully evaluated were declined for psychosocial reasons, yet their outcomes equal those of directed donors.
 
+### Update from Indian sources [3–5]
+**Legal framework: the Transplantation of Human Organs and Tissues Act (THOTA)** [3]:
+- **Timeline:** the Act of **1994**, amended in **2011**. Rules followed in 1995, revised as the **THOTA Rules 2014**.
+- **Effects:** it accepted **brain death** as death and **prohibited the sale of organs**.
+- **Living donors (near relatives):** **father, mother, brothers, sisters, son, daughter, spouse, grandparents**. They must prove the relationship by **genetic testing and/or legal documents**.
+- **Other (unrelated) donors:** need special permission from a government-appointed **Authorisation Committee**:
+  - **six members**, at hospital, district or state level, whose medical members are **not part of the transplant team**;
+  - recipient and donor are **interviewed**;
+  - the committee checks that the motive is **altruism or affection, not financial inducement or coercion**;
+  - it also handles cases where **either party is a foreign national**.
+  - The **psychiatrist may be asked to assess the donor's altruism**, including personality traits.
+- **Deceased donors:**
+  - brain death needs **two certifications 6 hours apart** by two doctors nominated by the appropriate authority, **at least one a neurology expert**;
+  - for brainstem death, the **Board of Medical Experts** signs; parental consent is needed if the person is **under 18**;
+  - donation requires a **prior pledge** (on a prescribed form, before **two witnesses**) or consent from legal guardians.
+- **Swap donation** is permitted: pairs exchange organs for **ABO compatibility**.
+- **India has no consolidated national waiting list** yet [3].
+
+**Donor assessment: Indian specifics** [3]:
+- **Confirm identity and relationship:** Aadhaar, voter ID, driving licence, passport, **marriage certificate**, **past photographs** together.
+- **Most living donors in India are women**, often the **wife donating to her husband**. Assess:
+  - **when the illness began relative to the marriage**, and the duration of marriage;
+  - the number of children;
+  - **pressure from other family members** to donate.
+  - Tell her explicitly that she is **not obliged to donate**.
+- **Family dynamics:**
+  - several relatives may be considered, and the chosen one feels obliged;
+  - **"black sheep syndrome"**: a disregarded family member donates to win recognition;
+  - **financial disparity** among siblings, so ask about **financial transactions or obligations**.
+- **Psychiatric disorder does not by itself bar donation** if the donor is competent. **People with intellectual disability are generally not considered as donors.**
+- Structured symptom scales are **rarely needed** for donors.
+
+**Recipient assessment points** [3]:
+- **Psychiatric illness is "not a contraindication per se"**, but it should be treated before transplant where possible. Even **schizophrenia** patients have been transplanted.
+- **Depression caused by organ failure may resolve after transplant.**
+- **Telling medical from psychiatric symptoms:** use temporality, course, persistence and context. For example, **fatigue that worsens with effort suggests a medical cause; fatigue that lifts as mood improves suggests depression**.
+- **Bipolar disorder:** the **sleep loss around transplant** may precipitate mania.
+- **Neurocognitive impairment** accompanies renal or liver failure. Record a **baseline MSE**.
+- **Retransplantation (especially renal):** find out why the graft failed, how long it lasted, and how patient and family reacted. **Graft loss from non-adherence raises the ethical question of using scarce organs**.
+- **Substances:** active alcohol and tobacco use is generally a contraindication; **smoking delays wound healing**. Occasional use is not. In **alcohol dependence**, **3–6 months' abstinence** is generally required, except in life-threatening situations.
+- **Personality:**
+  - Cluster A and anxious-avoidant traits: poor engagement;
+  - paranoid: suspicious checking of the regimen;
+  - dependent: passive decision-making;
+  - antisocial or narcissistic: poor compliance.
+- **Indian context:** **financial difficulty** contributes to non-adherence.
+- **Consent:** if the recipient is **not competent**, the **legally acceptable or nominated representative** consents. Is that person truly acting in the patient's interest, and will they stay responsible afterwards?
+- **Sample opinion:** "Currently, there is no contraindication from a psychiatric point of view … However, a **repeat psychiatric assessment** must be done just prior to transplant."
+- **Liaison:** hold **conjoint sessions** with patient, family and team. Patients often **don't know they were referred** for pre-transplant evaluation, or about cost and duration.
+
+**Rating scales** [3]:
+- **TERS:** 10 domains, each rated 1–3.
+- **PACT:** 8 subscales rated 0–4.
+- **SIPAT:** 28 weighted items, giving "excellent" to "high-risk" candidate.
+- **Pediatric Transplant Rating Instrument.**
+- **General tools** (Table 3): MINI, GHQ-12, PHQ-9, HADS, GAD-7, ASSIST/AUDIT, MMSE/HMSE/MoCA, Brief COPE, MSPSS.
+
+**Peri-transplant and post-transplant** [3]:
+- **Patient refuses surgery:** **check competence** and withhold surgery until consent. If competence is lost, **prior explicit instructions** to proceed should be followed.
+- **Delirium:**
+  - CAM/CAM-ICU; DRS-R98; **don't miss the hypoactive form**;
+  - **antipsychotics for aggression**; **avoid benzodiazepines** (they prolong confusion);
+  - re-orientation, **a window, a clock**, family visits;
+  - in **renal failure**, be cautious with **renally excreted amisulpride**.
+- **Depression after transplant:**
+  - "may affect **up to 60%** of solid-organ recipients" and is linked to mortality and **neoplasms**;
+  - prefer **escitalopram or sertraline** (fewest interactions);
+  - start low; **monitor sodium** (SSRIs: hyponatraemia and bleeding risk); **QTc** with hypokalaemia;
+  - **online psychotherapy** for frail patients.
+- **Non-adherence:** look for **depression (hopelessness), psychosis (suspicion of drugs), cognitive impairment (forgetting) and substance use**. Use reminders and positive reinforcement.
+- **Conflict with the team:** rule out psychosis, mania, delirium, dementia or personality disorder; otherwise **mediate communication**.
+
+**Ethics** [3]:
+- **Autonomy:** for recipient and **donor**, voluntary choice; document when the donor's choice is not autonomous.
+- **Justice:** scarce organs, equitable allocation, poor-prognosis cases.
+- **Beneficence and non-maleficence:** these extend to the donor; avoid transplants that lower QoL without adding life.
+
+**Kidney-specific points from the presentations** (secondary) [4, 5]:
+- **Awaiting renal transplant**, the commonest problems are **depression and anxiety with poor diet and medication compliance** [5].
+- **Recipients with a failing graft** may feel **guilt towards the donor** over organ waste, and fear there is no other family donor [5].
+- Because donors are usually family, assess **the strength of family bonds** [5].
+- **Psychopharmacology** [5]:
+  - **duloxetine** (about 70% renal excretion) is **contraindicated at CrCl under 30 mL/min**;
+  - **mirtazapine** is second-line (tacrolimus with mirtazapine may cause hypotension);
+  - **lorazepam, oxazepam and temazepam** (glucuronidated) are the safer benzodiazepines;
+  - **CNIs may lower lithium levels** (as printed).
+- **Psychiatric contraindications** [5] (no primary reference given):
+  - absolute: dementia, acute psychosis, current physical addiction, extremely unstable borderline PD, **IQ below 70**;
+  - relative: non-compliance, personality disorders, past psychiatric disorders, depression, anxiety, poor support, low motivation.
+
+⚠️ **Discrepancies (not resolved):**
+- **Depression rates:** IPS [3] says depression "may affect up to 60%" of recipients. Levenson [1] gives mood or anxiety disorders in year 1 as **20% (kidney)**, 30% (liver), up to 60% (heart). The 60% figure is heart-specific in [1].
+- **Abstinence before listing:** IPS requires **3–6 months** in alcohol dependence. Levenson says the 6-month cut-off "does not appear to be definitive".
+- **Contraindications:** the presentation's "absolute contraindications" (acute psychosis, IQ below 70, unstable BPD) conflict with **both primary sources**. Levenson [1] describes successful transplants in **active psychosis and intellectual disability**, and IPS [3] says psychiatric illness is "not a contraindication per se". Rely on the primary sources.
+- **Smoking cessation:** presentation [5] says "no evidence" for drugs, while Levenson [1] discusses varenicline, bupropion and NRT with renal cautions.
+- **Lithium with CNIs:** presentation [5] says levels "may decrease due to limited glomerular filtration". Reduced filtration would normally be expected to **raise** levels, so this statement is internally inconsistent; please verify against a primary source.
+
 **Conclusion.** [Certain, per the source] The psychiatrist's job in renal transplantation is to:
 - **optimise rather than gatekeep**, through structured pre-transplant evaluation;
 - treat the **high pre-existing burden** of depression, anxiety, cognitive impairment and non-adherence carried over from dialysis;
@@ -186,6 +290,8 @@ Individual psychotherapy resolved these themes and reduced depression. Perceived
 - protect **living donors** from coercion.
 
 Carefully selected patients with severe mental illness can be transplanted successfully.
+
+In India, the psychiatrist also works within **THOTA**: assessing **altruism and absence of coercion or payment** for the Authorisation Committee, with particular attention to **wives donating to husbands** and to family pressure.
 
 ## In depth
 
@@ -215,8 +321,8 @@ Carefully selected patients with severe mental illness can be transplanted succe
 - **Antidepressant evidence in ESRD is weak:** Cochrane 2016 found 4 small trials; a larger sertraline trial was negative. In CKD without ESRD, sertraline equalled placebo (Hedayati 2017).
 
 ### Not covered by the sources (deliberately left blank)
-- **Transplantation of Human Organs and Tissues Act (India)**, authorisation committees, swap transplants, organ trafficking.
-- Indian outcome or prevalence data.
+- Indian outcome or prevalence data for renal transplant recipients and donors (the presentation's national transplant counts 2014–2018 have no stated source).
+- Organ-trafficking case law; THOTA penalties.
 - Donor regret statistics specific to India; kidney-specific long-term donor psychiatric morbidity beyond the summary of the Renal and Lung Donors Evaluation Study.
 - Specific psychotherapy manuals for transplant recipients.
 
@@ -224,3 +330,6 @@ Carefully selected patients with severe mental illness can be transplanted succe
 
 1. DiMartini AF, Shenoy A, Dew MA. Organ transplantation. In: Levenson JL, ed. *The American Psychiatric Association Publishing Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. Washington, DC: APA Publishing, 2019: Chapter 29 (Pretransplantation Issues, Table 29–1; Psychiatric Symptoms and Disorders in Transplant Patients; Adaptation to Transplantation, Figure 29–2; Treatment Modalities; Patients With Complex or Controversial Issues; Posttransplant Regimen Adherence, Table 29–2; Substance Use; Personality Disorders; Psychotic Disorders; Living Donor Transplantation, Table 29–3; Posttransplant Organ Function and Pharmacological Considerations; Neuropsychiatric Side Effects of Immunosuppressive Agents; Drug Interactions).
 2. Cukor D, Levenson JL, Rosenthal-Asher D, Kimmel PL. Renal disease. In: Levenson JL, ed. *Textbook of Psychosomatic Medicine and Consultation-Liaison Psychiatry*. 3rd ed. 2019: Chapter 20 (introduction; Psychiatric Disorders in Renal Disease — Depression, Anxiety, Substance Use; Treatment Adherence; Psychopharmacology in Renal Disease).
+3. Sarkar S, Grover S, Chadda RK. Psychiatric assessment of persons for solid-organ transplant. *Indian J Psychiatry* 2022; 64(Suppl 2): S308–S318 (IPS Clinical Practice Guidelines): pretransplant assessment, Tables 1–3, S309–S312; rating scales, S312–S313; psychosocial issues, Table 4, S313; donor assessment, Table 5, S313–S314; ethics, S314–S315; legal framework, Table 6, S315–S316; peri- and post-transplant assessment, S316–S317.
+4. Anjith D (presenter), Rajkumar RP (chair). *Psychiatric aspects of organ transplantation* [teaching presentation; secondary source].
+5. Kevin Daniel A, Dibyendu (presenters); Tharun, Harish T (facilitators). *Organ transplantation* [teaching presentation; secondary source]: slides 10 (contraindications), 21 (renal transplantation), 40–48 (psychopharmacology).

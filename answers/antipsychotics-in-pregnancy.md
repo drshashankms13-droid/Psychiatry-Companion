@@ -13,11 +13,13 @@ reviewer:
 > - breastfeeding summary (Table 7.1), pp. 735–736.
 >
 > **Gaps:**
-> - **Indian data** and IPS perinatal guidance;
+> - **Indian data** (IPS perinatal guidance is now added; see the update section);
 > - **dosing changes by trimester** for individual antipsychotics (Maudsley gives only the general principle);
 > - **detailed teratogen registers** (e.g., the National Pregnancy Registry for Psychiatric Medications).
 >
 > These are not in the source.
+>
+> **Added 2026-10-22:** the Indian Psychiatric Society Clinical Practice Guideline on perinatal psychiatry (Bharadwaj et al. 2022) [2], in the section "Update from IPS CPG 2022". Where it disagrees with the other sources, the disagreement is flagged ⚠️ and not resolved.
 
 ## Exam answer
 
@@ -108,6 +110,55 @@ reviewer:
 
 **Document all decisions** and involve the parents.
 
+### Update from IPS CPG 2022 [2]
+**Relapse risk:**
+- **SMI recurrence is 60–80% without prophylaxis vs 20–30% with it** (Table 1).
+- **Prophylaxis is preferred in SMI even if she is currently well** [2].
+
+**Before conception:**
+- If she is still symptomatic, advise **delaying pregnancy** until stable.
+- **Contraception until 6–12 months of remission** (Figure 1).
+- **Taper adjuncts:** benzodiazepines, β-blockers, anticholinergics.
+- Switching to a drug with more safety data is **not required in every case** unless the current drug carries a high risk.
+- **Never stop abruptly.** **Folic acid 5 mg/day.**
+
+**Choice of drug:**
+- **SGAs are preferred** for prophylaxis and treatment.
+- **Monotherapy.**
+- Monitor **weight gain** and do an **oral glucose tolerance test** (gestational diabetes).
+
+**FGAs and LAIs:**
+- **not initiated** in pregnancy because there are **less safety data**;
+- a woman doing well on an FGA may continue after discussion;
+- after conception on an **LAI**, stopping does **not immediately remove exposure** (clearance takes weeks).
+
+**Schizophrenia (Table 9):**
+- **remission or negative symptoms:** low-dose SGA;
+- **exacerbation:** SGA monotherapy, with **short-term benzodiazepines** alongside non-sedating SGAs; psychosocial interventions.
+
+**Monitoring and delivery:**
+- **anomaly scans** at 10–12 and 16–18 weeks;
+- deliver in a hospital with **neonatal intensive care**.
+
+**Breastfeeding:** most antipsychotics have **RID under 10%** and are compatible; **clozapine is contraindicated**.
+
+**Agitation in pregnancy:**
+- verbal de-escalation first;
+- **oral:** lorazepam 1–2 mg, promethazine 25–50 mg, olanzapine 5–10 mg or chlorpromazine 50–100 mg;
+- **IM:** lorazepam 2 mg, promethazine 25–50 mg, **haloperidol 2.5–5 mg with promethazine** (to prevent dystonia) or olanzapine 10 mg;
+- monitor vital signs and fetal well-being;
+- keep her **supine with the right hip elevated**.
+
+**MHCA 2017:**
+- use the **least restrictive** option;
+- **rooming-in** of mother and child (under 3 years) under **Section 21**;
+- if they are separated, **review every 15 days**; beyond **30 days**, inform the **Mental Health Review Board**.
+
+⚠️ **Discrepancy:**
+- IPS says FGAs are not initiated because of "less safety data", yet its Table 8 says "high potency drugs preferred".
+- Maudsley (above) cites very large cohorts showing FGAs are not major teratogens, with a low-birth-weight signal.
+- These views are not reconciled.
+
 **Conclusion.** Neither FGAs nor SGAs are major teratogens; the main concerns are metabolic (gestational diabetes, large babies, especially with clozapine, olanzapine and quetiapine), preterm birth, and transient neonatal withdrawal or adaptation problems. Untreated psychosis carries greater risks: relapse, postpartum psychosis, suicide and infanticide. So:
 - a stable woman should usually continue her effective antipsychotic at the lowest dose, without switching;
 - use one drug where possible;
@@ -120,9 +171,10 @@ reviewer:
 
 ### Not covered by the sources (deliberately left blank)
 - Absolute malformation rates for each antipsychotic from pregnancy registries.
-- Indian perinatal guidelines (IPS CPG) and mother–baby unit availability in India.
-- Trimester-specific dose adjustment tables.
+- Mother–baby unit availability in India (IPS says MBUs may need to be set up; no numbers).
+- Trimester-specific antipsychotic dose adjustment tables (IPS Table 6 covers only antidepressants, lithium and lamotrigine).
 
 ## References
 
 1. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 7, "Drug choice in pregnancy": pp. 713–715 (background risks; Box 7.1), 715–718 (psychosis during pregnancy and postpartum; FGAs; SGAs; neurodevelopment; Box 7.2); "Drug choice in breastfeeding": pp. 735–736 (Table 7.1).
+2. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period. *Indian J Psychiatry* 2022; 64(Suppl 2): S414–S428 (IPS Clinical Practice Guidelines): Table 1, S415; general approach and Figure 1, S419–S420; Table 8, S422; severe mental illness and schizophrenia, S424; Table 9, S425; agitation, S426; MHCA 2017, S427.

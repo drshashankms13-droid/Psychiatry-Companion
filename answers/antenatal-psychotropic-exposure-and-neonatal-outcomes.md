@@ -13,6 +13,8 @@ reviewer:
 > - **absolute risk numbers** for most individual outcomes (Maudsley mostly says "small" or "low");
 > - **Finnegan-type neonatal scoring** for poor neonatal adaptation syndrome;
 > - **substance-exposure outcomes** (Maudsley covers these in a separate section, "Substance misuse in pregnancy", which I have not used here).
+>
+> **Added 2026-10-22:** the Indian Psychiatric Society Clinical Practice Guideline on perinatal psychiatry (Bharadwaj et al. 2022) [2], in the section "Update from IPS CPG 2022". Where it disagrees with the other sources, the disagreement is flagged ⚠️ and not resolved.
 
 ## Exam answer
 
@@ -64,14 +66,68 @@ reviewer:
   - **monitor the neonate for withdrawal and poor adaptation** (NICE: extra monitoring after SSRI/SNRI exposure);
   - continuing the same drug through breastfeeding may **soften neonatal withdrawal** (except clozapine and lithium: avoid breastfeeding).
 
+### Update from IPS CPG 2022 [2]
+**Weighing risk (four considerations):**
+1. the risks of untreated maternal illness;
+2. the benefits of avoiding exposure;
+3. the benefits of controlling the illness;
+4. the risks of the medication.
+
+**Untreated depression or SMI** brings:
+- poor antenatal care, self-neglect and **neglect of the infant**;
+- suicidal or **infanticidal** risk; poor nutrition;
+- domestic violence, substance use;
+- **preterm labour, low birth weight and stillbirth**.
+
+**"Confounding by indication":** registry data suggest that some adverse outcomes come from the **underlying illness, not the drug**.
+
+**Labelling:**
+- the FDA letter categories (1979–2015) were criticised as **simplistic and misleading**;
+- they were replaced in June 2015 by the **Pregnancy and Lactation Labelling Rule**, with three headings: pregnancy, lactation, and females and males of reproductive potential.
+- Old categories (Table 7) are given for reference:
+  - **B:** clozapine, zolpidem, bupropion, buspirone;
+  - **C:** most antipsychotics and antidepressants (except paroxetine), lamotrigine;
+  - **D:** lithium, valproate, carbamazepine, paroxetine, most benzodiazepines;
+  - **X:** temazepam, estazolam, flurazepam.
+
+**Risks by class (Table 8):**
+
+| Class | Risks |
+| --- | --- |
+| Antidepressants | **No increase in major malformations** (data mostly SSRIs). Spontaneous abortion, gestational hypertension or pre-eclampsia, low Apgar, low birth weight. **Third-trimester neonatal withdrawal**. These risks are "minimal, not clinically significant, and confounded by underlying depression" |
+| SSRIs | **Cardiac septal defects** with first-trimester exposure (mostly **paroxetine**). **PPHN** with third-trimester exposure, absolute risk **3 per 1000**. Slight rise in **postpartum haemorrhage**. No rise in aneuploidy. **Sertraline has the least placental exposure**; avoid paroxetine |
+| TCAs | Fetal exposure is **high**. **Avoid doxepin** |
+| MAOIs | Malformations and hypertensive crisis; avoid |
+| SGAs | No rise in major malformations. **Maternal weight gain, gestational diabetes, higher birth weight**. Monitor weight, OGTT and fetal growth scans. **Clozapine:** floppy infant; monitor for agranulocytosis |
+| FGAs | No major malformation. Low birth weight, preterm delivery. **Third-trimester EPS and withdrawal**. High-potency drugs preferred |
+| Lithium | **Ebstein's anomaly 1/1000** |
+| Valproate | Major anomalies; **neural tube defects 6–9%**; **intellectual disability** in the child |
+| Carbamazepine | Increased malformations |
+| Lamotrigine | No rise in major malformations. Needs **therapeutic drug monitoring** |
+| Benzodiazepines | Perinatal toxicity, low Apgar, hypotonia, poor feeding, **cleft** defects. **Floppy infant** if given just before delivery. Taper; intermittent use is less likely to cause withdrawal; prefer lorazepam |
+
+**Practical steps:**
+- **anomaly scans at 10–12 weeks (level I) and 16–18 weeks (level II)** for all mothers on psychotropics;
+- **fetal echocardiography** with lithium, SSRIs or other drugs with a cardiac risk;
+- **plan delivery** where neonatal intensive care is available;
+- **folic acid 5 mg/day** for all women planning pregnancy.
+
+**Developmental delay** in exposed infants is usually **mild and reversible**, catching up after weaning. It is commoner in low-birth-weight or premature infants and with older mothers. Advise **sensorimotor stimulation** (massage, oil bath, lullabies, talking, toys) and an extra attachment figure if the mother is sedated or has negative symptoms.
+
+⚠️ **Discrepancies (not resolved):**
+- **Valproate:** IPS gives neural tube defects at 6–9%; Maudsley gives about 10% for all major malformations. These are different measures.
+- **Lithium:** IPS gives Ebstein's at 1/1000; Maudsley says only "much smaller than previously estimated".
+- **FGAs:** IPS's table says "high potency preferred", but its text says FGAs are **not initiated** in pregnancy "because there is less safety data". This is internally inconsistent, and Maudsley's data (large US and Nordic studies) show no meaningful malformation increase.
+
 **Conclusion.** Most antipsychotics and antidepressants are not major teratogens. Their main neonatal risks are transient poor neonatal adaptation and withdrawal, PPHN (SSRIs, late exposure, low absolute risk), preterm birth and lower birth weight, and metabolic effects (SGAs). The drugs with clear teratogenic and neurodevelopmental harm are **valproate, carbamazepine and topiramate**, with lithium's cardiac risk now thought smaller. Benzodiazepines in late pregnancy cause floppy infant syndrome. Maternal illness itself confounds and contributes to many of these outcomes, so the risks of the drug must be weighed against the risks of untreated illness.
 
 ## In depth
 
 ### Not covered by the sources (deliberately left blank)
-- Absolute PPHN rates; scoring tools for neonatal abstinence and adaptation.
+- Scoring tools for neonatal abstinence and adaptation (absolute PPHN risk, 3 per 1000, is now given by IPS).
 - Long-term cohort data beyond those cited; Indian data.
 
 ## References
 
 1. Taylor DM, Barnes TRE, Young AH. *The Maudsley Prescribing Guidelines in Psychiatry*. 15th ed. Wiley, 2025: Chapter 7, "Drug choice in pregnancy": pp. 713–715 (principles; Box 7.1), 715–718 (antipsychotics), 719–722 (antidepressants; ECT; Box 7.3), 722–726 (mood stabilisers; Box 7.4), 726–727 (sedatives; ADHD drugs); p. 736 (Table 7.1).
+2. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period. *Indian J Psychiatry* 2022; 64(Suppl 2): S414–S428 (IPS Clinical Practice Guidelines): risk–benefit assessment and confounding by indication, S421; Tables 7–8, S422; anomaly scans and folic acid, S419–S420 (Figure 1); developmental delay, S419–S420.
