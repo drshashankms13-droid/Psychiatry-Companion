@@ -192,7 +192,15 @@ Each decision should be individualised, made before conception where possible, a
   - fetal echocardiography is not universally available;
   - the **MHCA 2017** right to informed consent and to stay with a child under 3;
   - **PCPNDT** and termination law (MTP Amendment Act 2021) for counselling about fetal anomaly [general knowledge].
-- Indian Psychiatric Society perinatal guidelines (2022) recommend similar principles [Likely; check].
+- **IPS Clinical Practice Guidelines (2022)** [6]:
+  - **SGA monotherapy is first-line** in bipolar disorder in pregnancy;
+  - add **lithium** if the SGA alone fails, or if she is already well on lithium;
+  - **low-dose lamotrigine (below 325 mg/day)** may be continued for bipolar depression;
+  - **valproate and carbamazepine are avoided**;
+  - **lithium monitoring:** levels **monthly until 34 weeks, then weekly** until delivery; repeat before and 24 hours after delivery; check frequently in the early postpartum weeks;
+  - **lamotrigine levels may fall about 50%**; monitor from preconception to 1 month postpartum;
+  - relapse is **about 66% if prophylaxis is stopped vs about 25% if continued**;
+  - **lithium during breastfeeding** needs infant monitoring and investigations (RID 12–30%).
 
 ### Recent advances
 - **UK MHRA 2023–24:** valproate not to be started in anyone under 55 (male or female) unless two specialists agree. There is also a possible paternal-exposure signal (neurodevelopmental disorders in children of fathers on valproate), with a precautionary MHRA warning in 2024 [general knowledge; check].
@@ -206,3 +214,4 @@ Each decision should be individualised, made before conception where possible, a
 3. Viguera AC, et al. Risk of recurrence of bipolar disorder in pregnant and nonpregnant women after discontinuing lithium maintenance. *Am J Psychiatry* 2000; 157:179–184 (cited via [1]).
 4. Munk-Olsen T, et al. Maternal and infant outcomes associated with lithium use in pregnancy: an international collaborative meta-analysis of six cohort studies. *Lancet Psychiatry* 2018; 5:644–652 (cited via [1]).
 5. Patorno E, et al. Lithium use in pregnancy and the risk of cardiac malformations. *N Engl J Med* 2017; 376:2245–2254 (general knowledge; verify).
+6. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period (IPS Clinical Practice Guidelines). *Indian J Psychiatry* 2022; 64(Suppl 2):S414–S428. (User's PDF, batch 4.)

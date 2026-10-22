@@ -193,7 +193,17 @@ Untreated psychosis harms the mother through poor self-care, missed obstetric ca
 ### Indian context
 - **Mental Healthcare Act 2017, Section 21(2):** a woman admitted for mental illness has the right not to be separated from her child under 3 years, unless there is a risk to the child. This supports mother–baby admission [general knowledge].
 - **NIMHANS** runs a perinatal psychiatry service and a **mother–baby unit**, among the few in India [Likely; check date].
-- **Indian Psychiatric Society clinical practice guidelines** on perinatal psychiatry (Indian J Psychiatry 2022 supplement) broadly mirror NICE [Likely; check].
+- **IPS Clinical Practice Guidelines (Bharadwaj, Chandra et al., 2022)** [6]:
+  - **SGA monotherapy** is preferred for schizophrenia and bipolar disorder in pregnancy;
+  - **FGAs or LAIs are not initiated** in pregnancy (less safety data), but are continued if she is well on them and a switch risks relapse;
+  - after LAI exposure, stopping does not quickly end fetal exposure;
+  - monitor weight and do an **OGTT**;
+  - anomaly scans at **10–12 and 16–18 weeks**, with fetal echo for cardiac-risk drugs;
+  - **folic acid 5 mg** for all women planning pregnancy;
+  - deliver where **NICU** care is available;
+  - **clozapine is contraindicated in breastfeeding**.
+- **Relapse risk** for severe mental illness is **60–80% without prophylaxis vs 20–30% with it** [6].
+- Explain risk using **absolute numbers, visual aids** and a common denominator, and document the discussion (Box 2) [6].
 - **Practical issues:**
   - high GDM prevalence in South Asians makes OGTT monitoring especially important;
   - home deliveries;
@@ -212,3 +222,4 @@ Untreated psychosis harms the mother through poor self-care, missed obstetric ca
 3. Huybrechts KF, et al. Antipsychotic use in pregnancy and the risk for congenital malformations. *JAMA Psychiatry* 2016; 73:938–946 (cited via [1]).
 4. Huybrechts KF, et al. Association of in utero antipsychotic medication exposure with risk of congenital malformations in Nordic countries and the US. *JAMA Psychiatry* 2023; 80:156–166 (cited via [1]).
 5. ACOG Clinical Practice Guideline No. 5. Treatment and management of mental health conditions during pregnancy and postpartum. *Obstet Gynecol* 2023; 141:1262–1288 (cited via [1]).
+6. Bharadwaj B, Endumathi R, Parial S, Chandra PS. Management of psychiatric disorders during the perinatal period (IPS Clinical Practice Guidelines). *Indian J Psychiatry* 2022; 64(Suppl 2):S414–S428. (User's PDF, batch 4.)
