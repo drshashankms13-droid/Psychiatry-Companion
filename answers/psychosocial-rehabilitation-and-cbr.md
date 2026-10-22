@@ -149,6 +149,40 @@ Cognitive deficits are the **"rate-limiting factor"** for functional recovery. 9
 | Chatterjee et al. 2014 (Lancet), COPSI | RCT, India (n=282) | Community care improved disability modestly |
 | Tungpunkom & Nicol 2008 (Cochrane) | Life skills, 4 RCTs | No significant benefit; underpowered [1] |
 
+### CBR in Indian practice: NIMHANS seminar lessons [6]
+- **Evolution:**
+  - Alma-Ata (1978);
+  - WHO community training manual (1989);
+  - growth of CBR programmes (1990s);
+  - **CBR guidelines (2005/2010)**;
+  - the shift from **service delivery to community development**.
+- **Barwani (Madhya Pradesh), 1997–99 and 2001–06:**
+  - local community health workers and village health *samitis*;
+  - **CBR reduced disability more than outpatient care** and was feasible and acceptable (Chatterjee 2003, 2009).
+- **Jagalur taluk (Davangere; population 1.71 lakh):**
+  - NIMHANS with partner NGOs and the district health department;
+  - about 300 people with mental illness identified and all brought into treatment (health domain);
+  - disability certification and benefits obtained (empowerment domain);
+  - the multisectoral (livelihood, education) components lagged;
+  - ASHA inclusion was planned through an ICMR project.
+- **Thirthahalli learning (unpublished):**
+  - 60–80% returned to optimal functioning with adequate treatment alone;
+  - 20–30% needed community-supported rehabilitation;
+  - 1–10% needed institutional rehabilitation.
+- **Barriers:**
+  - mental health absent from the public-health agenda (funding);
+  - service organisation;
+  - weak primary care integration;
+  - inadequate human resources;
+  - lack of public mental health leadership.
+
+  Community initiatives fail **unless families and the community are allowed in** (Thara 2008). Mental illness is **not a felt need** in communities until awareness rises and people see treatment working.
+- **How to start CBR:**
+  - community participation and stakeholder mapping;
+  - assess felt needs and resources;
+  - choose which components of the CBR matrix to implement.
+- **Elements:** advocacy and communication; community mobilisation; political participation; **self-help groups**; **disabled people's organisations**.
+
 ### Critical appraisal
 - **Evidence is uneven:** strongest for family intervention and IPS; mixed for day care, life skills and clubhouses (few RCTs) [1].
 - **Generalisation:** skills learned in sessions often fail to transfer without in-vivo practice.
@@ -182,3 +216,4 @@ Cognitive deficits are the **"rate-limiting factor"** for functional recovery. 9
 3. User's seminar slides: Chakraborty S. *NMHP and DMHP* (Karnataka initiatives: Manasadhara, Manasakendra, Taluk Mental Health Programme).
 4. Ministry of Social Justice and Empowerment. Gazette notification on disability assessment, 12/14 March 2024 (IDEAS; mental illness certification). World Health Organization. *Community-based rehabilitation: CBR guidelines*. Geneva: WHO, 2010.
 5. Wykes T, Huddy V, Cellard C, McGurk SR, Czobor P. A meta-analysis of cognitive remediation for schizophrenia: methodology and effect sizes. *Am J Psychiatry* 2011; 168:472–485.
+6. User's seminar slides: Shalini. *Community Based Rehabilitation (CBR)* (NIMHANS): CBR evolution and matrix, Barwani, COPSI, Jagalur project, Thirthahalli learning, barriers. (Batch 3.)
