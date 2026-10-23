@@ -2,6 +2,7 @@
 title: Pros and cons of telepsychotherapy
 covers:
   - p2-949bbcd3
+  - p1-b5c3e74f
 status: draft
 updated: 2026-10-22
 reviewer:
