@@ -19,7 +19,7 @@ reviewer:
 
 ## Exam answer
 
-### Why it matters [1, 3, 5]
+### Clinical significance [1, 3, 5]
 - **Mortality:** life expectancy in schizophrenia is reduced by **about 20 years**. **Physical illness, especially cardiovascular disease, is the main cause**: 60% of the excess mortality, and CVD deaths are twice as likely [1].
 - **Prevalence of metabolic syndrome:** about **35.3%** of people taking antipsychotics (meta-analysis of 24,892) [1]. It is 2–3 times the general population, with obesity RR 1.5–2 and diabetes RR about 2 [1]. Indian data (Grover) show about 36% in schizophrenia [5].
 - **Obesity and diabetes:** **8 in 10** people experience antipsychotic-induced weight gain [2]. Diabetes is 2–3 times population rates [3].

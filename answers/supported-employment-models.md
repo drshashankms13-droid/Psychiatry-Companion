@@ -13,7 +13,7 @@ reviewer:
 
 Its driving philosophy is that, given adequate support, everyone who wants to work is capable of competitive employment [1].
 
-### Why it matters
+### Rationale
 - People with SMI have very high unemployment. In India, about **87%** of persons with mental illness are outside the labour force [1].
 - Work brings income, structure to the day, social contact, a positive identity, and contribution to the community. It is a core component of **recovery** [1].
 
