@@ -2,6 +2,7 @@
 title: Schizophrenia as a neurodevelopmental disorder — critical evaluation
 covers:
   - p1-25fbc65c
+  - p2-317faf19
 status: draft
 updated: 2026-10-20
 reviewer:
