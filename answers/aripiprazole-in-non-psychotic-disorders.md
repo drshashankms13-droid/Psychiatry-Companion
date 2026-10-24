@@ -58,7 +58,7 @@ reviewer:
 - Limited evidence that it reduces **eating-specific anxiety**.
 - Prolactin-sparing, which matters for osteoporosis risk.
 
-**8. Behavioural and psychological symptoms of dementia [1]:** modest efficacy for **overall BPSD**. It is less likely to cause certain adverse effects than risperidone. Weigh dementia-related mortality warnings.
+**8. Behavioural and psychological symptoms of dementia [1]:** modest efficacy for **overall BPSD**, and it is **less likely to cause parkinsonian effects**. Weigh dementia-related mortality warnings.
 
 **9. Drug-induced problems [1]:**
 - **Hyperprolactinaemia:** adjunctive aripiprazole **normalises prolactin** (with risperidone, benzamides or LAI risperidone). **Duloxetine-linked** hyperprolactinaemia has been treated with aripiprazole.
