@@ -5,170 +5,120 @@ covers:
   - p2-7cfc3b66
   - p2-d55a227a
 status: draft
-updated: 2026-10-22
+updated: 2026-10-24
 reviewer:
 ---
 
+> **Source discipline:** this answer uses only:
+> - the **Mental Healthcare Act 2017** bare Act (ss 4–17, 89, 94) [1];
+> - Math SB et al., "MHCA 2017 – Aspiration to action", *Indian J Psychiatry* 2019 [2];
+> - the departmental MHCA seminar slides (Sarkar, Baidya) [3];
+> - the **Telepsychiatry Operational Guidelines 2020** [4];
+> - K&S 10e §27.9, "End-of-life and palliative care" (general medical ADs) [5].
+>
+> Rewritten on 2026-10-24 to remove content not found in these sources.
+
 ## Exam answer
 
-**Definition.** A **psychiatric advance directive (AD)** is a written document made by an adult **while they have capacity**. It specifies how they **wish to be cared for and treated**, and **not** to be treated, for a mental illness, and whom they appoint as **nominated representative(s)**. It comes into effect only when they **lose capacity** to make mental health treatment decisions [1, 2].
+**Definition.**
+- An **advance directive (AD)** is a written statement made by an adult while they have capacity. It sets out **how they want to be cared for and treated** for a mental illness, how they do **not** want to be treated, and **whom they appoint as nominated representative(s)** [1].
+- It comes into force only when they **lose capacity** [1].
+- Math et al. describe it as a document explaining "how they want to be cared" and "how they should not be cared for" in case they become incapacitated by mental illness. It reflects the Act's emphasis on **autonomy** [2].
 
-In India, ADs are a statutory right under **MHCA 2017, Chapter III (Sections 5–13)**. They express the Act's core values of **autonomy, will and preference** and **supported decision-making**, in line with UNCRPD Article 12 [1, 2].
-
-### Legal provisions (MHCA 2017)
-
+### Legal provisions (MHCA 2017, Chapter III, ss 5–13) [1]
 | Section | Provision |
-| --- | --- |
-| **5** | Every person who is **not a minor** may make an AD in writing, specifying: how they wish to be cared for and treated; how they wish **not** to be treated; and the person(s), in order of precedence, to be appointed as **nominated representative**. The AD is invoked only when the person **ceases to have capacity**. It **does not apply to emergency treatment** (Section 94) [1] |
-| **6** | Manner of making: written, in the prescribed form; **registered with the Mental Health Review Board (MHRB)** [1] |
-| **7** | MHRB to maintain an **online register** of ADs and make them available to MHPs [1] |
-| **8** | Can be **revoked, amended or cancelled** at any time by its maker (while capacitous) [1] |
-| **9** | AD does **not apply to emergency treatment** [1] |
-| **10** | Duty of the psychiatrist or MHP to follow a valid AD |
-| **11** | The MHP, relative or carer can apply to the **MHRB to review, alter, modify or cancel** an AD, for example if it was not made voluntarily, the person lacked information, it is unclear, or circumstances have changed or it is contrary to law [1] |
-| **12** | Periodic review of the AD procedure by the Central/State Authority (check wording) |
-| **13** | **Protection of MHPs:** not liable for not following an AD if they were not given a copy, or for unforeseen consequences of following a valid AD [1] |
+|---|---|
+| **5(1)** | Every person who is **not a minor** may make an AD in writing specifying (a) how they wish to be cared for and treated; (b) how they wish **not** to be; (c) NR(s) in order of precedence (s14) |
+| **5(2)** | May be made **irrespective of past mental illness or treatment** |
+| **5(3)** | **Invoked only when the person ceases to have capacity**; effective until capacity is regained |
+| **5(4)** | A decision made **while capacitous overrides** an earlier AD |
+| **5(5)** | An AD contrary to any law is **void ab initio** |
+| **6** | Made in the manner specified by **regulations of the Central Authority** |
+| **7** | Every **Board** keeps an **online register** of ADs registered with it and makes them available to MHPs |
+| **8** | May be **revoked, amended or cancelled at any time** by the maker, by the same procedure as making it |
+| **9** | **Does not apply to emergency treatment.** The source copy cross-refers "section 103"; the emergency-treatment section of the Act is **s94** |
+| **10** | **Duty** of the medical officer in charge and the treating psychiatrist to give treatment in accordance with a valid AD, subject to s11 |
+| **11(1)–(2)** | An MHP, relative or carer who wishes **not to follow** an AD must apply to the **Board**. After hearing all parties (including the maker), the Board upholds, modifies, alters or cancels it, considering free will (no force, undue influence or coercion); intended application to present circumstances; whether the person was sufficiently well informed; capacity when made; and conflict with other laws or the Constitution |
+| **11(3)** | The maker and the NR must ensure clinicians **have access** to the AD |
+| **11(4)** | A **legal guardian** may make an AD for a **minor** |
+| **12** | The **Central Authority** periodically reviews the use and procedure of ADs and may modify it |
+| **13** | No liability for **unforeseen consequences** of following a valid AD, or for not following one **if no copy was given** |
 
-### Process in practice [1]
-Adult with capacity makes the AD (choices + NR) → registers it with the MHRB → gives a copy to the treating psychiatrist or family → illness relapses → psychiatrist **assesses capacity** (Section 4) → if capacity is lost, the AD and NR guide treatment → disputes go to the MHRB → the AD lapses once capacity returns (the person resumes decisions).
+### Related provisions [1]
+- **Capacity (s4):** the ability to **understand** relevant information, **or appreciate** foreseeable consequences, **or communicate** the decision. An "inappropriate" decision does not by itself prove incapacity.
+- **Nominated representative (s14):**
+  - appointed in writing on plain paper;
+  - if no NR is appointed, the default order is: the AD nominee, a relative, a care-giver, a Board appointee, the Director of Social Welfare;
+  - an NR (or being unable to appoint one) does not imply incapacity.
+- **Supported admission (s89):** admission must be the least restrictive option **taking into account the AD**. Treatment follows the AD if any, or informed consent with NR support.
+- **Emergency treatment (s94):** up to **72 hours**; no ECT; the AD does not apply.
 
-### Types and content
-- **Instructional:** treatment preferences, e.g., "Use olanzapine, not haloperidol"; "No ECT"; preferred hospital; crisis plan; who to inform; care of children and pets.
-- **Proxy:** nominates a representative (NR) to decide on the person's behalf.
-- **Joint crisis plans (JCP):** negotiated **together with the clinician**, combining preference and clinical input.
+### Process in practice [1, 3, 4]
+1. An adult with capacity writes the AD (choices and NR) in the prescribed manner. It is held on the Board's register.
+2. The maker and NR keep it accessible to the treating team.
+3. At relapse, the psychiatrist **assesses capacity** (s4).
+4. If capacity is lost, treat according to the AD.
+5. If the team, a relative or a carer wishes not to follow it, **apply to the Board** (s11).
+6. In an emergency, s94 treatment is not bound by the AD.
+7. The AD lapses when capacity returns.
 
-### Benefits (arguments for)
-- Respect for autonomy and dignity; **recovery-oriented**.
-- Better therapeutic alliance; patients feel heard.
-- Possible reduction in **coercion and compulsory admissions** (joint crisis plans: Henderson 2004 RCT).
-- Earlier crisis intervention through agreed relapse signatures.
-- Aligns Indian law with the UNCRPD.
+**Telepsychiatry:** for follow-up, "check for the advance directive and follow it". If there is none, take consent from the family member or NR by video and document it. If coercion by family is suspected, advise an in-person consultation [4].
 
-### Criticisms (the critique)
-**Conceptual:**
-- The **"Ulysses dilemma":** should a past, healthy self bind a future ill self?
-- ADs can be used to **refuse all treatment**, so a person may remain untreated and suffer, or be harmed.
-- **Insight:** people with recurrent psychosis may refuse effective treatment when well.
+### Benefits (as framed in the sources)
+- Expresses the Act's core value of **autonomy** and the right to self-determination [1, 2].
+- Gives a legal route to **treat a person who lacks capacity** according to their own prior wishes, or through an NR when there is no AD [2].
+- In medical practice, living wills "can be extremely helpful to family members and medical caregivers" [5].
 
-**Legal and practical** (Math et al. 2019) [2]:
-- **Multiple revocations:** a person may amend or cancel the AD many times, even in a day; families cannot manage this.
-- **Only the MHRB can override** an AD, and MHRBs are scarce and slow. A decision is needed within 24–48 hours, which is not realistic.
-- **Vagueness:** "if I develop mental illness…" Which illness? What severity? Comorbid physical illness? Detailed scenarios are impossible to anticipate.
-- **Litigation:** ADs may invite litigation and defensive practice.
-- **Family role:** ADs and NRs can **sideline families**, who are India's main carers. This risks discord, abandonment and wandering mentally ill persons.
-- **Resources:** registration, online registers and board review need infrastructure most districts lack.
+### Criticisms (Math et al. 2019) [2]
+1. **Idealistic, not evidence-based in India.** ADs and NRs "appear to be very attractive, idealistic, and aspirational, but not evidence based in the Indian context considering the resources".
+2. **Multiple revocations:** a person may revoke, amend or cancel an AD "**many times in a day**". Families find this hard to handle.
+3. **Only the Board can amend or overrule.** For treatment this must happen in **24–48 hours**, but there is a dearth of medical and judicial resources.
+4. **Vagueness and scope:** "if a person develops mental illness…" Which illness? Multiple illnesses? Comorbid physical illness? What severity? Must every treatment detail be included? This may **deter care**.
+5. **Litigation and family burden:** ADs "will invite more litigations and heavy burden on the family members". The authors suggest keeping ADs out of the Act.
+6. **Evidence:** a **Cochrane review** found **too few data** to recommend ADs for severe mental illness. "Even in the west, this has certainly not had its intended benefit." Legislating in India is "hasty and ill-conceived".
+7. **Society may not be ready:** more Indian research is needed first.
+8. **Family as backbone:** ADs and NRs may cause **patient–family disharmony**, families disowning patients, and **wandering mentally ill** persons. "Family members should be the natural guardians until proven otherwise."
+9. **Link with the s4 capacity test:** because of "or", a person with any one ability is capacitous and can refuse. Math et al. propose "and".
 
-**Evidence:**
-- **Cochrane review (Campbell & Kisely 2009):** "too few data" to support or refute ADs in severe mental illness [2].
-- **Uptake** is low even in high-income countries (often under 10%).
+**Other limitations (from general medicine)** [5]:
+- Living wills are "**often vaguely worded and cannot predict**" the exact situation, so interpretation is uncertain. Family discussion and legal advice help.
+- ADs confer a right to **refuse**, not to **demand**, treatment. Families often miss this.
+- Proxies' agreement with patients' wishes is "**no better than random**", and proxies carry a heavy psychological burden.
 
-**Literacy and awareness:** low mental-health literacy and illiteracy make written, registered directives hard to use in India.
+### Suggestions arising from the sources [2, 5]
+- Issue a **guidance document on capacity** and amend s4.
+- Allow **timely review**: Board decisions are needed within 24–48 hours.
+- Involve the **family**, consistent with the Indian context.
+- Do **more research** in Indian populations before full implementation.
+- Encourage **family discussion and legal advice** when drafting, to reduce vagueness.
 
-### Suggestions
-- **Joint crisis plans** with clinician input instead of unilateral instructions.
-- Limits on how often an AD can be revised during illness.
-- Fast MHRB decisions (under 72 hours) or **hospital-level review boards** [2].
-- Family involvement in drafting.
-- Pilot studies in Indian settings before wide implementation [2].
+**Conclusion.** The MHCA advance directive is a rights-based tool that lets a person, while well, direct future mental-health care and choose a nominated representative. It is binding on clinicians except in emergencies, and only the Board can modify it. Its critics point to:
+- easy and repeated revocation;
+- dependence on scarce Boards;
+- vague scope;
+- weak evidence;
+- tension with India's family-centred care.
 
-**Conclusion.** Advance directives are an aspirational, rights-based tool that lets people shape their own future care. They promote autonomy and may reduce coercion when developed collaboratively. As enacted in MHCA 2017, however, they face real conceptual, practical and resource problems in India: frequent revocation, MHRB delays, vagueness, the sidelining of families, and thin evidence. The way forward is **collaborative, clinician-supported crisis planning** with families involved, and faster local review. Rigid unilateral directives are unlikely to work.
+Its value depends on clear capacity guidance, quick review, and family involvement.
 
 ## In depth
 
-### Background
-- **1969:** Kutner proposed the "living will" for end-of-life care.
-- **1982:** Thomas Szasz proposed the "psychiatric will" to refuse psychiatric treatment.
-- **US Patient Self-Determination Act (1991):** recognised advance directives; many US states passed psychiatric AD statutes.
-- **UK:** the Mental Capacity Act 2005 allows advance decisions to refuse treatment, but the Mental Health Act can override them. The 2018 Wessely review recommended statutory "advance choice documents".
-- **UNCRPD (2006), Article 12:** legal capacity on an equal basis; supported decision-making.
-- **India:** MHCA 2017 Chapter III and Rules 2018 [1, 2].
+### MHRB functions relating to ADs [3]
+- **Register, review, alter, modify or cancel** an AD.
+- Appoint a nominated representative.
+- Decide applications against decisions of the medical officer.
 
-### Epidemiology
-- Willingness is high: in surveys, a majority of people with SMI say they would make an AD if helped. Completion is low without support.
-- Facilitated ADs (Swanson 2006 RCT) increased completion to about 60% compared with about 3% with information only.
-- **India:** published experience is very limited. Small surveys from tertiary centres show low awareness among patients and carers. Professional attitudes are mixed.
-
-### Classification and criteria
-| Form | Description |
-| --- | --- |
-| Instructional AD | Specific treatment preferences and refusals |
-| Proxy AD | Nominates a decision-maker (NR) |
-| Joint crisis plan | Patient and clinician negotiate, with a facilitator |
-| Ulysses contract | Patient requests treatment even if they refuse it when ill (self-binding) |
-| Advance statement | Non-binding preferences (UK) |
-
-### Mechanism in detail: how ADs might work
-Preparing an AD (especially a facilitated one) → reflection on relapse signs and preferences → better insight and alliance → earlier help-seeking and agreed crisis plan → less coercion, fewer compulsory admissions.
-
-### Clinical features in detail: typical contents
-- Early warning signs of relapse.
-- Preferred and refused medications, with reasons (e.g., past side effects).
-- Preferences about ECT.
-- Preferred hospital or clinician.
-- Whom to contact or not contact.
-- Dependants' care.
-- NR(s) in order of precedence.
-- Spiritual or cultural preferences.
-
-### Assessment in detail
-- **Validity at making:** adult; written; **capacity at the time of making** (understand, appreciate, communicate, under Section 4); voluntary; registered.
-- **At invocation:** current capacity assessment; check the AD is applicable to the present situation and not superseded.
-- **Disputes:** MHP, relative or carer applies to the MHRB under Section 11 [1].
-- **Minors:** cannot make an AD; the **legal guardian** acts for them [1].
-
-### Differential: AD vs related instruments
-| Instrument | Who decides | Binding |
-| --- | --- | --- |
-| AD (MHCA) | Patient, in advance | Yes, subject to MHRB review and the emergency exception |
-| Nominated representative | Chosen proxy | Supports decisions; must consider the person's wishes and best interests [1] |
-| Supported admission consent | NR | Yes, under Section 89 |
-| Best-interest decision (UK MCA) | Clinician or court | Yes |
-| Community treatment order | Clinician or tribunal | Not in MHCA [2] |
-
-### Management details: practical guidance for clinicians
-1. **Ask** every patient with recurrent illness, during remission, whether they would like to make an AD.
-2. **Facilitate** with a structured template; involve family where the patient consents.
-3. **Keep a copy** in the case file. Check the MHRB register at admission.
-4. **When ill:** assess and document capacity → follow the AD where valid → if it is impossible or harmful, document reasons and **apply to the MHRB** (Section 11).
-5. **In emergencies:** Section 94 treatment (72 hours) is not bound by the AD [1].
-6. **Review** the AD after each episode.
-
-### Evidence table
-| Study | Design | n | Result |
-| --- | --- | --- | --- |
-| Henderson et al. 2004 (BMJ) | RCT, joint crisis plans, UK | 160 | Compulsory admissions 13% vs 27% |
-| Thornicroft et al. 2013 (Lancet), CRIMSON | RCT, joint crisis plans | 569 | No significant reduction in compulsory admission; implementation problems |
-| Swanson et al. 2006 (Am J Psychiatry) | RCT, facilitated psychiatric AD | 469 | Completion 61% vs 3%; better working alliance |
-| Campbell & Kisely 2009 (Cochrane) | Systematic review | 2 RCTs | Too few data for firm conclusions [2] |
-| Molyneaux et al. 2019 (Cochrane update) | Systematic review | 4 RCTs | Low-quality evidence; no clear effect on admissions |
-
-### Critical appraisal
-- **The evidence is weak and mixed.** Joint crisis plans showed benefit in a small trial but failed in a larger one, where implementation fidelity was poor.
-- **Context matters:** ADs were developed in individualistic, resource-rich systems. India's family-centred care and scarce board capacity make transfer difficult [2].
-- **Ethical tension:** autonomy vs beneficence and protection. The precedent autonomy of a past self vs the current interests of the ill self.
-- **Legal design flaws in MHCA:** emergency exception (sensible); easy revocation; only MHRB override (slow); vague criteria for setting an AD aside [2].
-- **Possible improvements:** limit revisions to periods of documented capacity; require clinician co-signing (a joint crisis plan model); time-bound MHRB review; hospital review boards [2].
-
-### Indian context
-- **Infrastructure:** MHCA Rules 2018 prescribe AD formats and online registers. Many states have only recently constituted MHRBs, so registration is limited.
-- **Awareness:** awareness among patients, families and even professionals is low. Training through the IPS and NIMHANS (e.g., MHCA modules) is ongoing.
-- **Culture:** decisions are often collective (family), which conflicts with an individual-rights framing [2].
-- **Geriatric patients** (dementia): ADs and NR appointment made early can guide later care. This overlaps with the question on capacity and ADs in geriatric patients.
-
-### Recent advances
-- **Established:** statutory ADs (MHCA 2017); facilitated ADs; joint crisis plans.
-- **Emerging:**
-  - **Digital AD registers.**
-  - Shared decision-making apps.
-  - "Self-binding directives" debates (Germany, Netherlands).
-  - The UK Mental Health Bill (2024–25) proposes statutory advance choice documents.
-- **Research need:** Indian feasibility trials of facilitated ADs or joint crisis plans [2].
+### Duties of the nominated representative (s17) [1]
+- Consider the person's **current and past wishes, life history, values, cultural background and best interests**.
+- Give credence to the person's views as far as they understand.
+- Support decisions under ss 89–90; seek information; join discharge planning.
+- Apply to the Board on admission, discharge or rights violations.
+- Give or withhold consent for research (s99(3)).
 
 ## References
 
-1. User's seminar slides: Sarkar AK, Baidya S. *Mental Health Care Act, 2017*. Medical College Kolkata. (Advance directives Sections 5–13; nominated representative Sections 14–17; MHRB powers Section 82.)
-2. Math SB, Basavaraju V, Harihara SN, et al. Mental Healthcare Act 2017 – Aspiration to action. *Indian J Psychiatry* 2019; 61(Suppl 4):S660–S666. (User's PDF.) Cites Campbell LA, Kisely SR. Advance treatment directives for people with severe mental illness. *Cochrane Database Syst Rev* 2009; CD005963.
-3. Henderson C, Flood C, Leese M, et al. Effect of joint crisis plans on use of compulsory treatment in psychiatry: single blind randomised controlled trial. *BMJ* 2004; 329:136.
-4. Thornicroft G, Farrelly S, Szmukler G, et al. Clinical outcomes of joint crisis plans to reduce compulsory treatment for people with psychosis: a randomised controlled trial (CRIMSON). *Lancet* 2013; 381:1634–1641.
-5. Swanson JW, Swartz MS, Elbogen EB, et al. Facilitated psychiatric advance directives: a randomized trial of an intervention to foster advance treatment planning among persons with severe mental illness. *Am J Psychiatry* 2006; 163:1943–1951.
-6. Government of India. *The Mental Healthcare Act, 2017*, Chapter III (Sections 5–13).
+1. Government of India. *The Mental Healthcare Act, 2017* (No. 10 of 2017): ss 4–17, 89, 94. (User's PDF.)
+2. Math SB, Basavaraju V, Harihara SN, Gowda GS, Manjunatha N, Kumar CN, Gowda M. Mental Healthcare Act 2017 – aspiration to action. *Indian J Psychiatry* 2019;61(Suppl 4):S660–S666. (User's PDF.)
+3. Sarkar AK (presenter), Baidya S (chair). *Mental Health Care Act, 2017*. Departmental seminar slides. (User's file.)
+4. NIMHANS, Indian Psychiatric Society, Telemedicine Society of India. *Telepsychiatry Operational Guidelines 2020*. Bengaluru: NIMHANS; 2020.
+5. Lederberg MS, Rocha-Cadman X, Greenstein M. End-of-life and palliative care. In: Sadock BJ, Sadock VA, Ruiz P, eds. *Kaplan & Sadock's Comprehensive Textbook of Psychiatry*, 10th ed. Wolters Kluwer, 2017: §27.9 ("Legal issues: advance directives, proxies, and surrogates").
