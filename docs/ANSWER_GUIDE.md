@@ -45,6 +45,7 @@ reviewer:
 | `status` | `draft`, `reviewed` or `verified` (see section 5) |
 | `updated` | Date of last substantive change, `YYYY-MM-DD` |
 | `reviewer` | Name/initials of the person who reviewed it (blank while draft) |
+| `source` | Optional. `ai-generated` marks an answer written by AI with no source documents and no person in the loop; the site shows an "AI-generated" badge. Leave the field out for answers written from uploaded sources |
 
 The three `##` sections are required and must use exactly these headings. Inside them, use `###` and `####` for sub-headings, Markdown tables, numbered and bulleted lists.
 

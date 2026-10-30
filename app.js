@@ -766,6 +766,7 @@ function renderFYQAView(q){
 let finalQAFilter = 'all'; // 'all' | 'answered' | 'pending'
 const FINAL_KIND_LABEL = { critical:'Critical essay', applied:'Applied case', essay1:'Essay', essay2:'Essay', short:'Short note' };
 const STATUS_LABEL = { draft:'Draft — not yet reviewed', reviewed:'Reviewed', verified:'Verified against sources' };
+const SOURCE_LABEL = { 'ai-generated':'AI-generated' };
 
 function buildFinalQAGroups(){
   const A = FINAL_ANSWERS || { answers:{}, byQuestion:{} };
@@ -809,11 +810,12 @@ function finalQARowHtml(g, num){
     answerHtml = `
       <div class="ans-meta">
         <span class="badge status-${esc(ans.status)}">${esc(STATUS_LABEL[ans.status] || ans.status)}</span>
+        ${ans.source && SOURCE_LABEL[ans.source] ? `<span class="badge source-${esc(ans.source)}" title="Written by AI without source documents; not checked by a person">${esc(SOURCE_LABEL[ans.source])}</span>` : ''}
         ${ans.updated ? `<span class="ans-updated">Updated ${esc(ans.updated)}</span>` : ''}
       </div>
       <div class="ans-exam-label">Exam answer</div>
       <div class="ans-body ans-exam">${ans.exam}</div>
-      <details class="ans-section ans-depth"><summary>${CHEV} In Depth <span class="ans-hint">additional material beyond the exam answer</span></summary><div class="ans-body">${ans.depth}</div></details>
+      ${ans.depth && ans.depth.trim() ? `<details class="ans-section ans-depth"><summary>${CHEV} In Depth <span class="ans-hint">additional material beyond the exam answer</span></summary><div class="ans-body">${ans.depth}</div></details>` : ''}
       <details class="ans-section ans-refs"><summary>${CHEV} References</summary><div class="ans-body">${ans.refs}</div></details>`;
   } else {
     answerHtml = '<span class="qa-pending">Answer not added yet — check back soon.</span>';
