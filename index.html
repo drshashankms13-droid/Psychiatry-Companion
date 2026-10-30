@@ -10,7 +10,7 @@
 <title>Psychiatry Companion · NIMHANS Question Bank</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <!-- Applies the saved theme before first paint (external file: inline scripts are blocked by the CSP) -->
 <script src="theme-init.js"></script>
 <style>
@@ -521,25 +521,54 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
    Auth gate / landing
    ===================================================================== */
 #authGate{
-  position:fixed; inset:0; z-index:200; overflow-y:auto;
-  background:var(--landing-navy);
-  background-image:
-    radial-gradient(circle at 1px 1px, rgba(255,255,255,.05) 1px, transparent 0),
-    radial-gradient(ellipse at 50% 0%, rgba(232,163,61,.12), transparent 60%),
-    linear-gradient(160deg, var(--landing-navy) 0%, var(--landing-navy-deep) 100%);
-  background-size:22px 22px, 100% 100%, 100% 100%;
-  display:flex; flex-direction:column; align-items:center; justify-content:center; padding:32px 20px; gap:26px;
+  /* Login page only: "Midnight Academia" — deep navy, antique gold, ivory */
+  --la-navy:#0b1736; --la-deep:#040915; --la-gold:#d4af37; --la-gold-soft:#e9d18a; --la-ivory:#f4efe2; --la-mist:#b9c6e4;
+  position:fixed; inset:0; z-index:200; overflow-y:auto; overflow-x:hidden;
+  background:
+    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(212,175,55,.14), transparent 70%),
+    radial-gradient(ellipse 60% 60% at 85% 100%, rgba(58,99,196,.22), transparent 70%),
+    linear-gradient(170deg, var(--la-navy) 0%, var(--la-deep) 75%);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; padding:40px 20px; gap:30px;
 }
-.landing-header{ text-align:center; max-width:640px; padding:0 12px; }
+#neuralBg{ position:fixed; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; opacity:.9; }
+#authGate > :not(#neuralBg){ position:relative; z-index:1; }
+.landing-header{ text-align:center; max-width:680px; padding:0 12px; }
 .landing-kicker{
-  font-size:clamp(1.9rem, 6vw, 2.6rem); font-weight:800; letter-spacing:.04em; text-transform:uppercase;
-  color:#e8a33d; text-shadow:0 0 28px rgba(232,163,61,.3); margin:0 0 14px; line-height:1.15;
+  font-family:'Cormorant Garamond', var(--font-serif); font-weight:700; line-height:1;
+  font-size:clamp(2.9rem, 10vw, 5.4rem); letter-spacing:.01em; margin:0;
+  background:linear-gradient(100deg, #b8902a 0%, #f3dc8e 30%, #d4af37 50%, #f7e7a8 70%, #b8902a 100%);
+  background-size:220% 100%; -webkit-background-clip:text; background-clip:text; color:transparent;
+  filter:drop-shadow(0 0 22px rgba(212,175,55,.28));
+  animation:la-rise .9s var(--ease) both, la-shimmer 9s linear 1s infinite;
 }
-.landing-header h1{ font-style:italic; font-size:clamp(1.2rem, 3vw, 1.6rem); font-weight:700; color:#fff; line-height:1.25; margin-bottom:12px; }
-.landing-by{ font-family:var(--font-mono); font-size:clamp(.78rem, 2.1vw, .9rem); color:#8fd4c4; margin:0 0 10px; }
-.landing-fan{ font-size:.82rem; color:#ff9d8f; font-weight:700; margin:0; }
-.landing-footer{ text-align:center; font-family:var(--font-mono); font-size:.72rem; color:#97a4c6; }
-.landing-footer .divider-dot{ margin:0 8px; opacity:.6; }
+.landing-orn{ display:flex; align-items:center; justify-content:center; gap:14px; color:var(--la-gold); margin:18px auto 16px; max-width:320px; font-size:.9rem; animation:la-rise .9s var(--ease) .15s both; }
+.landing-orn::before, .landing-orn::after{ content:''; flex:1; height:1px; background:linear-gradient(90deg, transparent, var(--la-gold)); transform-origin:right; animation:la-draw 1.2s var(--ease) .3s both; }
+.landing-orn::after{ background:linear-gradient(90deg, var(--la-gold), transparent); transform-origin:left; }
+/* tagline and byline share one typeface and size */
+.landing-header h1, .landing-by{
+  font-family:'Cormorant Garamond', var(--font-serif); font-style:italic; font-weight:500;
+  font-size:clamp(1.15rem, 3.4vw, 1.45rem); line-height:1.35; letter-spacing:.01em; margin:0;
+}
+.landing-header h1{ color:var(--la-ivory); animation:la-rise .9s var(--ease) .3s both; }
+.landing-by{ color:var(--la-mist); margin-top:4px; animation:la-rise .9s var(--ease) .42s both; }
+.landing-fan{ font-size:.82rem; color:#f0a493; font-weight:700; margin:14px 0 0; letter-spacing:.02em; animation:la-rise .9s var(--ease) .54s both; }
+.landing-footer{ text-align:center; font-family:'Cormorant Garamond', var(--font-serif); font-style:italic; font-size:1rem; color:var(--la-mist); opacity:.85; animation:la-rise .9s var(--ease) .8s both; }
+.landing-footer .divider-dot{ margin:0 8px; color:var(--la-gold); }
+#authGate .auth-card{
+  background:linear-gradient(180deg, #fbf8f0, var(--la-ivory)); color:#14203d;
+  border:1px solid rgba(212,175,55,.65); border-radius:16px; padding:30px 28px 24px;
+  box-shadow:0 0 0 6px rgba(212,175,55,.07), 0 24px 60px rgba(0,0,0,.55);
+  animation:la-rise .9s var(--ease) .66s both;
+}
+#authGate .auth-card h2{ font-family:'Cormorant Garamond', var(--font-serif); font-size:1.7rem; font-weight:700; color:#0b1736; margin-bottom:4px; }
+#authGate .auth-card .sub{ color:#4a5675; }
+#authGate .google-btn{ border-color:#d9cfae; }
+#authGate .auth-status:empty{ min-height:0; margin-top:0; }
+#authGate .google-btn:hover{ border-color:var(--la-gold); box-shadow:0 2px 12px rgba(212,175,55,.25); }
+@keyframes la-rise{ from{ opacity:0; transform:translateY(14px); } }
+@keyframes la-draw{ from{ transform:scaleX(0); } }
+@keyframes la-shimmer{ to{ background-position:-220% 0; } }
+@media (prefers-reduced-motion: reduce){ #neuralBg{ display:none; } }
 
 .auth-card{
   background:#fffdf7; color:#132a2f; border-radius:var(--radius-lg); padding:32px 28px; width:100%; max-width:400px;
@@ -673,16 +702,18 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
 <a class="skip-link" href="#app">Skip to questions</a>
 
 <div id="authGate">
+  <canvas id="neuralBg" aria-hidden="true"></canvas>
   <div class="landing-header">
     <p class="landing-kicker">Psychiatry Companion</p>
+    <div class="landing-orn" aria-hidden="true">✦</div>
     <h1>A master resource for residents</h1>
     <p class="landing-by">by Dr. Shashank M S</p>
     <p class="landing-fan">Forever Fan Ronaldo · CR7 ⚽</p>
   </div>
 
   <div class="auth-card">
-    <h2>Sign in</h2>
-    <p class="sub">Sign in to open the question bank and track your progress.</p>
+    <h2>Enter the archive</h2>
+    <p class="sub">Sign in with Google to open the question bank and track your progress.</p>
     <button type="button" class="google-btn" id="googleBtn" data-action="google-signin">
       <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.9c1.7-1.57 2.7-3.87 2.7-6.62z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.9-2.26c-.8.54-1.84.86-3.06.86-2.35 0-4.34-1.59-5.05-3.72H.98v2.33A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.95 10.7A5.4 5.4 0 0 1 3.67 9c0-.59.1-1.17.28-1.7V4.97H.98A9 9 0 0 0 0 9c0 1.45.35 2.83.98 4.03l2.97-2.33z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.51.46 3.44 1.35l2.58-2.58C13.46.89 11.43 0 9 0A9 9 0 0 0 .98 4.97l2.97 2.33C4.66 5.17 6.65 3.58 9 3.58z"/></svg>
       <span id="googleBtnLabel">Continue with Google</span>
@@ -832,6 +863,7 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
 <button type="button" id="backToTop" data-action="top" aria-label="Back to top"><svg class="icon"><use href="#i-up"/></svg></button>
 <div id="toastRegion" role="status" aria-live="polite"></div>
 
+<script src="landing.js"></script>
 <script src="final-data.js"></script>
 <script src="fy-data.js"></script>
 <script src="notes-data.js"></script>
