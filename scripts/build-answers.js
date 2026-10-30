@@ -23,6 +23,7 @@ const OUT_JS = path.join(ROOT, 'final-answers-data.js');
 const OUT_INDEX = path.join(ROOT, 'docs', 'QUESTION_INDEX.md');
 
 const STATUSES = ['draft', 'reviewed', 'verified'];
+const SOURCES = ['', 'ai-generated']; // provenance tag shown as a badge on the site
 const REQUIRED_SECTIONS = ['Exam answer', 'In depth', 'References'];
 
 /* ---------- load question data ---------- */
@@ -111,6 +112,8 @@ function main() {
       if (!meta.title) throw new Error(`${f}: missing title`);
       if (!Array.isArray(meta.covers) || !meta.covers.length) throw new Error(`${f}: covers must list at least one question ID`);
       if (!STATUSES.includes(meta.status)) throw new Error(`${f}: status must be one of ${STATUSES.join(', ')}`);
+      const source = typeof meta.source === 'string' ? meta.source : '';
+      if (!SOURCES.includes(source)) throw new Error(`${f}: source must be blank or one of ${SOURCES.filter(Boolean).join(', ')}`);
       for (const q of meta.covers) {
         if (!questions.has(q)) errors.push(`${f}: covers unknown question ID ${q} (question wording may have changed — see docs/QUESTION_INDEX.md)`);
         else if (byQuestion[q]) errors.push(`${f}: question ${q} is already covered by ${byQuestion[q]}`);
@@ -122,6 +125,7 @@ function main() {
         status: meta.status,
         updated: meta.updated || '',
         reviewer: meta.reviewer || '',
+        source,
         covers: meta.covers,
         exam: marked.parse(sec['Exam answer']),
         depth: marked.parse(sec['In depth']),
