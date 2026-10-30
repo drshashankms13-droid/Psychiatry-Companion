@@ -52,7 +52,11 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 let supabaseClient = null;
 try{
   if(!window.supabase) throw new Error('Supabase library did not load (check your internet connection or ad-blocker).');
-  supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  // PKCE: Google sends back a one-time ?code= that is exchanged for a session,
+  // so access/refresh tokens never appear in the address bar or browser history.
+  supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+    auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true, autoRefreshToken: true }
+  });
 }catch(e){
   console.error('Supabase init failed:', e);
   showFatalBanner('Could not connect to the sign-in service. Please check your connection and refresh.');
@@ -1044,42 +1048,19 @@ function setAuthStatus(text, kind){
 
 async function handleGoogleSignIn(btn){
   if(!supabaseClient) return;
+  const label = document.getElementById('googleBtnLabel');
   btn.disabled = true;
+  label.textContent = 'Redirecting to Google…';
+  setAuthStatus('');
   const { error } = await supabaseClient.auth.signInWithOAuth({
     provider: 'google',
     options: { redirectTo: window.location.origin + window.location.pathname }
   });
   if(error){
     btn.disabled = false;
+    label.textContent = 'Continue with Google';
     setAuthStatus(error.message, 'err');
   }
-}
-
-async function handleAuthSubmit(e){
-  e.preventDefault();
-  if(!supabaseClient) return;
-  const input = document.getElementById('authEmail');
-  const email = input.value.trim();
-  if(!email || !input.checkValidity()){
-    setAuthStatus('Enter a valid email address, e.g. you@example.com.', 'err');
-    input.focus();
-    return;
-  }
-  const btn = document.getElementById('authBtn');
-  const label = btn.textContent;
-  btn.disabled = true;
-  btn.innerHTML = '<span class="spinner" aria-hidden="true"></span> Sending…';
-  setAuthStatus('');
-
-  const { error } = await supabaseClient.auth.signInWithOtp({
-    email,
-    options: { emailRedirectTo: window.location.origin + window.location.pathname }
-  });
-
-  btn.disabled = false;
-  btn.textContent = label;
-  if(error) setAuthStatus(error.message, 'err');
-  else setAuthStatus('Check your inbox for the sign-in link. You can close this tab after clicking it.', 'ok');
 }
 
 async function handleSignOut(){
@@ -1106,9 +1087,8 @@ function onSignedOut(){
   document.getElementById('adminPanel').classList.add('hidden');
   document.getElementById('adminBtn').classList.add('hidden');
   document.getElementById('authGate').style.display = 'flex';
-  setAuthStatus('');
-  const emailInput = document.getElementById('authEmail');
-  if(emailInput) emailInput.value = '';
+  const gBtn = document.getElementById('googleBtn');
+  if(gBtn){ gBtn.disabled = false; document.getElementById('googleBtnLabel').textContent = 'Continue with Google'; }
 }
 
 if(supabaseClient){
@@ -1119,6 +1099,21 @@ if(supabaseClient){
       onSignedOut();
     }
   });
+
+  // If the return from Google could not be turned into a session, the library
+  // silently reports "signed out". Show the real reason instead of just the
+  // login screen again, and strip the failed code/tokens from the address bar.
+  (async ()=>{
+    const cameFromLogin = /[?&#](code|access_token|error|error_description)=/.test(window.location.href);
+    let error = null;
+    try{ ({ error } = await supabaseClient.auth.initialize()); }catch(e){ error = e; }
+    if(!cameFromLogin) return;
+    history.replaceState(null, '', window.location.pathname);
+    if(error){
+      console.error('Sign-in failed:', error);
+      setAuthStatus('Sign-in did not complete: ' + (error.message || error) + '. Please try again — if it keeps happening, send this message to the admin.', 'err');
+    }
+  })();
 }
 
 /* ---------- Access control ----------
@@ -1360,7 +1355,6 @@ document.getElementById('app').addEventListener('change', (e)=>{
   if(cb.matches('input[type=checkbox][data-uid]')) toggleItem(cb.dataset.uid, cb.closest('.qitem'), cb);
 });
 
-document.getElementById('authForm').addEventListener('submit', handleAuthSubmit);
 
 document.getElementById('searchBox').addEventListener('input', (e)=>{
   document.getElementById('searchClear').classList.toggle('hidden', !e.target.value);
