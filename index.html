@@ -10,7 +10,7 @@
 <title>Psychiatry Companion · NIMHANS Question Bank</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,500;1,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <!-- Applies the saved theme before first paint (external file: inline scripts are blocked by the CSP) -->
 <script src="theme-init.js"></script>
 <style>
@@ -532,39 +532,44 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
 }
 #neuralBg{ position:fixed; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; opacity:.9; }
 #authGate > :not(#neuralBg){ position:relative; z-index:1; }
-.landing-header{ text-align:center; max-width:680px; padding:0 12px; }
+.landing-header{ text-align:center; max-width:860px; padding:0 4px; }
 .landing-kicker{
-  font-family:'Cormorant Garamond', var(--font-serif); font-weight:700; line-height:1;
-  font-size:clamp(2.9rem, 10vw, 5.4rem); letter-spacing:.01em; margin:0;
-  background:linear-gradient(100deg, #b8902a 0%, #f3dc8e 30%, #d4af37 50%, #f7e7a8 70%, #b8902a 100%);
+  font-family:'Playfair Display', var(--font-serif); font-weight:800; line-height:1.1; white-space:nowrap;
+  font-size:clamp(1.55rem, 6.9vw, 4.3rem); letter-spacing:-.005em; margin:0;
+  background:linear-gradient(100deg, #ffffff 0%, #dbe7ff 35%, #ffffff 50%, #c9dbff 70%, #ffffff 100%);
   background-size:220% 100%; -webkit-background-clip:text; background-clip:text; color:transparent;
-  filter:drop-shadow(0 0 22px rgba(212,175,55,.28));
-  animation:la-rise .9s var(--ease) both, la-shimmer 9s linear 1s infinite;
+  filter:drop-shadow(0 2px 18px rgba(120,160,235,.35));
+  animation:la-rise .9s var(--ease) both, la-shimmer 10s linear 1s infinite;
 }
-.landing-orn{ display:flex; align-items:center; justify-content:center; gap:14px; color:var(--la-gold); margin:18px auto 16px; max-width:320px; font-size:.9rem; animation:la-rise .9s var(--ease) .15s both; }
-.landing-orn::before, .landing-orn::after{ content:''; flex:1; height:1px; background:linear-gradient(90deg, transparent, var(--la-gold)); transform-origin:right; animation:la-draw 1.2s var(--ease) .3s both; }
-.landing-orn::after{ background:linear-gradient(90deg, var(--la-gold), transparent); transform-origin:left; }
+.landing-orn{ display:flex; align-items:center; justify-content:center; gap:14px; color:#c9dbff; margin:18px auto 16px; max-width:320px; font-size:.9rem; animation:la-rise .9s var(--ease) .15s both; }
+.landing-orn::before, .landing-orn::after{ content:''; flex:1; height:1px; background:linear-gradient(90deg, transparent, #c9dbff); transform-origin:right; animation:la-draw 1.2s var(--ease) .3s both; }
+.landing-orn::after{ background:linear-gradient(90deg, #c9dbff, transparent); transform-origin:left; }
 /* tagline and byline share one typeface and size */
 .landing-header h1, .landing-by{
-  font-family:'Cormorant Garamond', var(--font-serif); font-style:italic; font-weight:500;
-  font-size:clamp(1.15rem, 3.4vw, 1.45rem); line-height:1.35; letter-spacing:.01em; margin:0;
+  font-family:'Playfair Display', var(--font-serif); font-style:italic; font-weight:600;
+  font-size:clamp(1.1rem, 3.3vw, 1.4rem); text-shadow:0 1px 10px rgba(0,0,0,.45); line-height:1.35; letter-spacing:.01em; margin:0;
 }
-.landing-header h1{ color:var(--la-ivory); animation:la-rise .9s var(--ease) .3s both; }
-.landing-by{ color:var(--la-mist); margin-top:4px; animation:la-rise .9s var(--ease) .42s both; }
+.landing-header h1{ color:#ffffff; animation:la-rise .9s var(--ease) .3s both; }
+.landing-by{ color:#e6ecfa; margin-top:4px; animation:la-rise .9s var(--ease) .42s both; }
 .landing-fan{ font-size:.82rem; color:#f0a493; font-weight:700; margin:14px 0 0; letter-spacing:.02em; animation:la-rise .9s var(--ease) .54s both; }
-.landing-footer{ text-align:center; font-family:'Cormorant Garamond', var(--font-serif); font-style:italic; font-size:1rem; color:var(--la-mist); opacity:.85; animation:la-rise .9s var(--ease) .8s both; }
-.landing-footer .divider-dot{ margin:0 8px; color:var(--la-gold); }
+.landing-footer{ text-align:center; font-family:var(--font-sans); font-weight:500; font-size:.88rem; letter-spacing:.01em; color:#dfe6f5; text-shadow:0 1px 8px rgba(0,0,0,.5); animation:la-rise .9s var(--ease) .8s both; }
+.landing-footer .divider-dot{ margin:0 8px; color:#9fb6e6; }
 #authGate .auth-card{
   background:linear-gradient(180deg, #fbf8f0, var(--la-ivory)); color:#14203d;
-  border:1px solid rgba(212,175,55,.65); border-radius:16px; padding:30px 28px 24px;
-  box-shadow:0 0 0 6px rgba(212,175,55,.07), 0 24px 60px rgba(0,0,0,.55);
+  border:1px solid rgba(170,195,255,.7); border-radius:16px; padding:30px 28px 24px;
+  box-shadow:0 0 0 6px rgba(150,180,255,.08), 0 24px 60px rgba(0,0,0,.55);
   animation:la-rise .9s var(--ease) .66s both;
 }
-#authGate .auth-card h2{ font-family:'Cormorant Garamond', var(--font-serif); font-size:1.7rem; font-weight:700; color:#0b1736; margin-bottom:4px; }
+#authGate .auth-card h2{ font-family:'Playfair Display', var(--font-serif); font-size:1.7rem; font-weight:700; color:#0b1736; margin-bottom:4px; }
 #authGate .auth-card .sub{ color:#4a5675; }
 #authGate .google-btn{ border-color:#d9cfae; }
 #authGate .auth-status:empty{ min-height:0; margin-top:0; }
-#authGate .google-btn:hover{ border-color:var(--la-gold); box-shadow:0 2px 12px rgba(212,175,55,.25); }
+.landing-footer .nowrap{ white-space:nowrap; }
+@media (max-width:560px){
+  #authGate .auth-card h2{ font-size:1.3rem; }
+  .landing-footer .divider-dot{ display:block; height:0; visibility:hidden; }
+}
+#authGate .google-btn:hover{ border-color:#7f9fe0; box-shadow:0 2px 12px rgba(90,130,220,.25); }
 @keyframes la-rise{ from{ opacity:0; transform:translateY(14px); } }
 @keyframes la-draw{ from{ transform:scaleX(0); } }
 @keyframes la-shimmer{ to{ background-position:-220% 0; } }
@@ -721,7 +726,7 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
     <div class="auth-status" id="authStatus" role="status" aria-live="polite"></div>
   </div>
 
-  <div class="landing-footer">by Dr. Shashank M S, Resident, NIMHANS<span class="divider-dot">·</span>v1.1 · 2026</div>
+  <div class="landing-footer"><span class="nowrap">by Dr. Shashank M S, Resident, NIMHANS</span><span class="divider-dot">·</span><span class="nowrap">v1.1 · 2026</span></div>
 </div>
 
 <div id="pendingGate" class="hidden">
