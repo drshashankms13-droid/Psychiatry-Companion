@@ -493,7 +493,7 @@ function emptyNote(text){
   return `<div class="empty-note"><svg class="icon" aria-hidden="true"><use href="#i-inbox"/></svg>${esc(text)}</div>`;
 }
 function sectionHeading(num, title, count){
-  return `<div class="section-heading"><div class="num">${esc(num)}</div><h2>${esc(title)}</h2><div class="section-rule"></div>${count ? `<div class="count">${esc(count)}</div>` : ''}</div>`;
+  return `<div class="section-heading"><h2>${esc(title)}</h2><div class="section-rule"></div>${count ? `<div class="count">${esc(count)}</div>` : ''}</div>`;
 }
 function openAttr(q){ return (allExpanded || q) ? 'open' : ''; }
 
@@ -571,6 +571,7 @@ function overviewHtml(){
   const total = ITEMS.length;
   const level = examLevel === 'final' ? 'NIMHANS Final Year' : 'NIMHANS First Year';
   return `<section class="overview" aria-label="Paper overview">
+    <svg class="overview-art" aria-hidden="true"><use href="#i-neuron"/></svg>
     <div class="ring" id="ovRing" style="--p:0"><div class="ring-inner" id="ovPct">0%</div></div>
     <div>
       <div class="overview-kicker">${esc(level)}</div>
@@ -863,7 +864,7 @@ function fyQAGroupRowHtml(group, num){
 
 function renderFYQAView(q){
   const topics = PAPER_CONFIG[currentPaper].data();
-  let html = sectionHeading('QA', PAPER_CONFIG[currentPaper].label);
+  let html = sectionHeading('QA', 'Questions by topic');
   let anyVisible = false;
 
   topics.forEach((t)=>{
@@ -966,7 +967,7 @@ function finalGroupMatches(g, q){
 
 function renderFinalQAView(q){
   const all = buildFinalQAGroups();
-  let html = sectionHeading('QA', PAPER_CONFIG[currentPaper].label, `${all.length} questions`);
+  let html = sectionHeading('QA', 'Questions by topic', `${all.length} questions`);
 
   const shown = all.filter(g=> finalGroupMatches(g, q));
   const byTopic = new Map();
