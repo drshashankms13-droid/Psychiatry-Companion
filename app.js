@@ -590,7 +590,7 @@ function renderYearView(q){
   if(PAPER_CONFIG[currentPaper].mode === 'topic-first'){ return renderFYYearView(q); }
   const papers = [...PAPERS].sort((a,b)=> b.sortKey.localeCompare(a.sortKey));
   const kinds = PAPER_CONFIG[currentPaper].primaryKinds;
-  let html = sectionHeading('Y', 'Papers, most recent first', `${papers.length} sittings`);
+  let html = sectionHeading('Y', 'Year-wise Question Papers', `${papers.length} sittings`);
   let anyVisible = false;
 
   papers.forEach(p=>{
@@ -723,7 +723,7 @@ function fillNotesSlots(){
 
 function renderFYTopicView(q){
   const topics = PAPER_CONFIG[currentPaper].data();
-  let html = sectionHeading('T', `${PAPER_CONFIG[currentPaper].label} — by Topic`, `${topics.length} topics`);
+  let html = sectionHeading('T', 'Topic-wise Questions', `${topics.length} topics`);
   let anyVisible = false;
 
   topics.forEach((t)=>{
@@ -756,7 +756,7 @@ function formatFYSitting(yearStr){
 function renderFYYearView(q){
   const yearGroups = PAPER_CONFIG[currentPaper].yearData();
   const textIndex = FY_TEXT_INDEX[currentPaper];
-  let html = sectionHeading('Y', `${PAPER_CONFIG[currentPaper].label} — by Exam Sitting`, `${yearGroups.length} sittings`);
+  let html = sectionHeading('Y', 'Year-wise Question Papers', `${yearGroups.length} sittings`);
   let anyVisible = false;
 
   yearGroups.forEach((g)=>{
@@ -1239,7 +1239,7 @@ function onSignedOut(){
   document.getElementById('app').innerHTML = '';
   document.getElementById('pendingGate').classList.add('hidden');
   document.getElementById('adminPanel').classList.add('hidden');
-  document.getElementById('adminBtn').classList.add('hidden');
+  document.querySelectorAll('#adminBtn, [data-admin-only]').forEach(b=> b.classList.add('hidden'));
   document.getElementById('authGate').style.display = 'flex';
   const gBtn = document.getElementById('googleBtn');
   if(gBtn){ gBtn.disabled = false; document.getElementById('googleBtnLabel').textContent = 'Continue with Google'; }
@@ -1319,13 +1319,13 @@ async function checkAccess(){
     isAdmin = !!data.is_admin;
     rememberAccess(email);
     document.getElementById('pendingGate').classList.add('hidden');
-    document.getElementById('adminBtn').classList.toggle('hidden', !isAdmin);
+    document.querySelectorAll('#adminBtn, [data-admin-only]').forEach(b=> b.classList.toggle('hidden', !isAdmin));
     bootstrapApp();
   } else {
     isApproved = false;
     isAdmin = false;
     rememberAccess(null);
-    document.getElementById('adminBtn').classList.add('hidden');
+    document.querySelectorAll('#adminBtn, [data-admin-only]').forEach(b=> b.classList.add('hidden'));
     try{
       const { error: reqErr } = await supabaseClient.from('pending_requests').upsert({ email });
       if(reqErr) console.error(reqErr);
