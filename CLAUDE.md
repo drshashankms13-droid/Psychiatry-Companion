@@ -9,6 +9,7 @@ Static site (no framework) listing NIMHANS MD Psychiatry previous-year questions
 - `final-data.js` — Final Year questions (`PAPERS1/2/3`). `fy-data.js` — First Year questions.
 - `answers-data.js` — First Year answers (hand-maintained HTML strings keyed by item uid).
 - `manifest.json`, `sw.js`, `icons/` — installable app (PWA). `sw.js` is network-first for same-origin files (fresh when online, cached copy offline); it never touches Supabase/Google requests. Icons are rendered from `icons/icon.svg`.
+- Admin corrections to answers live in the Supabase table `answer_edits` (`supabase_answer_edits.sql`), not in the files: they override `answers/*.md` / `answers-data.js` on display and are cleaned with `vendor/purify-*.min.js` (DOMPurify). If you rewrite an answer in `answers/`, check whether an admin correction for it exists.
 - `qid.js` — stable Final Year question IDs (`finalQid(paper, text)`), shared by the site and the build script.
 - `answers/*.md` — **Final Year answers, one Markdown file per question family.** Source of truth.
 - `final-answers-data.js` — GENERATED from `answers/*.md` by `npm run build:answers`. Never edit by hand.

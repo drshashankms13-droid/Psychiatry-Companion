@@ -3,10 +3,10 @@
    immediately when online; the cached copy is used only when the network
    fails (offline, or a very weak signal). Supabase and Google requests are
    never touched. Bump VERSION to drop old caches. */
-const VERSION = 'pc-v1';
+const VERSION = 'pc-v2';
 const SHELL = [
   '/', '/app.js', '/landing.js', '/theme-init.js', '/qid.js',
-  '/vendor/supabase-2.45.4.js', '/manifest.json',
+  '/vendor/supabase-2.45.4.js', '/vendor/purify-3.4.17.min.js', '/manifest.json',
   '/icons/icon-192.png', '/icons/favicon-32.png'
 ];
 
