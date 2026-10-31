@@ -1446,7 +1446,7 @@ window.addEventListener('beforeinstallprompt', (e)=>{
 window.addEventListener('appinstalled', ()=>{
   installPrompt = null;
   showInstall(false);
-  toast('Installed — open Psychiatry Companion from your home screen.');
+  toast('Installed — open Psych.MD from your home screen.');
 });
 async function installApp(){
   if(!installPrompt) return;
