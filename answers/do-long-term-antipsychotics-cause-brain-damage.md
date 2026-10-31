@@ -8,7 +8,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only:
-> - *Lishman's Organic Psychiatry* 4e: ch 2, "Schizophrenia" (pp. 80–87, Table 2.1); ch 9 (cholinergic hypothesis, p. 556); ch 12, "Drug-induced movement disorders" (pp. 745–750) [1];
+> - *Lishman's Organic Psychiatry* 4e: ch 2, "Schizophrenia" (pp. 80–87); ch 9 (cholinergic hypothesis, p. 556); ch 12, "Drug-induced movement disorders" (pp. 745–750) [1];
 > - *The Maudsley Prescribing Guidelines* 15e: antipsychotic prophylaxis; negative symptoms; stopping antipsychotics; Table 1.28 (EPS); antipsychotics in BPSD [2].
 >
 > The evaluation is argued only from these sources.

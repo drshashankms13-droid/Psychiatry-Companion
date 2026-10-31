@@ -149,7 +149,7 @@ reviewer:
 
 ## In depth
 
-### Terms (Table 27.15–1) [1]
+### Terms [1]
 - **Allodynia:** pain from a normally non-painful stimulus.
 - **Hyperalgesia:** an exaggerated response to a painful stimulus.
 - **Hyperpathia:** an exaggerated response to any stimulus.

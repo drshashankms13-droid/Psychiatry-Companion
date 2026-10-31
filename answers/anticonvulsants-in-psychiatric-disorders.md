@@ -9,11 +9,11 @@ reviewer:
 
 > **Source discipline:** this answer uses only two sources:
 > 1. *The Maudsley Prescribing Guidelines*, 15th ed. [1]:
->    - Chapter 2: Valproate, Carbamazepine, Bipolar depression (Table 2.9), Rapid cycling (Table 2.8), Mania (Table 2.7), Long-term treatment;
->    - Chapter 3: Treatment-resistant depression (Table 3.4), Pregabalin in GAD;
+>    - Chapter 2: Valproate, Carbamazepine, Bipolar depression, Rapid cycling, Mania, Long-term treatment;
+>    - Chapter 3: Treatment-resistant depression, Pregabalin in GAD;
 >    - Chapter 1: Clozapine adverse effects (seizure prophylaxis), Refractory schizophrenia, Weight gain, Akathisia, TD;
 >    - Chapter 9: Borderline personality disorder;
->    - Chapter 10: Epilepsy (Table 10.4).
+>    - Chapter 10: Epilepsy.
 > 2. The "Epilepsy and Psychiatry" seminar slides [2].
 >
 > **Scope:** these are prescribing sources, so mechanisms and clinical details are limited to what they state. Nothing else has been added.
@@ -22,7 +22,7 @@ reviewer:
 
 **Introduction.** "Virtually all antiseizure medications are known to have psychotropic effects", which can be **helpful or harmful** [1, p812]. Several are established in mood disorders; others are adjuncts in anxiety, aggression, substance use, schizophrenia and drug side-effects.
 
-### Psychiatric benefits vs harms (Maudsley Table 10.4) [1, 2]
+### Psychiatric benefits vs harms [1, 2]
 
 | Drug | Psychiatric benefit | Psychiatric adverse effects |
 | --- | --- | --- |

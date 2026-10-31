@@ -23,7 +23,7 @@ reviewer:
 
 ### Classification
 
-**A. Common chronic headache conditions (K&S Table 27.15–3) [2]:**
+**A. Common chronic headache conditions [2]:**
 1. Migraine
 2. Tension-type headache
 3. Cluster headache

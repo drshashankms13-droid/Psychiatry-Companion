@@ -17,7 +17,7 @@ reviewer:
 - Improved obstetric care has reduced maternal deaths from haemorrhage and medical disease, so **maternal mental health has come to the fore** as a major cause of maternal morbidity and mortality.
 - Psychiatrists see perinatal referrals from three places: antenatal and postnatal clinics, obstetric wards and labour rooms, and the obstetric emergency department.
 
-### Conditions by stage (Tables 1 and 2) [1]
+### Conditions by stage [1]
 **Preconception:**
 - infertility and ART: stress, anxiety, depression;
 - **tokophobia** (fear of pregnancy and childbirth);
@@ -62,7 +62,7 @@ reviewer:
 - **Examination:** to exclude anaemia, jaundice, hypertension, thyroid disease, connective tissue disorders and neurological disease.
 - **MSE:** attitudes to pregnancy and motherhood, and **infant-related psychopathology**.
 - **Risk:** suicide, infanticide, harm to others.
-- **Investigations (Table 3):** infection, electrolytes, renal, glucose, haemogram, B12, thyroid and antibodies, LFT, ammonia, drug screen, imaging, EEG, CSF. Exclude **PRES, cortical venous thrombosis, Sheehan syndrome, Wernicke encephalopathy, anti-NMDA receptor encephalitis**.
+- **Investigations:** infection, electrolytes, renal, glucose, haemogram, B12, thyroid and antibodies, LFT, ammonia, drug screen, imaging, EEG, CSF. Exclude **PRES, cortical venous thrombosis, Sheehan syndrome, Wernicke encephalopathy, anti-NMDA receptor encephalitis**.
 - **Tools:**
   - screening: Whooley questions, PHQ-9, EPDS, GAD-7;
   - severity: HDRS, HARS, YMRS, PANSS, BPRS;
@@ -94,11 +94,11 @@ reviewer:
 - Use the **2015 Pregnancy and Lactation Labelling Rule** rather than FDA categories.
 - Present risks as relative and absolute risk, with visual aids, and **document** the discussion (Box 2).
 
-**Pharmacokinetics (Table 6) [1]:**
+**Pharmacokinetics [1]:**
 - **Lithium levels fall** in pregnancy and **return abruptly** after delivery. Check monthly until 34 weeks, then weekly; before and 24 hours after delivery; and often postpartum.
 - **Lamotrigine levels can fall by about 50%.** Monitor from preconception until the first postpartum month.
 
-**Drug choices (Tables 8 and 9) [1, 2]:**
+**Drug choices [1, 2]:**
 - **Antidepressants:** SSRIs, preferably **sertraline**; avoid paroxetine.
 - **Antipsychotics:** SGAs as monotherapy. Monitor weight and do an **OGTT** (gestational diabetes). Clozapine carries a floppy infant risk and is contraindicated in breastfeeding.
 - **Mood stabilisers:**
@@ -107,7 +107,7 @@ reviewer:
 - **Benzodiazepines:** taper; use short-acting **lorazepam** if needed (floppy infant if given just before delivery).
 - **Alcohol dependence:** lorazepam or diazepam for withdrawal. **Disulfiram is avoided.** Naltrexone and acamprosate only if relapse risk is high.
 
-**Specific disorders (Table 9) [1]:**
+**Specific disorders [1]:**
 - **Adjustment disorder, mild anxiety or mild depression:** psychoeducation and CBT or IPT.
 - **Moderate to severe depression:** SSRIs.
 - **Recurrent depression (4 or more episodes) or recent severe depression:** antidepressant prophylaxis.

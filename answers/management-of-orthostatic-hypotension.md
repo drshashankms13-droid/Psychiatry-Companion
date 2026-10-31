@@ -8,7 +8,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only:
-> - *Maudsley Prescribing Guidelines* 15e, "Orthostatic hypotension" (pp. 182–183; Tables 1.40, 1.41) [1];
+> - *Maudsley Prescribing Guidelines* 15e, "Orthostatic hypotension" (pp. 182–183) [1];
 > - *Kaplan & Sadock's Comprehensive Textbook of Psychiatry* 10e §27.2 (syncope) [2];
 > - *Lishman's Organic Psychiatry* 4e, Table 6.12 "Causes of syncope" and the Parkinson's disease section [3];
 > - the departmental Parkinson-plus notes [4].
@@ -39,7 +39,7 @@ reviewer:
 
 **Volume depletion and dehydration** [1, 3].
 
-### Risk factors (Table 1.40) [1]
+### Risk factors [1]
 - **Treatment:**
   - **IM route** (higher, faster peaks);
   - **rapid dose increases**;
@@ -57,7 +57,7 @@ reviewer:
 - Distinguish it from other causes of **syncope**: vasovagal, cardiac arrhythmia or structural disease (urgent if syncope is exertional), carotid sinus hypersensitivity [2, 3].
 - Review **all drugs** and their timing.
 
-### Management (Table 1.41) [1, 2]
+### Management [1, 2]
 **1. Minimise drug risk:**
 - start low and **titrate slowly**; most people **develop tolerance** to the hypotensive effect;
 - **temporary dose reduction** if hypotension develops;

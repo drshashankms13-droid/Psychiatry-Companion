@@ -10,7 +10,7 @@ reviewer:
 > **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009) [1]:
 > - Chapter 1, parietal lobe syndromes, pp. 17–18;
 > - Chapter 2, "Visual neglect", pp. 67–68; "Unilateral unawareness and neglect", "Hemisomatognosia", "Anosognosia", pp. 71–74; subcortical neglect, p. 54;
-> - Chapter 3, bedside tests, pp. 114–118, 124 (Table 3.4); Rey–Osterrieth, p. 150;
+> - Chapter 3, bedside tests, pp. 114–118, 124; Rey–Osterrieth, p. 150;
 > - Chapter 8, stroke, pp. 482–483 and 490.
 >
 > **Gaps:** specific treatments (prism adaptation, limb activation, visual scanning training, caloric or optokinetic stimulation, mirror therapy), the attention-network theories (Heilman, Kinsbourne, Corbetta), neglect subtypes by reference frame (egocentric vs allocentric) and the Catherine Bergego Scale are **not in the source**.

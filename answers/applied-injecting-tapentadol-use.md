@@ -11,11 +11,11 @@ reviewer:
 ## Exam answer
 
 **Two related cases.** Both describe **pharmaceutical opioid injecting**. This is an increasingly common Indian presentation (Punjab, the northeast, metro cities).
-- **Case A (p2-c9d469b7):** 22-year-old scrap dealer.
+- **Case A:** 22-year-old scrap dealer.
   - Tobacco and cannabis since 16.
   - **Intravenous tapentadol from 18**, multiple times a day for 4 years, alone and with friends. His cannabis use fell after he started tapentadol.
   - His mother has brought him to quit.
-- **Case B (p2-1f0f7a46):** 20-year-old in the emergency department.
+- **Case B:** 20-year-old in the emergency department.
   - Injecting tapentadol for 3 years; **800–1000 mg/day** for the past year.
   - Now **severe body ache, dilated pupils, pulse 98/min and rhinorrhoea**, i.e. **opioid withdrawal**.
 

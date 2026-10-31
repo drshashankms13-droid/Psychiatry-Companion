@@ -43,7 +43,7 @@ reviewer:
 - **hyponatraemia** from any cause, including drug-induced (SSRIs, carbamazepine, antipsychotics) [1];
 - **Addison's disease** and other uncommon illnesses.
 
-**2. Pharmacokinetic interactions (Maudsley Table 2.2)** [1]:
+**2. Pharmacokinetic interactions** [1]:
 
 | Drug | Effect on lithium level | Timing |
 | --- | --- | --- |

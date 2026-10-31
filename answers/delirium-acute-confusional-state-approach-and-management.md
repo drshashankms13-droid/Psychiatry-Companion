@@ -18,7 +18,7 @@ reviewer:
 >    - Alici & Breitbart 2009.
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., one statement on delirium (p. 806) [2].
 >
-> Nothing has been added from other sources. COVID-19 delirium (p3-4f1a6fce) is **not** covered by these slides and is not answered here.
+> Nothing has been added from other sources. COVID-19 delirium is **not** covered by these slides and is not answered here.
 
 ## Exam answer
 
@@ -370,7 +370,7 @@ ACB score 3 examples include amitriptyline, clozapine, olanzapine, quetiapine, p
 - **Melatonin:** evidence for prevention is inconclusive; for treatment it rests on case reports [1].
 
 ### Not covered by the sources (deliberately left blank)
-- COVID-19-associated delirium (p3-4f1a6fce).
+- COVID-19-associated delirium.
 - Dexmedetomidine dosing and evidence.
 - Delirium in children, beyond listing the PAED and pCAM-ICU tools.
 - Long-term cognitive outcome data.

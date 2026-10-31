@@ -8,7 +8,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only:
-> - IPS **Clinical Practice Guidelines for ADHD** (Shah, Grover, Avasthi, *Indian J Psychiatry* 2019), including the PGIMER parent-training manual (Table 13) [1];
+> - IPS **Clinical Practice Guidelines for ADHD** (Shah, Grover, Avasthi, *Indian J Psychiatry* 2019), including the PGIMER parent-training manual [1];
 > - the departmental seminar "Oppositional and conduct disorders" (Varshney) [2];
 > - the departmental child and adolescent notebook (NB-12) [3];
 > - Young S et al., expert consensus on ADHD in females (*BMC Psychiatry* 2020) [4];
@@ -92,7 +92,7 @@ reviewer:
 
 ## In depth
 
-### PGIMER parent-training manual for ADHD (Table 13) [1]
+### PGIMER parent-training manual for ADHD [1]
 | Module | Content |
 |---|---|
 | Psychoeducation | Nature of ADHD; no blame |

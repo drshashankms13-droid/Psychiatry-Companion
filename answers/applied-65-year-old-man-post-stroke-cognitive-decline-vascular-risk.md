@@ -71,7 +71,7 @@ reviewer:
 
 ## In depth
 
-### Subtypes of vascular dementia (NB-16 Table 5.2) [1]
+### Subtypes of vascular dementia [1]
 | Type | Key features |
 |---|---|
 | Multi-infarct | Stepwise; focal signs |

@@ -8,8 +8,8 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only:
-> - *Maudsley Prescribing Guidelines* 15e, ch 5, "OCD and BDD in children and adolescents" (pp. 587–592; Figure 5.1; Table 5.8) [1];
-> - the IPS clinical practice guideline summary for OCD in children and adolescents (Avasthi, Sharma, Grover), as reproduced in the departmental CAP workbook (Figures 1–2, Tables 10–11) [2].
+> - *Maudsley Prescribing Guidelines* 15e, ch 5, "OCD and BDD in children and adolescents" (pp. 587–592; Figure 5.1) [1];
+> - the IPS clinical practice guideline summary for OCD in children and adolescents (Avasthi, Sharma, Grover), as reproduced in the departmental CAP workbook (Figures 1–2) [2].
 >
 > **The sources do not cover phenomenology, epidemiology or aetiology of childhood OCD** (except a PANDAS mention). The answer is therefore weighted to treatment.
 
@@ -23,7 +23,7 @@ reviewer:
 
 ### Assessment [1, 2]
 - **CY-BOCS** at baseline and for monitoring. An observer-rated measure helps, because **informants may notice improvement first**.
-- **Response definitions** (Table 11) [2]:
+- **Response definitions** [2]:
   - March and Mulle: **response = 35–50% fall in CY-BOCS; remission = CY-BOCS under 10**;
   - Storch: response ≥25%; remission ≥45% fall or score ≤14;
   - Nord LOTS: response ≥35%; remission ≥55% fall or score ≤11.
@@ -53,7 +53,7 @@ reviewer:
 - **Fluoxetine** is useful with **comorbid depression** or **poor adherence** (long half-life). A 2020 meta-analysis found fluoxetine and sertraline more effective than fluvoxamine.
 - **Paroxetine is not recommended.** **SNRIs are not recommended.**
 - **Clomipramine** is debatably more efficacious, but its side-effects (sedation, dry mouth, cardiac effects) mean SSRIs stay first line.
-- **Doses (Table 10)** [2]:
+- **Doses** [2]:
 
   | Drug | FDA minimum age | Starting dose (preadolescent / adolescent) | Maximum |
   |---|---|---|---|
@@ -99,7 +99,7 @@ reviewer:
 
 ## In depth
 
-### Alternative and experimental treatments (Table 5.8) [1]
+### Alternative and experimental treatments [1]
 - **Aripiprazole augmentation:** evidence in children with OCD; none in BDD.
 - **Risperidone augmentation:** fewer paediatric studies.
 

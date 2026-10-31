@@ -10,10 +10,10 @@ reviewer:
 > **Source discipline:** this answer uses only two sources:
 > 1. "Antipsychotic-induced movement disorders with management" (M. Mujtaba, IMHANS-K, PG seminar slides) [1]. The slides cite Kaplan & Sadock, Maudsley, Lishman and Sachdev.
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., Chapter 1 [2]:
->    - "Extrapyramidal symptoms", pp. 126–130 (Table 1.28);
+>    - "Extrapyramidal symptoms", pp. 126–130;
 >    - "Akathisia", pp. 131–133;
->    - "Treatment of tardive dyskinesia", pp. 135–137 (Tables 1.29–1.30);
->    - "Neuroleptic malignant syndrome", pp. 150–151 (Table 1.33).
+>    - "Treatment of tardive dyskinesia", pp. 135–137;
+>    - "Neuroleptic malignant syndrome", pp. 150–151.
 > 3. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 12, "Drug-induced disorders", pp. 745–752, added in the In-depth section [3].
 >
 > Where the two sources disagree, both are shown and the discrepancy is flagged. Nothing else has been added.
@@ -222,7 +222,7 @@ reviewer:
 - **Management** [2]:
   1. **Stop anticholinergics.** Reduce the antipsychotic dose (TD may worsen initially). Evidence for both steps is limited.
   2. **Switch to clozapine** (best supported) or **quetiapine**; olanzapine and aripiprazole are options.
-  3. **Add-on agents (Table 1.29):**
+  3. **Add-on agents:**
      - **VMAT-2 inhibitors are first choice:**
        - **valbenazine 80 mg once daily** (KINECT trials);
        - **deutetrabenazine 12–48 mg/day**;
@@ -232,7 +232,7 @@ reviewer:
      - **pyridoxine up to 400 mg**;
      - amantadine 100–300 mg;
      - Ginkgo biloba 240 mg.
-  4. **Other options (Table 1.30):**
+  4. **Other options:**
      - **botulinum toxin** for focal symptoms;
      - **DBS (GPi)** for severe refractory TD;
      - melatonin;
@@ -248,7 +248,7 @@ reviewer:
 
 **Tardive akathisia:** late onset; provoked or exacerbated by dose reduction or withdrawal [2].
 
-### Summary table (Maudsley Table 1.28) [2]
+### Summary table [2]
 
 | | Dystonia | Parkinsonism | Akathisia | TD |
 | --- | --- | --- | --- | --- |

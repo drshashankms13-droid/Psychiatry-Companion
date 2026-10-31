@@ -120,7 +120,7 @@ Non-dopaminergic approaches are "an area of active research" [1].
 | EMERGENT-2 (Kaul 2024, *Lancet*) | Xanomeline–trospium: PANSS reduction about 9.6 points more than placebo at 5 weeks [1; effect size general knowledge] |
 | Németh 2017, *Lancet* | Cariprazine better than risperidone for predominant negative symptoms [general knowledge] |
 | Koblan 2020, *NEJM* | Ulotaront phase 2 positive; later phase 3 negative [general knowledge] |
-| Maudsley "Alternatives to clozapine" (Table 1.53) | Experimental adjuncts listed; TAAR1 and muscarinic agents "may hold some promise" [1] |
+| Maudsley "Alternatives to clozapine" | Experimental adjuncts listed; TAAR1 and muscarinic agents "may hold some promise" [1] |
 
 ### Critical appraisal
 - **Placebo response inflation** has derailed several novel-target programmes (ulotaront).

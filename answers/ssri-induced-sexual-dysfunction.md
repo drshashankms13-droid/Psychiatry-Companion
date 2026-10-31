@@ -33,7 +33,7 @@ reviewer:
 | Moclobemide | – | – | – | Low |
 | Trazodone | – | + | + | Priapism (rare) |
 
-Source: Maudsley Table 3.17 [1].
+Source: Maudsley [1].
 
 **Depression itself:** 40–50% have reduced libido or arousal before treatment, but only 15–20% have orgasm problems. Orgasm and ejaculation delay therefore points to the drug [1]. In STAR*D, sexual dysfunction was a problem in 21% of remitters vs 61% of non-remitters, so treating depression can improve sexual function [1].
 
@@ -43,7 +43,7 @@ Source: Maudsley Table 3.17 [1].
 - Other causes: diabetes, hypertension, atherosclerosis, hypogonadism, hyperprolactinaemia, alcohol, smoking, other drugs (antihypertensives, beta-blockers, antipsychotics) [1].
 - Severity of depression and residual symptoms.
 
-### Management (Maudsley Table 3.18; Indian CPG)
+### Management (Maudsley; Indian CPG)
 1. **Assess and educate.** Exclude other causes. Reassure that it is usually reversible [1,2].
 2. **Wait** for tolerance: least effective. Only 5–10% remit spontaneously, and it may take up to 6 months [1].
 3. **Dose reduction** if the patient is in remission (risk of relapse).

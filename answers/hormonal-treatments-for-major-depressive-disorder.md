@@ -9,9 +9,9 @@ reviewer:
 
 > **Source discipline:** this answer uses only:
 > - *Maudsley Prescribing Guidelines* 15e [1]:
->   - ch 3, treatment-resistant depression (Tables 3.4, 3.5) and "Psychotic depression";
+>   - ch 3, treatment-resistant depression and "Psychotic depression";
 >   - ch 3, "Premenstrual syndrome" (Figure 3.6);
->   - ch 10, "Menopause" (Tables 10.20–10.23);
+>   - ch 10, "Menopause";
 >   - ch 7, pregnancy (Box 7.3);
 > - the IPS perinatal CPG (brexanolone) [2].
 >
@@ -27,14 +27,14 @@ reviewer:
 
 ### 1. Thyroid: tri-iodothyronine (T3) augmentation [1]
 - **Dose:** **20–50 mcg/day** added to the antidepressant. Higher doses have been used safely.
-- **Status:** a well-supported **TRD** option (Table 3.4), with **good literature support**. It may also be effective in **bipolar depression**.
+- **Status:** a well-supported **TRD** option, with **good literature support**. It may also be effective in **bipolar depression**.
 - **Monitoring:** clinical and **biochemical thyroid function**. Usually well tolerated. Needs specialist referral.
 - **Limits:** some negative studies, and **no advantage over antidepressant alone in non-refractory illness** (T3 plus sertraline was not superior).
 - T3 was compared with thyroxine in TCA potentiation (Joffe 1990).
 
 ### 2. Oestrogen and menopause-related depression [1]
 - **Perimenopause** carries a **2–5-fold** higher risk of depression. About **6%** of women with menopause-related psychological symptoms have suicidal ideation.
-- **Psychological symptoms** (Table 10.20): anxiety, low mood, loss of motivation, mood swings, tearfulness, irritability, brain fog, poor memory.
+- **Psychological symptoms**: anxiety, low mood, loss of motivation, mood swings, tearfulness, irritability, brain fog, poor memory.
 - **Diagnosis:**
   - clinical, using the Greene Climacteric Scale, over age 40;
   - under 45, two FSH levels over 30 mIU/mL, 6 weeks apart, on days 2–5 of the cycle.
@@ -44,13 +44,13 @@ reviewer:
   - **post-menopause:** **continuous combined HRT**;
   - **oestrogen-only** after total hysterectomy;
   - **transdermal oestrogen** where clot risk is a concern (oral oestrogen slightly raises thrombosis risk).
-- **Contraindications** (Table 10.22): oestrogen-dependent cancers, undiagnosed vaginal bleeding, pregnancy, active liver disease, recent thromboembolism or MI, untreated VTE or endometrial hyperplasia.
+- **Contraindications**: oestrogen-dependent cancers, undiagnosed vaginal bleeding, pregnancy, active liver disease, recent thromboembolism or MI, untreated VTE or endometrial hyperplasia.
 - **Precautions:** migraine with aura, untreated hypertension, **epilepsy (lamotrigine interaction)**, fibroids, endometriosis.
 - **Risks:** small breast-cancer risk over age 50; endometrial risk; clotting depending on preparation.
-- **In TRD generally:** oestrogens ("various regimens") have **limited data** (Table 3.5).
+- **In TRD generally:** oestrogens ("various regimens") have **limited data**.
 
 ### 3. Testosterone [1]
-- **Testosterone gel** is **effective in those with low testosterone levels** (TRD, Table 3.5; Pope et al., refractory depression in men).
+- **Testosterone gel** is **effective in those with low testosterone levels** (TRD; Pope et al., refractory depression in men).
 - It is part of HRT regimens in menopause.
 
 ### 4. Premenstrual dysphoric disorder (now in ICD-11) [1]

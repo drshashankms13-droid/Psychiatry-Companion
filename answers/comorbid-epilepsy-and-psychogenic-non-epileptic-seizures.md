@@ -50,12 +50,12 @@ reviewer:
    - repeat telemetry when semiology changes or new attack types appear;
    - interictal EEG abnormalities do **not** prove that a given attack is epileptic;
    - non-specific abnormalities are over-represented in dissociative-seizure patients.
-3. **Use semiology** (Table 6.13; see the companion answer) for each attack type. **No single feature** is diagnostic.
+3. **Use semiology** (see the companion answer) for each attack type. **No single feature** is diagnostic.
 4. **Prolactin** after an apparent GTCS: a normal result is useful; a raised result is not conclusive.
 5. **Provocation by suggestion** (disclosed) can capture dissociative attacks. **An informant must confirm** they resemble the habitual ones.
 6. **ASM withdrawal during telemetry** may be used to capture or unmask epileptic seizures.
 7. **Psychiatric assessment:**
-   - predisposing, precipitating and maintaining factors (Table 6.11);
+   - predisposing, precipitating and maintaining factors;
    - comorbid depression and anxiety;
    - trauma;
    - **"seizure phobia"** and **benzodiazepine misuse** (rescue medication taken for "prodromes" or anxiety);

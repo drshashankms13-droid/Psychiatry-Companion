@@ -202,7 +202,7 @@ A typical cascade: dyslexia → poor grades → punishment at home and school �
 
 ### IPS Clinical Practice Guideline (Shah, Sagar, Somaiya, Nagpal 2019): key points [7]
 - **Prevalence:** **2–10%** (Sahoo 2015).
-- **Comorbidity (CPG Table 2):**
+- **Comorbidity:**
   - behavioural and emotional disorders about 30%;
   - **ADHD 10–60%**; inattention 20–40%;
   - conduct disorder 6%;

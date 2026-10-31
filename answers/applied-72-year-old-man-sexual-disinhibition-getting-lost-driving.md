@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only:
 > - the departmental dementia notes NB-16 (FTD Rascovsky criteria; AD; BPSD; legal issues including driving; caregiver burden) [1];
-> - *Maudsley Prescribing Guidelines* 15e, "Management of inappropriate sexual behaviour in older adults" (Box 6.3, Table 6.7) and BPSD [2];
+> - *Maudsley Prescribing Guidelines* 15e, "Management of inappropriate sexual behaviour in older adults" (Box 6.3) and BPSD [2];
 > - the departmental geriatric depression seminar [3].
 
 ## Exam answer

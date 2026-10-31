@@ -38,12 +38,12 @@ reviewer:
 **Depression and bipolar disorder:**
 - **Meta-analysis:** as add-ons, anti-inflammatory treatments have a **modest but significant effect** on depressive symptoms versus placebo [1].
 - **Who benefits:** celecoxib, minocycline and statins have shown benefit, **especially with raised baseline inflammation** (cytokines, CRP) [1].
-- **Maudsley, TRD (Table 3.5):** **minocycline 200 mg/day** has "several positive meta-analyses in both animals and humans", but **recent RCTs failed**. Maudsley lists it under "other reported treatments", with limited support [2, p353].
+- **Maudsley, TRD:** **minocycline 200 mg/day** has "several positive meta-analyses in both animals and humans", but **recent RCTs failed**. Maudsley lists it under "other reported treatments", with limited support [2, p353].
 
 **Schizophrenia and psychosis:**
 - **General evidence:** aspirin, minocycline and COX-2 inhibitors may help, perhaps mostly in early phases or inflammation-associated subtypes [1].
-- **Maudsley summary (Table 1.54):** anti-inflammatory adjuncts (NAC, NSAIDs, minocycline, oestrogens, aspirin, omega-3) are a heterogeneous group. They show **possible benefit on negative and cognitive symptoms, but sample sizes are small**. Evidence rating: **"very weak ±"** [2, p229].
-- **Minocycline in refractory schizophrenia (Table 1.53):** 200 mg/day plus antipsychotic. An open study (n = 22) and an RCT (n = 54) suggest benefit for negative and cognitive symptoms. An RCT (n = 52) of clozapine augmentation improved some symptoms, and there is RCT evidence of a neuroprotective effect in early psychosis [2, p227]. Minocycline has low toxicity and good tolerability [2, p226].
+- **Maudsley summary:** anti-inflammatory adjuncts (NAC, NSAIDs, minocycline, oestrogens, aspirin, omega-3) are a heterogeneous group. They show **possible benefit on negative and cognitive symptoms, but sample sizes are small**. Evidence rating: **"very weak ±"** [2, p229].
+- **Minocycline in refractory schizophrenia:** 200 mg/day plus antipsychotic. An open study (n = 22) and an RCT (n = 54) suggest benefit for negative and cognitive symptoms. An RCT (n = 52) of clozapine augmentation improved some symptoms, and there is RCT evidence of a neuroprotective effect in early psychosis [2, p227]. Minocycline has low toxicity and good tolerability [2, p226].
 - **Negative evidence:**
   - a relatively large RCT found adjunctive minocycline **not efficacious for negative symptoms**;
   - the **BeneMin** study found **no protection** against negative symptoms when it was given early in schizophrenia [2, p35];

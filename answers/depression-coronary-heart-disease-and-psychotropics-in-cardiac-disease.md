@@ -12,7 +12,7 @@ reviewer:
 > **Source discipline:** this answer uses only two sources:
 > 1. Yekehtaz H, Farokhnia M, Akhondzadeh S. "Cardiovascular considerations in antidepressant therapy: an evidence-based review." *J Teh Univ Heart Ctr* 2013 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed. [2]:
->    - "Cardiac effects of antidepressants" (Table 3.13) and "Antidepressant-induced arrhythmia", pp. 406–413;
+>    - "Cardiac effects of antidepressants" and "Antidepressant-induced arrhythmia", pp. 406–413;
 >    - "ECG changes – QT prolongation", pp. 161–166;
 >    - "Clozapine: serious cardiovascular adverse effects", pp. 253–254;
 >    - "Atrial fibrillation", pp. 845–847.
@@ -108,7 +108,7 @@ reviewer:
 
 ### Part C. Other psychotropics in cardiovascular disease [2]
 
-**Antipsychotics and QT (Maudsley Table 1.35):**
+**Antipsychotics and QT:**
 
 | QTc effect | Drugs |
 | --- | --- |
@@ -121,7 +121,7 @@ reviewer:
   - most antipsychotics are associated with **sudden cardiac death**;
   - the risk is dose-related, and the overall dose determines QT prolongation;
   - **assume all antipsychotics are linked to sudden cardiac death**.
-- **Risk factors** (Table 1.36):
+- **Risk factors**:
   - **cardiac:** long QT syndrome, bradycardia, IHD, myocarditis, MI, LVH;
   - **metabolic:** low K⁺, Mg²⁺ or Ca²⁺;
   - **other:** exertion, stress, anorexia nervosa, extremes of age, female sex.
@@ -130,7 +130,7 @@ reviewer:
   - on admission;
   - yearly if there is a previous abnormality or risk factor;
   - **within a week of reaching a therapeutic dose** of a moderate- or high-effect drug or a combination.
-- **Management of QTc (Table 1.38):**
+- **Management of QTc:**
   - **over 440 ms (men) or 470 ms (women) but under 500 ms:** consider reducing the dose or switching;
   - **over 500 ms or abnormal T waves:** stop or switch the drug and **refer to cardiology immediately**.
 - **Bigger cardiovascular risks:** smoking, obesity and impaired glucose tolerance carry more cardiovascular risk than QT changes.
@@ -146,7 +146,7 @@ reviewer:
 - **Thromboembolism:** 1 in 2,000 to 1 in 6,000.
 - **Signs of heart failure → stop clozapine and refer.**
 
-**Atrial fibrillation (Table 10.15):**
+**Atrial fibrillation:**
 - **Psychosis:**
   - consider **cariprazine, brexpiprazole or lurasidone** in paroxysmal or persistent AF;
   - AF has been reported with clozapine, olanzapine, aripiprazole and paliperidone;

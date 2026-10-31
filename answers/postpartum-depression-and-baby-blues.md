@@ -50,7 +50,7 @@ reviewer:
 - **Always screen for bipolarity** (milder highs, hypomania, strong family history) before starting an antidepressant.
 - **Risk assessment** for suicide and infanticide.
 - **Bonding** (PBQ).
-- **Organic work-up**: thyroid, anaemia, B12 and others (Table 3).
+- **Organic work-up**: thyroid, anaemia, B12 and others.
 
 **Management [1, 2]:**
 - **Mild:** psychotherapy (CBT, IPT), psychoeducation and follow-up [1].
@@ -85,7 +85,7 @@ reviewer:
 
 ## In depth
 
-### Antidepressants in pregnancy and lactation (Table 8) [1, 2]
+### Antidepressants in pregnancy and lactation [1, 2]
 - **No increase in major malformations** (most data are for SSRIs).
 - **Cardiac septal defects:** first-trimester exposure, mostly paroxetine.
 - **PPHN:** third-trimester exposure; low absolute risk (3 per 1000).

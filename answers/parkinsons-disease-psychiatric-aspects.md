@@ -101,7 +101,7 @@ Age, sex, duration and levodopa duration are not consistent predictors [1].
 - helped by smaller, more frequent doses [1].
 - Depression can also follow **withdrawal of dopamine agonists** [2].
 
-**Management (Maudsley Table 10.13)** [2]:
+**Management** [2]:
 1. **Exclude or treat organic causes**, e.g., hypothyroidism (relatively common in PD).
 2. **SSRIs first line** (modest effect size); **sertraline preferred**.
    - May worsen tremor.
@@ -156,7 +156,7 @@ Age, sex, duration and levodopa duration are not consistent predictors [1].
   - memantine: mixed evidence;
   - **stop anticholinergic drugs**: PD patients often carry a high anticholinergic burden.
 
-### 5. Psychosis (p3-868b6f08) [1, 2]
+### 5. Psychosis [1, 2]
 
 **In untreated PD:**
 - rare;
@@ -210,7 +210,7 @@ Psychosis and dementia predict each other [2].
 - caregiver distress;
 - early death [2].
 
-**Management (Maudsley Table 10.14; Lishman)** [1, 2]:
+**Management (Maudsley; Lishman)** [1, 2]:
 1. **Exclude delirium** and other organic causes.
 2. **Optimise the environment** (orientation, carer interaction).
 3. **Mild hallucinations with insight that are not troubling: do not treat.**

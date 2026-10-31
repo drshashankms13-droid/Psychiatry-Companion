@@ -9,7 +9,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only two sources:
-> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Systemic lupus erythematosus" (Tables 8.2, 8.3), pp. 513–522 [1].
+> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Systemic lupus erythematosus", pp. 513–522 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., catatonia (SLE and antiphospholipid syndrome as causes; treat the underlying condition), pp. 154–156 [2].
 >
 > **Gaps:** the ACR 1999 NPSLE case definitions, EULAR 2010 recommendations, attribution models, 2019 EULAR/ACR criteria, newer biologics and steroid-induced psychosis specifics are **not in the sources**. They are summarised in the In-depth section, tagged **[general knowledge]**.
@@ -43,7 +43,7 @@ reviewer:
 5. **Secondary factors:** uraemia, electrolytes, **hypertension**, infection, **steroids**.
 6. **Clinicopathological correlation is poor:** severe dysfunction can occur without lesions, and vice versa.
 
-### Clinical features (Table 8.2, mean prevalence across six studies) [1]
+### Clinical features (mean prevalence across six studies) [1]
 
 | Manifestation | Mean % (range) | Notes |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ reviewer:
 
 **Attribution:** many features are non-specific. Seizures, cerebrovascular disease, neuropathy and acute confusional states are the ones most clearly **attributable to SLE** (Hanly 2007).
 
-**Antiphospholipid syndrome (Table 8.3, 1000 patients):**
+**Antiphospholipid syndrome (1000 patients):**
 - migraine 202, stroke 198, TIA 111, epilepsy 70;
 - multi-infarct dementia 25, **chorea** 13, acute encephalopathy, transient amnesia, venous thrombosis;
 - **SLE plus APS** carries the **highest neuropsychiatric risk** (epilepsy 13% vs 6% in primary APS).
@@ -313,7 +313,7 @@ Mechanisms are small-vessel vasculopathy, antiphospholipid and brain-reactive (a
 ### Evidence table
 | Study | Finding |
 | --- | --- |
-| Lishman Table 8.2 (6 studies) [1] | Cognitive 38%, headache 28%, mood 26%, anxiety 10%, seizures 10%, cerebrovascular 12%, psychosis 4%, ACS 3% |
+| Lishman (6 studies) [1] | Cognitive 38%, headache 28%, mood 26%, anxiety 10%, seizures 10%, cerebrovascular 12%, psychosis 4%, ACS 3% |
 | Wong [1] | Active SLE caused under a quarter of 36 cerebral episodes |
 | Hanly 2007 (SLICC inception cohort) [1] | Seizures, cerebrovascular disease, neuropathy and ACS most attributable |
 | Belmont 1996 [1] | True vasculitis in about 10% |

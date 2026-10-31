@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only two sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, "Behavioural and psychological symptoms", pp. 549–551, and "Management", pp. 591–595 [1].
-> 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Management of behavioural and psychological symptoms of dementia (BPSD)", pp. 667–675 (Table 6.6), and sexual disinhibition, p. 681 [2].
+> 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Management of behavioural and psychological symptoms of dementia (BPSD)", pp. 667–675, and sexual disinhibition, p. 681 [2].
 >
 > **Gaps:** the IPS clinical practice guideline on BPSD, Indian service models, and the DICE or other structured approaches are not in these sources.
 
@@ -27,7 +27,7 @@ reviewer:
   - a major determinant of **institutionalisation**;
   - psychosis is associated with faster decline and with aggression [1].
 
-### Phenomenology (AD; Table 9.1) [1]
+### Phenomenology (AD) [1]
 
 | Cluster | Symptom | Prevalence | Characteristics |
 | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ reviewer:
   - glucose or HbA1c, U&E, FBC, lipids, LFT, prolactin;
   - ECG, at baseline, 3 months and annually.
 - **Review** at 4–6 weeks, 3 months, then 6-monthly. **Consider stopping at each review.**
-- **Deprescribing (Table 6.6):** taper over about 4 weeks (e.g., **risperidone by 0.25–0.5 mg every 1–2 weeks**). Discontinuation studies show **no worsening of BPSD** and improved ADL.
+- **Deprescribing:** taper over about 4 weeks (e.g., **risperidone by 0.25–0.5 mg every 1–2 weeks**). Discontinuation studies show **no worsening of BPSD** and improved ADL.
 
 **D. Carer and system support** [1]:
 - carer support groups, respite, day care;

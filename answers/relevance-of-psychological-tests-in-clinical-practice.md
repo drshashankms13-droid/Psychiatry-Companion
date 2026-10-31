@@ -41,7 +41,7 @@ reviewer:
   - comparison with premorbid IQ gives prima facie evidence of **decline**.
 - **Premorbid IQ:** **NART** (reading irregular words), resistant to dementia. It may underestimate in moderate dementia and is unsuitable for non-native speakers or poor readers.
 - **Memory:** **WMS-III**: immediate, general (delayed) and working-memory indices. The immediate vs delayed comparison separates **encoding from retention** deficits.
-- **Specific domains (Table 3.4):**
+- **Specific domains:**
   - perception and attention (Bender–Gestalt, VOSP, TEA);
   - language (Boston Naming, Token Test);
   - memory (Rey AVLT, Rivermead, Benton);

@@ -9,7 +9,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 6, Epilepsy [1]:
-> - "Assessment and investigation" and "Differential diagnosis of epilepsy", pp. 356–362 (Tables 6.12–6.14);
+> - "Assessment and investigation" and "Differential diagnosis of epilepsy", pp. 356–362;
 > - "Investigation", pp. 362–365;
 > - "Ictal disorders", pp. 335–339;
 > - "Aetiology", pp. 332–333.
@@ -34,16 +34,16 @@ reviewer:
 
 | Group | Conditions |
 | --- | --- |
-| **Syncope** (Table 6.12) | **Reflex**: vasovagal; situational (micturition, defecation, Valsalva, eating); carotid sinus hypersensitivity. **Orthostatic**: autonomic failure (MSA, diabetic or amyloid neuropathy), drugs (antihypertensives, diuretics, alcohol), volume depletion. **Cardiac**: tachy- or bradyarrhythmias (VT, SVT, **long QT**, AV block, sinus node disease); structural (valve disease, HOCM, myxoma, PE). **Other**: subclavian steal; intermittent obstructive hydrocephalus (third-ventricle lesion) |
+| **Syncope** | **Reflex**: vasovagal; situational (micturition, defecation, Valsalva, eating); carotid sinus hypersensitivity. **Orthostatic**: autonomic failure (MSA, diabetic or amyloid neuropathy), drugs (antihypertensives, diuretics, alcohol), volume depletion. **Cardiac**: tachy- or bradyarrhythmias (VT, SVT, **long QT**, AV block, sinus node disease); structural (valve disease, HOCM, myxoma, PE). **Other**: subclavian steal; intermittent obstructive hydrocephalus (third-ventricle lesion) |
 | **Psychiatric** | **Dissociative (psychogenic non-epileptic) seizures**; **panic attacks** (vs ictal fear); hyperventilation; psychosis or derealisation (vs aura); factitious disorder or malingering; attention problems (vs juvenile absence epilepsy) |
-| **Paroxysmal neurological** (Table 6.14) | **TIA** (negative symptoms; longer; consciousness preserved except vertebrobasilar); **migraine** (slow-evolving aura over tens of minutes; acephalgic migraine); **vertigo** (BPPV, Ménière's, cerebellar stroke); **hyperekplexia** (startle disease; GLRA1); **paroxysmal kinesigenic dyskinesia** (brief, movement-triggered, consciousness preserved; responds to low-dose ASMs) and non-kinesigenic forms; periodic paralysis; periodic ataxia |
+| **Paroxysmal neurological** | **TIA** (negative symptoms; longer; consciousness preserved except vertebrobasilar); **migraine** (slow-evolving aura over tens of minutes; acephalgic migraine); **vertigo** (BPPV, Ménière's, cerebellar stroke); **hyperekplexia** (startle disease; GLRA1); **paroxysmal kinesigenic dyskinesia** (brief, movement-triggered, consciousness preserved; responds to low-dose ASMs) and non-kinesigenic forms; periodic paralysis; periodic ataxia |
 | **Sleep disorders** | **Narcolepsy** and **cataplexy** (emotion-triggered atonia, consciousness preserved, recovery within a minute); **NREM parasomnias** (stage 3–4 sleep, 1.5–2 hours after sleep onset, less clustering); **REM sleep behaviour disorder** (dream enactment; older; rousable); *versus* nocturnal **frontal lobe epilepsy** (stage 2, within 30 minutes of sleep onset, bizarre and clustered) |
 | **Transient global amnesia** | Dense anterograde amnesia for about 4 hours, otherwise intact; usually single. Vs **transient epileptic amnesia** (prominent retrograde amnesia; partial recall; recurrent) |
 | **Endocrine and metabolic** | **Hypoglycaemia** (insulin, alcohol, insulinoma); hypocalcaemia; phaeochromocytoma; carcinoid |
 | **Provoked (acute symptomatic) seizures** | About 40% of incident seizures. Fever (children); head injury, stroke, **alcohol withdrawal**, CNS infection; metabolic (Na⁺, Ca²⁺, Mg²⁺, glucose), renal or hepatic failure, hypertensive encephalopathy (PRES); **drugs** (psychotropics 35% of drug-related seizures, isoniazid, bronchodilators, stimulants, insulin); clozapine (4% at 600–900 mg); overdose of antidepressants or antipsychotics |
 | **Other ictal mimics within epilepsy** | Non-convulsive status presenting as delirium or psychiatric disorder; **reflex epilepsy** (photic, reading, musicogenic, startle) misread as functional |
 
-### Seizure vs syncope (p3-1ec0f698) [1]
+### Seizure vs syncope [1]
 
 | Feature | **Vasovagal syncope** | **Epileptic (tonic–clonic) seizure** |
 | --- | --- | --- |

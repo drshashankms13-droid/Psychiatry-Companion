@@ -10,7 +10,7 @@ reviewer:
 > **Source discipline:** this answer uses only *Maudsley Prescribing Guidelines* 15e [1]:
 > - "Genetic testing for clozapine treatment" (pp. 275–277);
 > - "Carbamazepine" (p. 297);
-> - ch 11, "Psychotropic drugs and cytochrome (CYP) function" (Tables 11.5–11.6);
+> - ch 11, "Psychotropic drugs and cytochrome (CYP) function";
 > - the adult ADHD table (atomoxetine).
 >
 > **The sources contain no trials of combinatorial pharmacogenomic panels for antidepressant selection, and no Indian data.** Those aspects are not covered.
@@ -26,7 +26,7 @@ reviewer:
   3. **serious adverse reactions**.
 
 ### 1. Pharmacokinetic genotyping (CYP enzymes) [1]
-- **Ancestry differences matter** (Table 11.6). For example:
+- **Ancestry differences matter**. For example:
   - **CYP1A2 ultrarapid metabolisers** are commonest in **African Americans**, so expect more clozapine failure or low plasma levels;
   - **CYP2D6 ultrarapid metabolisers**: 7–15% (European) and 10–15% (African) vs 1–5% in other groups;
   - CYP2D6 poor metabolisers: about 1–4% across groups.

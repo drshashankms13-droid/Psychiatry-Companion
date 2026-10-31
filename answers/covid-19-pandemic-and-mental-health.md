@@ -102,7 +102,7 @@ reviewer:
    - **don't rush to medicate** new symptoms; many settle with reassurance and as respiratory symptoms improve;
    - when needed, **start low, go slow**;
    - check **QTc** (additive with HCQ, azithromycin, antipsychotics), **hyponatraemia**, oxygen saturation (**benzodiazepine respiratory depression**), drug interactions, and renal and hepatic function [1].
-6. **Disorder-specific plans (Table 7)** [1]:
+6. **Disorder-specific plans** [1]:
    - **Panic/acute stress:** reassurance; breathing techniques; short-acting benzodiazepines as needed; SSRIs if persistent.
    - **Depression:** CBT or supportive therapy; SSRI or SNRI if moderate–severe; suicide precautions.
    - **Delirium:** find and treat the cause; reorientation; melatonin; haloperidol or quetiapine (QTc); dexmedetomidine; lorazepam only for alcohol withdrawal.
@@ -112,7 +112,7 @@ reviewer:
 8. **Post-COVID clinics** with a mental health professional:
    - screen for depression, anxiety, PTSD, cognition, sleep, fatigue, suicidality;
    - provide **grief work**;
-   - treat according to standard guidelines (Table 8) [1].
+   - treat according to standard guidelines [1].
 
 **For psychiatric services:**
 - continuity through tele-consultation;

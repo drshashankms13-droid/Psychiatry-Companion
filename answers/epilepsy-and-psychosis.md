@@ -80,7 +80,7 @@ reviewer:
 | Duration | Minutes to hours (longer in the elderly or with learning disability) | Days (mean 3.5) |
 | Treatment | Observe; EEG if atypical (exclude NCSE) | Sedation (benzodiazepine); ± brief antipsychotic |
 
-### 3. Interictal schizophrenia-like psychosis (p3-1b1ca9db) [1, 2]
+### 3. Interictal schizophrenia-like psychosis [1, 2]
 - **Definition:** a psychosis that would meet criteria for schizophrenia but for the epilepsy, with no or a variable relation to individual seizures.
 - **Slater (1963), n = 69:**
   - **onset at mean age 30, about 14 years after epilepsy onset** (10–15 years in later series);

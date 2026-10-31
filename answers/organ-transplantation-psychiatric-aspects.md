@@ -27,7 +27,7 @@ reviewer:
 ### Role of the psychiatrist across the transplant timeline [1]
 Transplantation is a continuum. Each phase brings different stressors: advanced organ disease, then evaluation, waiting, surgery and perioperative care, early recovery, and long-term life as a recipient.
 
-**1. Pretransplant psychosocial evaluation.** Goals (Table 27.13–2):
+**1. Pretransplant psychosocial evaluation.** Goals:
 1. Develop an individualised treatment plan, including listing requirements.
 2. Establish a working relationship.
 3. Assess coping strengths and vulnerabilities.
@@ -38,7 +38,7 @@ Transplantation is a continuum. Each phase brings different stressors: advanced 
 8. Educate and prepare the patient.
 9. Give input to candidacy decisions.
 
-**Content of the evaluation (Table 27.13–3):**
+**Content of the evaluation:**
 - a full psychiatric assessment;
 - transplant-specific areas:
   - illness course and understanding;
@@ -69,7 +69,7 @@ Transplantation is a continuum. Each phase brings different stressors: advanced 
   - rely on family and records;
   - surrogate understanding is the key consent issue;
   - in **paracetamol overdose**, decide whether it was accidental or a suicide attempt, and assess impulsivity, stressors, character pathology and future risk.
-- **Living donors** (Table 27.13–4):
+- **Living donors**:
   - assess mental health, **motives** (guilt, urgency, wish to be a "hero", ambivalence), relationship, **coercion or inducement**, knowledge, finances and capacity;
   - an **independent living donor advocate** is mandatory;
   - active psychiatric disorder or SUD is usually a contraindication, with exceptions (for example, a parent donating to a critically ill child).
@@ -155,7 +155,7 @@ Transplantation is a continuum. Each phase brings different stressors: advanced 
   - **naltrexone** is unsuitable in liver disease;
   - **disulfiram** needs hepatic activation and its metabolite inhibits 3A4.
 
-### Neuropsychiatric effects of immunosuppressants (Table 27.13–7) [1]
+### Neuropsychiatric effects of immunosuppressants [1]
 - **Calcineurin inhibitors (tacrolimus > cyclosporine):**
   - mild effects in **40–60%**: tremor, headache, insomnia, vivid dreams, paraesthesia, mood change;
   - severe effects in up to **20–30%** early on: delirium, seizures, cortical blindness, catatonia;
@@ -189,7 +189,7 @@ Transplantation is a continuum. Each phase brings different stressors: advanced 
   - mood disorder in **up to 20%** of kidney recipients;
   - self-reported immunosuppressant non-adherence **28%**;
   - after transplant, quality of life improves clearly over pre-transplant levels.
-- **Prescribing in renal insufficiency** (Table 27.13–6):
+- **Prescribing in renal insufficiency**:
   - lithium: 50–75% dose, with a 300 mg supplement after each dialysis session;
   - gabapentin: reduce in moderate or severe renal insufficiency;
   - desvenlafaxine: at most 50 mg/day;

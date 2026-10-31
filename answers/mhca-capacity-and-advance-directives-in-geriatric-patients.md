@@ -122,7 +122,7 @@ reviewer:
 
 ## In depth
 
-### Legal instruments for older adults with cognitive impairment (NB-16, Table 14.2) [3]
+### Legal instruments for older adults with cognitive impairment [3]
 | Instrument | Use |
 |---|---|
 | Advance directive / living will | Instructions for future care when capacity is lost |

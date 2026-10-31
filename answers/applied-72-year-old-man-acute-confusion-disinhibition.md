@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only:
 > - the departmental dementia notes NB-16, Part 15 "Delirium superimposed on dementia" [1];
-> - *Kaplan & Sadock's Comprehensive Textbook of Psychiatry* 10e §27.8 (delirium in the medically ill: assessment, MDAS, antipsychotic evidence, Table 27.8–3) and §27.13 (Table 27.13–5, perioperative causes) [2];
+> - *Kaplan & Sadock's Comprehensive Textbook of Psychiatry* 10e §27.8 (delirium in the medically ill: assessment, MDAS, antipsychotic evidence) and §27.13 (perioperative causes) [2];
 > - *Lishman's Organic Psychiatry* 4e, ch 1 (acute vs chronic organic reactions) [3];
 > - *Maudsley Prescribing Guidelines* 15e (rapid tranquillisation cautions in older adults) [4].
 
@@ -94,7 +94,7 @@ reviewer:
 
 ## In depth
 
-### Delirium vs dementia vs DSD (NB-16 Table 15.2) [1]
+### Delirium vs dementia vs DSD [1]
 | Feature | Delirium | Dementia | DSD |
 |---|---|---|---|
 | Onset | Hours to days | Insidious | Acute on chronic |

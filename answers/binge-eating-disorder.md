@@ -18,7 +18,7 @@ reviewer:
 - In DSM-IV, BED sat under "disorders for further research" (within EDNOS). DSM-5 made it a **formal diagnosis** [1, 3].
 - ICD-11 code: **6B82** [3].
 
-**DSM-5 criteria (Table 27.4–3) [1]:**
+**DSM-5 criteria [1]:**
 - recurrent binge eating (a larger than normal amount, with **loss of control**) **at least once a week for 3 months**;
 - with **three or more** of:
   - eating very rapidly;
@@ -49,7 +49,7 @@ reviewer:
 
 ### Assessment [3]
 - SCOFF, EDE-Q, EDI-3, BITE; screen for depression and anxiety.
-- **Obesity class and recommended weight treatment** (Table 27.4–2) [1]:
+- **Obesity class and recommended weight treatment** [1]:
   - overweight: behavioural weight management (BWM);
   - class I: BWM plus medical weight management;
   - class II: BWM plus medical management, or BWM plus weight-loss surgery;

@@ -23,7 +23,7 @@ reviewer:
 - **Psychotic depression** (needs an antipsychotic or ECT).
 - Measurement-based care (PHQ-9, HAM-D, MADRS).
 
-### Step 2: established pharmacological strategies (Maudsley Tables 3.3–3.4) [1]
+### Step 2: established pharmacological strategies [1]
 | Strategy | Notes |
 | --- | --- |
 | **Optimise dose / switch** (within or between classes) | Including higher-dose venlafaxine and TCAs |
@@ -67,7 +67,7 @@ reviewer:
 
   See `neuromodulation-in-psychiatry`, `deep-brain-stimulation-in-psychiatry`.
 
-**5. Other pharmacological options with emerging or limited support (Maudsley Table 3.5) [1]:**
+**5. Other pharmacological options with emerging or limited support [1]:**
 - **pramipexole** (probably effective);
 - **hyoscine (scopolamine)** IV (rapid);
 - **buprenorphine** low dose;
@@ -164,7 +164,7 @@ All are within a **difficult-to-treat depression** framework that prioritises fu
 - Chronic PTSD.
 - Demoralisation.
 
-### Management: ketamine practicalities (Maudsley Table 3.6) [1]
+### Management: ketamine practicalities [1]
 - **IV:**
   - 0.5 mg/kg (up to 1.0 mg/kg; start at 0.25 mg/kg in older people) over 40 minutes;
   - **induction:** once or twice weekly;

@@ -109,7 +109,7 @@ reviewer:
 
 ## In depth
 
-### Neurocognitive deficits in hypothyroid adults and response to treatment (Table 10.3) [1]
+### Neurocognitive deficits in hypothyroid adults and response to treatment [1]
 | Domain | After treatment |
 |---|---|
 | General intelligence | Not generally affected |

@@ -55,7 +55,7 @@ reviewer:
 
 Early motor symptoms can be **transient and emotionally sensitive**, which is **mistaken for conversion disorder** [1].
 
-### Psychiatric manifestations (p3-2f8050c6) [1]
+### Psychiatric manifestations [1]
 Wilson emphasised psychiatric features as fundamental. **About 20% saw a psychiatrist before diagnosis** (Dening & Berrios, n = 195).
 
 Reasons for referral: declining school or work performance, behavioural outbursts, odd movements.
@@ -100,7 +100,7 @@ Reasons for referral: declining school or work performance, behavioural outburst
   - **PET:** reduced lenticular metabolism.
 - **Family screening:** all **siblings** (25% affected, 50% carriers).
 
-### Treatment (p3-0b62b688) [1]
+### Treatment [1]
 **Aims:**
 - remove excess copper;
 - prevent reaccumulation;

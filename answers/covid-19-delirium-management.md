@@ -161,7 +161,7 @@ They also **limited standard non-drug measures** [general knowledge]. **All COVI
 ### Evidence table
 | Source | Point |
 | --- | --- |
-| IPS CPG 2022, Table 7 | Delirium management in COVID: cause, reorientation, melatonin, haloperidol or quetiapine (QTc), dexmedetomidine, lorazepam for alcohol withdrawal [1] |
+| IPS CPG 2022 | Delirium management in COVID: cause, reorientation, melatonin, haloperidol or quetiapine (QTc), dexmedetomidine, lorazepam for alcohol withdrawal [1] |
 | MIND-USA (Girard 2018, *NEJM*) (general knowledge) | Haloperidol and ziprasidone did not alter delirium duration |
 | COVID-D (Pun 2021, *Lancet Respir Med*) (general knowledge) | High delirium and coma prevalence in COVID ICU; benzodiazepine use a risk factor |
 

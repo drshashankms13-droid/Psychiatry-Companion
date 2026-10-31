@@ -10,7 +10,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only two sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, "Huntington's disease", pp. 576–584 [1].
-> 2. *The Maudsley Prescribing Guidelines*, 15th ed. (2025), "Huntington's disease", pp. 830–834 (Box 10.3; Tables 10.9–10.11) [2].
+> 2. *The Maudsley Prescribing Guidelines*, 15th ed. (2025), "Huntington's disease", pp. 830–834 (Box 10.3) [2].
 >
 > Lishman supplies the clinical picture and Maudsley the drug treatment. The In-depth section also uses the user's resident notes on HD and neuroacanthocytosis [3]; errors found in those notes are flagged where they occur. Material from neither source is tagged **[general knowledge]**.
 
@@ -55,7 +55,7 @@ reviewer:
 - **Westphal (rigid) variant** (up to 10%; young onset): akinesia, rigidity, tremor, more seizures.
 - Maudsley: a **biphasic** course, hyperkinetic (chorea) then **hypokinetic** (bradykinesia, dystonia, gait) [2].
 
-### Psychiatric and neuropsychiatric manifestations (p3-0e868548) [1, 2]
+### Psychiatric and neuropsychiatric manifestations [1, 2]
 
 | Domain | Features |
 | --- | --- |
@@ -113,7 +113,7 @@ reviewer:
 
 Wellbeing generally improves after testing, but some who receive **"good news" do worst** (survivor adjustment) [1].
 
-### Management (p3-980df8ac) [2]
+### Management [2]
 
 **General principles (Box 10.3):**
 - treat when symptoms become bothersome or stigmatising;
@@ -123,7 +123,7 @@ Wellbeing generally improves after testing, but some who receive **"good news" d
 - review regularly.
 - **No disease-modifying treatment exists.**
 
-**Motor (Table 10.9):**
+**Motor:**
 - **Chorea:**
   - aim to reduce, not abolish;
   - **tetrabenazine** (licensed; best evidence) is first line **if there is no depression or suicidality** (it causes sedation, depression and parkinsonism);
@@ -135,7 +135,7 @@ Wellbeing generally improves after testing, but some who receive **"good news" d
 - **Myoclonus:** valproate or clonazepam; levetiracetam.
 - **Dystonia:** low-dose tetrabenazine; botulinum toxin (focal); clonazepam or baclofen.
 
-**Psychiatric (Tables 10.10–10.11):** psychiatric symptoms are **the most amenable to drugs**. Choose drugs as in other conditions, but with greater adverse-effect sensitivity.
+**Psychiatric:** psychiatric symptoms are **the most amenable to drugs**. Choose drugs as in other conditions, but with greater adverse-effect sensitivity.
 
 | Symptom | First line | Alternatives / notes |
 | --- | --- | --- |

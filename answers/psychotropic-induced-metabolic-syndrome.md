@@ -38,7 +38,7 @@ reviewer:
 | BP | ≥130/85 mmHg or on treatment | Same |
 | Fasting glucose | ≥5.6 mmol/L (100 mg/dL) or diagnosed type 2 diabetes | Same |
 
-These values are adapted from IPS CPG Table 6 [4]. The source table also lists WHO 1998 and EGIR 1999 definitions; its layout is partly garbled in the PDF, so verify the cut-offs against the original. Individual risk factors and overall CVD risk matter more than the categorical label [1].
+These values are adapted from IPS CPG [4]. The source table also lists WHO 1998 and EGIR 1999 definitions; its layout is partly garbled in the PDF, so verify the cut-offs against the original. Individual risk factors and overall CVD risk matter more than the categorical label [1].
 
 ### Causes: a multifactorial model [1, 3, 5]
 - **Illness and lifestyle:**
@@ -59,7 +59,7 @@ These values are adapted from IPS CPG Table 6 [4]. The source table also lists W
 
 ### Liability by drug [1, 2, 3, 4]
 
-| Risk | Weight (BAP Table 2; Maudsley 1.31) | Glucose and lipids (Maudsley) |
+| Risk | Weight (BAP; Maudsley 1.31) | Glucose and lipids (Maudsley) |
 | --- | --- | --- |
 | **High** | **Olanzapine, clozapine**; chlorpromazine high/medium | Strongest links to diabetes, **ketoacidosis** and hypertriglyceridaemia. Up to one-third on clozapine develop diabetes by 5 years. Olanzapine raises triglycerides by about 40%, sometimes without weight gain |
 | **Medium** | Quetiapine, risperidone, paliperidone | Quetiapine diabetes risk dose-related (400 mg or more) |
@@ -156,7 +156,7 @@ The metformin guideline groups drugs as **high risk** (olanzapine, clozapine; "n
 - **Share clinical information.**
 - **Provide lifestyle programmes** locally.
 
-### How metabolic disorders shape antipsychotic prescribing in schizophrenia (p3-124a6b89)
+### How metabolic disorders shape antipsychotic prescribing in schizophrenia
 1. **Choose the drug** by metabolic risk as well as efficacy. Discuss this at the start [1, 2].
 2. **Check baseline risk** (BMI, glucose/HbA1c, lipids, BP, family history, gestational diabetes, smoking) [1, 4].
 3. **Avoid olanzapine and clozapine first line in those with risk factors.** If they are essential (e.g., clozapine for TRS), co-commence metformin and/or add aripiprazole [2, 3, 4].
@@ -177,7 +177,7 @@ The metformin guideline groups drugs as **high risk** (olanzapine, clozapine; "n
 
 ## In depth
 
-### Evidence grading (BAP Table 1) [1]
+### Evidence grading [1]
 **Strength of recommendation:** A = meta-analyses/RCTs; B = category II or extrapolated; C = descriptive; D = expert opinion; **S = standard of good practice** (all the monitoring recommendations).
 
 ### Critical appraisal (from the sources)

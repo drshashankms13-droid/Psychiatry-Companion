@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only *Maudsley Prescribing Guidelines* 15e [1]:
 > - ch 3, "Psychotic depression" (pp. 362–364);
-> - ch 2, "Bipolar depression" (pp. 319–325, Tables 2.9–2.10), and the NICE and BAP positions it reports.
+> - ch 2, "Bipolar depression" (pp. 319–325), and the NICE and BAP positions it reports.
 
 ## Exam answer
 

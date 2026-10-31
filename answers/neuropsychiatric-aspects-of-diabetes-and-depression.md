@@ -148,14 +148,14 @@ Lustman and colleagues found the relationship to be reciprocal, with a strong as
 
 ### Special situations [1]
 
-**Schizophrenia (Table 4)** [1]:
+**Schizophrenia** [1]:
 - **Before antipsychotics:** screen fasting and postprandial glucose (HbA1c if deranged). Ask about gestational diabetes, obesity and family history; check lipids.
 - **Prefer:** **ziprasidone and lurasidone**.
 - **Intermediate,** in descending order of metabolic effect: aripiprazole, risperidone, amisulpride, quetiapine, paliperidone, asenapine, haloperidol.
 - **Avoid with risk factors:** **olanzapine, clozapine, sertindole**.
 - Pre- and probiotics may reduce gut dysbiosis and metabolic syndrome.
 
-**Eating disorders (Table 5)** [1]:
+**Eating disorders** [1]:
 - A multidisciplinary team.
 - Medical stabilisation: adequate insulin, more food, a flexible meal plan and regular routine, glucose monitoring.
 - CBT for insulin omission; antidepressants.

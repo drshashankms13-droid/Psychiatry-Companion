@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only:
 > - *Lishman's Organic Psychiatry* 4e: chapters 3, 7, 9, 10, 11 and 12 (pages cited inline) [1];
-> - *The Maudsley Prescribing Guidelines in Psychiatry* 15e: lithium, valproate, antipsychotic EPS (Table 1.28), Parkinson's disease, and β-agonists [2].
+> - *The Maudsley Prescribing Guidelines in Psychiatry* 15e: lithium, valproate, antipsychotic EPS, Parkinson's disease, and β-agonists [2].
 >
 > **Gap:** neither source gives a formal tremor classification (rest/postural/kinetic scheme with frequencies), a full investigation algorithm, or drug doses for essential tremor. The answer assembles what the sources say, viewed from psychiatry.
 
@@ -58,7 +58,7 @@ reviewer:
 - **Thyroid signs:** AF, tachycardia over 90, goitre or bruit, exophthalmos, lid retraction, lid-lag, hot hands, fine finger tremor [1, p.634].
 - **Kayser–Fleischer ring** (slit-lamp): its absence makes Wilson's disease improbable when there are neuropsychiatric symptoms [1, p.772].
 - **Asterixis** (metabolic encephalopathy) [1].
-- **Tests for psychogenic tremor (Table 12.3)** [1, p.795]:
+- **Tests for psychogenic tremor** [1, p.795]:
   - **variability** in frequency, amplitude or distribution;
   - **distraction** (serial subtraction, rapid alternating movements of the normal limb) improves it;
   - **entrainment** to a rhythm tapped by the normal limb, or the requested rhythm becomes irregular. A 3 Hz rhythm is more sensitive;
@@ -131,7 +131,7 @@ Treatment is of the cause: dose reduction, switching or anticholinergics for dru
 
 ## In depth
 
-### Diagnostic certainty in psychogenic movement disorder (Fahn and Williams 1988; Table 12.2) [1, p.794]
+### Diagnostic certainty in psychogenic movement disorder (Fahn and Williams 1988) [1, p.794]
 | Category | Criteria |
 |---|---|
 | Documented | Persistent relief by psychotherapy, suggestion or placebo, or absent when unobserved |

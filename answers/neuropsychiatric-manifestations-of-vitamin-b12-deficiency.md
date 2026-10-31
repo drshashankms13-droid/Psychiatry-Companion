@@ -72,7 +72,7 @@ reviewer:
 - MMA and homocysteine are less sensitive because of reduced kidney function.
 - Management therefore relies heavily on clinical judgement.
 
-**Biomarkers (Table 1):**
+**Biomarkers:**
 
 | Test | Reference range | Deficiency cut-off | Confounders |
 | --- | --- | --- | --- |

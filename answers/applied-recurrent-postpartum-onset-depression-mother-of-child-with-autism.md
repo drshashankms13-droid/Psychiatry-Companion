@@ -161,7 +161,7 @@ A **similar episode followed childbirth 3 years ago** and resolved **spontaneous
 ### Evidence table
 | Source | Point |
 | --- | --- |
-| IPS perinatal CPG (Bharadwaj, Chandra 2022) | Assessment (Box 1), tools (Table 5), PPD management, prophylaxis after previous PPD, rule out bipolarity [1] |
+| IPS perinatal CPG (Bharadwaj, Chandra 2022) | Assessment (Box 1), tools, PPD management, prophylaxis after previous PPD, rule out bipolarity [1] |
 | PASS trial (Rahman 2016, *Lancet Psychiatry*) (general knowledge) | Parent-mediated ASD intervention in India and Pakistan improved parent–child interaction |
 | Stein 2014, *Lancet* (general knowledge) | Perinatal mental disorders and child outcomes |
 

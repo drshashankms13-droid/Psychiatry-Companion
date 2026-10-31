@@ -216,7 +216,7 @@ His **father works abroad**; he lives with his mother.
 | Henggeler MST trials | Reduced arrests and placements |
 | Pringsheim 2015 (cited in [2]) | Stimulants and risperidone reduce conduct problems and aggression in ADHD/ODD/CD |
 | Campbell 1995; Malone 2000 (cited in [2]) | Lithium reduced aggression in hospitalised children with CD |
-| Maudsley Table 5.1 [2] | Risperidone licensed for CD, 5–18 years (UK/EMA) |
+| Maudsley [2] | Risperidone licensed for CD, 5–18 years (UK/EMA) |
 
 ### Critical appraisal
 - CD is a **heterogeneous** category (CU vs non-CU; reactive vs proactive aggression).

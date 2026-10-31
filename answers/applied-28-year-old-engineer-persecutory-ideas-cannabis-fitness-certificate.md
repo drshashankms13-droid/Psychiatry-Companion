@@ -86,7 +86,7 @@ reviewer:
 
 ## In depth
 
-### Epidemiological evidence linking cannabis and psychosis (Table 42.1) [1]
+### Epidemiological evidence linking cannabis and psychosis [1]
 | Study | Sample | Follow-up | Odds ratio |
 |---|---|---|---|
 | Andreasson 1987 | 45,570 Swedish conscripts | 15 years | 6.0 (heavy use) |
