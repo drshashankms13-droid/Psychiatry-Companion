@@ -74,10 +74,60 @@ function dataFilesOk(){
   }
   return true;
 }
-// TOPIC_NOTES and ANSWER_DATA are optional (Study Notes / Q&A Mode enhancements).
-if(typeof TOPIC_NOTES === 'undefined'){ window.TOPIC_NOTES = { neuro:{}, psych:{} }; }
-if(typeof ANSWER_DATA === 'undefined'){ window.ANSWER_DATA = { 'fy-neuro':{}, 'fy-psych':{} }; }
-if(typeof FINAL_ANSWERS === 'undefined'){ window.FINAL_ANSWERS = { answers:{}, byQuestion:{} }; }
+
+/* ---------- Data files are loaded on demand ----------
+   The login page needs none of them, so nothing heavy is downloaded before
+   sign-in. Questions load after sign-in; the large answer/notes files load
+   only when a view that shows them is opened. */
+const DATA_FILES = {
+  core: ['final-data.js', 'fy-data.js'],
+  fyNotes: ['notes-data.js'],
+  fyAnswers: ['answers-data.js'],
+  finalAnswers: ['final-answers-data.js']
+};
+const dataLoads = {};
+const dataLoaded = {};
+function loadScriptOnce(src){
+  return new Promise((resolve, reject)=>{
+    const el = document.createElement('script');
+    el.src = src;
+    el.onload = ()=> resolve();
+    el.onerror = ()=>{ el.remove(); reject(new Error('Could not download ' + src)); };
+    document.body.appendChild(el);
+  });
+}
+function ensureData(key){
+  if(!dataLoads[key]){
+    dataLoads[key] = Promise.all(DATA_FILES[key].map(loadScriptOnce))
+      .then(()=>{ dataLoaded[key] = true; })
+      .catch(e=>{ delete dataLoads[key]; throw e; }); // allow a retry
+  }
+  return dataLoads[key];
+}
+// Optional data: empty fallbacks until (or if) the file arrives.
+function notesData(){ return typeof TOPIC_NOTES !== 'undefined' ? TOPIC_NOTES : {}; }
+function fyAnswerData(){ return typeof ANSWER_DATA !== 'undefined' ? ANSWER_DATA : {}; }
+function finalAnswerData(){ return typeof FINAL_ANSWERS !== 'undefined' ? FINAL_ANSWERS : { answers:{}, byQuestion:{} }; }
+
+/* ---------- Lazily built card bodies ----------
+   Closed cards get an empty body; its HTML is built the first time the card
+   is opened. Keeps big views (Q&A, study notes) fast on phones. */
+let LAZY = {};
+let lazySeq = 0;
+function lazyBody(cls, open, build){
+  if(open) return `<div class="${cls}">${build()}</div>`;
+  const id = 'lz' + (lazySeq++);
+  LAZY[id] = build;
+  return `<div class="${cls}" data-lazy="${id}"></div>`;
+}
+function fillLazy(details){
+  const body = details.querySelector(':scope > [data-lazy]');
+  if(!body) return;
+  const build = LAZY[body.dataset.lazy];
+  delete LAZY[body.dataset.lazy];
+  body.removeAttribute('data-lazy');
+  if(build) body.innerHTML = build();
+}
 if(typeof finalQid === 'undefined'){ window.finalQid = function(p, t){ return p + '-' + String(t||'').trim().toLowerCase().replace(/\s+/g,' '); }; }
 
 let currentUser = null;
@@ -174,24 +224,35 @@ function domainForTopic(topic){
 }
 
 /* ---------- Cloud checklist sync ---------- */
-async function loadChecklistFromCloud(){
-  if(!currentUser) return {};
+// Returns the set of ticked question ids, or null if it could not be loaded.
+async function fetchChecklist(paper){
   try{
     const { data, error } = await supabaseClient
       .from('checklist_progress')
       .select('uid')
-      .eq('paper', currentPaper);
-    if(error){
-      console.error('Failed to load progress', error);
-      return {};
-    }
+      .eq('paper', paper);
+    if(error) throw error;
     const obj = {};
     (data||[]).forEach(row => { obj[row.uid] = true; });
     return obj;
   }catch(e){
-    console.error('Failed to load progress (network):', e);
-    return {};
+    console.error('Failed to load progress', e);
+    return null;
   }
+}
+// Retries a couple of times so a brief network blip does not show
+// everything as unticked (which looks like lost progress).
+async function loadChecklistFromCloud(){
+  if(!currentUser) return {};
+  const paper = currentPaper;
+  for(const wait of [0, 1500, 4000]){
+    if(wait) await new Promise(r=>setTimeout(r, wait));
+    if(paper !== currentPaper) return {};
+    const res = await fetchChecklist(paper);
+    if(res) return res;
+  }
+  toast('Could not load your saved ticks — they are safe on the server. Refresh to try again.', 'err');
+  return {};
 }
 
 async function upsertProgress(uid){
@@ -436,6 +497,16 @@ function sectionHeading(num, title, count){
 }
 function openAttr(q){ return (allExpanded || q) ? 'open' : ''; }
 
+// Saves for the same question run one after another, so a quick
+// tick-untick can never reach the server in the wrong order.
+const syncChains = {};
+function queueSync(uid, task){
+  const next = (syncChains[uid] || Promise.resolve()).catch(()=>{}).then(task);
+  syncChains[uid] = next;
+  next.finally(()=>{ if(syncChains[uid] === next) delete syncChains[uid]; }).catch(()=>{});
+  return next;
+}
+
 async function toggleItem(uid, row, cb){
   const newState = !!cb.checked;
   checklist[uid] = newState;
@@ -443,10 +514,11 @@ async function toggleItem(uid, row, cb){
   updateProgress();
   refreshGroups(uid);
   try{
-    const { error } = newState ? await upsertProgress(uid) : await deleteProgress(uid);
+    const { error } = await queueSync(uid, ()=> newState ? upsertProgress(uid) : deleteProgress(uid));
     if(error) throw error;
   }catch(e){
     console.error('Sync failed', e);
+    if(checklist[uid] !== newState) return; // already changed again; the newer save decides
     checklist[uid] = !newState;
     if(row){ row.classList.toggle('done', !newState); }
     cb.checked = !newState;
@@ -622,6 +694,32 @@ function renderTopicView(q){
 }
 
 /* ---------- View: First Year — Topic-wise ---------- */
+function fyNotesPanelHtml(topic){
+  const notesHtml = (notesData()[fySection()] || {})[topic] || null;
+  if(!notesHtml) return '';
+  // notesHtml is trusted, first-party HTML shipped in notes-data.js
+  return `<details class="notes-panel">
+    <summary>${CHEV}<svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> Study Notes</summary>
+    ${lazyBody('notes-content', false, ()=> notesHtml)}
+  </details>`;
+}
+function fyTopicBodyHtml(t, vis){
+  // Notes arrive separately; until then leave a slot that is filled on arrival.
+  let html = dataLoaded.fyNotes ? fyNotesPanelHtml(t.topic) : `<div class="notes-slot" data-topic="${esc(t.topic)}"></div>`;
+  let lastSub = null;
+  vis.forEach((i, idx)=>{
+    if(t.subgroups && i.subgroup && i.subgroup !== lastSub){
+      html += `<div class="qgroup-label">${esc(i.subgroup)}</div>`;
+      lastSub = i.subgroup;
+    }
+    html += fyQuestionRowHtml(i, idx+1);
+  });
+  return html;
+}
+function fillNotesSlots(){
+  document.querySelectorAll('#app .notes-slot').forEach(el=>{ el.outerHTML = fyNotesPanelHtml(el.dataset.topic); });
+}
+
 function renderFYTopicView(q){
   const topics = PAPER_CONFIG[currentPaper].data();
   let html = sectionHeading('T', `${PAPER_CONFIG[currentPaper].label} — by Topic`, `${topics.length} topics`);
@@ -638,26 +736,7 @@ function renderFYTopicView(q){
         <span class="card-title">${esc(t.topic)}</span>
         ${progressPill(topicItems, 'count')}
       </summary>
-      <div class="card-body">`;
-
-    const notesHtml = TOPIC_NOTES[fySection()] ? TOPIC_NOTES[fySection()][t.topic] : null;
-    if(notesHtml){
-      // notesHtml is trusted, first-party HTML shipped in notes-data.js
-      html += `<details class="notes-panel">
-        <summary>${CHEV}<svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> Study Notes</summary>
-        <div class="notes-content">${notesHtml}</div>
-      </details>`;
-    }
-
-    let lastSub = null;
-    vis.forEach((i, idx)=>{
-      if(t.subgroups && i.subgroup && i.subgroup !== lastSub){
-        html += `<div class="qgroup-label">${esc(i.subgroup)}</div>`;
-        lastSub = i.subgroup;
-      }
-      html += fyQuestionRowHtml(i, idx+1);
-    });
-    html += `</div></details>`;
+      ${lazyBody('card-body', !!openAttr(q), ()=> fyTopicBodyHtml(t, vis))}</details>`;
   });
 
   if(!anyVisible && isFiltering(q)) html += emptyNote('No questions match.');
@@ -718,7 +797,7 @@ function groupQAItems(items){
 }
 
 function fyQAGroupRowHtml(group, num){
-  const answerSet = ANSWER_DATA[currentPaper] || {};
+  const answerSet = fyAnswerData()[currentPaper] || {};
   const answeredUid = group.uids.find(u=>answerSet[u]);
   // answers are trusted, first-party HTML shipped in answers-data.js
   const ans = answeredUid ? answerSet[answeredUid] : null;
@@ -739,7 +818,7 @@ function fyQAGroupRowHtml(group, num){
 
 function renderFYQAView(q){
   const topics = PAPER_CONFIG[currentPaper].data();
-  const answerSet = ANSWER_DATA[currentPaper] || {};
+  const answerSet = fyAnswerData()[currentPaper] || {};
   let html = sectionHeading('QA', `${PAPER_CONFIG[currentPaper].label} — Question & Answer Mode`);
   let anyVisible = false;
 
@@ -754,9 +833,7 @@ function renderFYQAView(q){
         <span class="card-title">${esc(t.topic)}</span>
         <span class="card-count">${answered}/${topicGroups.length} answered</span>
       </summary>
-      <div class="card-body">`;
-    visGroups.forEach((g,idx)=> html += fyQAGroupRowHtml(g, idx+1));
-    html += `</div></details>`;
+      ${lazyBody('card-body', !!openAttr(q), ()=> visGroups.map((g,idx)=> fyQAGroupRowHtml(g, idx+1)).join(''))}</details>`;
   });
 
   if(!anyVisible && q) html += emptyNote('No questions match your search.');
@@ -773,7 +850,7 @@ const STATUS_LABEL = { draft:'Draft — not yet reviewed', reviewed:'Reviewed', 
 const SOURCE_LABEL = { 'ai-generated':'AI-generated' };
 
 function buildFinalQAGroups(){
-  const A = FINAL_ANSWERS || { answers:{}, byQuestion:{} };
+  const A = finalAnswerData();
   const groups = new Map();
   ITEMS.forEach(i=>{
     const qid = finalQid(currentPaper, i.text || i.stem);
@@ -799,7 +876,7 @@ function finalWordingHtml(w){
 }
 
 function finalQARowHtml(g, num){
-  const A = FINAL_ANSWERS || { answers:{} };
+  const A = finalAnswerData();
   const ans = g.answerId ? A.answers[g.answerId] : null;
   const words = [...g.wordings.values()];
   const first = words[0];
@@ -878,9 +955,7 @@ function renderFinalQAView(q){
         <span class="card-title">${esc(t)}</span>
         <span class="card-count">${answered}/${topicAll.length} answered</span>
       </summary>
-      <div class="card-body">`;
-    vis.forEach((g,idx)=> html += finalQARowHtml(g, idx+1));
-    html += `</div></details>`;
+      ${lazyBody('card-body', !!openAttr(q), ()=> vis.map((g,idx)=> finalQARowHtml(g, idx+1)).join(''))}</details>`;
   });
 
   if(!anyVisible) html += emptyNote(q ? 'No questions match your search.' : (finalQAFilter === 'answered' ? 'No answers added for this paper yet.' : 'Every question here has an answer.'));
@@ -1015,11 +1090,41 @@ function setExpanded(on){
 }
 
 /* ---------- Master render ---------- */
+// Which optional data file the current view needs before it can be shown.
+function viewNeeds(){
+  const fy = PAPER_CONFIG[currentPaper].mode === 'topic-first';
+  if(currentView === 'qa') return fy ? 'fyAnswers' : 'finalAnswers';
+  return null;
+}
+const NEED_LABEL = { fyAnswers:'answers', finalAnswers:'answers' };
+
 function renderAll(){
-  if(!currentPaper || !PAPER_CONFIG[currentPaper]) return;
+  if(!currentPaper || !PAPER_CONFIG[currentPaper] || !dataLoaded.core) return;
   const container = document.getElementById('app');
   const q = document.getElementById('searchBox').value.trim();
-  GROUPS = []; UID_GROUPS = {};
+  GROUPS = []; UID_GROUPS = {}; LAZY = {};
+
+  const need = viewNeeds();
+  if(need && !dataLoaded[need]){
+    container.innerHTML = overviewHtml() + `<div class="sync-note qa-loading" role="status">Loading ${NEED_LABEL[need]}…</div>` + '<div class="skeleton"></div>'.repeat(3);
+    updateProgress();
+    const view = currentView, paper = currentPaper;
+    ensureData(need).then(()=>{
+      if(currentView === view && currentPaper === paper) renderAll();
+    }).catch(err=>{
+      console.error(err);
+      if(currentView !== view || currentPaper !== paper) return;
+      container.innerHTML = overviewHtml() + `<div class="sync-note">Could not download the ${NEED_LABEL[need]}. Check your connection.<button type="button" class="inline-btn" data-action="rerender">Retry</button></div>`;
+      updateProgress();
+    });
+    return;
+  }
+  // Study notes are optional extras in the First Year topic view: show the
+  // questions straight away and drop the notes in when they arrive.
+  if(currentView === 'topic' && PAPER_CONFIG[currentPaper].mode === 'topic-first' && !dataLoaded.fyNotes){
+    ensureData('fyNotes').then(fillNotesSlots).catch(err=> console.error(err));
+  }
+
   let html = overviewHtml();
   if(currentView === 'year') html += renderYearView(q);
   else if(currentView === 'qa') html += (PAPER_CONFIG[currentPaper].mode === 'topic-first' ? renderFYQAView(q) : renderFinalQAView(q));
@@ -1264,6 +1369,15 @@ function revokeUser(email){
 
 /* ---------- Bootstrap (runs once the user is signed in and approved) ---------- */
 async function bootstrapApp(){
+  document.getElementById('app').innerHTML = '<div class="sync-note" role="status">Loading questions…</div>' + '<div class="skeleton"></div>'.repeat(4);
+  try{
+    await ensureData('core');
+  }catch(e){
+    console.error(e);
+    document.getElementById('app').innerHTML =
+      '<div class="sync-note">Could not download the questions. Check your connection.<button type="button" class="inline-btn" data-action="bootstrap">Retry</button></div>';
+    return;
+  }
   if(!dataFilesOk()) return;
   try{
     await bootstrapAppInner();
@@ -1347,6 +1461,7 @@ document.addEventListener('click', (e)=>{
     case 'check-access': checkAccess(); break;
     case 'signout': handleSignOut(); break;
     case 'bootstrap': bootstrapApp(); break;
+    case 'rerender': renderAll(); break;
     case 'toggle-sidebar': toggleSidebar(); break;
     case 'close-sidebar': closeSidebar(); break;
     case 'toggle-theme': toggleTheme(); break;
@@ -1368,6 +1483,10 @@ document.addEventListener('click', (e)=>{
     case 'revoke': if(isAdmin) revokeUser(el.dataset.email); break;
   }
 });
+
+document.getElementById('app').addEventListener('toggle', (e)=>{
+  if(e.target.tagName === 'DETAILS' && e.target.open) fillLazy(e.target);
+}, true);
 
 document.getElementById('app').addEventListener('change', (e)=>{
   const cb = e.target;
