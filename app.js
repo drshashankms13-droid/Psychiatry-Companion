@@ -1047,21 +1047,40 @@ function setAuthStatus(text, kind){
 }
 
 async function handleGoogleSignIn(btn){
-  if(!supabaseClient) return;
   const label = document.getElementById('googleBtnLabel');
+  const reset = ()=>{ btn.disabled = false; label.textContent = 'Continue with Google'; };
+  if(!supabaseClient){
+    setAuthStatus('The sign-in service did not load. Check your internet connection, pause any ad-blocker for this site, then refresh the page.', 'err');
+    return;
+  }
   btn.disabled = true;
-  label.textContent = 'Redirecting to Google…';
+  label.textContent = 'Opening Google…';
   setAuthStatus('');
-  const { error } = await supabaseClient.auth.signInWithOAuth({
-    provider: 'google',
-    options: { redirectTo: window.location.origin + window.location.pathname }
-  });
-  if(error){
-    btn.disabled = false;
-    label.textContent = 'Continue with Google';
-    setAuthStatus(error.message, 'err');
+  try{
+    const { error } = await supabaseClient.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo: window.location.origin + window.location.pathname }
+    });
+    if(error) throw error;
+    // The page normally leaves for Google within a second. If it is still here, say so.
+    setTimeout(()=>{
+      if(document.visibilityState !== 'visible') return;
+      reset();
+      setAuthStatus('Google did not open. If you opened this link inside WhatsApp, Instagram or another app, open it in Chrome or Safari instead and try again.', 'err');
+    }, 12000);
+  }catch(e){
+    console.error('Google sign-in failed to start:', e);
+    reset();
+    setAuthStatus('Could not start Google sign-in: ' + (e && e.message ? e.message : e) + '. Refresh the page and try again.', 'err');
   }
 }
+
+// Google blocks sign-in inside in-app browsers (Instagram, Facebook, LinkedIn…); warn before the click.
+(function(){
+  if(/FBAN|FBAV|Instagram|LinkedInApp|Line\/|; wv\)/i.test(navigator.userAgent || '')){
+    setAuthStatus('You are viewing this inside another app. Google sign-in only works in a normal browser: open this page in Chrome or Safari.', 'err');
+  }
+})();
 
 async function handleSignOut(){
   if(supabaseClient) await supabaseClient.auth.signOut();

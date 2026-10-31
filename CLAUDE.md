@@ -4,7 +4,7 @@ Static site (no framework) listing NIMHANS MD Psychiatry previous-year questions
 
 ## Files
 
-- `index.html` — page, all CSS, script tags (strict CSP: scripts must be local files or jsdelivr).
+- `index.html` — page, all CSS, script tags (strict CSP: scripts must be local files or jsdelivr). `vendor/` holds self-hosted third-party scripts (Supabase JS).
 - `app.js` — all UI logic. Views: year-wise, topic-wise, Q&A (`renderFYQAView` for First Year, `renderFinalQAView` for Final Year).
 - `final-data.js` — Final Year questions (`PAPERS1/2/3`). `fy-data.js` — First Year questions.
 - `answers-data.js` — First Year answers (hand-maintained HTML strings keyed by item uid).
