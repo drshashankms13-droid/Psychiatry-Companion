@@ -1188,6 +1188,7 @@ async function handleGoogleSignIn(btn){
 })();
 
 async function handleSignOut(){
+  rememberAccess(null);
   if(supabaseClient) await supabaseClient.auth.signOut();
 }
 
@@ -1240,6 +1241,14 @@ if(supabaseClient){
   })();
 }
 
+/* Remember (per device) which account was last approved, for offline use. */
+function rememberAccess(email){
+  try{ email ? localStorage.setItem('pc_access', email.toLowerCase()) : localStorage.removeItem('pc_access'); }catch(e){}
+}
+function cachedAccess(email){
+  try{ return localStorage.getItem('pc_access') === String(email).toLowerCase(); }catch(e){ return false; }
+}
+
 /* ---------- Access control ----------
    NOTE: this is a UX gate only. The real enforcement must be Row Level
    Security in Supabase (supabase_security.sql). Anything shipped as a
@@ -1261,6 +1270,16 @@ async function checkAccess(){
 
   if(error){
     console.error('Access check failed', error);
+    // Offline or server unreachable: an account approved on this device before
+    // can still open its saved copy. (Real protection is Row Level Security.)
+    if(cachedAccess(email)){
+      isApproved = true;
+      isAdmin = false;
+      document.getElementById('pendingGate').classList.add('hidden');
+      toast("Can't reach the server — opening your saved copy. Ticks will save once you're back online.", 'err');
+      bootstrapApp();
+      return;
+    }
     document.getElementById('app').innerHTML =
       '<div class="sync-note">Couldn\'t reach the server to check your access.<button type="button" class="inline-btn" data-action="check-access">Retry</button></div>';
     return;
@@ -1269,12 +1288,14 @@ async function checkAccess(){
   if(data){
     isApproved = true;
     isAdmin = !!data.is_admin;
+    rememberAccess(email);
     document.getElementById('pendingGate').classList.add('hidden');
     document.getElementById('adminBtn').classList.toggle('hidden', !isAdmin);
     bootstrapApp();
   } else {
     isApproved = false;
     isAdmin = false;
+    rememberAccess(null);
     document.getElementById('adminBtn').classList.add('hidden');
     try{
       const { error: reqErr } = await supabaseClient.from('pending_requests').upsert({ email });
@@ -1411,6 +1432,35 @@ async function bootstrapAppInner(){
   syncHeaderHeight();
 }
 
+/* ---------- Install as an app (Android/desktop Chrome) ---------- */
+let installPrompt = null;
+function showInstall(on){
+  document.querySelectorAll('[data-action="install-app"]').forEach(b=> b.classList.toggle('hidden', !on));
+  document.querySelectorAll('[data-install-section]').forEach(el=> el.classList.toggle('hidden', !on));
+}
+window.addEventListener('beforeinstallprompt', (e)=>{
+  e.preventDefault();          // show our own button instead of the browser's mini-bar
+  installPrompt = e;
+  showInstall(true);
+});
+window.addEventListener('appinstalled', ()=>{
+  installPrompt = null;
+  showInstall(false);
+  toast('Installed — open Psychiatry Companion from your home screen.');
+});
+async function installApp(){
+  if(!installPrompt) return;
+  const p = installPrompt;
+  installPrompt = null;
+  showInstall(false);
+  try{ await p.prompt(); await p.userChoice; }catch(e){ console.error(e); }
+}
+if('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')){
+  window.addEventListener('load', ()=>{
+    navigator.serviceWorker.register('/sw.js').catch(err=> console.error('Service worker registration failed', err));
+  });
+}
+
 /* ---------- Layout helpers ---------- */
 function syncHeaderHeight(){
   const header = document.querySelector('.topbar');
@@ -1462,6 +1512,7 @@ document.addEventListener('click', (e)=>{
     case 'signout': handleSignOut(); break;
     case 'bootstrap': bootstrapApp(); break;
     case 'rerender': renderAll(); break;
+    case 'install-app': installApp(); break;
     case 'toggle-sidebar': toggleSidebar(); break;
     case 'close-sidebar': closeSidebar(); break;
     case 'toggle-theme': toggleTheme(); break;

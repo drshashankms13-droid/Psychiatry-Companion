@@ -6,7 +6,12 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://mxqjvjdjnasavrbbxame.supabase.co wss://mxqjvjdjnasavrbbxame.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#0f3b3a">
+<meta name="theme-color" content="#0b1736">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="/icons/icon.svg">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Psychiatry">
 <title>Psychiatry Companion · NIMHANS Question Bank</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -555,6 +560,11 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
 #authGate .google-btn{ border-color:#d6d9e4; }
 #authGate .google-btn:hover{ border-color:#7f9fe0; box-shadow:0 2px 12px rgba(90,130,220,.25); }
 #authGate .auth-status:empty{ min-height:0; margin-top:0; }
+.landing-install{
+  margin-top:14px; align-self:flex-start; display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:0 16px;
+  background:rgba(255,255,255,.08); color:#fff; border:1px solid rgba(200,215,255,.45); border-radius:999px; font-size:.9rem; font-weight:600;
+}
+.landing-install:hover{ background:rgba(255,255,255,.16); }
 .landing-caption{
   position:fixed; right:28px; bottom:22px; margin:0; z-index:1;
   font-family:'Instrument Serif', var(--font-serif); font-style:italic; font-size:1rem; color:#a9bde6;
@@ -579,6 +589,7 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
   #authGate .auth-card{ margin-top:24px; width:100%; max-width:420px; text-align:center; }
   #authGate .auth-card h2{ font-size:1.6rem; }
   .landing-caption{ display:none; }
+  .landing-install{ align-self:center; }
   .landing-footer{ margin:4px 20px 22px; text-align:center; }
   .landing-footer .divider-dot{ display:block; height:0; visibility:hidden; }
 }
@@ -710,6 +721,7 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
   <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
   <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
   <symbol id="i-logout" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
   <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5h13L22 12v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6z"/></symbol>
 </svg>
 
@@ -734,6 +746,9 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
     </button>
     <div class="auth-status" id="authStatus" role="status" aria-live="polite"></div>
   </div>
+  <button type="button" class="landing-install hidden" data-action="install-app">
+    <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Install the app on this phone
+  </button>
   </div>
   <p class="landing-caption" aria-hidden="true">after Ramón y Cajal, pyramidal neuron</p>
 
@@ -855,6 +870,10 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
         <span>Hide completed</span>
         <span class="switch"><input type="checkbox" id="hideDone"><span class="track"></span></span>
       </label>
+    </div>
+
+    <div class="sidebar-section hidden" data-install-section>
+      <button type="button" class="side-btn" style="width:100%;display:flex;align-items:center;justify-content:center;gap:8px" data-action="install-app"><svg class="icon" style="width:16px;height:16px"><use href="#i-download"/></svg>Install as an app</button>
     </div>
 
     <div class="sidebar-section">
