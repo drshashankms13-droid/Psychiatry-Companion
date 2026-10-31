@@ -27,7 +27,7 @@ reviewer:
 7. **Toxicity or overdose.**
 8. Relapse prevention; switching formulations (oral ↔ LAI); medicolegal.
 
-### Target ranges (Maudsley Table 11.1)
+### Target ranges
 
 | Drug | Target range | Sample timing | Time to steady state |
 | --- | --- | --- | --- |

@@ -20,7 +20,7 @@ reviewer:
 - **But:** akathisia, restlessness, somnolence and weight gain can still occur, and it carries a risk of **impulse-control disorders** (gambling).
 
 ### Uses in non-psychotic disorders
-**1. Treatment-resistant unipolar depression [1, Table 3.3]:**
+**1. Treatment-resistant unipolar depression [1]:**
 - **Add aripiprazole 2–20 mg/day** to an antidepressant. It has a **good evidence base**, and brexpiprazole and cariprazine are also effective.
 - Usually well tolerated. **Low doses (2–10 mg)** may suffice. **Akathisia and restlessness are common.**
 - **Late-life TRD:** in OPTIMUM, augmenting with aripiprazole (or bupropion) beat switching to bupropion.

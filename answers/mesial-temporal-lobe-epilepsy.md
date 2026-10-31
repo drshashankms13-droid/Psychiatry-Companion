@@ -50,7 +50,7 @@ reviewer:
   - **gradual onset**, motionless **stare**, prolonged (automatisms about 2 minutes);
   - secondary generalisation is less common than in extratemporal epilepsy.
 
-**Auras (Table 6.3):**
+**Auras:**
 
 | Aura | Frequency in TLE | Notes |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ reviewer:
 
 Auras often show a **"march"** (e.g., epigastric → gustatory → fear).
 
-**Ictal semiology and lateralising signs (Table 6.4):**
+**Ictal semiology and lateralising signs:**
 - **Oro-alimentary automatisms** (lip-smacking, chewing, swallowing) and **gestural** automatisms (fumbling, picking).
 - **Ipsilateral focus:**
   - unilateral gestural automatisms;

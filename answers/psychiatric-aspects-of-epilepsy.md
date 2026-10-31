@@ -21,7 +21,7 @@ reviewer:
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., Chapter 10 "Epilepsy", pp. 811–817 [2].
 > 3. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 6, Epilepsy, pp. 333–349 and 377–380, added in the In-depth section [3].
 >
-> Where the sources give different figures, all are shown. Nothing else has been added. **The psychosis questions (p3-1b1ca9db, p3-2e114bb0) now have their own answer, `epilepsy-and-psychosis`.**
+> Where the sources give different figures, all are shown. Nothing else has been added. **The psychosis questions now have their own answer, `epilepsy-and-psychosis`.**
 
 ## Exam answer
 

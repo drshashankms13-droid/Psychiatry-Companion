@@ -14,7 +14,7 @@ reviewer:
 > **Source discipline:** this answer uses only three sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, "Frontotemporal dementia", pp. 573–576 [1].
 > 2. DSM-5-TR, "Major or mild frontotemporal neurocognitive disorder", pp. 695–699 [2].
-> 3. *The Maudsley Prescribing Guidelines*, 15th ed., "Dementia" (other dementias; NICE Box 6.2; BAP Table 6.3), pp. 641–649 [3].
+> 3. *The Maudsley Prescribing Guidelines*, 15th ed., "Dementia" (other dementias; NICE Box 6.2; BAP), pp. 641–649 [3].
 >
 > **Note on genetics:** Lishman (2009) predates the discovery of *C9orf72*, so the gene list comes from **DSM-5-TR (2022)**. Mutation frequencies, the Rascovsky (2011) bvFTD criteria, PPA criteria, FTLD-TDP subtypes and phenocopy guidance are summarised in the In-depth section, tagged **[general knowledge]**.
 
@@ -36,7 +36,7 @@ reviewer:
 - **Sex:** M ≥ F in some series; equal in others.
 - **Course:** survival **6–11 years from onset** (3–4 years from diagnosis); **faster than AD**; shorter still with motor neurone disease (MND) [2].
 
-### Clinical features (p3-329a755e, p3-5430dc27) [1, 2]
+### Clinical features [1, 2]
 
 **1. Behavioural variant (bvFTD).** The commonest form: about 60% [2]; 40% in the Cambridge series [1].
 - **DSM-5-TR:** three or more of:
@@ -89,7 +89,7 @@ reviewer:
 
 Lishman's cases: a 42-year-old woman with counting rituals; a 40-year-old accountant labelled "obsessional neurosis"; a 44-year-old professional suspended from work.
 
-### Aetiopathogenesis and genetics (p3-3eef1dd9, p3-fca34b0e) [1, 2]
+### Aetiopathogenesis and genetics [1, 2]
 
 **Pathology:**
 - **Gross:**
@@ -134,7 +134,7 @@ Lishman's cases: a 42-year-old woman with counting rituals; a 40-year-old accoun
 - **AD biomarkers** (CSF Aβ/tau, amyloid PET) to exclude AD: 10–30% of clinical FTD has AD pathology at autopsy [2].
 - **Genetic testing** in familial cases.
 
-### Management (p3-3eef1dd9, p3-fca34b0e) [3, 1]
+### Management [3, 1]
 - **No disease-modifying or cognitive treatment.**
   - **NICE: do not offer AChE-Is or memantine.**
   - BAP: no first or second choice.
@@ -154,7 +154,7 @@ Lishman's cases: a 42-year-old woman with counting rituals; a 40-year-old accoun
   - carer support and respite (high burden; may need residential care despite physical health) [1, 2].
 - **Genetic testing** in familial cases helps confirm the diagnosis [2]. Counselling protocols for FTD are not described in the sources.
 
-### FTD vs Alzheimer's disease (p3-9ce8bbb8) [1, 2]
+### FTD vs Alzheimer's disease [1, 2]
 
 | Feature | FTD | AD |
 | --- | --- | --- |

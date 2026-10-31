@@ -796,6 +796,50 @@ function groupQAItems(items){
   return order;
 }
 
+/* ---------- Q&A checklist ----------
+   A Q&A entry can stand for the same question asked in several sittings
+   (several uids). Ticking it ticks all of them, so Year-wise, Topic-wise and
+   the progress bar stay in step with Q&A mode. */
+let QA_SETS = [];   // per topic: list of uid-lists (one per Q&A entry)
+let UID_QA = {};    // uid -> topic set ids it appears in
+function qaSolved(uids){ return uids.length > 0 && uids.every(u=> checklist[u]); }
+function qaCountHtml(groups){
+  const id = QA_SETS.length;
+  QA_SETS.push(groups.map(g=> g.uids));
+  groups.forEach(g=> g.uids.forEach(u=> (UID_QA[u] = UID_QA[u] || []).push(id)));
+  const solved = groups.filter(g=> qaSolved(g.uids)).length;
+  return `<span class="card-count" data-qa-set="${id}">${solved} / ${groups.length} solved</span>`;
+}
+function refreshQACounts(uids){
+  const ids = new Set();
+  uids.forEach(u=> (UID_QA[u] || []).forEach(id=> ids.add(id)));
+  ids.forEach(id=>{
+    const sets = QA_SETS[id];
+    const el = document.querySelector(`[data-qa-set="${id}"]`);
+    if(el) el.textContent = `${sets.filter(qaSolved).length} / ${sets.length} solved`;
+  });
+}
+function qaCheckHtml(uids){
+  return `<label class="check qa-check" title="Mark as solved"><input type="checkbox" ${qaSolved(uids) ? 'checked' : ''} data-uids="${esc(uids.join(','))}" aria-label="Mark as solved"></label>`;
+}
+async function toggleQA(cb){
+  const uids = cb.dataset.uids.split(',').filter(Boolean);
+  const newState = !!cb.checked;
+  const changed = uids.filter(u=> !!checklist[u] !== newState);
+  changed.forEach(u=>{ checklist[u] = newState; });
+  updateProgress(); refreshQACounts(uids);
+  const results = await Promise.all(changed.map(u=>
+    queueSync(u, ()=> newState ? upsertProgress(u) : deleteProgress(u)).then(r=> r && r.error ? u : null, ()=> u)
+  ));
+  const failed = results.filter(Boolean);
+  if(!failed.length) return;
+  console.error('Sync failed for', failed);
+  failed.forEach(u=>{ if(checklist[u] === newState) checklist[u] = !newState; });
+  cb.checked = qaSolved(uids);
+  updateProgress(); refreshQACounts(uids);
+  toast('Could not save your progress — check your connection and try again.', 'err');
+}
+
 function fyQAGroupRowHtml(group, num){
   const answerSet = fyAnswerData()[currentPaper] || {};
   const answeredUid = group.uids.find(u=>answerSet[u]);
@@ -809,6 +853,7 @@ function fyQAGroupRowHtml(group, num){
       <span class="qa-qtext">${esc(group.text)}</span>
       ${group.typeLabel ? `<span class="badge marks">${esc(group.typeLabel)}</span>` : ''}
       ${yearBadges}
+      ${qaCheckHtml(group.uids)}
     </div>
     <div class="qa-answer">
       ${ans ? ans : '<span class="qa-pending">Answer not added yet — check back soon.</span>'}
@@ -818,8 +863,7 @@ function fyQAGroupRowHtml(group, num){
 
 function renderFYQAView(q){
   const topics = PAPER_CONFIG[currentPaper].data();
-  const answerSet = fyAnswerData()[currentPaper] || {};
-  let html = sectionHeading('QA', `${PAPER_CONFIG[currentPaper].label} — Question & Answer Mode`);
+  let html = sectionHeading('QA', PAPER_CONFIG[currentPaper].label);
   let anyVisible = false;
 
   topics.forEach((t)=>{
@@ -827,11 +871,10 @@ function renderFYQAView(q){
     const visGroups = topicGroups.filter(g=>matchesSearch({text:g.text, topic:g.topic, year:g.years.join(' ')}, q));
     if(visGroups.length===0 && q) return;
     anyVisible = true;
-    const answered = topicGroups.filter(g=>g.uids.some(u=>answerSet[u])).length;
     html += `<details class="topic-block" id="qa-topic-${slugify(t.topic)}" ${openAttr(q)}>
       <summary class="card-head">${CHEV}
         <span class="card-title">${esc(t.topic)}</span>
-        <span class="card-count">${answered}/${topicGroups.length} answered</span>
+        ${qaCountHtml(topicGroups)}
       </summary>
       ${lazyBody('card-body', !!openAttr(q), ()=> visGroups.map((g,idx)=> fyQAGroupRowHtml(g, idx+1)).join(''))}</details>`;
   });
@@ -844,9 +887,7 @@ function renderFYQAView(q){
    Each question gets a stable ID from qid.js. Answers (final-answers-data.js,
    built from answers/*.md) can cover several IDs, so differently-worded
    repeats of the same question collapse into one entry with one answer. */
-let finalQAFilter = 'all'; // 'all' | 'answered' | 'pending'
 const FINAL_KIND_LABEL = { critical:'Critical essay', applied:'Applied case', essay1:'Essay', essay2:'Essay', short:'Short note' };
-const STATUS_LABEL = { draft:'Draft — not yet reviewed', reviewed:'Reviewed', verified:'Verified against sources' };
 const SOURCE_LABEL = { 'ai-generated':'AI-generated' };
 
 function buildFinalQAGroups(){
@@ -890,7 +931,6 @@ function finalQARowHtml(g, num){
     // answers are trusted, first-party HTML generated from answers/*.md
     answerHtml = `
       <div class="ans-meta">
-        <span class="badge status-${esc(ans.status)}">${esc(STATUS_LABEL[ans.status] || ans.status)}</span>
         ${ans.source && SOURCE_LABEL[ans.source] ? `<span class="badge source-${esc(ans.source)}" title="Written by AI without source documents; not checked by a person">${esc(SOURCE_LABEL[ans.source])}</span>` : ''}
         ${ans.updated ? `<span class="ans-updated">Updated ${esc(ans.updated)}</span>` : ''}
       </div>
@@ -906,6 +946,7 @@ function finalQARowHtml(g, num){
     <div class="qa-question">
       <span class="qnum">${num}</span>
       <div class="qa-qtext">${finalWordingHtml(first)}${altHtml}</div>
+      ${qaCheckHtml(g.uids)}
     </div>
     <div class="qmeta qa-badges">
       <span class="badge marks">${esc(FINAL_KIND_LABEL[first.kind] || '')}${first.marks ? ' · ' + esc(first.marks) + ' marks' : ''}</span>
@@ -925,16 +966,9 @@ function finalGroupMatches(g, q){
 
 function renderFinalQAView(q){
   const all = buildFinalQAGroups();
-  const answeredCount = all.filter(g=>g.answerId).length;
-  let html = sectionHeading('QA', `${PAPER_CONFIG[currentPaper].label} — Question & Answer Mode`, `${answeredCount}/${all.length} answered`);
-  const fbtn = (v, label) => `<button type="button" data-action="qa-filter" data-value="${v}" aria-pressed="${finalQAFilter===v}">${label}</button>`;
-  html += `<div class="qa-filter" role="group" aria-label="Filter answers">${fbtn('all','All')}${fbtn('answered','Answered')}${fbtn('pending','Not yet answered')}</div>`;
+  let html = sectionHeading('QA', PAPER_CONFIG[currentPaper].label, `${all.length} questions`);
 
-  const shown = all.filter(g=>{
-    if(finalQAFilter === 'answered' && !g.answerId) return false;
-    if(finalQAFilter === 'pending' && g.answerId) return false;
-    return finalGroupMatches(g, q);
-  });
+  const shown = all.filter(g=> finalGroupMatches(g, q));
   const byTopic = new Map();
   all.forEach(g=>{ const t = g.topic || 'Other'; if(!byTopic.has(t)) byTopic.set(t, []); byTopic.get(t).push(g); });
   const topics = [...byTopic.keys()].sort((a,b)=>{
@@ -949,22 +983,16 @@ function renderFinalQAView(q){
     const vis = shown.filter(g=>(g.topic||'Other')===t).sort((a,b)=> b.sittings.length - a.sittings.length);
     if(!vis.length) return;
     anyVisible = true;
-    const answered = topicAll.filter(g=>g.answerId).length;
     html += `<details class="topic-block" id="qa-topic-${slugify(t)}" ${openAttr(q)}>
       <summary class="card-head">${CHEV}
         <span class="card-title">${esc(t)}</span>
-        <span class="card-count">${answered}/${topicAll.length} answered</span>
+        ${qaCountHtml(topicAll)}
       </summary>
       ${lazyBody('card-body', !!openAttr(q), ()=> vis.map((g,idx)=> finalQARowHtml(g, idx+1)).join(''))}</details>`;
   });
 
-  if(!anyVisible) html += emptyNote(q ? 'No questions match your search.' : (finalQAFilter === 'answered' ? 'No answers added for this paper yet.' : 'Every question here has an answer.'));
+  if(!anyVisible) html += emptyNote('No questions match your search.');
   return html;
-}
-
-function setQAFilter(v){
-  finalQAFilter = (v === 'answered' || v === 'pending') ? v : 'all';
-  renderAll();
 }
 
 /* ---------- Jump to a topic (from a badge) ---------- */
@@ -1102,7 +1130,7 @@ function renderAll(){
   if(!currentPaper || !PAPER_CONFIG[currentPaper] || !dataLoaded.core) return;
   const container = document.getElementById('app');
   const q = document.getElementById('searchBox').value.trim();
-  GROUPS = []; UID_GROUPS = {}; LAZY = {};
+  GROUPS = []; UID_GROUPS = {}; LAZY = {}; QA_SETS = []; UID_QA = {};
 
   const need = viewNeeds();
   if(need && !dataLoaded[need]){
@@ -1519,7 +1547,6 @@ document.addEventListener('click', (e)=>{
     case 'level': setLevel(el.dataset.value); break;
     case 'paper': setPaper(el.dataset.value); break;
     case 'view': setView(el.dataset.value); break;
-    case 'qa-filter': setQAFilter(el.dataset.value); break;
     case 'expand-all': setExpanded(true); break;
     case 'collapse-all': setExpanded(false); break;
     case 'erase': clearChecklist(); break;
@@ -1542,6 +1569,7 @@ document.getElementById('app').addEventListener('toggle', (e)=>{
 document.getElementById('app').addEventListener('change', (e)=>{
   const cb = e.target;
   if(cb.matches('input[type=checkbox][data-uid]')) toggleItem(cb.dataset.uid, cb.closest('.qitem'), cb);
+  else if(cb.matches('input[type=checkbox][data-uids]')) toggleQA(cb);
 });
 
 

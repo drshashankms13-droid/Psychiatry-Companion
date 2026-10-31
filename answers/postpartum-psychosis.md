@@ -47,7 +47,7 @@ reviewer:
 **Rule out organic causes:**
 - **Examination:** pallor, jaundice, BP, pedal oedema, thyroid, bleeding signs, cardiorespiratory and neurological systems, signs of connective tissue disease.
 - **Confusion, perplexity or disorientation** point to a medical or neurological cause.
-- **Investigations (Table 3):**
+- **Investigations:**
   - CBC and cultures (infection);
   - electrolytes and calcium; urea, creatinine, eGFR;
   - glucose, ketones, HbA1c;
@@ -63,7 +63,7 @@ reviewer:
   - meningitis or encephalitis.
 
 **MSE:**
-- Note **delusions and hallucinations relating to the infant** (Table 4):
+- Note **delusions and hallucinations relating to the infant**:
   - that the infant is dead, defective, divine or special;
   - that others will steal the infant;
   - **command hallucinations**, which can lead to harm to the infant or to over-protective clinging.
@@ -74,7 +74,7 @@ reviewer:
 - **infanticide** (depression with suicidality, and psychotic symptoms about the infant, raise the risk);
 - harm to others.
 
-**Rating scales (Table 5):** YMRS, PANSS, BPRS, **NIMBUS** (NIMHANS Maternal Behaviour Scale), **PBQ** (bonding), and the **Stafford Interview** (in MBUs and research).
+**Rating scales:** YMRS, PANSS, BPRS, **NIMBUS** (NIMHANS Maternal Behaviour Scale), **PBQ** (bonding), and the **Stafford Interview** (in MBUs and research).
 
 ### Management [1, 2]
 **Setting:**
@@ -144,7 +144,7 @@ reviewer:
 
 ## In depth
 
-### Psychopathology relating to the infant (Table 4) [1]
+### Psychopathology relating to the infant [1]
 | Psychopathology | Usual context | Implication |
 |---|---|---|
 | Infant dead, defective, or the death being hidden | Psychotic depression, acute psychosis | Associated maternal medical conditions |

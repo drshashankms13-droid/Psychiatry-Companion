@@ -185,7 +185,7 @@ reviewer:
 
 ## In depth
 
-### Applying this to the Paper 2 case (p2-103b5aae)
+### Applying this to the Paper 2 case
 *A 55-year-old man is found collapsed on the pavement. He is confused, disoriented to time and place, admits to drinking a bottle of whisky a day, and cannot stand or walk without support.*
 
 - **Working diagnosis:** **Wernicke's encephalopathy** (confusion + ataxia in a heavy drinker). Caine criteria need only 2 of 4: dietary deficiency, eye signs, cerebellar dysfunction, altered mental state or memory. **Eye signs may be absent** (full triad in only 16%) [1, 3].

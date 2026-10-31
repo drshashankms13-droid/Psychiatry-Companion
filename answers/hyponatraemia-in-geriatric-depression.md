@@ -51,7 +51,7 @@ reviewer:
 - **Bupropion:** only one study, with no excess risk. It may be an option for older adults.
 - **Onset:** venlafaxine may cause hyponatraemia sooner (mean 4 days) than SSRIs (9–24 days).
 
-**Maudsley Table 3.14** [2]:
+**Maudsley** [2]:
 
 | Drug | Risk | Evidence |
 | --- | --- | --- |

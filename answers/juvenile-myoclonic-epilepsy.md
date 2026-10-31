@@ -31,7 +31,7 @@ reviewer:
 
 ### Epidemiology and genetics [1]
 - **Family history** of epilepsy in up to 50%; variable inheritance; **genetic heterogeneity**.
-- Familial JME is listed among the ligand-gated channelopathies (Table 6.6).
+- Familial JME is listed among the ligand-gated channelopathies.
 - **Sex:** M = F.
 - **Onset:** **80% between 12 and 18 years**.
 

@@ -58,7 +58,7 @@ reviewer:
 - **Withdrawal:** dysphoria, anhedonia, anxiety and irritability on reduction [1]. **Depression after agonist withdrawal** [2].
 - **Paradox:** agonists are **effective antidepressants** in PD (pramipexole), alone or as augmentation [2].
 
-### 4. Other neuropsychiatric effects (Maudsley Table 15.3) [2]
+### 4. Other neuropsychiatric effects [2]
 - **Agonists:** sedation, psychomotor agitation, anxiety, akathisia, sleep disturbance, psychosis, cognitive impairment, delirium, visual hallucinations.
 - **Apomorphine:** drowsiness [1].
 

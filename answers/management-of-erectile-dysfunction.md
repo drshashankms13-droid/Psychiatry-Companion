@@ -27,7 +27,7 @@ Sexual stimulation → parasympathetic (S2–S4) and NANC nerves release **nitri
 | NPT | >90–180 min/night | <60 min/night |
 | Age | Younger | Older, with vascular risk factors |
 
-Source: Indian CPG Table 17 [1].
+Source: Indian CPG [1].
 
 ### Assessment
 - **History:** sexual history (onset, situational, morning erections, desire, ejaculation), partner factors, relationship, performance anxiety, myths (e.g., dhat), depression and anxiety, substances (alcohol, tobacco, cannabis), drugs (SSRIs, antipsychotics, beta-blockers, thiazides, finasteride, opioids).

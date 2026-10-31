@@ -9,7 +9,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only *Maudsley Prescribing Guidelines* 15e, ch 4 "Addictions and substance misuse":
-> - Alcohol dependence, relapse prevention, pp. 489–495 (Boxes 4.1–4.3, Table 4.8);
+> - Alcohol dependence, relapse prevention, pp. 489–495 (Boxes 4.1–4.3);
 > - Opioid dependence, naltrexone, pp. 517–518;
 > - Nicotine and smoking cessation, pp. 523–525 [1].
 
@@ -54,7 +54,7 @@ reviewer:
   - **supervised by a family member**;
   - monitor every 2 weeks for 2 months, monthly for 4 months, then 6-monthly.
 - **Dose:** 800 mg first dose, then **100–200 mg/day** maintenance. **Sudden death** is commoner above 1000 mg.
-- **Reaction (Table 4.8):**
+- **Reaction:**
   - mild: flushing, sweating, nausea, hyperventilation, dyspnoea, tachycardia, hypotension;
   - severe: heart failure, MI, arrhythmia, bradycardia, respiratory depression, severe hypotension.
 - **Contraindications:**

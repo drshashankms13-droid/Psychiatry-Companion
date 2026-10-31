@@ -53,7 +53,7 @@ reviewer:
   - **about 10% delirium**.
 - **Inpatients:** depression 20–45%; delirium 15% rising to 75% with advancing disease.
 - Major depression and delirium remain **under-diagnosed and under-treated**.
-- **Symptom burden in advanced cancer** (Table 27.8–1):
+- **Symptom burden in advanced cancer**:
   - fatigue 74%, worry 71%, sadness 66%, pain 63%, drowsiness 61%, insomnia 54%;
   - five of the top seven symptoms are psychological.
 - **Screening:** the **NCCN Distress Thermometer**.
@@ -104,7 +104,7 @@ reviewer:
 **Anxiety:**
 - the **commonest response** to cancer;
 - **phobias** (needles, MRI) and **anticipatory nausea and vomiting**;
-- organic causes (Table 27.8–4): PE, hypoxia, hypoglycaemia, hormone-secreting tumours, steroids, bronchodilators, **akathisia** from antiemetics, **nicotine withdrawal**;
+- organic causes: PE, hypoxia, hypoglycaemia, hormone-secreting tumours, steroids, bronchodilators, **akathisia** from antiemetics, **nicotine withdrawal**;
 - treat with benzodiazepines, antidepressants, atypicals, psychotherapy, MCP and relaxation.
 
 **Trauma and stressor-related disorders:**
@@ -134,7 +134,7 @@ reviewer:
 
 **Suicide:**
 - **relative risk 12.6 in the first week** after diagnosis and **3.1 in the first year**;
-- risk factors (Table 27.8–6):
+- risk factors:
   - depression, **hopelessness**, **uncontrolled pain**, extreme fatigue, delirium;
   - substance misuse; isolation;
   - **loss of control or dignity**; financial strain;
@@ -226,12 +226,12 @@ Its benefits are firmly established for quality of life rather than survival.
   - **hot flushes** in about two-thirds; venlafaxine reduces them in a dose-related way (37.5–150 mg: 37–61% vs 27% on placebo);
   - **tamoxifen:** avoid strong CYP2D6 inhibitors (fluoxetine, paroxetine) and prefer **venlafaxine or citalopram**.
 - **Pancreatic cancer:** depression may precede diagnosis (cytokine-mediated).
-- **Chemotherapy neurotoxicity (Table 27.8–9):**
+- **Chemotherapy neurotoxicity:**
   - acute encephalopathy: steroids, methotrexate, cisplatin, vincristine, asparaginase, procarbazine, ifosfamide, interferons, IL-2;
   - chronic encephalopathy: methotrexate, BCNU, Ara-C.
 - **Delirium-causing chemotherapy:** most regimens produce CNS effects mainly when dexamethasone or prednisone is included.
 
-### Delirium drug doses (Table 27.8–3) [1]
+### Delirium drug doses [1]
 | Drug | Dose | Routes |
 |---|---|---|
 | Haloperidol | 0.5–2 mg every 2–12 h | po, iv, sc, im |

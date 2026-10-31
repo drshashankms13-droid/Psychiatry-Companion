@@ -28,7 +28,7 @@ reviewer:
 - Symptoms wax and wane. Pain or discomfort occurs on about 3 days a week, often in clusters.
 - **Subtypes** by predominant bowel habit: **IBS-C** (constipation), **IBS-D** (diarrhoea), **IBS-M** (mixed/alternating), **IBS-U** (unclassified).
 
-**Rome III criteria (Table 27.3–1) [1]:**
+**Rome III criteria [1]:**
 - recurrent abdominal pain or discomfort **at least 3 days a month in the past 3 months**;
 - with **two or more** of: improvement with defecation; onset with a change in stool frequency; onset with a change in stool form;
 - criteria fulfilled for the past 3 months, with **onset at least 6 months** before diagnosis;

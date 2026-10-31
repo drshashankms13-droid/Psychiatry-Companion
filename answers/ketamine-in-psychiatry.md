@@ -38,7 +38,7 @@ reviewer:
 
 | Use | What Maudsley says |
 | --- | --- |
-| Treatment-resistant unipolar depression | Very rapid response (within hours), including on suicidality; high remission rate; some evidence of maintained response with repeated doses. Listed among "less commonly used treatments, well supported by published evidence" (Table 3.4) [1, p351] |
+| Treatment-resistant unipolar depression | Very rapid response (within hours), including on suicidality; high remission rate; some evidence of maintained response with repeated doses. Listed among "less commonly used treatments, well supported by published evidence" [1, p351] |
 | Early-stage treatment resistance (after one failed antidepressant) | (Es)ketamine is among the adjuncts shown effective, with risperidone, lithium and aripiprazole [1, p346] |
 | Augmentation in TRD | Recent meta-analyses suggest robust efficacy for lithium, quetiapine, D2 partial agonists and ketamine [1, p280] |
 | Suicidality | Ketamine, in its various forms, may have rapidly apparent anti-suicidal effects [1, p339] |
@@ -49,7 +49,7 @@ reviewer:
 | As ECT anaesthetic | p357 says it may enhance the effect of ECT. The ECT chapter says ketamine/esketamine anaesthesia **does not ultimately improve outcome**, though ketamine may give short-term improvement early in the course [1, p384]. The two statements conflict; the p384 statement is the more specific |
 | Acute behavioural disturbance | Widely used in emergency departments. In a review of 18 studies, a mean of 315 mg IM gave sedation in about 7.2 minutes, but over 30% of 650 patients were intubated and more than 1% had laryngospasm. Third line, at **2–5 mg/kg IM, only where intubation facilities exist** [1, p65] |
 
-### Routes and doses (Table 3.6) [1, pp357–359]
+### Routes and doses [1, pp357–359]
 The optimal route is not established. **IV 0.5 mg/kg over 40 minutes is the gold standard**, with the best evidence, and may be more effective than intranasal use.
 
 | Route | Dose | Frequency and notes |
@@ -92,24 +92,24 @@ IV 0.5 mg/kg is the reference regimen, and nasal esketamine is the licensed alte
 - **Novel oral formulations** are under development.
 
 ### Where ketamine sits in the TRD pathway
-- **Table 3.3 — commonly used, well supported** [1, pp348–349]:
+- **Commonly used, well supported** [1, pp348–349]:
   - add aripiprazole;
   - add lithium;
   - olanzapine + fluoxetine;
   - add quetiapine;
   - SSRI + bupropion;
   - SSRI or venlafaxine + mianserin or mirtazapine.
-- **Table 3.4 — less commonly used, well supported** [1, p351]:
+- **Less commonly used, well supported** [1, p351]:
   - **ketamine/esketamine** (IV 0.5 mg/kg over 40 minutes; intranasal esketamine 28–84 mg; oral 0.5–1.25 mg/kg effective but no licensed product);
   - lamotrigine;
   - ECT;
   - tri-iodothyronine.
-- **Table 3.5 — other reported treatments, limited support** [1, pp353–354]: includes the NMDA antagonist **dextromethorphan + quinidine** ("promising novel treatment") and **nitrous oxide** (short-lived effect).
+- **Other reported treatments, limited support** [1, pp353–354]: includes the NMDA antagonist **dextromethorphan + quinidine** ("promising novel treatment") and **nitrous oxide** (short-lived effect).
 
 ### Mechanism in detail
 The source describes only the disinhibition model given above. It states that **the precise mechanisms are not clear** [1, p357].
 
-### Practical points from Table 3.6 [1, pp358–359]
+### Practical points [1, pp358–359]
 - Escalation above 0.5 mg/kg IV has limited support.
 - Lower oral or sublingual doses are well tolerated but act less rapidly than IV, SC or IM doses.
 - Higher intermittent oral or sublingual doses are a practical way to **maintain** response after parenteral induction. Titrate to response and adverse effects.

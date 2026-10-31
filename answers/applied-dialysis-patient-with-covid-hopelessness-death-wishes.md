@@ -47,7 +47,7 @@ reviewer:
 - **Social:** he is **single**, so support may be limited, and the family is quarantined elsewhere.
 
 ### 2. Assessment [1]
-**Baseline assessment** (Table 1):
+**Baseline assessment**:
 - pre-existing mental disorder and past or current psychotropics;
 - **substance use** (type, quantity, last intake, withdrawal);
 - cognition and past delirium;
@@ -58,7 +58,7 @@ reviewer:
 
 **Screening tools:** PHQ-9 (or PHQ-2/4), GAD-7, and **CAM / CAM-ICU** for delirium. In the ward, also use the Richmond scale and MMSE, HMSE or MoCA.
 
-**Context** (Table 2):
+**Context**:
 - the doctor–patient relationship;
 - food, cleanliness, phone or Internet access, and whether he can **communicate with family**;
 - deaths of co-patients.
@@ -73,7 +73,7 @@ reviewer:
 - Assess plans and intent; use the CSSR-S or Beck scales.
 - Look for **cognitive symptoms of depression**: hopelessness, helplessness, **feeling a burden** [1].
 
-**Daily surveillance** (Table 3): mood, anxiety, sleep, **suicidality, fear of death**, worries about family health.
+**Daily surveillance**: mood, anxiety, sleep, **suicidality, fear of death**, worries about family health.
 
 ### 3. Provisional diagnosis
 - **Depressive episode** (or adjustment disorder with depressed mood) in the setting of acute COVID-19 and ESRD, **with death wishes**.
@@ -93,7 +93,7 @@ reviewer:
   - obtain consent from the patient or family according to his capacity.
 - Advocate for appropriate admission. The CPG notes that persons with mental illness may be **discriminated against** for COVID ward admission.
 
-**Psychological first aid for all patients** (Table 6) [1]:
+**Psychological first aid for all patients** [1]:
 - reassure him (the COVID mortality rate is not very high);
 - let him **ventilate** fears and anger;
 - answer his queries (length of stay, testing, family);
@@ -103,7 +103,7 @@ reviewer:
 
 **Do not rush psychotropics** when there is no immediate threat: acute anxiety and depression often settle with reassurance and as respiratory symptoms subside [1].
 
-**Depression management** (Table 7) [1]:
+**Depression management** [1]:
 - **Mild:** supportive sessions and CBT techniques.
 - **Moderate to severe:** **SSRIs/SNRIs**, mindful of drug interactions; short-term low-dose benzodiazepines (remember **respiratory depression**).
 - **If suicidal:** high-risk management and close surveillance.
@@ -115,7 +115,7 @@ reviewer:
 - consider oxygen requirement, COVID drugs, **renal and hepatic function**, coagulopathy, **QTc interaction** (anti-COVID drugs plus antipsychotics) and **hyponatraemia**.
 
 **Renal-specific prescribing [2, 3]:**
-- **Maudsley Table 8.15** (renal impairment): no antidepressant is clearly preferred. Reasonable choices:
+- **Maudsley** (renal impairment): no antidepressant is clearly preferred. Reasonable choices:
   - **sertraline** (poor efficacy data in renal disease);
   - **citalopram** (QTc; higher sudden-death risk on haemodialysis vs other SSRIs);
   - fluoxetine (long half-life).
@@ -123,7 +123,7 @@ reviewer:
 - **Antipsychotic, if needed:** haloperidol 2–6 mg/day or olanzapine 5 mg/day. Avoid sulpiride and amisulpride.
 - **Evidence for antidepressants in CKD is lacking**; depression is poorly treated on haemodialysis. **CBT, exercise and relaxation** probably reduce depressive symptoms on dialysis [3].
 - **Avoid highly anticholinergic** and QTc-prolonging drugs, given electrolyte shifts [3].
-- K&S Table 27.13–6 (renal dosing): desvenlafaxine at most 50 mg on alternate days in severe renal insufficiency; duloxetine to be avoided; mirtazapine and paroxetine at reduced dose [2].
+- K&S (renal dosing): desvenlafaxine at most 50 mg on alternate days in severe renal insufficiency; duloxetine to be avoided; mirtazapine and paroxetine at reduced dose [2].
 
 **Delirium, if present** [1]: treat the cause, give re-orientation cues, and use **melatonin, haloperidol or quetiapine** (with QTc monitoring) or dexmedetomidine.
 
@@ -137,7 +137,7 @@ reviewer:
 - Inform nurses and physicians of his mental state and risk.
 - Ensure **dialysis continues**: treating depression can **improve dialysis adherence** [2].
 
-**Post-COVID phase** [1] (Table 8):
+**Post-COVID phase** [1]:
 - reassess for depression, anxiety, **PTSD** (ICU stay, seeing deaths), cognitive deficits and fatigue;
 - address **anticipated stigma** on returning to society;
 - address financial and relationship issues;
@@ -154,7 +154,7 @@ reviewer:
 | Occupational | Daily-wage auto driver | Unemployment and financial burden as COVID stressors |
 | Treatment | Possible steroids, QTc-interacting drugs | Medication-induced symptoms; prescribing constraints |
 
-### CPG Table 7 at a glance [1]
+### CPG at a glance [1]
 - **Acute stress / panic:**
   - reassurance and validation;
   - check whether masks or BiPAP are the trigger;

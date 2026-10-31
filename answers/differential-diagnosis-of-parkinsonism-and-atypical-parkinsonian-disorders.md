@@ -79,7 +79,7 @@ Idiopathic PD is by far the commonest cause. Many other conditions affecting the
    - **¹⁸F-dopa PET**: PD has posterior-putamen predominance; PSP has uniform caudate and putamen loss; CBD is asymmetric;
    - **sphincter EMG**: separates PSP or MSA from PD, but not from each other.
 
-### Atypical parkinsonian disorders (p3-eb8f3792) [1, 2]
+### Atypical parkinsonian disorders [1, 2]
 
 | Feature | **PSP** (Steele–Richardson–Olszewski) | **MSA** (striatonigral degeneration / OPCA / Shy–Drager) | **CBD** | **DLB** |
 | --- | --- | --- | --- | --- |

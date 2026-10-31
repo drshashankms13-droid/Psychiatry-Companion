@@ -39,7 +39,7 @@ reviewer:
   - **quetiapine**, lurasidone, asenapine, **lumateperone**, pimavanserin;
   - clozapine (no prolactin effect but α1 and anticholinergic).
 
-**Antidepressants (Maudsley Table 3.17) [1]:**
+**Antidepressants [1]:**
 - **High:** **SSRIs**, **venlafaxine**, duloxetine, **TCAs (especially clomipramine)**, MAOIs.
 - **Low:**
   - **agomelatine, bupropion, vortioxetine** (best evidence; vortioxetine at 10 mg/day or less similar to placebo);
@@ -186,8 +186,8 @@ Warn patients about PSSD and priapism.
 ### Evidence table
 | Source | Finding |
 | --- | --- |
-| Maudsley 15e, "Sexual dysfunction and antipsychotics" (Tables 1.44–1.46) | Prevalence, mechanisms, drug profiles, remedial treatments [1] |
-| Maudsley 15e, "Antidepressants and sexual dysfunction" (Tables 3.17–3.18) | Relative frequency; management strategies; PSSD [1] |
+| Maudsley 15e, "Sexual dysfunction and antipsychotics" | Prevalence, mechanisms, drug profiles, remedial treatments [1] |
+| Maudsley 15e, "Antidepressants and sexual dysfunction" | Relative frequency; management strategies; PSSD [1] |
 | STAR*D post-hoc (cited in [1]) | Sexual dysfunction 21% in remitters vs 61% in non-remitters |
 | Cochrane (Taylor 2013; general knowledge) | Sildenafil and tadalafil effective for antidepressant-induced erectile dysfunction; bupropion high dose promising |
 

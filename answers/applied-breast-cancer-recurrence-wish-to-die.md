@@ -32,7 +32,7 @@ reviewer:
   - electrolyte disturbance and **hypercalcaemia**;
   - B12 or folate deficiency; **thyroid** abnormalities;
   - **pain**;
-  - drugs (Table 27.8–5): **tamoxifen**, corticosteroids, opioids, chemotherapy agents.
+  - drugs: **tamoxifen**, corticosteroids, opioids, chemotherapy agents.
 - **Environment:** family functioning and its interface with the oncology team.
 
 **Depression in a medically ill patient:**
@@ -52,7 +52,7 @@ reviewer:
 
 ### 3. Suicide risk assessment [1]
 - Suicide risk in cancer patients exceeds that of the general population, and is highest **early after diagnosis**. A small long-term excess persists even 25 years or more after a breast cancer diagnosis.
-- **Risk factors present** (Table 27.8–6):
+- **Risk factors present**:
   - possible depression;
   - **positive family history of suicide**;
   - **previous history of depression**;

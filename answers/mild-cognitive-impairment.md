@@ -53,7 +53,7 @@ reviewer:
   - imaging (hippocampal atrophy, metabolism).
   - None was yet replicated for clinical use (2009) [1].
 
-### Approach to a patient with MCI (p3-9d744f64) [1, 2, 3]
+### Approach to a patient with MCI [1, 2, 3]
 **1. History (patient and informant):**
 - nature and onset of complaints (memory vs other domains);
 - tempo;

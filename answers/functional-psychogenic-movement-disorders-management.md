@@ -46,7 +46,7 @@ reviewer:
 
 ### Clinical features [1]
 
-**Clinical characteristics (Table 3):**
+**Clinical characteristics:**
 - abrupt onset;
 - a precipitating injury or illness;
 - fast progression to maximum disability;
@@ -213,7 +213,7 @@ Throughout, avoid iatrogenic harm. In India, culture-sensitive psychotherapy wit
   - migrating, variable movements;
   - past medically unexplained symptoms;
   - onset after **minor physical injury** (more often than after psychological trauma).
-- **Examination (Stone 2005, Table 12.3):**
+- **Examination (Stone 2005):**
   - **tremor:** variability, distraction, **entrainment** (a 3 Hz rhythm may be more sensitive), **co-activation** (loading increases a functional tremor);
   - **dystonia:** distraction;
   - **myoclonus:** variable and long (>75 ms) stimulus–jerk latency.

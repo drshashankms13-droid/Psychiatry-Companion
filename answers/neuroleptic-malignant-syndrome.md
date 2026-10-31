@@ -169,7 +169,7 @@ A cut-off of about 74 points gives best agreement [general knowledge].
 ### Evidence table
 | Source | Point |
 | --- | --- |
-| Maudsley 15e, "Neuroleptic malignant syndrome", Table 1.33 | Features, risk factors, treatment, restarting [1] |
+| Maudsley 15e, "Neuroleptic malignant syndrome" | Features, risk factors, treatment, restarting [1] |
 | Incidence studies cited in Maudsley | 0.02–0.03%; 0.16%; 0.11%; mortality 5.6% [1] |
 | Trollor 2012, *BJPsych* | SGA vs FGA NMS: similar, less rigidity and fever with SGAs [1] |
 | Gurrera 2011 (general knowledge) | Expert consensus criteria |

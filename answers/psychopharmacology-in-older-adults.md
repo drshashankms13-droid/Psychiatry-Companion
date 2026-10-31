@@ -203,8 +203,8 @@ Maudsley: "**It is reasonable to assume that all drugs are more likely to cause 
 | Source | Point |
 | --- | --- |
 | Maudsley 15e Chapter 6, "General principles" (Box 6.1) | PK/PD changes, principles [1] |
-| Maudsley "Depression in older adults" (Table 6.8) | SSRIs first, TCAs last resort, NMA rankings, OPTIMUM, relapse after withdrawal [1] |
-| Maudsley "Cognitive enhancers" (Table 6.1) | AChE-Is and memantine profiles [1] |
+| Maudsley "Depression in older adults" | SSRIs first, TCAs last resort, NMA rankings, OPTIMUM, relapse after withdrawal [1] |
+| Maudsley "Cognitive enhancers" | AChE-Is and memantine profiles [1] |
 | Schneider 2005, *JAMA* (general knowledge) | Atypical antipsychotics in dementia: mortality OR about 1.54 |
 | AGS Beers Criteria 2023 (general knowledge) | Potentially inappropriate medications |
 

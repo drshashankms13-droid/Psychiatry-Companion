@@ -159,7 +159,7 @@ reviewer:
 - **Tele-MANAS:** millions of calls since October 2022 [general knowledge; check current figure; see `tele-manas`].
 - **Satisfaction** 75–100% in Indian reviews [1].
 
-### Classification: digital psychiatry spectrum (for "emerging trends", p1-3fbd0e46)
+### Classification: digital psychiatry spectrum (for "emerging trends")
 1. **Telepsychiatry:** clinician-delivered remote care.
 2. **Internet- and app-delivered interventions:** guided or unguided iCBT; mindfulness apps; **digital therapeutics**.
 3. **Digital phenotyping:** passive smartphone and wearable data (sleep, mobility, speech, typing) to detect relapse.

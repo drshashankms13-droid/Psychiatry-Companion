@@ -94,7 +94,7 @@ reviewer:
 **Step 2: Acute treatment of mania or mixed state [2]:**
 - **SGAs are first line** in children and adolescents (effect size about 0.65 vs mood stabilisers about 0.20) [2].
 - **Switch to another SGA:**
-| Drug | Dose (Table 5.5) | Notes [2] |
+| Drug | Dose | Notes [2] |
 | --- | --- | --- |
 | Aripiprazole | 10 mg/day | EPS; weight gain over 30 weeks |
 | Quetiapine | Up to 400 mg/day | Sedation |

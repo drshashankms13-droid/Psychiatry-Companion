@@ -92,19 +92,19 @@ reviewer:
 | **Psychedelics** | 5-HT2A agonists. Psilocybin (10 mg, then 25 mg a week later, with psychological support) reduced symptoms at 1 week, 3 months and 6 months in open studies (n=12, then 20). Ayahuasca (single dose, RCT, n=29) was effective at days 1, 2 and 7 |
 
 ### Maudsley's tiers of pharmacological options [2, pp348–354]
-- **Commonly used, well supported (Table 3.3):**
+- **Commonly used, well supported:**
   - add aripiprazole 2–20 mg/day (low doses of 2–10 mg may work; akathisia is common at ≥10 mg);
   - add lithium, aiming for 0.4–0.8 mmol/L and rising up to 1.0;
   - olanzapine 6.25–12.5 mg + fluoxetine 25–50 mg;
   - add quetiapine 150 or 300 mg to an SSRI or SNRI;
   - SSRI + bupropion up to 400 mg;
   - SSRI or venlafaxine + mianserin 30 mg or mirtazapine 30–45 mg (one RCT showed no advantage for mirtazapine).
-- **Less commonly used, well supported (Table 3.4):**
+- **Less commonly used, well supported:**
   - ketamine or esketamine;
   - lamotrigine (100–400 mg; probably the best-tolerated augmentation);
   - ECT;
   - tri-iodothyronine 20–50 mcg (some negative studies).
-- **Other reported treatments, limited support (Table 3.5), for exceptional circumstances only:**
+- **Other reported treatments, limited support, for exceptional circumstances only:**
   - pramipexole, risperidone add-on, dextromethorphan–quinidine, nortriptyline ± lithium, MAOIs, high-dose venlafaxine;
   - psilocybin, nitrous oxide, minocycline, pindolol, and others.
 
@@ -141,7 +141,7 @@ See the definitions and staging section above. Both sources agree on "two adequa
 - **T3** needs clinical and biochemical thyroid monitoring [2, p351].
 - **Lamotrigine** needs slow titration because of the rash risk [2, p351].
 - **IV ketamine** needs a hospital setting and a pre-treatment ECG; repeated treatment is needed to maintain the effect [2, p351].
-- **Prescribers** should read the primary literature before using Table 3.5 strategies [2, p353].
+- **Prescribers** should read the primary literature before using these strategies [2, p353].
 
 ### Evidence table (only studies named in the sources)
 

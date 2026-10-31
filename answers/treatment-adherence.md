@@ -8,7 +8,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only:
-> - *Maudsley Prescribing Guidelines* 15e, ch 14 "Working towards adherence" (Tables 14.1–14.3) [1];
+> - *Maudsley Prescribing Guidelines* 15e, ch 14 "Working towards adherence" [1];
 > - *Kaplan & Sadock's Comprehensive Textbook of Psychiatry* 10e §27.6 (diabetes) and §27.13 (transplantation) for the medical-illness data [2].
 
 ## Exam answer
@@ -42,7 +42,7 @@ reviewer:
   - in transplant, non-adherence drives **late rejection and graft loss** [2, §27.13].
 - **Depots:** pharmacologically the same as oral drugs, yet they give **lower readmission**, which shows that adherence matters.
 
-### Factors affecting adherence (Table 14.1) [1]
+### Factors affecting adherence [1]
 | Domain | Factors |
 |---|---|
 | Illness-related | Lack of motivation, **poor insight**, grandiose delusions, cognitive deficit, thought disorder, forgetfulness, disorganisation |
@@ -54,7 +54,7 @@ reviewer:
 - Patients' **explanatory models** may differ: only about a third of white English patients saw schizophrenia as substantially biological.
 - **Only about 10%** of non-adherent patients say they simply forgot.
 
-### Assessing adherence (Table 14.2) [1]
+### Assessing adherence [1]
 | Method | Strength | Weakness |
 |---|---|---|
 | Plasma levels | Direct, accurate | Only a zero level is definitive; invasive; short timeframe |
@@ -69,7 +69,7 @@ reviewer:
   - ROMI; the Beliefs about Medicines Questionnaire; MARS.
 - **Capacity and autonomy:** respect a capable patient's right to refuse, and **record** the reasons and concerns.
 
-### Interventions (Table 14.3) [1]
+### Interventions [1]
 **Intentional non-adherence:**
 - **Psychoeducation:** verbal and written. It is the foundation, but not very effective alone.
 - **Motivational interviewing** for goal setting.

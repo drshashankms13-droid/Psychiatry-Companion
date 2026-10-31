@@ -137,7 +137,7 @@ A history-based algorithm correctly classified 91% of 874 hyperkinetic patients.
 - psychiatric features;
 - family history.
 
-**Examination: positive signs (Table 4 of [1]):**
+**Examination: positive signs:**
 
 | Domain | Signs |
 | --- | --- |
@@ -197,7 +197,7 @@ A history-based algorithm correctly classified 91% of 874 hyperkinetic patients.
 - **Overall:** 40–66% persist or worsen. A 14-year study of functional weakness found 20% remitted, 31% improved, 23% persisted and 26% worsened [2].
 - **FMD:** 40% the same or worse at 7.4 years; **only 20% remit fully**. **Dystonia is worst** (about 80% same or worse); tremor is also poor [1].
 - **Sensory symptoms** do better than weakness, dystonia or tremor [1, 2].
-- **Prognostic factors (Table 5 of [1]):**
+- **Prognostic factors:**
 
 | Positive | Negative |
 | --- | --- |
@@ -232,7 +232,7 @@ A history-based algorithm correctly classified 91% of 874 hyperkinetic patients.
 
 ### Not covered by the sources (deliberately left blank)
 - Full DSM-5-TR and ICD-11 criteria text, and the "with/without psychological stressor" specifiers. These can be added from DSM-5-TR if you want.
-- Functional seizures in detail (assessment, video-EEG), under p3-ba3e817b, p3-bc31110a and p3-f1b38bfc.
+- Functional seizures in detail (assessment, video-EEG), under the functional seizure questions.
 - Sensory and visual functional signs.
 
 ## References

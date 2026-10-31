@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only two sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009) [1]:
->    - Chapter 3: "Mini-Mental State Examination", p. 110; extended cognitive state examination and the ACE, pp. 110–111; FAB vs MMSE, pp. 116–118 (Table 3.3); CAMCOG and CERAD, p. 157;
+>    - Chapter 3: "Mini-Mental State Examination", p. 110; extended cognitive state examination and the ACE, pp. 110–111; FAB vs MMSE, pp. 116–118; CAMCOG and CERAD, p. 157;
 >    - Chapter 9: MMSE in AD, pp. 547–548, 555, 592.
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., dementia, pp. 632 and 640 [2].
 >
@@ -58,7 +58,7 @@ reviewer:
 
 ### Limitations [1]
 - **Relative paucity of memory and general-knowledge items.**
-- **Few items tapping frontal-executive function.** The **Frontal Assessment Battery** distinguishes PD, MSA, CBD, PSP and FTD from controls better than the MMSE: FTD patients average MMSE about 21 but FAB about 8/18 (Table 3.3).
+- **Few items tapping frontal-executive function.** The **Frontal Assessment Battery** distinguishes PD, MSA, CBD, PSP and FTD from controls better than the MMSE: FTD patients average MMSE about 21 but FAB about 8/18.
 - **Normal MMSE despite executive deficits:** a patient with non-cortical vascular disease scored **28/30** on the MMSE but 24/50 on the executive interview (EXIT; above 5 indicates impairment), with abnormal CLOX drawing (Fig. 3.2).
 - **Poor predictor of function:** only a **modest correlation** between cognitive and functional loss. The MMSE is not a reliable predictor of an **individual's** functional ability, especially in mild cases; age predicted functional loss better (Teri).
 - **Confounds:** abnormalities must be weighed against **low intelligence, education, emotional disturbance or psychotic thought disorder**. Tests must be adapted to intelligence and educational level. Aphasia or poor comprehension affects other items.

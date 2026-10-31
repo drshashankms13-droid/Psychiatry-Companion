@@ -72,7 +72,7 @@ Before calling it SSRI resistance, confirm the trial was adequate [1, pp447, 589
   - **Time course:** effects appear by 2 weeks but are short-lived (about 4 weeks). Best results with 800–1,200 pulses per session.
   - **Not supported:** TBS appeared ineffective (insufficient data); deep TMS evidence is inconclusive.
   - **Better response:** younger age and bilateral SMA stimulation.
-- **Deep brain stimulation** "could be effective" for resistant OCD [1, Table 5.9].
+- **Deep brain stimulation** "could be effective" for resistant OCD [1].
 
 ### Duration and relapse [1, pp447, 591]
 - **Duration:** continue for **at least 1 year**.

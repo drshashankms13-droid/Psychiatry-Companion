@@ -8,7 +8,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only two sources:
-> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Migraine — psychiatric aspects" (Table 8.1), pp. 504–512 [1].
+> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 8, "Migraine — psychiatric aspects", pp. 504–512 [1].
 > 2. *The Maudsley Prescribing Guidelines*, 15th ed., pharmacodynamic interactions (SSRI plus triptan → serotonin syndrome), p. 402 [2].
 >
 > **Gaps:** specific evidence for **which antidepressant to choose** in comorbid migraine–depression (amitriptyline and venlafaxine dual benefit, SSRI ineffectiveness for prophylaxis), **topiramate/valproate** in bipolar–migraine comorbidity, **CBT trial data** for migraine, and migraine with **bipolar disorder** (beyond Merikangas's bipolar-spectrum finding) are **not in the sources** in any detail.
@@ -21,7 +21,7 @@ reviewer:
 - Psychiatric comorbidity worsens **quality of life** and treatment response, and raises the risk of **chronic ("transformed") migraine**.
 
 ### Mood and anxiety disorders [1]
-**Prevalence (Table 8.1, population surveys):** migraineurs have **2–3 times** the risk of depression and anxiety.
+**Prevalence (population surveys):** migraineurs have **2–3 times** the risk of depression and anxiety.
 
 | Study | Major depression (migraine vs control) | Anxiety disorder |
 | --- | --- | --- |

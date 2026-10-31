@@ -10,7 +10,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only three sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 9, pp. 544–565 and 588–595 [1].
-> 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Dementia", pp. 630–649 (Tables 6.1–6.3; Box 6.2) [2].
+> 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Dementia", pp. 630–649 (Box 6.2) [2].
 > 3. DSM-5-TR, "NCD due to Alzheimer's disease", pp. 690–695 [3].
 >
 > Lishman (2009) explicitly tells readers to consult current guidelines for drug treatment, so **pharmacotherapy is taken from Maudsley (2025)**. Nothing else has been added.
@@ -102,7 +102,7 @@ reviewer:
 - function predicts institutionalisation;
 - **MMSE correlates only modestly with function**.
 
-**BPSD (Table 9.1)** [1]:
+**BPSD** [1]:
 
 | Domain | Frequency |
 | --- | --- |
@@ -154,7 +154,7 @@ BPSD are the **main determinant of carer burden and institutionalisation**.
 - **minimise anticholinergic burden**;
 - exercise and nutrition.
 
-**3. Cognitive enhancers (Maudsley Table 6.1):**
+**3. Cognitive enhancers:**
 
 | Drug | Mechanism | Start → usual dose | Key adverse effects |
 | --- | --- | --- | --- |
@@ -196,7 +196,7 @@ BPSD are the **main determinant of carer burden and institutionalisation**.
 
 ---
 
-### Case: 70-year-old woman with 1 year of progressive memory loss, disorientation, ADL difficulty, apraxia and word-finding difficulty (p3-760d8b63)
+### Case: 70-year-old woman with 1 year of progressive memory loss, disorientation, ADL difficulty, apraxia and word-finding difficulty
 
 **Probable diagnosis:** **major neurocognitive disorder due to probable Alzheimer's disease** (late onset), mild–moderate severity [1, 3].
 - insidious and progressive over 1 year;

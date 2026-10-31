@@ -9,8 +9,8 @@ reviewer:
 
 > **Source discipline:** this answer uses only *Maudsley Prescribing Guidelines* 15e [1]:
 > - ch 3, "Anxiety spectrum disorders", Box 3.10 (social phobia);
-> - "Benzodiazepines, z-drugs and gabapentinoids: dependence, withdrawal effects and discontinuation" (Boxes 3.11, 3.12; Table 3.24);
-> - ch 4, "Benzodiazepine misuse" (Tables 4.23, 4.24).
+> - "Benzodiazepines, z-drugs and gabapentinoids: dependence, withdrawal effects and discontinuation" (Boxes 3.11, 3.12);
+> - ch 4, "Benzodiazepine misuse".
 >
 > The source gives no diagnostic criteria for personality disorder. Lifelong shyness is noted only as a feature to explore.
 
@@ -59,8 +59,8 @@ reviewer:
   - monitor symptoms for 2–4 weeks after each step;
   - if symptoms are significant, **hold the dose or go back** to the last tolerable dose, then taper more slowly.
 - **Diazepam guide:** reduce by 5–10 mg/day every 2–4 weeks to 50 mg; by 2–5 mg to 20 mg; by 1–2 mg to 10 mg; then smaller steps.
-- **Typical iatrogenic schedule (Table 4.24):** 30 mg, then 25, 20, 18, 16, 14, 12, 10 mg every 2 weeks; then 2 mg every 2 weeks.
-- **Supports (Table 4.23):**
+- **Typical iatrogenic schedule:** 30 mg, then 25, 20, 18, 16, 14, 12, 10 mg every 2 weeks; then 2 mg every 2 weeks.
+- **Supports:**
   - **CBT alongside dose reduction** (Cochrane);
   - contingency management and education.
   - **No drug add-on** helps (Cochrane 2018).

@@ -69,7 +69,7 @@ reviewer:
 **Treatment** [1, 2]:
 - **Levothyroxine (LT4)** improves NPS. Bringing TSH into the physiological range generally suffices, but complete resolution is not consistent.
 - **Residual NPS** can persist despite adequate LT4 (up to 1.6 µg/kg/day), for example in long-standing dementia. They have been attributed to a disease-labelling effect or ascertainment bias [1]. Other reasons: a co-existing psychiatric disorder, poor adherence, irreversibility in severe cases [2].
-- **Work-up of residual NPS (McDermott; Table 1)** [1]:
+- **Work-up of residual NPS (McDermott)** [1]:
   - physical examination;
   - obstructive sleep apnoea screening;
   - metabolic panel;
@@ -167,7 +167,7 @@ Correcting thyroid status is the core treatment, with propranolol for adrenergic
 
 ## In depth
 
-### Summary table of NPS (IPS CPG Table 2) [1]
+### Summary table of NPS [1]
 
 | Feature | Hypothyroidism | Hyperthyroidism |
 | --- | --- | --- |
@@ -314,7 +314,7 @@ Correcting thyroid status is the core treatment, with propranolol for adrenergic
 - **hypothermia** (use a low-reading thermometer), slow respiration, cardiac failure, arrhythmia;
 - high mortality.
 
-**Neuropsychology (Table 10.3, Dugbartey 1998) [3]:**
+**Neuropsychology (Dugbartey 1998) [3]:**
 - general intelligence is not affected;
 - **attention** improves at 5–7 months;
 - **memory** improves, or treatment prevents further decline;

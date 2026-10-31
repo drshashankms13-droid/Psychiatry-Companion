@@ -155,7 +155,7 @@ Two adequate antidepressant trials fail → optimise or augment (lithium, aripip
 
 **Verdict:** "Much promise" is justified for depression and reasonable for OCD. For other disorders it is premature. The field's priority is replication with active sham, longer follow-up and cost-effectiveness data from low- and middle-income settings.
 
-**Applying this to the statement "newer modes of brain stimulation are more effective and convenient than ECT"** (p2-5649019b):
+**Applying this to the statement "newer modes of brain stimulation are more effective and convenient than ECT"**:
 - **Effectiveness: false, as a general claim.**
   - Head-to-head meta-analysis (Ren 2014; 9 RCTs, n=425): **ECT response 64% vs high-frequency rTMS 49%** (RR 1.41).
   - ECT remains the most effective treatment for severe, psychotic, catatonic or suicidal depression (response 60–90%; older age and psychotic or catatonic features predict response).

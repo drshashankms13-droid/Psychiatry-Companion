@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only three sources:
 > 1. DSM-5-TR, "Catatonia" and "Catatonic Disorder Due to Another Medical Condition", pp. 135–138 [1].
-> 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Catatonia", pp. 154–158 (Figure 1.4, Table 1.34) [2].
+> 2. *The Maudsley Prescribing Guidelines*, 15th ed., "Catatonia", pp. 154–158 (Figure 1.4) [2].
 > 3. *Lishman's Organic Psychiatry*, 4th ed. (2009) [3]:
 >    - Chapter 1, "Causes of stupor" and "Causes of mutism", pp. 24–26;
 >    - case material: complex partial status (p. 338), encephalitis and encephalitis lethargica (pp. 433, 444, 448–449), Cushing's (p. 649), zinc deficiency (p. 665), acute porphyria (p. 670), LSD (p. 719), neuroleptic malignant syndrome (p. 723), neuroleptic-induced catatonia (p. 746), schizophrenia-like psychosis in demyelination (p. 854).
@@ -91,7 +91,7 @@ reviewer:
    - nutrition and hydration;
    - watch for complications: dehydration, venous thrombosis, PE, pneumonia, pressure ulcers, contractures, hyperpyrexia, death;
    - medical inpatient care when there is **autonomic instability** [1, 2].
-6. **Other reported agents** (Table 1.34; experimental): amantadine, memantine, carbamazepine, valproate, lithium, methylphenidate and others. Read the primary literature first [2].
+6. **Other reported agents** (experimental): amantadine, memantine, carbamazepine, valproate, lithium, methylphenidate and others. Read the primary literature first [2].
 7. **rTMS and tDCS:** promising; RCTs are needed [2].
 
 **Conclusion.** Catatonia (3 or more of 12 DSM signs) is commonest in mood disorders, but it has many organic causes:

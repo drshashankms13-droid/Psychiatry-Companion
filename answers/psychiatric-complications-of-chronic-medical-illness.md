@@ -26,7 +26,7 @@ reviewer:
 - Comorbid psychiatric disorders **lengthen hospital stay, increase readmission and raise costs** [1].
 - Depression and anxiety are associated with a **threefold higher rate of non-adherence** to medical regimens (meta-analysis of more than 20 studies in chronic medical illness) [5].
 
-### Ways psychiatric problems arise in chronic illness (Table 27.1–2) [1]
+### Ways psychiatric problems arise in chronic illness [1]
 | Mechanism | Example |
 |---|---|
 | Psychiatric symptoms **secondary to** the medical condition | Delirium, dementia |
@@ -151,7 +151,7 @@ reviewer:
 
 ## In depth
 
-### Historical models of mind–body relationship (Table 27.1–1) [1]
+### Historical models of mind–body relationship [1]
 - **Psychoanalytic:**
   - Freud: conversion;
   - Ferenczi and Groddeck: organic symptoms with psychic meaning;
@@ -178,7 +178,7 @@ reviewer:
 9. Selection or preparation for procedures.
 10. Disposition.
 
-### Diabetic neuropathy pain trials (Table 27.6–1) [5]
+### Diabetic neuropathy pain trials [5]
 | Drug | Active % | Placebo % |
 |---|---|---|
 | Venlafaxine | 56 | 34 |

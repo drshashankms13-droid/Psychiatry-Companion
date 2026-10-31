@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only *Maudsley Prescribing Guidelines* 15e [1]:
 > - ch 1 "Akathisia";
-> - ch 2 "Treatment of acute mania or hypomania" (Figure 2.1) and "Bipolar depression" (Tables 2.9–2.10);
+> - ch 2 "Treatment of acute mania or hypomania" (Figure 2.1) and "Bipolar depression";
 > - ch 3 "Psychotic depression".
 >
 > The question as recorded gives no sub-questions, so the answer covers the formulation of each stage and its management.

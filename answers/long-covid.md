@@ -202,7 +202,7 @@ More than 400 trials are ongoing [1].
 | Source | Finding |
 | --- | --- |
 | Long COVID clinical update (user's breakdown) | Definitions, epidemiology, mechanisms, phenotyping, assessment, tiered care, prevention [1] |
-| IPS CPG 2022 | Post-COVID psychiatric assessment and management (Table 8) [2] |
+| IPS CPG 2022 | Post-COVID psychiatric assessment and management [2] |
 | Taquet 2021 | 34% neurological or psychiatric diagnosis at 6 months [2] |
 | Vaccination pooled data | 2 doses about ⅓ risk reduction; 3 doses more than ⅔ [1] |
 

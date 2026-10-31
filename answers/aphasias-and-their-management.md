@@ -9,7 +9,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only *Lishman's Organic Psychiatry*, 4th ed. (2009) [1]:
 > - Chapter 2, "Disorders of language and the aphasias", pp. 45–58;
-> - Chapter 3, bedside examination of language, pp. 112–114 (Table 3.2), and language tests, p. 124 (Table 3.4);
+> - Chapter 3, bedside examination of language, pp. 112–114, and language tests, p. 124;
 > - Chapter 8, "Rehabilitation after stroke", pp. 489–490;
 > - Chapter 4, rehabilitation after head injury, p. 246.
 >
@@ -49,7 +49,7 @@ reviewer:
 | **Pure agraphia** | F | + | + | + | + | − | Angular gyrus → left motor hand area pathway (second frontal gyrus or parietal) |
 | **Alexia with agraphia** | F | + | + | + | − | − | Dominant parietal/parietotemporal; angular and supramarginal gyri always involved |
 
-F, fluent; NF, non-fluent; +, preserved; −, impaired; ±, variable (after Table 3.2, Benson & Geschwind 1971).
+F, fluent; NF, non-fluent; +, preserved; −, impaired; ±, variable (after Benson & Geschwind 1971).
 
 **Other forms [1]:**
 - **Subcortical aphasia:** mutism after haemorrhage → hypophonia → paraphasic speech with good repetition.

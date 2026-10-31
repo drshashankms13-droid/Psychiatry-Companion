@@ -158,9 +158,9 @@ The data come mostly from **small studies, case reports and series**, with short
 ### Evidence table
 | Source | Finding |
 | --- | --- |
-| Maudsley 15e Table 7.2 | Sertraline and paroxetine low RID; fluoxetine highest SSRI infant levels [1] |
-| Maudsley 15e Table 7.3 | Olanzapine RID 1–1.6%; quetiapine 0.1%; clozapine: avoid [1] |
-| Maudsley 15e Table 7.4 | Lithium RID 12–30%; lamotrigine 9–18%; valproate 1.4–1.7% [1] |
+| Maudsley 15e | Sertraline and paroxetine low RID; fluoxetine highest SSRI infant levels [1] |
+| Maudsley 15e | Olanzapine RID 1–1.6%; quetiapine 0.1%; clozapine: avoid [1] |
+| Maudsley 15e | Lithium RID 12–30%; lamotrigine 9–18%; valproate 1.4–1.7% [1] |
 | Meador et al. (NEAD) 2010/2014, *JAMA Pediatr* (cited in [1]) | Breastfeeding on anticonvulsants did not reduce IQ at 3 and 6 years |
 | Weissman 2004, *Am J Psychiatry* pooled analysis (general knowledge) | Sertraline, paroxetine and nortriptyline: undetectable infant levels |
 

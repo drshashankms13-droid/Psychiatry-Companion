@@ -229,7 +229,7 @@ This is a **cluster of neurodevelopmental and elimination problems**. The princi
 | IPS ADHD CPG [1] | Assess for SLD after ADHD control; symptoms must be inappropriate for mental age in ID |
 | IPS ID CPG [2] | IQ plus VSMS; SQ takes precedence; RPwD percentages |
 | IPS SLD CPG [3] | NIMHANS Index; remediation 2–3 times a week for 3–4 years; accommodations |
-| Maudsley Table 5.1 [4] | Imipramine and amitriptyline licensed for enuresis 6–17 years (UK/EU) |
+| Maudsley [4] | Imipramine and amitriptyline licensed for enuresis 6–17 years (UK/EU) |
 | Cochrane (Glazener 2005) [general knowledge] | Alarm more effective than desmopressin long-term |
 
 ### Critical appraisal

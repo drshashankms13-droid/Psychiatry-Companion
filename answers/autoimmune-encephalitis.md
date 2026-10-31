@@ -10,7 +10,7 @@ reviewer:
 
 > **Source discipline:** this answer uses only two sources:
 > 1. *Lishman's Organic Psychiatry*, 4th ed. (2009) [1]:
->    - Chapter 14, "Non-metastatic manifestations of neoplasia", "Limbic encephalopathy", and the anti-NMDA receptor paragraph, pp. 870–873 (Tables 14.1, 14.2);
+>    - Chapter 14, "Non-metastatic manifestations of neoplasia", "Limbic encephalopathy", and the anti-NMDA receptor paragraph, pp. 870–873;
 >    - Chapter 10, "Potassium channel antibody disorders", p. 663;
 >    - Chapter 5, imaging of paraneoplastic limbic encephalitis, p. 299;
 >    - Chapter 7, encephalitis presenting psychiatrically, pp. 432–433.
@@ -46,7 +46,7 @@ reviewer:
   - hallucinations, **seizures**;
   - consciousness usually preserved;
   - sometimes carcinomatous neuropathy;
-- **frequency (Table 14.2):** cognitive impairment 84–92%; **psychiatric features 42–50%**; EEG abnormal 82–100%; CSF abnormal 78–80%; serum antineuronal antibodies 60–64%; **MRI temporal signal change 57–83%**; seizures 50–58%; tumour lung 50–54%, testis 8–20%;
+- **frequency:** cognitive impairment 84–92%; **psychiatric features 42–50%**; EEG abnormal 82–100%; CSF abnormal 78–80%; serum antineuronal antibodies 60–64%; **MRI temporal signal change 57–83%**; seizures 50–58%; tumour lung 50–54%, testis 8–20%;
 - **pathology:** inflammation and neuronal loss in the **hippocampus, amygdala, uncus, cingulate, insula and orbital cortex** (sometimes the fornices and mamillary bodies). No tumour cells and no inclusion bodies; can resemble viral encephalitis. **Immune damage** is the accepted mechanism;
 - **course:** weeks to 5 years.
 

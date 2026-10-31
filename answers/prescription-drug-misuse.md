@@ -75,7 +75,7 @@ reviewer:
 - **Benzodiazepines:**
   - **shared decision-making** (NICE);
   - switch to **diazepam**;
-  - **gradual hyperbolic taper** (proportionate reductions; Table 4.24);
+  - **gradual hyperbolic taper** (proportionate reductions);
   - **CBT** alongside reduction;
   - **no pharmacological add-on**; do not substitute another dependence-forming drug, valproate or buspirone;
   - substitute prescribing does not reduce misuse [2].

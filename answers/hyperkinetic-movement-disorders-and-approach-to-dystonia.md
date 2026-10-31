@@ -45,7 +45,7 @@ reviewer:
 | **Tremor** | Involuntary, **rhythmic, sinusoidal** oscillation of one or more body parts. Amplitude varies; frequency fixed | "Rhythmicity" | Rest (**PD**); postural (physiological, enhanced, **essential tremor**); kinetic and intention (**cerebellar**); task-specific (dystonic writing tremor); isometric; **orthostatic (14–18 Hz)**; **Holmes/rubral (2–3 Hz; rest, postural and intention)**; dystonic tremor; functional (variable, distractible) |
 | **Dystonia** | Involuntary sustained co-contraction of antagonists, causing **abnormal postures** and twisting, repetitive movements | "Abnormal posture" | Torticollis, writer's cramp, musician's dystonia, blepharospasm, DYT11 myoclonus–dystonia, dopa-responsive dystonia. **Athetosis** = distal "mobile dystonia" (slow, writhing) |
 
-**Tremor classification (MDS consensus; Table 1)** [1]:
+**Tremor classification (MDS consensus)** [1]:
 - **Rest:** best judged in a fully supported limb. PD tremor **re-emerges after a delay** when a posture is held ("resetting").
 - **Action:**
   - **postural** (physiological, enhanced, essential);
@@ -170,7 +170,7 @@ The approach to dystonia has six steps:
 
 ## In depth
 
-### Commonly seen mixed movement disorders (Table 2) [1]
+### Commonly seen mixed movement disorders [1]
 
 | Combination | Possible aetiology |
 | --- | --- |
@@ -191,7 +191,7 @@ The approach to dystonia has six steps:
 - **Doses** of botulinum toxin, anticholinergics and other drugs; current DBS selection criteria (Lishman 2009 gives drug classes only).
 - The 2013 consensus classification (Axis I clinical / Axis II aetiology); "isolated" vs "combined" dystonia terminology.
 - Investigations: genetic panels and MRI patterns.
-- Specific treatments for chorea, myoclonus and tremor. **Tremor** (p3-8c97688a, "investigation and management of tremors") remains **unsourced**: Lishman covers only essential tremor as a PD differential and thalamic surgery for tremor.
+- Specific treatments for chorea, myoclonus and tremor. **Tremor** ("investigation and management of tremors") remains **unsourced**: Lishman covers only essential tremor as a PD differential and thalamic surgery for tremor.
 
 Please upload a tremor source (e.g., UpToDate "Overview of tremor" / "Essential tremor: treatment").
 

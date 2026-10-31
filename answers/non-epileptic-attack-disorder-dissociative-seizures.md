@@ -10,7 +10,7 @@ reviewer:
 ---
 
 > **Source discipline:** this answer uses only three sources:
-> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 6, "Dissociative seizures", pp. 354–360 and 379–380 (Tables 6.11, 6.13, 6.18) [1].
+> 1. *Lishman's Organic Psychiatry*, 4th ed. (2009), Chapter 6, "Dissociative seizures", pp. 354–360 and 379–380 [1].
 > 2. DSM-5-TR, "Functional neurological symptom disorder (conversion disorder)", pp. 360–364 [2].
 > 3. The "Epilepsy and Psychiatry" seminar slides, PNES section [3].
 >
@@ -47,7 +47,7 @@ reviewer:
   - typically **more than 3 years**;
   - iatrogenic harm: ASM toxicity, teratogenicity, emergency "status" treatment in up to 10% [1].
 
-### Aetiology: formulation (Table 6.11) [1, 2]
+### Aetiology: formulation [1, 2]
 
 | | Biological | Psychological | Social |
 | --- | --- | --- | --- |
@@ -60,7 +60,7 @@ reviewer:
 - **Stress or trauma may be absent in up to 50%**; do not withhold the diagnosis [2].
 - **Mechanism:** a **dissociative response to arousal**. Two-thirds report autonomic arousal (hyperventilation, palpitations, sweating, paraesthesiae) before attacks, but **deny fear**, describing derealisation ("cut off"). This is akin to PTSD-type cue-triggered responses [1].
 
-### Clinical features: distinguishing from epilepsy (Table 6.13) [1, 2, 3]
+### Clinical features: distinguishing from epilepsy [1, 2, 3]
 
 | Feature | Dissociative | Epileptic |
 | --- | --- | --- |
@@ -115,7 +115,7 @@ Additional clues:
   - **suicide risk** (higher in FND [2]).
 
 ### Management [1, 2, 3]
-**1. Communicating the diagnosis (the most important and most difficult step; Table 6.18)** [1]:
+**1. Communicating the diagnosis (the most important and most difficult step)** [1]:
 - **Explain:**
   - why it is not epilepsy;
   - what it *is* (dissociation; a common, genuine condition);
@@ -155,7 +155,7 @@ Additional clues:
 
 ---
 
-### Case: 30-year-old woman with recurrent PNES (p3-f1b38bfc)
+### Case: 30-year-old woman with recurrent PNES
 *Sudden loss of consciousness, limb thrashing, post-event amnesia; normal EEG and MRI; childhood trauma and health anxiety; neurology suspects FND.*
 
 **1. Diagnosis:** **functional neurological symptom disorder with attacks or seizures (F44.5)**, persistent if 6 months or more [2].
@@ -179,7 +179,7 @@ Additional clues:
 - family responses; benefits; life events in the past year;
 - **differential:** epilepsy (especially frontal lobe), syncope, panic, factitious disorder or malingering.
 
-**3. Formulation (4 Ps; Table 6.11):**
+**3. Formulation (4 Ps):**
 - **Predisposing:** childhood trauma; likely dissociative/somatising traits; health-anxious cognitive style.
 - **Precipitating:** to explore: recent stress, a first panic or faint.
 - **Perpetuating:**
@@ -190,7 +190,7 @@ Additional clues:
 - **Protective:** to explore.
 
 **4. Management plan:**
-- **Joint neurology–psychiatry explanation** of the diagnosis using Table 6.18 principles.
+- **Joint neurology–psychiatry explanation** of the diagnosis.
   - Validate that the attacks are real and not feigned.
   - Explain dissociation and its link to trauma and arousal.
 - **Gradual ASM withdrawal** if epilepsy is excluded; avoid iatrogenic emergency treatment.

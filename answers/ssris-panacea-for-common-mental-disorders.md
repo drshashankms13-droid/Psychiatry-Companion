@@ -86,7 +86,7 @@ reviewer:
 
 ## In depth
 
-### Basic principles of antidepressant prescribing (Table 3.1) [1]
+### Basic principles of antidepressant prescribing [1]
 - Discuss the choice of drug and the availability of non-drug treatments.
 - Use an effective dose; assess at **2–4 weeks**.
 - Monitor adherence and adverse effects; warn about withdrawal.
