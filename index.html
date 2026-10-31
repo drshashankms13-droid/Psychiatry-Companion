@@ -66,6 +66,7 @@
   --font-sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
   --font-serif:'Source Serif 4',Georgia,serif;
   --font-mono:'JetBrains Mono',ui-monospace,monospace;
+  --font-display:'Instrument Serif','Source Serif 4',Georgia,serif;
 
   --landing-navy:#101d3f;
   --landing-navy-deep:#060d24;
@@ -464,7 +465,9 @@ details[open] > summary .chev{ transform:rotate(90deg); }
 .ans-body th{ background:var(--surface-2); }
 .ans-body blockquote{ border-left:3px solid var(--accent); margin:10px 0; padding:4px 12px; color:var(--text-muted); }
 /* Q&A tick box sits at the right of the question */
-.qa-check{ margin-left:auto; margin-top:-8px; align-self:flex-start; }
+.qa-item{ position:relative; }
+.qa-item > .qa-question{ padding-right:46px; }
+.qa-check{ position:absolute; right:0; top:10px; }
 .qa-filter{ display:flex; gap:6px; flex-wrap:wrap; margin:0 0 14px; }
 .qa-filter button{ font:inherit; font-size:.85rem; padding:6px 12px; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text); cursor:pointer; min-height:32px; }
 .qa-filter button[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); color:var(--brand-deep); }
@@ -500,6 +503,74 @@ details[open] > summary .chev{ transform:rotate(90deg); }
   background:transparent; color:var(--accent-ink); font-family:var(--font-sans); font-style:normal; font-weight:700;
 }
 .inline-btn:hover{ background:var(--accent); color:var(--brand-deep); }
+
+/* =====================================================================
+   Visual refresh — same colours, one identity with the login page:
+   Instrument Serif for display type, the neuron mark, a paper-coloured
+   hero, white cards with a paper-coloured edge, fewer ALL-CAPS labels.
+   ===================================================================== */
+/* top bar */
+.topbar-brand{ flex-direction:row; align-items:center; gap:10px; }
+.brand-mark{ width:26px; height:38px; flex-shrink:0; color:#fff; }
+.brand-text{ display:flex; flex-direction:column; line-height:1.1; }
+.topbar-brandname{ font-family:var(--font-display); font-weight:400; font-size:1.45rem; letter-spacing:0; color:#fff; }
+.topbar-tagline{ font-size:.78rem; }
+.progress-label{ font-family:var(--font-sans); font-weight:600; font-size:.8rem; font-variant-numeric:tabular-nums; }
+
+/* hero: the one bold element */
+.overview{
+  position:relative; overflow:hidden; grid-template-columns:1fr auto; gap:14px 28px;
+  padding:26px 30px; border:none; border-radius:18px; color:#fff;
+  background:
+    radial-gradient(ellipse 60% 120% at 100% 0%, color-mix(in srgb, var(--brand) 55%, transparent) 0%, transparent 60%),
+    linear-gradient(135deg, var(--brand-deep), color-mix(in srgb, var(--brand) 62%, var(--brand-deep)));
+  box-shadow:0 10px 30px color-mix(in srgb, var(--brand-deep) 35%, transparent);
+}
+.overview-art{ position:absolute; right:150px; top:-14px; width:120px; height:190px; color:#fff; opacity:.13; pointer-events:none; }
+.overview > *:not(.overview-art){ position:relative; }
+.overview-kicker{ font-family:var(--font-sans); font-size:.85rem; font-weight:600; letter-spacing:.01em; text-transform:none; color:rgba(255,255,255,.82); }
+.overview h1{ font-family:var(--font-display); font-weight:400; font-size:clamp(1.9rem, 3.6vw, 2.8rem); line-height:1.05; color:#fff; margin:4px 0 12px; }
+.overview-stats{ gap:8px; }
+.overview-stats span{ background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.2); border-radius:999px; padding:4px 12px; color:rgba(255,255,255,.88); font-size:.86rem; }
+.overview-stats strong{ color:#fff; }
+.overview .ring{ grid-column:2; grid-row:1; width:92px; height:92px; background:conic-gradient(#fff calc(var(--p) * 1%), rgba(255,255,255,.22) 0); }
+.overview .ring-inner{ width:76px; height:76px; background:color-mix(in srgb, var(--brand-deep) 70%, var(--brand)); color:#fff; font-family:var(--font-sans); font-weight:700; font-size:1.05rem; }
+.overview .ring + div{ grid-column:1; grid-row:1; }
+
+/* section headings */
+.section-heading{ margin:36px 0 14px; }
+.section-heading h2{ font-family:var(--font-display); font-weight:400; font-size:clamp(1.6rem, 2.6vw, 2rem); letter-spacing:0; line-height:1.1; }
+.section-heading .count{ font-family:var(--font-sans); font-weight:600; font-size:.78rem; }
+
+/* cards: white, paper-coloured edge, light header */
+.paper-card, .topic-block{ border-radius:14px; border:1px solid var(--border); box-shadow:0 1px 2px rgba(19,42,47,.05); }
+.card-head{ background:var(--surface); position:relative; padding:16px 20px 16px 24px; }
+.card-head::before{ content:''; position:absolute; left:0; top:12px; bottom:12px; width:4px; border-radius:0 4px 4px 0; background:var(--brand); opacity:.55; transition:opacity var(--t-fast) var(--ease); }
+details[open] > .card-head::before, .card-head:hover::before{ opacity:1; }
+.card-head:hover{ background:var(--surface-hover); }
+details[open] > .card-head{ border-bottom:1px solid var(--border); background:var(--surface-hover); }
+.card-title{ font-size:1.12rem; }
+.card-count{ font-family:var(--font-sans); font-weight:600; font-size:.8rem; font-variant-numeric:tabular-nums; }
+.pill-progress{ font-family:var(--font-sans); font-weight:600; font-size:.78rem; }
+
+/* labels and badges: sentence case, no typewriter font */
+.qgroup-label, .ans-exam-label, .qa-alt-label{
+  font-family:var(--font-sans); text-transform:none; letter-spacing:.01em; font-size:.85rem; font-weight:700;
+}
+.qgroup-label{ color:var(--brand-text); margin:20px 0 6px; display:flex; align-items:center; gap:10px; }
+.qgroup-label::after{ content:''; flex:1; height:1px; background:var(--border); }
+.badge{ font-family:var(--font-sans); font-weight:600; font-size:.76rem; font-variant-numeric:tabular-nums; }
+.qnum{ font-family:var(--font-sans); border-radius:7px; }
+
+/* question rows */
+.qitem{ padding:10px 10px 10px 0; border-radius:10px; }
+.qitem.done{ background:color-mix(in srgb, var(--success-soft) 70%, var(--surface)); }
+.ans-updated{ font-family:var(--font-sans); font-size:.78rem; }
+.qa-qtext{ flex-basis:180px; }
+.sidebar-label{ font-family:var(--font-sans); text-transform:none; letter-spacing:.01em; font-size:.82rem; }
+.paper-btn .pnum{ font-family:var(--font-sans); font-weight:600; }
+.sidebar-footnote{ font-family:var(--font-sans); text-transform:none; letter-spacing:0; font-size:.78rem; }
+.kbd-hint{ font-family:var(--font-sans); }
 
 /* =====================================================================
    Footer, toast, back-to-top
@@ -685,8 +756,10 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
 @media (max-width:560px){
   .topbar-context{ display:none; }
   .user-bar{ gap:4px; }
-  .overview{ grid-template-columns:1fr; padding:16px; }
-  .ring{ width:64px; height:64px; } .ring-inner{ width:50px; height:50px; font-size:.85rem; }
+  .overview{ grid-template-columns:1fr auto; padding:20px 18px; gap:10px 14px; }
+  .overview .ring{ width:68px; height:68px; } .overview .ring-inner{ width:56px; height:56px; font-size:.9rem; }
+  .overview-art{ display:none; }
+  .overview-stats span{ font-size:.8rem; padding:3px 10px; }
   .card-head{ padding:12px 14px; }
   .card-body{ padding:4px 10px 14px; }
   .mini-bar{ display:none; }
@@ -727,6 +800,7 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
   <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
   <symbol id="i-logout" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
+  <symbol id="i-neuron" viewBox="140 70 232 375"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M256 290 V196" stroke-width="15"/><path d="M256 200 L206 150 M256 200 L306 150" stroke-width="11"/><path d="M206 150 L178 112 M206 150 L218 104 M306 150 L294 104 M306 150 L334 112" stroke-width="7.5"/><path d="M178 112 L160 96 M178 112 L174 88 M218 104 L208 84 M218 104 L230 86 M294 104 L282 86 M294 104 L304 84 M334 112 L338 88 M334 112 L352 96" stroke-width="5"/><path d="M244 318 L196 346 M268 318 L316 346 M250 324 L224 372 M262 324 L288 372" stroke-width="9"/><path d="M196 346 L166 342 M196 346 L178 370 M316 346 L346 342 M316 346 L334 370 M224 372 L210 396 M224 372 L234 400 M288 372 L278 400 M288 372 L302 396" stroke-width="5.5"/></g><path d="M256 330 V430" stroke="#ffd68c" stroke-width="6" stroke-linecap="round"/><circle cx="256" cy="430" r="7" fill="#ffd68c"/><path d="M256 262 L286 326 Q256 338 226 326 Z" fill="currentColor"/></symbol>
   <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5h13L22 12v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6z"/></symbol>
 </svg>
 
@@ -790,8 +864,11 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
       <svg class="icon"><use href="#i-menu"/></svg>
     </button>
     <div class="topbar-brand">
-      <div class="topbar-brandname">Psychiatry Companion</div>
-      <div class="topbar-tagline">Prepared by Dr. Shashank M S</div>
+      <svg class="brand-mark" aria-hidden="true"><use href="#i-neuron"/></svg>
+      <div class="brand-text">
+        <div class="topbar-brandname">Psychiatry Companion</div>
+        <div class="topbar-tagline">by Dr. Shashank M S</div>
+      </div>
     </div>
     <div class="topbar-context">
       <span id="examLevelLabel">NIMHANS Final Exam</span><span id="paperSubtitle"> · Core Psychiatry</span>

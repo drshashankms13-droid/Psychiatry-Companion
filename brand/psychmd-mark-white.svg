@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="140 70 232 375">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#1a3d86"/><stop offset=".6" stop-color="#0d214f"/><stop offset="1" stop-color="#081534"/>
+    </radialGradient>
+    <radialGradient id="soma" cx="50%" cy="55%" r="60%">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff"/>
+    </radialGradient>
+  </defs>
+  
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- apical dendrite and its branches -->
+    <path d="M256 290 V196" stroke-width="15"/>
+    <path d="M256 200 L206 150 M256 200 L306 150" stroke-width="11"/>
+    <path d="M206 150 L178 112 M206 150 L218 104 M306 150 L294 104 M306 150 L334 112" stroke-width="7.5"/>
+    <path d="M178 112 L160 96 M178 112 L174 88 M218 104 L208 84 M218 104 L230 86 M294 104 L282 86 M294 104 L304 84 M334 112 L338 88 M334 112 L352 96" stroke-width="5"/>
+    <!-- basal dendrites -->
+    <path d="M244 318 L196 346 M268 318 L316 346 M250 324 L224 372 M262 324 L288 372" stroke-width="9"/>
+    <path d="M196 346 L166 342 M196 346 L178 370 M316 346 L346 342 M316 346 L334 370 M224 372 L210 396 M224 372 L234 400 M288 372 L278 400 M288 372 L302 396" stroke-width="5.5"/>
+  </g>
+  <!-- axon -->
+  <path d="M256 330 V430" stroke="#ffd68c" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="256" cy="430" r="7" fill="#ffd68c"/>
+  <!-- soma -->
+  <path d="M256 262 L286 326 Q256 338 226 326 Z" fill="url(#soma)"/>
+</svg>
