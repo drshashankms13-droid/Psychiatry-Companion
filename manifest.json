@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "Psychiatry Companion",
-  "short_name": "Psychiatry",
+  "name": "Psych.MD",
+  "short_name": "Psych.MD",
   "description": "NIMHANS MD Psychiatry previous-year questions and answers, by Dr. Shashank M S.",
   "start_url": "/",
   "scope": "/",
