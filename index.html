@@ -160,7 +160,9 @@ button, summary, [role="button"], input[type=checkbox]{ cursor:pointer; }
   border-bottom:3px solid var(--accent); box-shadow:var(--shadow);
   transition:background-color var(--t) var(--ease), border-color var(--t) var(--ease);
 }
-.topbar-main{ display:flex; align-items:center; gap:14px; padding:10px 20px 8px; }
+.topbar-main{ display:flex; align-items:center; gap:14px 22px; padding:10px 20px; }
+/* paper title with its progress bar directly underneath */
+.topbar-center{ flex:1; min-width:0; display:flex; flex-direction:column; gap:7px; }
 .topbar-brand{ display:flex; flex-direction:column; line-height:1.2; flex-shrink:0; }
 .topbar-brandname{ font-weight:800; font-size:1.05rem; color:var(--accent); letter-spacing:.03em; white-space:nowrap; }
 .topbar-tagline{ font-family:var(--font-sans); font-size:.8rem; font-weight:600; color:#fff; opacity:.95; margin-top:2px; white-space:nowrap; letter-spacing:.01em; }
@@ -169,7 +171,7 @@ button, summary, [role="button"], input[type=checkbox]{ cursor:pointer; }
   overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--chrome-text);
 }
 .topbar-context #paperSubtitle{ color:var(--accent); font-weight:400; font-style:italic; }
-.topbar-progress{ display:flex; align-items:center; gap:12px; padding:0 20px 10px; }
+.topbar-progress{ display:flex; align-items:center; gap:12px; }
 .progress-track{ flex:1; max-width:420px; height:8px; background:rgba(255,255,255,.15); border-radius:999px; overflow:hidden; }
 .progress-fill{ height:100%; width:0%; background:linear-gradient(90deg,var(--accent),color-mix(in srgb,var(--accent) 60%,white)); transition:width .35s var(--ease); }
 .progress-label{ font-family:var(--font-mono); font-size:.78rem; color:var(--chrome-text); opacity:.9; white-space:nowrap; }
@@ -572,6 +574,17 @@ details[open] > .card-head{ border-bottom:1px solid var(--border); background:va
 .sidebar-footnote{ font-family:var(--font-sans); text-transform:none; letter-spacing:0; font-size:.78rem; }
 .kbd-hint{ font-family:var(--font-sans); }
 
+/* Very small phones: dark-mode and Admin move into the menu so the title
+   and the author's name always fit in full. */
+.small-only{ display:none; }
+@media (max-width:380px){
+  .small-only{ display:block; }
+  .user-bar .theme-toggle, .user-bar #adminBtn{ display:none !important; }
+  .topbar-main{ gap:6px; }
+  .brand-mark{ width:20px; height:30px; }
+  .topbar-brandname{ font-size:1.15rem; }
+}
+
 /* =====================================================================
    Footer, toast, back-to-top
    ===================================================================== */
@@ -744,13 +757,16 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
   .sidebar-backdrop.show{ opacity:1; pointer-events:auto; }
   .kbd-hint{ display:none; }
   main{ padding:16px 16px 72px; }
-  .topbar-main{ padding:8px 12px 6px; gap:8px; }
+  .topbar-main{ padding:8px 12px 10px; gap:8px; flex-wrap:wrap; }
+  .topbar-center{ order:5; flex-basis:100%; gap:4px; }
   .topbar-brand{ min-width:0; flex:1; }
   .topbar-brandname{ font-size:.92rem; overflow:hidden; text-overflow:ellipsis; }
-  .topbar-tagline{ display:none; }
+  /* the author's name always stays under the title */
+  .topbar-tagline{ font-size:.72rem; overflow:hidden; text-overflow:ellipsis; }
+  .brand-text{ min-width:0; }
   .user-bar .icon-btn{ padding:0; }
   .topbar-context{ font-size:.82rem; }
-  .topbar-progress{ padding:0 14px 8px; }
+  .topbar-progress{ padding:0 2px; }
   .footer-inner{ padding:20px 16px; }
 }
 @media (max-width:560px){
@@ -870,8 +886,14 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
         <div class="topbar-tagline">by Dr. Shashank M S</div>
       </div>
     </div>
-    <div class="topbar-context">
-      <span id="examLevelLabel">NIMHANS Final Exam</span><span id="paperSubtitle"> · Core Psychiatry</span>
+    <div class="topbar-center">
+      <div class="topbar-context">
+        <span id="examLevelLabel">NIMHANS Final Exam</span><span id="paperSubtitle"> · Core Psychiatry</span>
+      </div>
+      <div class="topbar-progress">
+        <div class="progress-track" role="progressbar" aria-label="Paper progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressTrack"><div class="progress-fill" id="progressFill"></div></div>
+        <div class="progress-label" id="progressLabel">0 / 0 solved</div>
+      </div>
     </div>
     <div class="user-bar">
       <span class="uemail" id="userEmail"></span>
@@ -881,10 +903,6 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
       <button type="button" class="icon-btn hidden" id="adminBtn" data-action="admin-open" aria-label="Admin"><svg class="icon"><use href="#i-shield"/></svg><span class="label">Admin</span></button>
       <button type="button" class="icon-btn" data-action="signout" aria-label="Sign out"><svg class="icon"><use href="#i-logout"/></svg><span class="label">Sign out</span></button>
     </div>
-  </div>
-  <div class="topbar-progress">
-    <div class="progress-track" role="progressbar" aria-label="Paper progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressTrack"><div class="progress-fill" id="progressFill"></div></div>
-    <div class="progress-label" id="progressLabel">0 / 0 solved</div>
   </div>
 </header>
 
@@ -960,6 +978,13 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
 
     <div class="sidebar-section">
       <button type="button" class="side-btn danger" data-action="erase"><svg class="icon" style="width:16px;height:16px"><use href="#i-trash"/></svg>Erase progress for this paper</button>
+    </div>
+
+    <div class="sidebar-section small-only">
+      <div class="btnrow">
+        <button type="button" class="side-btn" data-action="toggle-theme">Dark / light</button>
+        <button type="button" class="side-btn hidden" data-admin-only data-action="admin-open">Admin</button>
+      </div>
     </div>
 
     <div class="sidebar-footnote">Question Bank Archive · 2019–2025</div>
