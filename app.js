@@ -797,6 +797,143 @@ function groupQAItems(items){
   return order;
 }
 
+/* ---------- Admin corrections to answers ----------
+   Stored in the Supabase table answer_edits (see supabase_answer_edits.sql);
+   only admins can write — the database enforces it, the button is just UI.
+   Every edit is cleaned with DOMPurify before it is shown or saved. */
+let ANSWER_EDITS = {};
+let editsLoad = null;
+function loadAnswerEdits(){
+  if(!editsLoad){
+    editsLoad = (async ()=>{
+      try{
+        const { data, error } = await supabaseClient.from('answer_edits').select('key, content, updated_at');
+        if(error) throw error;
+        ANSWER_EDITS = {};
+        (data || []).forEach(r=>{ ANSWER_EDITS[r.key] = r; });
+      }catch(e){
+        console.error('Could not load answer corrections (showing originals)', e);
+      }
+      dataLoaded.edits = true; // never block the page: originals are shown on failure
+    })();
+  }
+  return editsLoad;
+}
+const CLEAN_OPTS = {
+  FORBID_TAGS: ['style','form','input','button','textarea','select','option','iframe','object','embed','svg','math','video','audio','img','link','meta','base'],
+  FORBID_ATTR: ['style','class','id','srcset']
+};
+function cleanHtml(html){
+  if(window.DOMPurify && DOMPurify.sanitize) return DOMPurify.sanitize(String(html || ''), CLEAN_OPTS);
+  return esc(String(html || '').replace(/<[^>]*>/g, ' ')); // fail safe: plain text only
+}
+function editFor(key){ return ANSWER_EDITS[key] || null; }
+function editDate(row){ try{ return new Date(row.updated_at).toISOString().slice(0,10); }catch(e){ return ''; } }
+
+// Each answer row registers how to rebuild itself, so a saved edit can be
+// shown in place without re-rendering (which would close the open topics).
+let ROW_BUILDERS = {};
+function editButtonHtml(key, rowId){
+  if(!isAdmin) return '';
+  return `<button type="button" class="ans-edit" data-action="edit-answer" data-key="${esc(key)}" data-row="${esc(rowId)}"><svg class="icon" aria-hidden="true"><use href="#i-pencil"/></svg>Edit answer</button>`;
+}
+function rebuildRow(rowId){
+  const el = document.getElementById(rowId), build = ROW_BUILDERS[rowId];
+  if(el && build) el.outerHTML = build();
+}
+
+const EDITOR_FIELDS = {
+  final: [['exam','Exam answer'], ['depth','In depth'], ['refs','References']],
+  fy: [['body','Answer']]
+};
+let editing = null; // { key, rowId, original, dirty }
+function originalContent(key){
+  const [kind, id] = [key.slice(0, key.indexOf(':')), key.slice(key.indexOf(':') + 1)];
+  if(kind === 'final'){
+    const a = finalAnswerData().answers[id];
+    return a ? { exam: a.exam || '', depth: a.depth || '', refs: a.refs || '' } : null;
+  }
+  const set = fyAnswerData()[currentPaper] || {};
+  return set[id] ? { body: set[id] } : null;
+}
+function openEditor(key, rowId){
+  if(!isAdmin) return;
+  const original = originalContent(key);
+  if(!original){ toast('This answer could not be found.', 'err'); return; }
+  const kind = key.slice(0, key.indexOf(':'));
+  const current = editFor(key) ? Object.assign({}, original, editFor(key).content) : original;
+  editing = { key, rowId, original, dirty: false };
+  const wrap = document.getElementById('editorFields');
+  wrap.innerHTML = EDITOR_FIELDS[kind].map(([f, label])=>`
+    <section class="editor-field">
+      <h3>${esc(label)}</h3>
+      <div class="editor-area" contenteditable="true" data-field="${f}" aria-label="${esc(label)}">${cleanHtml(current[f] || '')}</div>
+    </section>`).join('');
+  document.getElementById('editorRestore').classList.toggle('hidden', !editFor(key));
+  document.getElementById('editorStatus').textContent = editFor(key) ? `Corrected on ${editDate(editFor(key))}.` : 'Original answer.';
+  document.getElementById('answerEditor').classList.remove('hidden');
+  document.body.classList.add('editor-open');
+  const first = wrap.querySelector('.editor-area');
+  if(first) first.focus();
+}
+function closeEditor(force){
+  if(!editing) return;
+  if(!force && editing.dirty && !confirm('Discard your unsaved changes?')) return;
+  const rowId = editing.rowId;
+  editing = null;
+  document.getElementById('answerEditor').classList.add('hidden');
+  document.body.classList.remove('editor-open');
+  const btn = document.querySelector(`#${CSS.escape(rowId)} .ans-edit`);
+  if(btn) btn.focus();
+}
+async function saveEditor(){
+  if(!editing) return;
+  const content = {};
+  document.querySelectorAll('#editorFields .editor-area').forEach(el=>{ content[el.dataset.field] = cleanHtml(el.innerHTML); });
+  const btn = document.getElementById('editorSave');
+  btn.disabled = true; btn.textContent = 'Saving…';
+  try{
+    const { data, error } = await supabaseClient.from('answer_edits')
+      .upsert({ key: editing.key, content }, { onConflict: 'key' })
+      .select('key, content, updated_at').single();
+    if(error) throw error;
+    ANSWER_EDITS[editing.key] = data;
+    const rowId = editing.rowId;
+    closeEditor(true);
+    rebuildRow(rowId);
+    toast('Answer saved — everyone now sees your correction.');
+  }catch(e){
+    console.error('Saving the correction failed', e);
+    toast('Could not save: ' + (e.message || 'check your connection') + '. Your text is still in the editor.', 'err');
+  }finally{
+    btn.disabled = false; btn.textContent = 'Save';
+  }
+}
+async function restoreOriginal(){
+  if(!editing || !editFor(editing.key)) return;
+  if(!confirm('Remove your correction and show the original answer again?')) return;
+  try{
+    const { error } = await supabaseClient.from('answer_edits').delete().eq('key', editing.key);
+    if(error) throw error;
+    delete ANSWER_EDITS[editing.key];
+    const rowId = editing.rowId;
+    closeEditor(true);
+    rebuildRow(rowId);
+    toast('Original answer restored.');
+  }catch(e){
+    console.error(e);
+    toast('Could not restore: ' + (e.message || 'check your connection'), 'err');
+  }
+}
+function editorCommand(cmd){
+  const area = document.activeElement && document.activeElement.closest ? document.activeElement.closest('.editor-area') : null;
+  if(!area) return;
+  const map = { h3:['formatBlock','H3'], p:['formatBlock','P'] };
+  const [c, v] = map[cmd] || [cmd, null];
+  document.execCommand(c, false, v);
+  if(editing) editing.dirty = true;
+}
+
 /* ---------- Q&A checklist ----------
    A Q&A entry can stand for the same question asked in several sittings
    (several uids). Ticking it ticks all of them, so Year-wise, Topic-wise and
@@ -844,11 +981,16 @@ async function toggleQA(cb){
 function fyQAGroupRowHtml(group, num){
   const answerSet = fyAnswerData()[currentPaper] || {};
   const answeredUid = group.uids.find(u=>answerSet[u]);
-  // answers are trusted, first-party HTML shipped in answers-data.js
-  const ans = answeredUid ? answerSet[answeredUid] : null;
+  // original answers are trusted, first-party HTML shipped in answers-data.js;
+  // admin corrections are cleaned before display
+  const key = answeredUid ? 'fy:' + answeredUid : null;
+  const edit = key ? editFor(key) : null;
+  const ans = edit ? cleanHtml(edit.content.body) : (answeredUid ? answerSet[answeredUid] : null);
   const yearBadges = group.years.map(y=>`<span class="badge date">${esc(y)}</span>`).join('');
+  const rowId = 'fyqa-' + group.uids[0].replace(/[^a-z0-9-]/gi, '-');
+  ROW_BUILDERS[rowId] = ()=> fyQAGroupRowHtml(group, num);
   return `
-  <article class="qa-item">
+  <article class="qa-item" id="${esc(rowId)}">
     <div class="qa-question">
       <span class="qnum">${num}</span>
       <span class="qa-qtext">${esc(group.text)}</span>
@@ -857,6 +999,7 @@ function fyQAGroupRowHtml(group, num){
       ${qaCheckHtml(group.uids)}
     </div>
     <div class="qa-answer">
+      ${key ? `<div class="ans-meta">${edit ? `<span class="ans-updated">Corrected ${esc(editDate(edit))}</span>` : ''}${editButtonHtml(key, rowId)}</div>` : ''}
       ${ans ? ans : '<span class="qa-pending">Answer not added yet — check back soon.</span>'}
     </div>
   </article>`;
@@ -919,7 +1062,18 @@ function finalWordingHtml(w){
 
 function finalQARowHtml(g, num){
   const A = finalAnswerData();
-  const ans = g.answerId ? A.answers[g.answerId] : null;
+  const key = g.answerId ? 'final:' + g.answerId : null;
+  const edit = key ? editFor(key) : null;
+  const base = g.answerId ? A.answers[g.answerId] : null;
+  // admin corrections replace sections of the original and are cleaned first
+  const ans = base && edit ? Object.assign({}, base, {
+    exam: cleanHtml(edit.content.exam != null ? edit.content.exam : base.exam),
+    depth: cleanHtml(edit.content.depth != null ? edit.content.depth : base.depth),
+    refs: cleanHtml(edit.content.refs != null ? edit.content.refs : base.refs),
+    updated: editDate(edit)
+  }) : base;
+  const rowId = 'qa-' + g.key.replace(/[^a-z0-9-]/gi,'-');
+  ROW_BUILDERS[rowId] = ()=> finalQARowHtml(g, num);
   const words = [...g.wordings.values()];
   const first = words[0];
   const alt = words.slice(1);
@@ -933,7 +1087,8 @@ function finalQARowHtml(g, num){
     answerHtml = `
       <div class="ans-meta">
         ${ans.source && SOURCE_LABEL[ans.source] ? `<span class="badge source-${esc(ans.source)}" title="Written by AI without source documents; not checked by a person">${esc(SOURCE_LABEL[ans.source])}</span>` : ''}
-        ${ans.updated ? `<span class="ans-updated">Updated ${esc(ans.updated)}</span>` : ''}
+        ${ans.updated ? `<span class="ans-updated">${edit ? 'Corrected' : 'Updated'} ${esc(ans.updated)}</span>` : ''}
+        ${editButtonHtml(key, rowId)}
       </div>
       <div class="ans-exam-label">Exam answer</div>
       <div class="ans-body ans-exam">${ans.exam}</div>
@@ -943,7 +1098,7 @@ function finalQARowHtml(g, num){
     answerHtml = '<span class="qa-pending">Answer not added yet — check back soon.</span>';
   }
   return `
-  <article class="qa-item" id="qa-${esc(g.key.replace(/[^a-z0-9-]/gi,'-'))}">
+  <article class="qa-item" id="${esc(rowId)}">
     <div class="qa-question">
       <span class="qnum">${num}</span>
       <div class="qa-qtext">${finalWordingHtml(first)}${altHtml}</div>
@@ -1131,14 +1286,14 @@ function renderAll(){
   if(!currentPaper || !PAPER_CONFIG[currentPaper] || !dataLoaded.core) return;
   const container = document.getElementById('app');
   const q = document.getElementById('searchBox').value.trim();
-  GROUPS = []; UID_GROUPS = {}; LAZY = {}; QA_SETS = []; UID_QA = {};
+  GROUPS = []; UID_GROUPS = {}; LAZY = {}; QA_SETS = []; UID_QA = {}; ROW_BUILDERS = {};
 
   const need = viewNeeds();
-  if(need && !dataLoaded[need]){
+  if(need && !(dataLoaded[need] && dataLoaded.edits)){
     container.innerHTML = overviewHtml() + `<div class="sync-note qa-loading" role="status">Loading ${NEED_LABEL[need]}…</div>` + '<div class="skeleton"></div>'.repeat(3);
     updateProgress();
     const view = currentView, paper = currentPaper;
-    ensureData(need).then(()=>{
+    Promise.all([ensureData(need), loadAnswerEdits()]).then(()=>{
       if(currentView === view && currentPaper === paper) renderAll();
     }).catch(err=>{
       console.error(err);
@@ -1542,6 +1697,11 @@ document.addEventListener('click', (e)=>{
     case 'bootstrap': bootstrapApp(); break;
     case 'rerender': renderAll(); break;
     case 'install-app': installApp(); break;
+    case 'edit-answer': openEditor(el.dataset.key, el.dataset.row); break;
+    case 'editor-save': saveEditor(); break;
+    case 'editor-cancel': closeEditor(false); break;
+    case 'editor-restore': restoreOriginal(); break;
+    case 'editor-cmd': editorCommand(el.dataset.cmd); break;
     case 'toggle-sidebar': toggleSidebar(); break;
     case 'close-sidebar': closeSidebar(); break;
     case 'toggle-theme': toggleTheme(); break;
@@ -1588,6 +1748,7 @@ document.getElementById('hideDone').addEventListener('change', (e)=>{
 
 document.addEventListener('keydown', (e)=>{
   const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable;
+  if(e.key === 'Escape' && editing){ closeEditor(false); return; }
   if(e.key === 'Escape'){
     if(!document.getElementById('adminPanel').classList.contains('hidden')){ closeAdminPanel(); return; }
     if(document.getElementById('sidebar').classList.contains('open')){ closeSidebar(); return; }
@@ -1608,3 +1769,11 @@ window.addEventListener('scroll', ()=>{
     scrollTick = false;
   });
 }, {passive:true});
+
+// Toolbar buttons must not steal the text selection from the editor.
+document.addEventListener('mousedown', (e)=>{
+  if(e.target.closest('[data-action="editor-cmd"]')) e.preventDefault();
+});
+document.addEventListener('input', (e)=>{
+  if(editing && e.target.closest && e.target.closest('.editor-area')) editing.dirty = true;
+});
