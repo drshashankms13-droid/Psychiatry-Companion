@@ -775,6 +775,7 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
 .admin-row button[data-action="reject"], .admin-row button[data-action="revoke"]{ color:var(--danger); border-color:color-mix(in srgb,var(--danger) 40%,transparent); }
 .admin-row button[data-action="reject"]:hover, .admin-row button[data-action="revoke"]:hover{ background:var(--danger-soft); }
 .badge-admin{ font-family:var(--font-mono); font-size:.7rem; color:var(--brand-text); background:var(--bg); border:1px solid var(--border); padding:2px 8px; border-radius:999px; margin-left:4px; }
+.admin-note{ font-size:.86rem; color:var(--text-muted); margin:0 0 10px; }
 .empty-admin{ color:var(--text-muted); font-style:italic; font-size:.88rem; padding:8px 2px; }
 
 /* =====================================================================
@@ -935,6 +936,9 @@ footer.site{ border-top:3px solid var(--accent); background:var(--chrome); color
       <div id="pendingList" class="admin-list"><div class="sync-note">Loading…</div></div>
       <h3>Approved users</h3>
       <div id="approvedList" class="admin-list"><div class="sync-note">Loading…</div></div>
+      <h3>Backup</h3>
+      <p class="admin-note">Download a copy of all your answer corrections. Keep it somewhere safe (for example Google Drive).</p>
+      <button type="button" class="editor-btn" data-action="backup-edits"><svg class="icon" aria-hidden="true" style="width:16px;height:16px;vertical-align:-3px;margin-right:6px"><use href="#i-download"/></svg>Download corrections backup</button>
     </div>
   </div>
 </div>

@@ -1511,6 +1511,25 @@ function adminRowHtml(email, actionsHtml, extra){
   </div>`;
 }
 
+/* Admin: download every answer correction as a JSON file (a manual backup). */
+async function backupEdits(){
+  if(!isAdmin) return;
+  try{
+    const { data, error } = await supabaseClient.from('answer_edits').select('key, content, updated_by, updated_at').order('key');
+    if(error) throw error;
+    const blob = new Blob([JSON.stringify({ exported_at: new Date().toISOString(), count: data.length, corrections: data }, null, 2)], { type:'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'psychmd-corrections-' + new Date().toISOString().slice(0,10) + '.json';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(()=> URL.revokeObjectURL(a.href), 5000);
+    toast(data.length ? `Backup downloaded (${data.length} corrections).` : 'Backup downloaded — there are no corrections yet.');
+  }catch(e){
+    console.error(e);
+    toast('Could not download the backup: ' + (e.message || 'check your connection'), 'err');
+  }
+}
+
 async function loadAdminPanel(){
   if(!currentUser || !isAdmin) return;
   const pendingEl = document.getElementById('pendingList');
@@ -1697,6 +1716,7 @@ document.addEventListener('click', (e)=>{
     case 'bootstrap': bootstrapApp(); break;
     case 'rerender': renderAll(); break;
     case 'install-app': installApp(); break;
+    case 'backup-edits': backupEdits(); break;
     case 'edit-answer': openEditor(el.dataset.key, el.dataset.row); break;
     case 'editor-save': saveEditor(); break;
     case 'editor-cancel': closeEditor(false); break;
