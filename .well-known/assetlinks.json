@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.vercel.psychmd.twa",
+    "sha256_cert_fingerprints": ["78:FB:90:8E:81:CA:6D:7F:AB:95:1A:96:41:96:2F:6D:FC:A9:53:6B:26:0F:E1:75:34:2B:E8:52:4F:4C:CE:24"]
+  }
+}]
